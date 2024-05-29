@@ -1,0 +1,548 @@
+/* -------------------------------------------------------
+					SPRINGOO MAIN MENU
+-------------------------------------------------------- */
+.main-header {
+
+	//main navigation
+	#site-nav {
+		flex:1;
+		margin: 0 calc(-1 * var(--springoo-15));
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			text-align: center;
+
+			li {
+				position: relative;
+			}
+		}
+
+		li.depth-0 {
+			display: inline-flex;
+			align-items: center;
+			>.menu-link {
+				display: block;
+				position: relative;
+				padding: 12px var(--springoo-15);
+				font-family: var(--springoo-menu-font-family);
+				font-weight: var(--springoo-menu-font-weight);
+				font-style: var( --springoo-menu-font-style );
+				font-size: var(--springoo-menu-font-size);
+				text-transform: var(--springoo-menu-text-transform);
+				letter-spacing: var(--springoo-menu-letter-spacing);
+				word-spacing: var(--springoo-menu-word-spacing);
+				color: var(--springoo-color-main-menu);
+				line-height: 26px;
+			}
+
+			//for main-menu hover
+			&.current-menu-ancestor > .menu-link,
+			&.current-menu-item > .menu-link,
+			> .menu-link:hover{
+				color: var(--springoo-color-main-menu-hover);
+			}
+
+		}
+
+		// for all sub-menus (normal menu and mega menu)
+		.sub-menu {
+			display: none;
+			position: absolute;
+			top: 100%;
+			opacity: 1 !important;
+			margin-top: 0;
+			background: var(--springoo-color-sub-menu-bg);//for all submenu bg
+			box-shadow: 0 0 0.8125rem rgba(8, 28, 78, 0.25);
+			border-radius: 5px;
+			z-index: 99;
+			.menu-link {
+				display: block;
+				position: relative;
+				z-index: 1;
+			}
+
+			//sub-menu arrow icon
+			.sf-with-ul {
+				&::after {
+					content: "";
+					display: inline-block;
+					width: 0.5625em;
+					height: 0.625em;
+					background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='4' viewBox='0 0 7 4' fill='none'%3E%3Cpath d='M6.2469 1.12263L3.56901 3.80052C3.46659 3.90295 3.33323 3.95309 3.19987 3.95309C3.06651 3.95309 2.93208 3.90188 2.83072 3.80052L0.152832 1.12263C-0.0509439 0.918858 -0.0509439 0.588123 0.152832 0.38328L0.38328 0.152832C0.587056 -0.0509439 0.917791 -0.0509439 1.12263 0.152832L2.83179 1.86199C2.93421 1.96441 3.06757 2.01455 3.20093 2.01455C3.33429 2.01455 3.46872 1.96334 3.57008 1.86199L5.27923 0.152832C5.48301 -0.0509439 5.81374 -0.0509439 6.01859 0.152832L6.24903 0.38328C6.45068 0.588123 6.45068 0.918858 6.2469 1.12263Z' fill='%233c3f5f'/%3E%3C/svg%3E");
+					margin-left: 5px;
+					vertical-align: middle;
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: top;
+					position: absolute;
+					right: var(--springoo-header-submenu-padding-right);
+					top: 50%;
+					transform: translateY(-50%) rotate(-90deg);
+				}
+			}
+
+			.springoo-label {
+				margin-left: 0.5rem;
+				position: relative;
+				top: auto;
+				left: auto;
+				right: auto;
+				//padding: 0.3125rem 0.4375rem;
+				&::before {
+					border-top: 0.3125rem solid transparent;
+					border-bottom: 0.3125rem solid transparent;
+					top: 25%;
+					left: 0;
+					margin-left: -0.625rem;
+					z-index: 0;
+				}
+			}
+
+			.springoo-label-default {
+				&::before {
+					border-right: 0.3125rem solid #999;
+				}
+			}
+
+			.springoo-label-primary {
+				&::before {
+					border-right: 0.3125rem solid #428bca;
+				}
+			}
+
+			.springoo-label-success {
+				&::before {
+					border-right: 0.3125rem solid #5cb85c;
+				}
+			}
+
+			.springoo-label-info {
+				&::before {
+					border-right: 0.3125rem solid #5bc0de;
+				}
+			}
+
+			.springoo-label-warning {
+				&::before {
+					border-right: 0.3125rem solid #f0ad4e;
+				}
+			}
+
+			.springoo-label-danger {
+				&::before {
+					border-right: 0.3125rem solid #d9534f;
+				}
+			}
+		}
+
+		//for normal menu
+		.springoo-menu .sub-menu{
+			width: var(--springoo-header-submenu-width);
+			.sub-menu {
+				top: 0;
+				left: 100%;
+			}
+
+			li {
+				text-align: var( --springoo-header-submenu-alignment );
+				&:last-child > .menu-link{
+					border-bottom: 0;
+					border-bottom: 0;
+					border-radius: 0 0 5px 5px;
+				}
+
+				&:first-child > .menu-link{
+					border-radius: 5px 5px 0 0;
+				}
+			}
+
+			.menu-link {
+				padding: var(--springoo-header-submenu-padding-top) var(--springoo-header-submenu-padding-right) var(--springoo-header-submenu-padding-bottom) var(--springoo-header-submenu-padding-left);
+				color: var(--springoo-color-sub-menu);
+				border-bottom: 1px solid var(--springoo-color-sub-menu-border);
+				font-family: var(--springoo-sub-menu-font-family);
+				font-weight: var(--springoo-sub-menu-font-weight);
+				font-style: var( --springoo-sub-menu-font-style );
+				font-size: var(--springoo-sub-menu-font-size);
+				line-height: var(--springoo-sub-menu-line-height);
+				text-transform: var(--springoo-sub-menu-text-transform);
+				letter-spacing: var(--springoo-sub-menu-letter-spacing);
+				word-spacing: var(--springoo-sub-menu-word-spacing);
+			}
+
+			//for submenu-item hover
+			.current-menu-ancestor > .menu-link,
+			.current-menu-item > .menu-link,
+			.menu-link:hover {
+				color: var(--springoo-color-sub-menu-hover);
+				background: var(--springoo-color-sub-menu-bg-hover);
+			}
+		}
+
+		//Menu icon
+		.springoo-icon {
+			padding-right: 0.5rem;
+		}
+
+		//menu arrow icon
+		.sf-with-ul {
+			&::after {
+				content: "";
+				display: inline-block;
+				width: 0.5625em;
+				height: 0.625em;
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='4' viewBox='0 0 7 4' fill='none'%3E%3Cpath d='M6.2469 1.12263L3.56901 3.80052C3.46659 3.90295 3.33323 3.95309 3.19987 3.95309C3.06651 3.95309 2.93208 3.90188 2.83072 3.80052L0.152832 1.12263C-0.0509439 0.918858 -0.0509439 0.588123 0.152832 0.38328L0.38328 0.152832C0.587056 -0.0509439 0.917791 -0.0509439 1.12263 0.152832L2.83179 1.86199C2.93421 1.96441 3.06757 2.01455 3.20093 2.01455C3.33429 2.01455 3.46872 1.96334 3.57008 1.86199L5.27923 0.152832C5.48301 -0.0509439 5.81374 -0.0509439 6.01859 0.152832L6.24903 0.38328C6.45068 0.588123 6.45068 0.918858 6.2469 1.12263Z' fill='%23222222'/%3E%3C/svg%3E");
+				margin-left: 5px;
+				vertical-align: middle;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: top;
+			}
+		}
+
+		//menu label
+		.springoo-label {
+			&::before {
+				position: absolute;
+				content: "";
+				border-left: 0.3125rem solid transparent;
+				border-right: 0.3125rem solid transparent;
+				top:  calc(100% - 1px);
+				left: 50%;
+				margin-left: -0.3125rem;
+				width: 0.25rem;
+				height: 0.25rem;
+				z-index: -9;
+			}
+
+			position: absolute;
+			top: 0;
+			left: 50%;
+			padding: 0.3125rem 0.4375rem;
+			font-size: 0.5rem;
+			text-transform: uppercase;
+			font-weight: var(--springoo-500-font-weight);
+			line-height: 1;
+			color: $color_5;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			border-radius: .25em;
+		}
+
+		.springoo-label-default {
+			background-color: $background-color_13;
+			&::before {
+				border-top: 0.375rem solid $background-color_13;
+			}
+		}
+
+		.springoo-label-primary {
+			background-color: $background-color_3;
+			&::before {
+				border-top: 0.3125rem solid $background-color_3;
+			}
+		}
+
+		.springoo-label-success {
+			background-color: $background-color_14;
+			&::before {
+				border-top: 0.375rem solid $background-color_14;
+			}
+		}
+
+		.springoo-label-info {
+			background-color: $background-color_15;
+			&::before {
+				border-top: 0.375rem solid $background-color_15;
+			}
+		}
+
+		.springoo-label-warning {
+			background-color: $background-color_16;
+			&::before {
+				border-top: 0.375rem solid $background-color_16;
+			}
+		}
+
+		.springoo-label-danger {
+			background-color: $background-color_17;
+			&::before {
+				border-top: 0.375rem solid $background-color_17;
+			}
+		}
+	}
+
+	//vertical navigation
+	.vertical-navigation-wrap {
+
+		//style
+		.vertical-nav,
+		.vertical-nav .sub-menu{
+			box-shadow: 0 0 0.8125rem rgba(8, 28, 78, 0.25);
+			border-radius: 5px;
+			background: #fff;
+		}
+		.vertical-nav,
+		.vertical-nav .springoo-menu .sub-menu {
+			width: 300px;
+			opacity: 1 !important;
+		}
+
+		.vertical-navigation > li:not(:last-child) > a {
+			border-bottom-style: solid;
+			border-bottom-color: var(--springoo-color-border);
+			border-bottom-width: 1px;
+		}
+		.springoo-menu .sub-menu li:not(:last-child) a {
+			border-bottom-style: solid;
+			border-bottom-color: var(--springoo-color-border);
+			border-bottom-width: 1px;
+		}
+		.springoo-menu a,
+		.springoo-mega-menu > a{
+			padding: 10px 20px 10px 20px;
+			color: var(--springoo-color-heading);
+			&:hover{
+				color: var(--springoo-color-primary);
+			}
+		}
+		.vertical-nav .springoo-mega-menu>a,
+		.vertical-nav .springoo-menu a {
+			display: flex;
+			align-items: center;
+		}
+
+
+		///general
+		#vertical-menu-toggle{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+			line-height: 1;
+			color: var(--springoo-color-heading);
+			width: 205px;
+			margin-right: 30px;
+			&:hover{
+				color: var(--springoo-color-primary);
+			}
+			i{
+				font-size: 24px;
+			}
+			.text{
+				font-weight: var(--springoo-500-font-weight);
+			}
+
+			&::after {
+				content: "";
+				display: inline-block;
+				width: 0.5625em;
+				height: 0.625em;
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='4' viewBox='0 0 7 4' fill='none'%3E%3Cpath d='M6.2469 1.12263L3.56901 3.80052C3.46659 3.90295 3.33323 3.95309 3.19987 3.95309C3.06651 3.95309 2.93208 3.90188 2.83072 3.80052L0.152832 1.12263C-0.0509439 0.918858 -0.0509439 0.588123 0.152832 0.38328L0.38328 0.152832C0.587056 -0.0509439 0.917791 -0.0509439 1.12263 0.152832L2.83179 1.86199C2.93421 1.96441 3.06757 2.01455 3.20093 2.01455C3.33429 2.01455 3.46872 1.96334 3.57008 1.86199L5.27923 0.152832C5.48301 -0.0509439 5.81374 -0.0509439 6.01859 0.152832L6.24903 0.38328C6.45068 0.588123 6.45068 0.918858 6.2469 1.12263Z' fill='%233c3f5f'/%3E%3C/svg%3E");
+				margin-left: 5px;
+				vertical-align: middle;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+		}
+
+		.vertical-nav{
+			display: none;
+			position: absolute;
+			left: 0;
+			top: 100%;
+			z-index: 99;
+			ul{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				li{
+					position: relative;
+				}
+				a{
+					display: block;
+				}
+				.sub-menu{
+					display: none;
+					position: absolute;
+					left: 100%;
+					top: 0;
+					z-index: 99;
+				}
+			}
+
+			.springoo-mega-menu {
+				>ul.sub-menu{
+					display: flex !important;
+					opacity: 0 !important;
+					visibilitY: hidden;
+					z-index: -1;
+					flex-wrap: wrap;
+                    padding: var(--springoo-30);
+					transition: 0.05ms;
+
+					>li{
+						flex: auto;
+					}
+					ul.sub-menu{
+						display: block !important; //overwrite superfish display none;
+						opacity: 1 !important;
+						//visibilitY: visible !important;
+						position: initial;
+						left: 0;
+						box-shadow: none;
+						width: 100%;
+						ul.sub-menu{
+							padding-left: 1em;
+						}
+					}
+					.menu-link {
+						color: var(--springoo-color-heading);
+						margin-bottom: 8px;
+						&:after{
+							display: none;
+						}
+						&:hover{
+							color: var(--springoo-color-primary);
+						}
+					}
+
+					//if selected disable title it will be removed parent anchor tag
+					//if selected disable title link it will remove anchor tag link and add a class(springoo-column-title)
+					.springoo-title.menu-link{
+						font-weight: 500;
+						margin-bottom: 12px;
+						&.springoo-column-title {
+							cursor: inherit;
+						}
+					}
+				}
+				&.sfHover >ul.sub-menu{
+					opacity: 1 !important;
+					visibilitY: visible !important;
+					z-index: 99;
+				}
+
+				&.width {
+					&-custom {
+						position: relative;
+					}
+					&-natural {
+						position: relative;
+						>ul.sub-menu{
+							width: max-content;
+						}
+					}
+				}
+			}
+
+			.springoo-menu a,
+			.springoo-mega-menu > a{
+				display: flex;
+				align-items:center;
+			}
+
+			//menu arrow icon
+			.sf-with-ul {
+				&::after {
+					content: "";
+					display: inline-block;
+					width: 0.5625em;
+					height: 0.625em;
+					background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='4' viewBox='0 0 7 4' fill='none'%3E%3Cpath d='M6.2469 1.12263L3.56901 3.80052C3.46659 3.90295 3.33323 3.95309 3.19987 3.95309C3.06651 3.95309 2.93208 3.90188 2.83072 3.80052L0.152832 1.12263C-0.0509439 0.918858 -0.0509439 0.588123 0.152832 0.38328L0.38328 0.152832C0.587056 -0.0509439 0.917791 -0.0509439 1.12263 0.152832L2.83179 1.86199C2.93421 1.96441 3.06757 2.01455 3.20093 2.01455C3.33429 2.01455 3.46872 1.96334 3.57008 1.86199L5.27923 0.152832C5.48301 -0.0509439 5.81374 -0.0509439 6.01859 0.152832L6.24903 0.38328C6.45068 0.588123 6.45068 0.918858 6.2469 1.12263Z' fill='%233c3f5f'/%3E%3C/svg%3E");
+					margin-left: 5px;
+					vertical-align: middle;
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: top;
+					position: absolute;
+					right: 20px;
+					top: 50%;
+					transform: translateY(-50%) rotate(-90deg);
+				}
+			}
+		}
+
+		//Menu icon
+		.springoo-icon {
+			padding-right: 0.5rem;
+		}
+
+		//menu label
+		.springoo-label {
+			&::before {
+				position: absolute;
+				content: "";
+				width: 0.25rem;
+				height: 0.25rem;
+				border-left: 0.3125rem solid transparent;
+				border-top: 0.3125rem solid transparent;
+				border-bottom: 0.3125rem solid transparent;
+				top: 25%;
+				left: 0;
+				margin-left: -0.625rem;
+				z-index: 0;
+			}
+			padding: 0.3125rem 0.4375rem;
+			font-size: 0.5rem;
+			text-transform: uppercase;
+			font-weight: 500;
+			line-height: 1;
+			color: #ffffff;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			border-radius: .25em;
+			margin-left: 0.5rem;
+			position: relative;
+			top: auto;
+			left: auto;
+			right: auto;
+		}
+
+		.springoo-label-default {
+			background-color: #999999FF;
+			&::before {
+				border-right: 0.3125rem solid #999999FF;
+			}
+		}
+
+		.springoo-label-primary {
+			background-color: #428BCAFF;
+			&::before {
+				border-right: 0.3125rem solid #428BCAFF;
+			}
+		}
+
+		.springoo-label-success {
+			background-color: #5CB85CFF;
+			&::before {
+				border-right: 0.3125rem solid #5cb85c;
+			}
+		}
+
+		.springoo-label-info {
+			background-color: #5BC0DEFF;
+			&::before {
+				border-right: 0.3125rem solid #5BC0DEFF;
+			}
+		}
+
+		.springoo-label-warning {
+			background-color: #F0AD4EFF;
+			&::before {
+				border-right: 0.3125rem solid #F0AD4EFF;
+			}
+		}
+
+		.springoo-label-danger {
+			background-color: #D9534FFF;
+			&::before {
+				border-right: 0.3125rem solid #D9534FFF;
+			}
+		}
+	}
+}

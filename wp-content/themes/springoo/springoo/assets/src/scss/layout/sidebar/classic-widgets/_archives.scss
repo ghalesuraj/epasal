@@ -1,0 +1,30 @@
+/* =============================================================================
+   Archives Classic Style
+   ========================================================================== */
+.widget_archive{
+	select {
+		option {
+			color: var(--springoo-color-global);
+		}
+	}
+    ul{
+        list-style: none;
+        padding: 0;
+
+		ul {
+			margin-top: var(--springoo-10);
+			padding-left: var(--springoo-15);
+		}
+    }
+    // classic archives list
+    li:not(:last-child){
+        margin-bottom: var(--springoo-10);
+    }
+     li,
+     a{
+		color: var(--springoo-color-global);
+    }
+     a:hover{
+        color: var(--springoo-color-secondary);
+    }
+}

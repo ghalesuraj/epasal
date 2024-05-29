@@ -1,0 +1,40 @@
+//Alignment Classes:
+//.aligncenter
+//.alignleft
+//.alignright
+//
+//Caption Related Classes:
+//.wp-caption
+//.wp-caption-text
+//.gallery-caption
+//
+//Post Classes:
+//.sticky
+//
+//Comment Classes:
+//.bypostauthor
+
+// block Button
+// block Button
+.entry-content {
+	.wp-block-button{
+		margin-bottom: 0.375rem;
+		&__link{
+			background-color: var(--springoo-color-primary);
+			&:hover{
+				background-color: var(--springoo-color-secondary);
+				color: #fff;
+			}
+		}
+		&.is-style-outline{
+			color: var(--springoo-color-primary);
+			.wp-block-button__link{
+				&:hover{
+					background-color: var(--springoo-color-primary);
+					border-color: transparent;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

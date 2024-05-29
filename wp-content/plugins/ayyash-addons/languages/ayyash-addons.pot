@@ -1,0 +1,3975 @@
+# Copyright (C) 2023 ThemeRox
+# This file is distributed under the same license as the Ayyash Addons plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ayyash Addons 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ayyash-addons\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-09T06:35:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: ayyash-addons\n"
+
+#. Plugin Name of the plugin
+#: class-ayyash-addons.php:227
+#: class-ayyash-addons.php:253
+#: class-ayyash-addons.php:277
+#: includes/class-ayyash-addons-services.php:85
+#: includes/settings/class-dashboard.php:211
+#: templates/admin/dashboard-tab-support.php:202
+#: templates/admin/dashboard.php:21
+msgid "Ayyash Addons"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpayyash.com/plugins/ayyash-addons/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Addon elements for Elementor Page Builder & Gutenberg."
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeRox"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themerox.com"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3. Anchor Tag Opening 4. Link Label (Anchor text) 5. Anchor Tag Closing
+#: class-ayyash-addons.php:226
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated. You can install and activate %2$s from %3$s%4$s%5$s."
+msgstr ""
+
+#: class-ayyash-addons.php:228
+#: class-ayyash-addons.php:254
+msgid "Elementor"
+msgstr ""
+
+#: class-ayyash-addons.php:230
+#: controls/class-ayyash-addons-query-builder.php:650
+msgid "here"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Dependency Name 3: Required Dependency version
+#: class-ayyash-addons.php:252
+#: class-ayyash-addons.php:276
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: class-ayyash-addons.php:278
+msgid "PHP"
+msgstr ""
+
+#: class-plugin.php:295
+msgid "Monthly"
+msgstr ""
+
+#: class-plugin.php:296
+msgid "Annually"
+msgstr ""
+
+#: class-plugin.php:297
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:263
+msgid "Or"
+msgstr ""
+
+#: class-plugin.php:298
+#: includes/settings/class-dashboard.php:327
+msgid "Okay"
+msgstr ""
+
+#: class-plugin.php:299
+#: includes/ayyash-plugins-services/class-insights.php:1183
+#: includes/ayyash-plugins-services/class-insights.php:1230
+#: includes/settings/class-dashboard.php:328
+msgid "Cancel"
+msgstr ""
+
+#: class-plugin.php:300
+#: includes/settings/class-dashboard.php:329
+msgid "Submit"
+msgstr ""
+
+#: class-plugin.php:301
+#: includes/settings/class-dashboard.php:330
+msgid "Success"
+msgstr ""
+
+#: class-plugin.php:302
+#: includes/settings/class-dashboard.php:331
+msgid "Warning"
+msgstr ""
+
+#: class-plugin.php:303
+#: includes/settings/class-dashboard.php:332
+msgid "Error"
+msgstr ""
+
+#: class-plugin.php:304
+#: includes/settings/class-dashboard.php:334
+msgid "Requested Resource Not Found!"
+msgstr ""
+
+#: class-plugin.php:305
+#: includes/settings/class-dashboard.php:335
+msgid "Are You Sure?"
+msgstr ""
+
+#: class-plugin.php:306
+#: includes/ajax-handler.php:144
+msgid "Please type Minimum 3 character!"
+msgstr ""
+
+#: class-plugin.php:307
+msgid "Please wait..."
+msgstr ""
+
+#: class-plugin.php:308
+msgid "Something went wrong. Please try after sometime."
+msgstr ""
+
+#: class-plugin.php:427
+msgid "Ayyash Addons Pro"
+msgstr ""
+
+#. translators: 1. Promo Widget Name
+#: class-plugin.php:429
+msgid "%s Widget"
+msgstr ""
+
+#. translators: 1. Promo Widget Name
+#: class-plugin.php:431
+msgid "Use %s widget and a lot more exciting features and widgets to make your sites faster and better."
+msgstr ""
+
+#: class-plugin.php:441
+msgid "Custom Fonts"
+msgstr ""
+
+#: class-plugin.php:587
+#: class-plugin.php:753
+msgid "Product Categories"
+msgstr ""
+
+#: class-plugin.php:598
+#: class-plugin.php:1008
+msgid "Woocommerce Product"
+msgstr ""
+
+#: class-plugin.php:609
+msgid "Product List"
+msgstr ""
+
+#: class-plugin.php:620
+msgid "Product Deal"
+msgstr ""
+
+#: class-plugin.php:631
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: class-plugin.php:642
+msgid "Testimonial Carousel v2"
+msgstr ""
+
+#: class-plugin.php:653
+msgid "Product Hotspots"
+msgstr ""
+
+#: class-plugin.php:664
+msgid "CountDown"
+msgstr ""
+
+#: class-plugin.php:675
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:47
+msgid "Mini Cart"
+msgstr ""
+
+#: class-plugin.php:686
+#: widgets/search/class-ayyash-addons-style-search.php:46
+msgid "Product Search"
+msgstr ""
+
+#: class-plugin.php:698
+#: widgets/blog/class-ayyash-addons-style-blog.php:54
+msgid "Blog"
+msgstr ""
+
+#: class-plugin.php:709
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:111
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:176
+msgid "Wishlist"
+msgstr ""
+
+#: class-plugin.php:720
+#: widgets/heading/class-ayyash-addons-style-heading.php:47
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:567
+msgid "Heading"
+msgstr ""
+
+#: class-plugin.php:731
+msgid "Attribute Filter"
+msgstr ""
+
+#: class-plugin.php:742
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:50
+msgid "Product Brand"
+msgstr ""
+
+#: class-plugin.php:764
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:48
+msgid "Vertical Menu"
+msgstr ""
+
+#: class-plugin.php:775
+msgid "Product Slider"
+msgstr ""
+
+#: class-plugin.php:786
+msgid "Product Slider V2"
+msgstr ""
+
+#: class-plugin.php:797
+msgid "Product Slider V3"
+msgstr ""
+
+#: class-plugin.php:808
+msgid "Shortcode Slider"
+msgstr ""
+
+#: class-plugin.php:819
+msgid "Product Summery"
+msgstr ""
+
+#: class-plugin.php:829
+msgid "Woocommerce Sales Product"
+msgstr ""
+
+#: class-plugin.php:840
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:52
+msgid "Logo Carousel"
+msgstr ""
+
+#: class-plugin.php:851
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:42
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:109
+msgid "Dual Button"
+msgstr ""
+
+#: class-plugin.php:863
+#: widgets/team/class-ayyash-addons-style-team.php:44
+msgid "Team"
+msgstr ""
+
+#: class-plugin.php:874
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:54
+msgid "Blog Slider"
+msgstr ""
+
+#: class-plugin.php:885
+#: widgets/tab/class-ayyash-addons-style-tab.php:42
+#: widgets/tab/class-ayyash-addons-style-tab.php:105
+msgid "Tabs"
+msgstr ""
+
+#: class-plugin.php:896
+#: includes/class-ayyash-addons-post-types.php:36
+msgid "FAQs"
+msgstr ""
+
+#: class-plugin.php:907
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:53
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: class-plugin.php:918
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:53
+msgid "Portfolio Grid"
+msgstr ""
+
+#: class-plugin.php:1091
+#: class-plugin.php:1102
+msgid "Something went wrong."
+msgstr ""
+
+#: controls/class-ayyash-addons-control-styles.php:45
+msgid "Meet the <span>Pro</span> Feature"
+msgstr ""
+
+#: controls/class-ayyash-addons-control-styles.php:46
+msgid "Get Pro and experience all of our exciting features and widgets. You will also get world class support from our dedicated team, 24/7."
+msgstr ""
+
+#: controls/class-ayyash-addons-control-styles.php:48
+msgid "Ayyash Addons Promo"
+msgstr ""
+
+#: controls/class-ayyash-addons-control-styles.php:50
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:150
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:383
+#: widgets/blog/class-ayyash-addons-style-blog.php:850
+#: widgets/faq/class-ayyash-addons-style-faq.php:213
+#: widgets/heading/class-ayyash-addons-style-heading.php:401
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:181
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:205
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:306
+#: widgets/tab/class-ayyash-addons-style-tab.php:114
+#: widgets/tab/class-ayyash-addons-style-tab.php:116
+#: widgets/tab/class-ayyash-addons-style-tab.php:117
+#: widgets/tab/class-ayyash-addons-style-tab.php:185
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:259
+msgid "Title"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:151
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:724
+#: widgets/blog/class-ayyash-addons-style-blog.php:251
+#: widgets/blog/class-ayyash-addons-style-blog.php:300
+#: widgets/blog/class-ayyash-addons-style-blog.php:338
+#: widgets/blog/class-ayyash-addons-style-blog.php:1566
+#: widgets/faq/class-ayyash-addons-style-faq.php:212
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:180
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:204
+msgid "Date"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:152
+#: controls/class-ayyash-addons-query-builder.php:562
+#: widgets/blog/class-ayyash-addons-style-blog.php:250
+#: widgets/blog/class-ayyash-addons-style-blog.php:299
+#: widgets/blog/class-ayyash-addons-style-blog.php:337
+#: widgets/blog/class-ayyash-addons-style-blog.php:1284
+#: widgets/faq/class-ayyash-addons-style-faq.php:214
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:182
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:206
+msgid "Author"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:153
+msgid "Slug"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:154
+msgid "Post Type"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:155
+msgid "Last modified"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:156
+#: controls/class-ayyash-addons-query-builder.php:157
+msgid "Random order"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:160
+msgid "Published"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:161
+msgid "Inherit"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:162
+msgid "Private"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:163
+msgid "Pending"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:166
+#: widgets/faq/class-ayyash-addons-style-faq.php:228
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:196
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:220
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:201
+msgid "ASC"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:167
+#: widgets/faq/class-ayyash-addons-style-faq.php:229
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:197
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:221
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:202
+msgid "DESC"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:345
+msgid "Query Builder"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:346
+#: controls/class-ayyash-addons-query-builder.php:444
+msgid "Select Taxonomies"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:347
+msgid "Select Terms"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:389
+#: templates/template-library/templates.php:99
+#: widgets/faq/class-ayyash-addons-style-faq.php:708
+#: widgets/search/class-ayyash-addons-style-search.php:112
+#: widgets/search/class-ayyash-addons-style-search.php:1109
+#: widgets/search/class-ayyash-addons-style-search.php:1119
+msgid "Search"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:391
+msgid "Search..."
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:394
+msgid "Search post"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:405
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:119
+#: widgets/blog/class-ayyash-addons-style-blog.php:122
+msgid "Source"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:408
+msgid "Select Source"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:424
+msgid "Status"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:427
+msgid "Select Post Status"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:441
+msgid "Taxonomies"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:451
+msgid "Select Taxonomy"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:461
+msgid "Taxonomy Relation"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:464
+msgid "Select Taxonomy Relation"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:487
+msgid "Select Term"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:495
+msgid "Term Relation"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:498
+msgid "Select Term Relation"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:516
+msgid "Post By ID"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:521
+msgid "Paste ID separated with comma."
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:528
+msgid "Exclude"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:533
+msgid "Post ID separated with comma."
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:540
+msgid "Post Per Page"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:551
+#: widgets/faq/class-ayyash-addons-style-faq.php:198
+msgid "Offset"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:565
+msgid "Any Author"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:579
+#: controls/class-ayyash-addons-query-builder.php:582
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:209
+msgid "Order By"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:597
+msgid "Sort Order"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:615
+#: controls/class-ayyash-addons-query-builder.php:617
+msgid "Date From"
+msgstr ""
+
+#: controls/class-ayyash-addons-query-builder.php:626
+#: controls/class-ayyash-addons-query-builder.php:628
+msgid "Date To"
+msgstr ""
+
+#. translators: 1: pro version link
+#: controls/class-ayyash-addons-query-builder.php:649
+msgid "Buy pro version for advance query. Like multiple taxonomy, author and getting posts base on date etc. Get pro version %1$s ."
+msgstr ""
+
+#: controls/fields/class-ayyash-addons-admin-field-select.php:122
+#: includes/settings/class-dashboard.php:593
+msgid "No data available."
+msgstr ""
+
+#: includes/ajax-handler.php:21
+msgid "Invalid taxonomy."
+msgstr ""
+
+#: includes/ajax-handler.php:26
+msgid "Nonce not verified."
+msgstr ""
+
+#: includes/ajax-handler.php:72
+msgid "No Terms"
+msgstr ""
+
+#: includes/ajax-handler.php:113
+msgid "No Match Found."
+msgstr ""
+
+#: includes/ajax-handler.php:146
+msgid "WooCommerce is not installed/activated."
+msgstr ""
+
+#: includes/ajax-handler.php:149
+#: includes/ayyash-plugins-services/class-insights.php:936
+#: includes/ayyash-plugins-services/class-promotions.php:463
+#: includes/settings/class-dashboard.php:86
+#: includes/settings/class-dashboard.php:165
+msgid "Invalid Request"
+msgstr ""
+
+#. translators: 1. Argument Type.
+#: includes/ayyash-plugins-services/class-client.php:182
+msgid "The '$file' argument expected be a valid file path string. Got %s."
+msgstr ""
+
+#. translators: 1. Current Class Name.
+#: includes/ayyash-plugins-services/class-client.php:193
+msgid "Invalid Argument. The '$file' argument needs to be a valid file path for initializing \"%s\" class"
+msgstr ""
+
+#. translators: 1. Class Method Name.
+#: includes/ayyash-plugins-services/class-client.php:298
+msgid "Updater needs License instance to be created before it. Please call \"%s\" first."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:361
+msgid "Server environment details (MySQL version, MySQL version, Server software & version, etc.)."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:362
+msgid "WordPress installation details (version, debug mode, max upload size)."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:363
+msgid "WordPress settings (site language, active and inactive plugins & themes)."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:364
+msgid "Site Name & URL."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:365
+msgid "Admin Name & Email."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:489
+msgid "what we collect"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:493
+#: includes/class-ayyash-addons-services.php:297
+#: templates/admin/dashboard-tab-support.php:179
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:497
+#: templates/admin/dashboard-tab-support.php:180
+msgid "Terms of Services"
+msgstr ""
+
+#. translators: 1: Privacy Policy Link, 2: Terms Links
+#: includes/ayyash-plugins-services/class-insights.php:504
+#: includes/class-ayyash-addons-services.php:295
+#: templates/admin/dashboard-tab-support.php:178
+msgid "Please read our %1$s and %2$s"
+msgstr ""
+
+#. translators: 1: Privacy Policy or Terms Link
+#: includes/ayyash-plugins-services/class-insights.php:510
+msgid "Please read our %1$s"
+msgstr ""
+
+#. translators: 1: plugin name, 2: what we collect button.
+#: includes/ayyash-plugins-services/class-insights.php:516
+msgid "<p>Want to help make %1$s even more awesome? Allow %1$s to collect non-sensitive diagnostic data and usage information. No sensitive data is tracked (%2$s).</p>"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:537
+msgid "No thanks"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:541
+msgid "Allow"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:768
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:869
+msgid "I couldn't understand how to make it work."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:871
+msgid "Would you like us to assist you?"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:875
+msgid "I found a better product."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:877
+msgid "Which Plugin!?"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:881
+msgid "The plugin is great, but I need specific feature that you don't support."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:883
+msgid "Can you tell us more about feature that you need?"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:887
+msgid "The plugin is not working."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:889
+msgid "Could you tell us a bit more whats not working?"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:893
+msgid "It's not what I was looking for."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:899
+msgid "The plugin didn't work as expected."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:901
+msgid "Please let us know your needs."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:905
+msgid "Temporary deactivation for debugging."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:911
+msgid "Other"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:913
+msgid "Could you tell us a bit more?"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1007
+msgid "Something Went Wrong."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1008
+msgid "Please try again after sometime."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1065
+#: includes/class-ayyash-addons-services.php:300
+msgid "Thank you -- Support Ticket Submitted."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1083
+msgid "Something Went Wrong. Please Try Again After Sometime."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1089
+msgid "Missing Required Fields."
+msgstr ""
+
+#. translators: 1: Plugin Name
+#: includes/ayyash-plugins-services/class-insights.php:1115
+msgid "&ldquo;%s&rdquo; Uninstall Confirmation"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1120
+msgid "Submit Support Ticket."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1122
+#: includes/ayyash-plugins-services/class-insights.php:1191
+msgid "Close"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1132
+#: widgets/team/class-ayyash-addons-style-team.php:126
+#: widgets/team/class-ayyash-addons-style-team.php:306
+msgid "Name"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1141
+msgid "Email"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1151
+msgid "Subject"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1159
+msgid "Website"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1169
+msgid "Message"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1181
+msgid "Send Message"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1189
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1212
+msgid "In trouble?"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1213
+msgid "Please submit a support request."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1216
+msgid "Not Interested"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1218
+msgid "Open Support Ticket"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1226
+msgid "I rather wouldn't say"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1228
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1726
+msgid "Processing..."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-insights.php:1879
+msgid "I rather wouldn't say."
+msgstr ""
+
+#. translators: %s: Plugin Name
+#: includes/ayyash-plugins-services/class-license.php:162
+msgid "Active %s license to get professional support and automatic update from your WordPress dashboard."
+msgstr ""
+
+#. translators: 1: Warning in bold tag, 2: This plugin name, 3: API Host Name, 4: WP_ACCESSIBLE_HOSTS constant
+#: includes/ayyash-plugins-services/class-license.php:273
+msgid "%1$s You're blocking external requests which means you won't be able to get %2$s updates. Please add %3$s to %4$s constant."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:274
+msgid "Warning!"
+msgstr ""
+
+#. translators: 1: This plugin name, 2: Activation Page URL, 3: This Plugin Name
+#: includes/ayyash-plugins-services/class-license.php:317
+msgid "The %1$s API Key has not been activated, so some features are inactive! %2$s to activate %3$s."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:320
+#: templates/template-library/templates.php:136
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:141
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:142
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:319
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:320
+msgid "Click here"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:471
+msgid "Invalid Request Action."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:480
+msgid "Invalid/Empty License Data."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:520
+msgid "Unknown error occurred, Please try again."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:539
+#: includes/ayyash-plugins-services/class-license.php:540
+#: includes/ayyash-plugins-services/class-license.php:1227
+msgid "Manage License"
+msgstr ""
+
+#. translators: 1. Class Method.
+#: includes/ayyash-plugins-services/class-license.php:565
+msgid "%s Should be called before License::init()"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:618
+msgid "License Settings"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1098
+msgid "Activate License"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1098
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1115
+msgid "License Key"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1118
+msgid "Enter your license key to activate"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1150
+#: includes/ayyash-plugins-services/class-license.php:1153
+msgid "Product ID"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1183
+msgid "Select License Type"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1189
+msgid "Select A License Type"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1246
+msgid "Status:"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1247
+#: widgets/faq/class-ayyash-addons-style-faq.php:506
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:476
+msgid "Active"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1247
+msgid "Inactive"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1251
+msgid "Last Checked:"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1258
+msgid "Check License Status Now"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1265
+msgid "Expires:"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1273
+msgid "Activation Remaining:"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1284
+msgid "Unlimited"
+msgstr ""
+
+#. translators: 1: Remaining activation, 2: Total activation (limit)
+#: includes/ayyash-plugins-services/class-license.php:1288
+msgid "%1$d out of %2$s"
+msgstr ""
+
+#. translators: 1: Remaining activation, 2: Total activation (limit)
+#: includes/ayyash-plugins-services/class-license.php:1298
+msgid "%1$d out of %2$d"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1303
+#: includes/ayyash-plugins-services/class-license.php:1317
+#: includes/ayyash-plugins-services/class-license.php:1320
+msgid "N/A"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1307
+msgid "Automatic Update:"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1308
+msgid "Enabled"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1308
+msgid "Disabled"
+msgstr ""
+
+#. translators: placeholder is human time diff (e.g. "3 weeks")
+#: includes/ayyash-plugins-services/class-license.php:1326
+msgid "In %s"
+msgstr ""
+
+#. translators: placeholder is human time diff (e.g. "3 weeks")
+#: includes/ayyash-plugins-services/class-license.php:1330
+msgid "%s ago"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1378
+msgid "License Management"
+msgstr ""
+
+#. translators: 1. Theme/Plugin Name.
+#: includes/ayyash-plugins-services/class-license.php:1383
+msgid "%s License Management"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1403
+msgid "The license key field is required."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1419
+#: includes/ayyash-plugins-services/class-license.php:1442
+#: includes/ayyash-plugins-services/class-license.php:1484
+msgid "Unknown error occurred."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1457
+msgid "License activated successfully."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1459
+msgid "License updated successfully."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1474
+msgid "License key not found."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-license.php:1495
+msgid "License deactivated successfully."
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-promotions.php:461
+msgid "Promo hidden"
+msgstr ""
+
+#: includes/ayyash-plugins-services/class-promotions.php:474
+msgid "Method must be invoked inside admin_init action."
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:47
+msgid "Portfolios"
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:73
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:74
+msgctxt "taxonomy singular name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:87
+msgctxt "taxonomy general name"
+msgid "FAQs Categories"
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:88
+msgctxt "taxonomy singular name"
+msgid "FAQs Categories"
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:100
+msgctxt "taxonomy general name"
+msgid "FAQs Tags"
+msgstr ""
+
+#: includes/class-ayyash-addons-post-types.php:101
+msgctxt "taxonomy singular name"
+msgid "FAQs Tag"
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:149
+#: templates/template-library/templates.php:76
+msgid "Get Pro"
+msgstr ""
+
+#. translators: 1. Plugin Name.
+#: includes/class-ayyash-addons-services.php:187
+msgid "And %s usage data."
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:188
+msgid "Absolute Addon"
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:283
+msgid "Your ticket has been successfully submitted."
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:284
+msgid "24 hours"
+msgstr ""
+
+#. translators: 1. Support Response Time.
+#: includes/class-ayyash-addons-services.php:287
+msgid "You will receive an email notification from \"support@wpayyash.com\" in your inbox within %1$s."
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:290
+msgid "Please Follow the email and AbsolutePlugins Support Team will get back with you shortly."
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:291
+#: templates/admin/dashboard-tab-dashboard.php:33
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:292
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:296
+msgid "Terms & Conditions"
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:316
+msgid "Something Went Wrong. Please Try The Support Ticket Form On Our Website."
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:317
+#: templates/admin/dashboard-tab-support.php:190
+msgid "Get Support"
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:318
+msgid "Support Ticket form will open in new tab in 5 seconds."
+msgstr ""
+
+#: includes/class-ayyash-addons-services.php:326
+msgid "Cloning is forbidden."
+msgstr ""
+
+#. translators: 1. Required Plugin Name. 2. Plugin installation/activation URL
+#: includes/class-ayyash-widget.php:345
+msgid "<strong>%1$s</strong> is not installed/activated on your site. Click <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> to install/activate <strong>%1$s</strong> first."
+msgstr ""
+
+#: includes/class-mailchimp.php:155
+#: includes/class-mailchimp.php:201
+msgid "Audience List Not Set!"
+msgstr ""
+
+#: includes/class-mailchimp.php:159
+msgid "Invalid Email Address!"
+msgstr ""
+
+#: includes/class-mailchimp.php:187
+#: includes/class-mailchimp.php:208
+msgid "Already Subscribed"
+msgstr ""
+
+#: includes/class-mailchimp.php:236
+msgid "No/Invalid API Key"
+msgstr ""
+
+#: includes/class-mailchimp.php:289
+msgid "Something Went Wrong"
+msgstr ""
+
+#: includes/class-mailchimp.php:291
+#: includes/class-mailchimp.php:302
+msgid "Something Went Wrong. Please Try after sometime."
+msgstr ""
+
+#: includes/class-mailchimp.php:297
+msgid "Too Many Requests"
+msgstr ""
+
+#: includes/class-mailchimp.php:298
+msgid "Too Many Requests. Please Try after sometime."
+msgstr ""
+
+#: includes/class-mailchimp.php:301
+msgid "Internal Server Error"
+msgstr ""
+
+#: includes/class-shortcode.php:20
+msgid "Ayyash Shortcode"
+msgstr ""
+
+#: includes/extensions-manager.php:52
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/extensions/custom-css.php:19
+#: includes/extensions/custom-css.php:28
+msgid "Ayyash Custom CSS"
+msgstr ""
+
+#. translators: 1: Break line tag.
+#: includes/extensions/custom-css.php:41
+msgid "Use \"selector\" to target wrapper element. Examples:%1$sselector {color: red;} // For main element%1$sselector .child-element {margin: 10px;} // For child element%1$s.my-class {text-align: center;} // Or use any custom selector"
+msgstr ""
+
+#: includes/helper.php:155
+#: includes/helper.php:185
+msgid "Buy Now"
+msgstr ""
+
+#: includes/helper.php:961
+msgid "Compare"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:135
+#: includes/settings/class-dashboard.php:183
+msgid "Settings Successfully Updated."
+msgstr ""
+
+#: includes/settings/class-dashboard.php:137
+#: includes/settings/class-dashboard.php:146
+msgid "Some error occurred processing submitted data."
+msgstr ""
+
+#: includes/settings/class-dashboard.php:144
+#: includes/settings/class-dashboard.php:185
+msgid "Unable to save settings. Please try after sometime."
+msgstr ""
+
+#: includes/settings/class-dashboard.php:210
+msgid "Ayyash Addons Dashboard"
+msgstr ""
+
+#. translators: 1. Page Title
+#: includes/settings/class-dashboard.php:247
+msgid "%s - Ayyash Addons"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:333
+msgid "Something went wrong! Please try again after sometime."
+msgstr ""
+
+#: includes/settings/class-dashboard.php:336
+msgid "Are You Sure You Want To Disable All Widgets?"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:337
+msgid "Are You Sure You Want To Enable All Widgets?"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:345
+msgid "Dashboard"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:350
+msgid "Widgets"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:361
+msgid "Support"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:374
+#: includes/settings/class-dashboard.php:375
+msgid "Go Pro"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:390
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:407
+msgid "API Key"
+msgstr ""
+
+#. translators: 1. Mailchimp Admin API Creation Page URL.
+#: includes/settings/class-dashboard.php:411
+msgid "Get Your Mailchimp API Key <a href=\"%s\">Here</a>"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:419
+msgid "Default Audience List"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:421
+msgid "Select Default Audience List"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:423
+msgid "No List Available"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:571
+#: includes/settings/class-dashboard.php:585
+msgid "Field not found!"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:653
+msgid "Facebook"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:658
+msgid "Twitter"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:663
+msgid "Instagram"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:668
+msgid "YouTube"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:687
+msgid "Improvement"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:688
+msgid "Fixed"
+msgstr ""
+
+#: includes/settings/class-dashboard.php:689
+msgid "Feature"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:31
+msgid "Accordion Controller"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:52
+msgid "Expend first item"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:54
+msgid "Keep first accordion item expended."
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:66
+msgid "Always open"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:69
+#: includes/trait-ayyash-addons-slider-controller.php:284
+#: includes/trait-ayyash-addons-slider-controller.php:296
+#: includes/trait-ayyash-addons-slider-controller.php:308
+#: includes/trait-ayyash-addons-slider-controller.php:320
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:171
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:221
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:354
+#: widgets/heading/class-ayyash-addons-style-heading.php:199
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:315
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:418
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:325
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:428
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:273
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:287
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:232
+#: widgets/search/class-ayyash-addons-style-search.php:120
+#: widgets/search/class-ayyash-addons-style-search.php:130
+#: widgets/search/class-ayyash-addons-style-search.php:159
+msgid "Yes"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:70
+#: includes/trait-ayyash-addons-slider-controller.php:285
+#: includes/trait-ayyash-addons-slider-controller.php:297
+#: includes/trait-ayyash-addons-slider-controller.php:309
+#: includes/trait-ayyash-addons-slider-controller.php:321
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:172
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:222
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:355
+#: widgets/heading/class-ayyash-addons-style-heading.php:200
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:316
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:419
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:326
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:429
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:274
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:288
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:233
+#: widgets/search/class-ayyash-addons-style-search.php:121
+#: widgets/search/class-ayyash-addons-style-search.php:131
+#: widgets/search/class-ayyash-addons-style-search.php:160
+msgid "No"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:72
+msgid "Accordion items stay open when another item is opened."
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:84
+msgid "Animation"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:87
+#: includes/trait-ayyash-addons-slider-controller.php:366
+msgid "Fade"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:88
+#: includes/trait-ayyash-addons-slider-controller.php:365
+msgid "Slide"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:90
+msgid "By default the accordion will slide down and up."
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:101
+msgid "Animation Open Speed"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:113
+msgid "Animation Close Speed"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:149
+msgid "Icons"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:152
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:142
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:154
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:166
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:178
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:190
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:215
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:227
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:181
+#: widgets/heading/class-ayyash-addons-style-heading.php:153
+#: widgets/heading/class-ayyash-addons-style-heading.php:187
+#: widgets/heading/class-ayyash-addons-style-heading.php:306
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:351
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:362
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:399
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:430
+#: widgets/search/class-ayyash-addons-style-search.php:405
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:171
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:195
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:270
+msgid "Show"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:153
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:143
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:155
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:167
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:179
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:191
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:216
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:228
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:182
+#: widgets/heading/class-ayyash-addons-style-heading.php:154
+#: widgets/heading/class-ayyash-addons-style-heading.php:188
+#: widgets/heading/class-ayyash-addons-style-heading.php:307
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:352
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:363
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:400
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:431
+#: widgets/search/class-ayyash-addons-style-search.php:406
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:172
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:196
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:271
+msgid "Hide"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:164
+msgid "Collapsed Icon"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:193
+msgid "Active Icon"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:222
+#: widgets/blog/class-ayyash-addons-style-blog.php:503
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:151
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:437
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:422
+#: widgets/heading/class-ayyash-addons-style-heading.php:783
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:130
+#: widgets/search/class-ayyash-addons-style-search.php:426
+#: widgets/search/class-ayyash-addons-style-search.php:1078
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:139
+msgid "Alignment"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:226
+msgid "Start"
+msgstr ""
+
+#: includes/trait-ayyash-addons-accordion-controller.php:230
+msgid "End"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:220
+msgid "Slider Options"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:229
+msgid "Slides To Show"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:241
+msgid "Slides to Scroll"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:242
+msgid "Set how many slides are scrolled per swipe."
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:257
+msgid "Enable vertical slide ?"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:266
+msgid "Per column items"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:271
+msgid "When enable vertical slider, slide to show work like Column and per column items work like an single item"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:280
+msgid "Autoplay"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:292
+msgid "Center Mode"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:304
+msgid "Loop"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:316
+msgid "Mousewheel"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:328
+msgid "Autoplay Speed (ms)"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:339
+msgid "Distance between slides in px"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:349
+msgid "Direction"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:353
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:275
+#: widgets/blog/class-ayyash-addons-style-blog.php:172
+#: widgets/blog/class-ayyash-addons-style-blog.php:508
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:156
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:426
+#: widgets/heading/class-ayyash-addons-style-heading.php:239
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:134
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:299
+#: widgets/search/class-ayyash-addons-style-search.php:430
+#: widgets/search/class-ayyash-addons-style-search.php:1082
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:209
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:143
+msgid "Left"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:354
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:276
+#: widgets/blog/class-ayyash-addons-style-blog.php:173
+#: widgets/blog/class-ayyash-addons-style-blog.php:516
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:164
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:537
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:434
+#: widgets/heading/class-ayyash-addons-style-heading.php:247
+#: widgets/heading/class-ayyash-addons-style-heading.php:885
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:142
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:344
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:307
+#: widgets/search/class-ayyash-addons-style-search.php:434
+#: widgets/search/class-ayyash-addons-style-search.php:1086
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:217
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:151
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:353
+msgid "Right"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:361
+msgid "Effect"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:368
+msgid "Fade effect works when \"Slides to Show\" is 1"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:374
+msgid "Navigation"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:378
+msgid "Arrows and Dots"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:379
+#: includes/trait-ayyash-addons-slider-controller.php:473
+msgid "Arrows"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:380
+msgid "Dots"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:381
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:736
+#: widgets/blog/class-ayyash-addons-style-blog.php:1316
+#: widgets/blog/class-ayyash-addons-style-blog.php:1598
+#: widgets/blog/class-ayyash-addons-style-blog.php:1841
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:477
+msgid "None"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:391
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:230
+msgid "Slider"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:399
+msgid "Slider Navigation"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:412
+msgid "Previous Icon"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:443
+msgid "Next Icon"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:477
+msgid "Inside"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:478
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:196
+msgid "Outside"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:492
+msgid "Arrow Size"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:507
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:639
+#: widgets/blog/class-ayyash-addons-style-blog.php:669
+#: widgets/blog/class-ayyash-addons-style-blog.php:1092
+#: widgets/blog/class-ayyash-addons-style-blog.php:1241
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:312
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:385
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:485
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:491
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:635
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:725
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:946
+#: widgets/heading/class-ayyash-addons-style-heading.php:491
+#: widgets/heading/class-ayyash-addons-style-heading.php:640
+#: widgets/heading/class-ayyash-addons-style-heading.php:716
+#: widgets/heading/class-ayyash-addons-style-heading.php:831
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:666
+#: widgets/search/class-ayyash-addons-style-search.php:757
+#: widgets/search/class-ayyash-addons-style-search.php:929
+#: widgets/team/class-ayyash-addons-style-team.php:281
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:386
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:549
+msgid "Padding"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:528
+#: includes/trait-ayyash-addons-slider-controller.php:731
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:393
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:580
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:832
+#: widgets/blog/class-ayyash-addons-style-blog.php:542
+#: widgets/blog/class-ayyash-addons-style-blog.php:722
+#: widgets/blog/class-ayyash-addons-style-blog.php:860
+#: widgets/blog/class-ayyash-addons-style-blog.php:1033
+#: widgets/blog/class-ayyash-addons-style-blog.php:1368
+#: widgets/blog/class-ayyash-addons-style-blog.php:2115
+#: widgets/blog/class-ayyash-addons-style-blog.php:2377
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:664
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:829
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:885
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:1050
+#: widgets/faq/class-ayyash-addons-style-faq.php:256
+#: widgets/faq/class-ayyash-addons-style-faq.php:424
+#: widgets/faq/class-ayyash-addons-style-faq.php:595
+#: widgets/heading/class-ayyash-addons-style-heading.php:443
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:285
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:198
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:295
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:367
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:533
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:913
+#: widgets/search/class-ayyash-addons-style-search.php:599
+#: widgets/search/class-ayyash-addons-style-search.php:733
+#: widgets/search/class-ayyash-addons-style-search.php:906
+#: widgets/team/class-ayyash-addons-style-team.php:180
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:408
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:611
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:692
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:792
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:207
+msgid "Normal"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:541
+msgid "Navigation Background"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:558
+#: includes/trait-ayyash-addons-slider-controller.php:633
+#: includes/trait-ayyash-addons-slider-controller.php:743
+#: includes/trait-ayyash-addons-slider-controller.php:786
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:407
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:426
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:493
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:605
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:677
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:778
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:838
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:884
+#: widgets/blog/class-ayyash-addons-style-blog.php:874
+#: widgets/blog/class-ayyash-addons-style-blog.php:893
+#: widgets/blog/class-ayyash-addons-style-blog.php:960
+#: widgets/blog/class-ayyash-addons-style-blog.php:1058
+#: widgets/blog/class-ayyash-addons-style-blog.php:1130
+#: widgets/blog/class-ayyash-addons-style-blog.php:1420
+#: widgets/blog/class-ayyash-addons-style-blog.php:1506
+#: widgets/blog/class-ayyash-addons-style-blog.php:1723
+#: widgets/blog/class-ayyash-addons-style-blog.php:1966
+#: widgets/blog/class-ayyash-addons-style-blog.php:2141
+#: widgets/blog/class-ayyash-addons-style-blog.php:2279
+#: widgets/blog/class-ayyash-addons-style-blog.php:2429
+#: widgets/blog/class-ayyash-addons-style-blog.php:2541
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:526
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:596
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:686
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:761
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:836
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:856
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:907
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:982
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:1057
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:1077
+#: widgets/heading/class-ayyash-addons-style-heading.php:408
+#: widgets/heading/class-ayyash-addons-style-heading.php:449
+#: widgets/heading/class-ayyash-addons-style-heading.php:510
+#: widgets/heading/class-ayyash-addons-style-heading.php:874
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:205
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:223
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:919
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:937
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:968
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:314
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:364
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:414
+#: widgets/search/class-ayyash-addons-style-search.php:213
+#: widgets/search/class-ayyash-addons-style-search.php:363
+#: widgets/search/class-ayyash-addons-style-search.php:468
+#: widgets/search/class-ayyash-addons-style-search.php:605
+#: widgets/search/class-ayyash-addons-style-search.php:635
+#: widgets/search/class-ayyash-addons-style-search.php:919
+#: widgets/search/class-ayyash-addons-style-search.php:955
+#: widgets/search/class-ayyash-addons-style-search.php:986
+#: widgets/tab/class-ayyash-addons-style-tab.php:194
+#: widgets/tab/class-ayyash-addons-style-tab.php:234
+#: widgets/tab/class-ayyash-addons-style-tab.php:262
+#: widgets/team/class-ayyash-addons-style-team.php:336
+#: widgets/team/class-ayyash-addons-style-team.php:356
+#: widgets/team/class-ayyash-addons-style-team.php:400
+#: widgets/team/class-ayyash-addons-style-team.php:419
+#: widgets/team/class-ayyash-addons-style-team.php:489
+#: widgets/team/class-ayyash-addons-style-team.php:522
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:414
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:441
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:617
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:635
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:698
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:716
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:798
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:824
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:214
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:232
+msgid "Color"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:586
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:627
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:906
+#: widgets/blog/class-ayyash-addons-style-blog.php:689
+#: widgets/blog/class-ayyash-addons-style-blog.php:806
+#: widgets/blog/class-ayyash-addons-style-blog.php:1080
+#: widgets/blog/class-ayyash-addons-style-blog.php:1262
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:300
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:373
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:473
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:616
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:706
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:927
+#: widgets/heading/class-ayyash-addons-style-heading.php:628
+#: widgets/heading/class-ayyash-addons-style-heading.php:704
+#: widgets/heading/class-ayyash-addons-style-heading.php:819
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:364
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:469
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:279
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:374
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:479
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:686
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:783
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:285
+#: widgets/search/class-ayyash-addons-style-search.php:267
+#: widgets/search/class-ayyash-addons-style-search.php:579
+#: widgets/search/class-ayyash-addons-style-search.php:669
+#: widgets/team/class-ayyash-addons-style-team.php:534
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:288
+msgid "Border Radius"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:603
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:420
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:653
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:868
+#: widgets/blog/class-ayyash-addons-style-blog.php:611
+#: widgets/blog/class-ayyash-addons-style-blog.php:772
+#: widgets/blog/class-ayyash-addons-style-blog.php:887
+#: widgets/blog/class-ayyash-addons-style-blog.php:1106
+#: widgets/blog/class-ayyash-addons-style-blog.php:1480
+#: widgets/blog/class-ayyash-addons-style-blog.php:2227
+#: widgets/blog/class-ayyash-addons-style-blog.php:2489
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:739
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:849
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:960
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:1070
+#: widgets/faq/class-ayyash-addons-style-faq.php:352
+#: widgets/faq/class-ayyash-addons-style-faq.php:475
+#: widgets/heading/class-ayyash-addons-style-heading.php:504
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:387
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:216
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:397
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:432
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:606
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:931
+#: widgets/search/class-ayyash-addons-style-search.php:629
+#: widgets/search/class-ayyash-addons-style-search.php:777
+#: widgets/search/class-ayyash-addons-style-search.php:949
+#: widgets/team/class-ayyash-addons-style-team.php:202
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:435
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:629
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:710
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:818
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:225
+msgid "Hover"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:616
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:587
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:660
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:790
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:850
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:875
+#: widgets/blog/class-ayyash-addons-style-blog.php:549
+#: widgets/blog/class-ayyash-addons-style-blog.php:618
+#: widgets/blog/class-ayyash-addons-style-blog.php:729
+#: widgets/blog/class-ayyash-addons-style-blog.php:779
+#: widgets/blog/class-ayyash-addons-style-blog.php:1040
+#: widgets/blog/class-ayyash-addons-style-blog.php:1113
+#: widgets/blog/class-ayyash-addons-style-blog.php:1395
+#: widgets/blog/class-ayyash-addons-style-blog.php:1537
+#: widgets/blog/class-ayyash-addons-style-blog.php:1755
+#: widgets/blog/class-ayyash-addons-style-blog.php:1998
+#: widgets/blog/class-ayyash-addons-style-blog.php:2173
+#: widgets/blog/class-ayyash-addons-style-blog.php:2254
+#: widgets/blog/class-ayyash-addons-style-blog.php:2404
+#: widgets/blog/class-ayyash-addons-style-blog.php:2516
+#: widgets/faq/class-ayyash-addons-style-faq.php:288
+#: widgets/faq/class-ayyash-addons-style-faq.php:360
+#: widgets/faq/class-ayyash-addons-style-faq.php:441
+#: widgets/faq/class-ayyash-addons-style-faq.php:483
+#: widgets/faq/class-ayyash-addons-style-faq.php:514
+#: widgets/heading/class-ayyash-addons-style-heading.php:461
+#: widgets/heading/class-ayyash-addons-style-heading.php:522
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:292
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:394
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:248
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:302
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:404
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:540
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:613
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:716
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:257
+msgid "Background"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:647
+#: widgets/blog/class-ayyash-addons-style-blog.php:632
+#: widgets/blog/class-ayyash-addons-style-blog.php:793
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:627
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:493
+msgid "Border Color"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:665
+msgid "Slider Dots"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:678
+msgid "Top Gap"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:704
+msgid "Between Gap"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:758
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:175
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:300
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:184
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:309
+msgid "Size"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:774
+msgid "Active/Hover"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:913
+msgid "Previous"
+msgstr ""
+
+#: includes/trait-ayyash-addons-slider-controller.php:918
+msgid "Next"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:22
+#: templates/admin/dashboard-tab-dashboard.php:23
+#: templates/admin/dashboard-tab-dashboard.php:24
+msgid "AyyashAddons"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:34
+msgid "Let’s spend some time with our detailed documentation to become familiar with Ayyash Addons. Build a full featured website with our awesome widgets for you and your clients."
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:35
+msgid "Read Now"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:41
+msgid "Request a feature"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:42
+msgid "Are we missing any features for your website? Feel free to submit a feature request and help us to make Ayyash Addons better."
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:43
+msgid "Request"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:49
+msgid "Show your love"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:50
+msgid "It’s our pleasure to have you in our Ayyash Addons family. If our plugin brings happiness to your working, review our plugin and spread the love to encourage us."
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:51
+msgid "Rate Us"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:64
+#: templates/admin/dashboard-tab-dashboard.php:65
+msgid "Changelogs"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:69
+msgid "Last update:"
+msgstr ""
+
+#. translators: 1. Version Number.
+#: templates/admin/dashboard-tab-dashboard.php:75
+#: templates/admin/dashboard-tab-dashboard.php:120
+msgid "Version %1$s"
+msgstr ""
+
+#. translators: 1. Version release date.
+#: templates/admin/dashboard-tab-dashboard.php:86
+#: templates/admin/dashboard-tab-dashboard.php:131
+msgid "on %s"
+msgstr ""
+
+#: templates/admin/dashboard-tab-dashboard.php:94
+msgid "Follow us:"
+msgstr ""
+
+#: templates/admin/dashboard-tab-integrations.php:24
+#: templates/admin/dashboard-tab-widgets.php:128
+#: templates/admin/dashboard.php:64
+msgid "SAVE SETTINGS"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:19
+msgid "Logo"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:20
+msgid "Get Pro and Experience all those existing great features and widgets."
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:21
+#: templates/admin/notices.php:77
+#: templates/admin/notices.php:121
+#: templates/admin/notices.php:149
+msgid "Get Pro Now"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:53
+msgid "Pro Features"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:54
+msgid "Why upgrade to Pro version?"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:85
+msgid "All Pro Layout Preset"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:86
+msgid "We have 103 free Preset layout and 135 pro Preset layout at 21 Widgets and 1500+ coming next on continuous updates. If you are using free version of the plugin you will not able to use pro preset layout and also can not able to use all blocks from importer. To use all blocks and layout you should buy our pro plugin."
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:111
+msgid "All Pro Widget"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:112
+msgid "We have 16 free and 5 pro widgets and 100s are coming on continuous updates which you can enjoy when you will buy our pro plugins. So all widgets and layout you can use under pro plan."
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:137
+msgid "All Pro Features"
+msgstr ""
+
+#: templates/admin/dashboard-tab-pro-features.php:138
+msgid "We are planned for weekly 2 updates and a major updates after 4 updates. We are coming with a lot of features and functionality which will be available only for pro member of our plugin."
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:85
+msgid "Have questions?"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:86
+#: widgets/faq/class-ayyash-addons-style-faq.php:48
+msgid "FAQ"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:87
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:92
+msgid "Where to find the documentation for Ayyash addon? "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:97
+msgid "You will find Ayyash Addons documentation from here. If you are stuck with anything, feel free to contact our friendly and professional support team. "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:102
+msgid "How often do you update Ayyash Addons? "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:107
+msgid "With our fully dedicated team, we are always working to improve and add new features to Ayyash Addons. In general, we always try to update our plugin on a weekly basis."
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:112
+msgid "Is Ayyash Addons responsive for the smaller devices? "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:117
+msgid "Yes, all the widgets and elements are fully responsive for all the available devices. "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:122
+msgid "Does Ayyash Addons support multisite? "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:127
+msgid "Yes, Ayyash Addons is fully multisite compatible."
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:132
+msgid "Do Ayyash Addons require any coding skills? "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:137
+msgid "No, you don’t need any coding skills to use our widgets. All of our widgets come with drag & drop capability. "
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:143
+msgid "Show More"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:153
+msgid "Need Support Faster!"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:154
+msgid "We don't share your data with third parties, while keeping them encrypted in our server."
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:155
+msgid "We use this data for support, debugging and for improving this plugin and it's performance."
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:164
+msgid "Enable Data Sharing"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:168
+msgid "Are you sure you want disable data sharing?"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:171
+msgid "Disable Data Sharing"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:174
+msgid "What we collect collecting?"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:193
+msgid "Need more support?"
+msgstr ""
+
+#. translators: 1. WordPress Support Forum Link, 2. Facebook Page Link, 3. Live Chat Site Link.
+#: templates/admin/dashboard-tab-support.php:199
+msgid "Stuck with something? Get help from the community on %1$s or %2$s. In case of emergency, initiate a live chat at %3$s website."
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:200
+msgid "WordPress.org Forum"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:201
+msgid "Facebook Community"
+msgstr ""
+
+#: templates/admin/dashboard-tab-support.php:208
+msgid "Open a Ticket"
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:21
+#: templates/admin/dashboard-tab-tools.php:24
+msgid "Regenerate Assets"
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:22
+msgid "Ayyash Addons style and scripts are save in Uploads folder. This option will clear all those generated files."
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:31
+msgid "Asset Embed Method"
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:32
+msgid "Configure the Ayyash Addons assets embed method. Keep it as default (recommended)."
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:34
+msgid "CSS Print Method:"
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:35
+#: templates/admin/dashboard-tab-tools.php:40
+msgid "CSS Print Method is handled by Elementor Settings itself. Use External CSS files for better performance (recommended)."
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:36
+msgid "Configure Settings"
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:39
+msgid "JS Print Method:"
+msgstr ""
+
+#: templates/admin/dashboard-tab-tools.php:41
+msgid "External File"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:21
+msgid "Ayyash Addons Widgets"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:24
+msgid "Global Control:"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:26
+msgid "Enable All"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:27
+msgid "Disable All"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:29
+msgid "Active or deactivate all widgets at once."
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:34
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:167
+msgid "All"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:35
+msgid "Free"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:36
+#: templates/admin/dashboard-tab-widgets.php:74
+#: templates/template-library/templates.php:115
+msgid "Pro"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:41
+msgid "Content Widgets"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:114
+msgid "New"
+msgstr ""
+
+#: templates/admin/dashboard-tab-widgets.php:117
+msgid "Upcoming"
+msgstr ""
+
+#: templates/admin/dashboard.php:20
+msgid "Welcome to"
+msgstr ""
+
+#. translators: 1. Plugin Version Number
+#: templates/admin/dashboard.php:25
+msgid "Version %s"
+msgstr ""
+
+#: templates/admin/notices.php:72
+#: templates/admin/notices.php:117
+msgid "Absolute Addons Pro is not activated! To unlock all feature activate now."
+msgstr ""
+
+#: templates/template-library/templates.php:25
+msgid "Back to Library"
+msgstr ""
+
+#: templates/template-library/templates.php:36
+#: templates/template-library/templates.php:37
+msgid "Desktop view"
+msgstr ""
+
+#: templates/template-library/templates.php:40
+#: templates/template-library/templates.php:41
+msgid "Tab view"
+msgstr ""
+
+#: templates/template-library/templates.php:44
+#: templates/template-library/templates.php:45
+msgid "Mobile view"
+msgstr ""
+
+#: templates/template-library/templates.php:51
+#: templates/template-library/templates.php:52
+msgid "Sync Library"
+msgstr ""
+
+#: templates/template-library/templates.php:69
+msgid "Insert"
+msgstr ""
+
+#: templates/template-library/templates.php:90
+msgid "Loading"
+msgstr ""
+
+#: templates/template-library/templates.php:98
+msgid "Search Templates:"
+msgstr ""
+
+#: templates/template-library/templates.php:123
+msgid "Preview"
+msgstr ""
+
+#: templates/template-library/templates.php:130
+msgid "No Result Found"
+msgstr ""
+
+#: templates/template-library/templates.php:135
+msgid "Want to learn more about the Absolute Library?"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:115
+#: widgets/blog/class-ayyash-addons-style-blog.php:118
+msgid "Content Source"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:133
+#: widgets/tab/class-ayyash-addons-style-tab.php:136
+#: widgets/tab/class-ayyash-addons-style-tab.php:137
+#: widgets/tab/class-ayyash-addons-style-tab.php:138
+#: widgets/tab/class-ayyash-addons-style-tab.php:253
+msgid "Content"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:140
+#: widgets/blog/class-ayyash-addons-style-blog.php:138
+msgid "Show Thumbnail"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:152
+#: widgets/blog/class-ayyash-addons-style-blog.php:143
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:397
+msgid "Show Title"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:164
+#: widgets/blog/class-ayyash-addons-style-blog.php:148
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:176
+msgid "Show Meta"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:188
+#: widgets/blog/class-ayyash-addons-style-blog.php:153
+msgid "Show Read More"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:200
+#: widgets/blog/class-ayyash-addons-style-blog.php:365
+msgid "Read More Text"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:202
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:556
+#: widgets/blog/class-ayyash-addons-style-blog.php:1023
+msgid "Read More"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:203
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:748
+#: widgets/blog/class-ayyash-addons-style-blog.php:1348
+#: widgets/blog/class-ayyash-addons-style-blog.php:1630
+#: widgets/blog/class-ayyash-addons-style-blog.php:1873
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:262
+msgid "Type your title here"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:213
+msgid "Show Author"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:225
+msgid "Show Date"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:238
+#: widgets/blog/class-ayyash-addons-style-blog.php:273
+msgid "Title Settings"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:244
+#: widgets/blog/class-ayyash-addons-style-blog.php:279
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:408
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:264
+#: widgets/blog/class-ayyash-addons-style-blog.php:161
+msgid "Thumbnail Settings"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:270
+#: widgets/blog/class-ayyash-addons-style-blog.php:167
+msgid "Image Position"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:274
+#: widgets/blog/class-ayyash-addons-style-blog.php:171
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:441
+#: widgets/heading/class-ayyash-addons-style-heading.php:787
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:322
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:331
+msgid "Top"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:293
+#: widgets/blog/class-ayyash-addons-style-blog.php:190
+msgid "Image Ratio"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:319
+#: widgets/blog/class-ayyash-addons-style-blog.php:216
+msgid "Image Width"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:353
+#: widgets/blog/class-ayyash-addons-style-blog.php:321
+msgid "Excerpt Settings"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:359
+#: widgets/blog/class-ayyash-addons-style-blog.php:327
+msgid "Excerpt Length"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:399
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:503
+#: widgets/blog/class-ayyash-addons-style-blog.php:866
+#: widgets/blog/class-ayyash-addons-style-blog.php:970
+#: widgets/faq/class-ayyash-addons-style-faq.php:431
+#: widgets/faq/class-ayyash-addons-style-faq.php:549
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:409
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:532
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:562
+msgid "Typography"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:440
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:511
+#: widgets/blog/class-ayyash-addons-style-blog.php:907
+#: widgets/blog/class-ayyash-addons-style-blog.php:978
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:870
+#: widgets/search/class-ayyash-addons-style-search.php:694
+#: widgets/search/class-ayyash-addons-style-search.php:1052
+msgid "Top Spacing"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:460
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:531
+#: widgets/blog/class-ayyash-addons-style-blog.php:927
+#: widgets/blog/class-ayyash-addons-style-blog.php:998
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:890
+msgid "Bottom Spacing"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:485
+#: widgets/blog/class-ayyash-addons-style-blog.php:952
+msgid "Excerpt"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:565
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:738
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:754
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:816
+#: widgets/blog/class-ayyash-addons-style-blog.php:1600
+#: widgets/blog/class-ayyash-addons-style-blog.php:1657
+#: widgets/blog/class-ayyash-addons-style-blog.php:1843
+#: widgets/blog/class-ayyash-addons-style-blog.php:1900
+#: widgets/blog/class-ayyash-addons-style-blog.php:2079
+#: widgets/blog/class-ayyash-addons-style-blog.php:2341
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:179
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:249
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:278
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:362
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:230
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:248
+msgid "Icon"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:619
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:670
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:898
+#: widgets/blog/class-ayyash-addons-style-blog.php:559
+#: widgets/blog/class-ayyash-addons-style-blog.php:1072
+#: widgets/blog/class-ayyash-addons-style-blog.php:1123
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:607
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:697
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:772
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:918
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:993
+#: widgets/heading/class-ayyash-addons-style-heading.php:476
+#: widgets/heading/class-ayyash-addons-style-heading.php:537
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:303
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:405
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:313
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:415
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:400
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:465
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:509
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:582
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:550
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:757
+#: widgets/search/class-ayyash-addons-style-search.php:749
+msgid "Border"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:695
+#: widgets/blog/class-ayyash-addons-style-blog.php:398
+#: widgets/blog/class-ayyash-addons-style-blog.php:1148
+msgid "Meta Data"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:732
+#: widgets/blog/class-ayyash-addons-style-blog.php:1312
+#: widgets/blog/class-ayyash-addons-style-blog.php:1594
+#: widgets/blog/class-ayyash-addons-style-blog.php:1837
+msgid "Prefix"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:737
+#: widgets/blog/class-ayyash-addons-style-blog.php:1317
+#: widgets/blog/class-ayyash-addons-style-blog.php:1599
+#: widgets/blog/class-ayyash-addons-style-blog.php:1842
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:248
+msgid "Text"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:745
+#: widgets/blog/class-ayyash-addons-style-blog.php:1345
+#: widgets/blog/class-ayyash-addons-style-blog.php:1627
+#: widgets/blog/class-ayyash-addons-style-blog.php:1870
+msgid "Prefix Text"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:747
+#: widgets/blog/class-ayyash-addons-style-blog.php:1629
+msgid "Post Date:"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:768
+#: widgets/blog/class-ayyash-addons-style-blog.php:1692
+#: widgets/blog/class-ayyash-addons-style-blog.php:1935
+msgid "Prefix Color"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:808
+#: widgets/blog/class-ayyash-addons-style-blog.php:253
+#: widgets/blog/class-ayyash-addons-style-blog.php:302
+#: widgets/blog/class-ayyash-addons-style-blog.php:340
+#: widgets/blog/class-ayyash-addons-style-blog.php:2051
+msgid "Category"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:921
+msgid "Nav Style"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:929
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:235
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:245
+msgid "Left Arrow"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:952
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:258
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:268
+msgid "Right Arrow"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:1018
+msgid "Placeholder Image"
+msgstr ""
+
+#: widgets/blog-slider/class-ayyash-addons-style-blog-slider.php:1276
+#: widgets/blog/class-ayyash-addons-style-blog.php:3004
+msgid "Sorry, no posts were found."
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:135
+#: widgets/blog/class-ayyash-addons-style-blog.php:437
+msgid "Layout"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:252
+#: widgets/blog/class-ayyash-addons-style-blog.php:301
+#: widgets/blog/class-ayyash-addons-style-blog.php:339
+#: widgets/blog/class-ayyash-addons-style-blog.php:1809
+msgid "Comment"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:254
+#: widgets/blog/class-ayyash-addons-style-blog.php:303
+#: widgets/blog/class-ayyash-addons-style-blog.php:341
+#: widgets/blog/class-ayyash-addons-style-blog.php:2313
+msgid "Tag"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:257
+msgid "After Thumbnail"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:258
+msgid "Before Thumbnail"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:259
+msgid "Overlay Thumbnail"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:306
+msgid "After Title"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:307
+msgid "Before Title"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:344
+msgid "After Excerpt"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:345
+msgid "Before Excerpt"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:359
+msgid "Read More Settings"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:367
+msgid "Read More »"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:410
+msgid "Meta Placement"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:421
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:131
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:499
+#: widgets/heading/class-ayyash-addons-style-heading.php:185
+#: widgets/heading/class-ayyash-addons-style-heading.php:273
+msgid "Separator"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:444
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:241
+msgid "Columns"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:465
+msgid "Columns Gap"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:484
+msgid "Rows Gap"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:512
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:160
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:445
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:430
+#: widgets/heading/class-ayyash-addons-style-heading.php:243
+#: widgets/heading/class-ayyash-addons-style-heading.php:791
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:138
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:303
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:213
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:147
+msgid "Center"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:533
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:524
+msgid "Item Body"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:586
+#: widgets/blog/class-ayyash-addons-style-blog.php:643
+#: widgets/faq/class-ayyash-addons-style-faq.php:298
+#: widgets/faq/class-ayyash-addons-style-faq.php:370
+#: widgets/heading/class-ayyash-addons-style-heading.php:484
+#: widgets/heading/class-ayyash-addons-style-heading.php:545
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:377
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:482
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:387
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:492
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:577
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:638
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:712
+msgid "Thumbnail"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:744
+msgid "tBorder"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:825
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:978
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:331
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:381
+#: widgets/search/class-ayyash-addons-style-search.php:867
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:582
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:663
+msgid "Spacing"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1176
+msgid "Common settings for thumbnail metas"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1185
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:802
+msgid "Position X"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1186
+#: widgets/blog/class-ayyash-addons-style-blog.php:1214
+#: widgets/blog/class-ayyash-addons-style-blog.php:1242
+#: widgets/blog/class-ayyash-addons-style-blog.php:1263
+msgid "All General setting will work only for overlay thumbnail metas"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1213
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:827
+msgid "Position Y"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1318
+msgid "Author Avatar"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1347
+msgid "Author:"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1355
+msgid "Prefix Text Color"
+msgstr ""
+
+#: widgets/blog/class-ayyash-addons-style-blog.php:1872
+msgid "Comments:"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:45
+msgid "Count Down"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:111
+#: widgets/heading/class-ayyash-addons-style-heading.php:224
+msgid "Countdown"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:119
+#: widgets/heading/class-ayyash-addons-style-heading.php:262
+msgid "Due Date"
+msgstr ""
+
+#. translators: %s: Time zone.
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:123
+#: widgets/heading/class-ayyash-addons-style-heading.php:266
+msgid "Date set according to your timezone: %s."
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:134
+msgid "none"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:135
+#: widgets/heading/class-ayyash-addons-style-heading.php:276
+msgid ": (Colon)"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:136
+#: widgets/heading/class-ayyash-addons-style-heading.php:277
+msgid "/ (Slash)"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:137
+#: widgets/heading/class-ayyash-addons-style-heading.php:278
+msgid "- (Dash)"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:138
+#: widgets/heading/class-ayyash-addons-style-heading.php:279
+msgid ". (Dot)"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:179
+#: widgets/heading/class-ayyash-addons-style-heading.php:304
+#: widgets/search/class-ayyash-addons-style-search.php:128
+msgid "Show Label"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:191
+#: widgets/heading/class-ayyash-addons-style-heading.php:316
+msgid "Label Placement"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:194
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:197
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:380
+#: widgets/heading/class-ayyash-addons-style-heading.php:319
+msgid "Before"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:195
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:198
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:381
+#: widgets/heading/class-ayyash-addons-style-heading.php:320
+msgid "After"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:208
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:211
+#: widgets/heading/class-ayyash-addons-style-heading.php:332
+#: widgets/heading/class-ayyash-addons-style-heading.php:335
+msgid "Days"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:210
+#: widgets/heading/class-ayyash-addons-style-heading.php:334
+msgid "d"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:221
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:224
+#: widgets/heading/class-ayyash-addons-style-heading.php:345
+#: widgets/heading/class-ayyash-addons-style-heading.php:348
+msgid "Hours"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:223
+#: widgets/heading/class-ayyash-addons-style-heading.php:347
+msgid "h"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:234
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:237
+#: widgets/heading/class-ayyash-addons-style-heading.php:358
+#: widgets/heading/class-ayyash-addons-style-heading.php:361
+msgid "Minutes"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:236
+#: widgets/heading/class-ayyash-addons-style-heading.php:360
+msgid "m"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:247
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:250
+#: widgets/heading/class-ayyash-addons-style-heading.php:371
+#: widgets/heading/class-ayyash-addons-style-heading.php:374
+msgid "Seconds"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:249
+#: widgets/heading/class-ayyash-addons-style-heading.php:373
+msgid "s"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:262
+#: widgets/heading/class-ayyash-addons-style-heading.php:587
+msgid "Wrapper"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:270
+#: widgets/heading/class-ayyash-addons-style-heading.php:598
+msgid "Wrapper Width"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:289
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:342
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:415
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:584
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:674
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:749
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:895
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:970
+#: widgets/heading/class-ayyash-addons-style-heading.php:617
+#: widgets/heading/class-ayyash-addons-style-heading.php:673
+#: widgets/heading/class-ayyash-addons-style-heading.php:761
+#: widgets/search/class-ayyash-addons-style-search.php:233
+#: widgets/search/class-ayyash-addons-style-search.php:616
+#: widgets/search/class-ayyash-addons-style-search.php:645
+#: widgets/search/class-ayyash-addons-style-search.php:739
+#: widgets/search/class-ayyash-addons-style-search.php:783
+msgid "Background Color"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:326
+#: widgets/heading/class-ayyash-addons-style-heading.php:654
+msgid "Digit"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:353
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:426
+#: widgets/heading/class-ayyash-addons-style-heading.php:684
+#: widgets/heading/class-ayyash-addons-style-heading.php:772
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:259
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:268
+msgid "Text Color"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:399
+#: widgets/heading/class-ayyash-addons-style-heading.php:742
+#: widgets/search/class-ayyash-addons-style-search.php:138
+msgid "Label"
+msgstr ""
+
+#: widgets/countdown/class-ayyash-addons-style-countdown.php:449
+#: widgets/heading/class-ayyash-addons-style-heading.php:795
+msgid "Bottom"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:118
+msgid "Primary"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:125
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:303
+msgid "Button HTML Tag"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:139
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:261
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:317
+msgid "Button Text"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:152
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:330
+#: widgets/heading/class-ayyash-addons-style-heading.php:141
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:131
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:242
+msgid "Link"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:154
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:332
+#: widgets/heading/class-ayyash-addons-style-heading.php:168
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:133
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:244
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:168
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:351
+msgid "Add icon? "
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:194
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:377
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:212
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:509
+msgid "Connector"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:219
+msgid "Hide Connector?"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:230
+msgid "Button Radius"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:245
+msgid "Connector Type"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:264
+msgid "Text Here"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:296
+msgid "Secondary"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:397
+msgid "Button Space Between"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:448
+msgid "Button Layout"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:452
+msgid "Row"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:456
+msgid "Column"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:476
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:224
+#: widgets/tab/class-ayyash-addons-style-tab.php:177
+#: widgets/team/class-ayyash-addons-style-team.php:243
+msgid "Settings"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:527
+#: widgets/faq/class-ayyash-addons-style-faq.php:263
+#: widgets/search/class-ayyash-addons-style-search.php:373
+#: widgets/search/class-ayyash-addons-style-search.php:478
+#: widgets/search/class-ayyash-addons-style-search.php:519
+#: widgets/search/class-ayyash-addons-style-search.php:807
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:294
+msgid "Width"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:554
+#: widgets/search/class-ayyash-addons-style-search.php:297
+#: widgets/search/class-ayyash-addons-style-search.php:837
+msgid "Height"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:654
+msgid "Primary Button"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:792
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:1013
+msgid "Icon Control"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:808
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:1029
+msgid "Icon Gap"
+msgstr ""
+
+#: widgets/dual-button/class-ayyash-addons-style-dual-button.php:875
+msgid "Secondary Button"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:115
+msgid "Faq"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:122
+msgid "Faq Heading"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:125
+msgid "SUBJECTS"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:136
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:115
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:117
+msgid "Query Section"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:143
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:122
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:124
+msgid "Posts Count"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:149
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:128
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:130
+msgid "If You need to show all post to input \"-1\""
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:156
+#: widgets/faq/class-ayyash-addons-style-faq.php:185
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:135
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:164
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:137
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:175
+msgid "Select Category"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:160
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:139
+msgid "Recent Post"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:161
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:140
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:142
+msgid "Category Post"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:163
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:142
+msgid "recent_post"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:209
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:177
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:201
+msgid "Order by"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:215
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:183
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:207
+msgid "Modified"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:216
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:184
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:208
+msgid "Comments"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:225
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:193
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:217
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:197
+msgid "Order"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:246
+msgid "General FAQ Style"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:316
+msgid "FAQ Border"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:324
+msgid "FAQ Border Radius"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:337
+msgid "FAQ Section Padding"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:388
+msgid "FAQs Border"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:396
+msgid "FAQs Border Radius"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:414
+msgid "FAQs Title"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:450
+#: widgets/faq/class-ayyash-addons-style-faq.php:492
+#: widgets/faq/class-ayyash-addons-style-faq.php:523
+msgid "FAQs Title Color"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:461
+msgid "FAQs Title Padding"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:541
+#: widgets/faq/class-ayyash-addons-style-faq.php:558
+msgid "FAQs Content"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:570
+msgid "FAQs Content Padding"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:585
+msgid "FAQs Icon"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:602
+#: widgets/faq/class-ayyash-addons-style-faq.php:622
+msgid "Accordion Icon Color"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:615
+msgid "Hover & Active"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:704
+msgid "Search FAQ"
+msgstr ""
+
+#: widgets/faq/class-ayyash-addons-style-faq.php:705
+msgid "Search.."
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:113
+msgid "Section Heading"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:120
+msgid "Section Title"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:122
+msgid "Featured Products"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:123
+msgid "Type your title"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:130
+msgid "Button Label"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:132
+msgid "View All"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:139
+msgid "Button Link Or Unlink"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:142
+msgid "Unlink"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:151
+#: widgets/search/class-ayyash-addons-style-search.php:167
+msgid "Button Icon"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:166
+msgid "Button Link"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:197
+msgid "Enable Countdown ?"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:209
+#: widgets/heading/class-ayyash-addons-style-heading.php:292
+#: widgets/heading/class-ayyash-addons-style-heading.php:728
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:741
+msgid "Margin"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:235
+msgid "Countdown Alignment"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:394
+msgid "Section Header"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:425
+msgid "View Button"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:554
+msgid "Heading Separator"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:562
+msgid "Top Color"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:572
+msgid "Bottom Color"
+msgstr ""
+
+#: widgets/heading/class-ayyash-addons-style-heading.php:845
+msgid "Countdown Separator"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:114
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:142
+msgid "Add Logos"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:123
+msgid "Add Logo"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:158
+msgid "Logo Carousel Style"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:166
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:222
+msgid "Logo Gap"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:189
+msgid "Logo Width"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:212
+msgid "Logo Height"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:311
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:325
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:414
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:429
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:321
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:335
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:424
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:439
+msgid "Filter Effect"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:329
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:433
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:339
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:443
+msgid "Brightness"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:330
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:434
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:340
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:444
+msgid "Contrast"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:331
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:435
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:341
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:445
+msgid "Grayscale"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:332
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:436
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:342
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:446
+msgid "Invert"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:333
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:437
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:343
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:447
+msgid "Opacity"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:334
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:438
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:344
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:448
+msgid "saturate"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:335
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:439
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:345
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:449
+msgid "Sepia"
+msgstr ""
+
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:344
+#: widgets/logo-carousel/class-ayyash-addons-style-logo-carousel.php:448
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:354
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:458
+msgid "Filter Value"
+msgstr ""
+
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:104
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:167
+msgid "Cart"
+msgstr ""
+
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:111
+msgid "Cart Icon"
+msgstr ""
+
+#: widgets/mini-cart/class-ayyash-addons-style-mini-cart.php:240
+msgid "Badge"
+msgstr ""
+
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:214
+msgid "Portfolio Slider Style"
+msgstr ""
+
+#: widgets/portfolio-carousel/class-ayyash-addons-style-portfolio-carousel.php:551
+msgid "Project Image"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:141
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:188
+msgid "Select Post"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:144
+msgid "select_post"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:233
+msgid "Portfolio Grid Layout"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:240
+msgid "Portfolio Grid Column"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:244
+msgid "1"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:245
+msgid "2"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:246
+msgid "3"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:247
+msgid "4"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:248
+msgid "5"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:249
+msgid "6"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:263
+msgid "Portfolio Filter"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:270
+msgid "Enable Filter Menu"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:277
+msgid "Enable to display filter menu."
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:284
+msgid "Show \"All\" Filter"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:291
+msgid "Enable to display \"All\" filter in filter menu."
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:301
+msgid "Filter Text"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:315
+msgid "Portfolio Animation"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:324
+msgid "Portfolio Delay"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:333
+msgid "Portfolio Delay Mode"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:336
+msgid "Progressive"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:337
+msgid "Alternate"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:354
+msgid "Filter Style"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:377
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:442
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:486
+msgid "Filter Background Color"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:389
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:454
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:498
+msgid "Filter Color"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:418
+msgid "Portfolio Filter Padding"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:524
+msgid "Title Style"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:541
+msgid "Title Color"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:554
+msgid "Category Style"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:571
+msgid "Category Color"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:591
+msgid "Category Border Radius"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:603
+msgid "Portfolio Category Padding"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:617
+msgid "Overlay Style"
+msgstr ""
+
+#: widgets/portfolio-grid/class-ayyash-addons-style-portfolio-grid.php:628
+msgid "Category Background Color"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:128
+msgid "Query"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:136
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:126
+msgid "WooCommerce"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:151
+msgid "Perfect Brands for WooCommerce"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:164
+msgid "Brands"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:168
+msgid "Custom"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:177
+msgid "Select Brands"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:188
+msgid "Number"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:213
+msgid "name"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:214
+msgid "ID"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:266
+msgid "Gap"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:295
+msgid "Content Alignment"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:321
+msgid "Content Left Right Padding"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:322
+msgid "If you want to full width image use this setting for adjusting content padding"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:349
+msgid "Show Brand Logo"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:360
+msgid "Show Brand Banner"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:371
+msgid "Banner height"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:428
+msgid "Show Count"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:439
+msgid "Count Text"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:441
+msgid "Products"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:442
+msgid "Type your text here"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:707
+msgid "Brand logo"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:730
+msgid "Brand Size"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:855
+msgid "Brand Title"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:952
+msgid "Brand Count"
+msgstr ""
+
+#: widgets/product-brand/class-ayyash-addons-style-product-brand.php:1110
+msgid "Sales"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:48
+msgid "Product Categories V2"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:117
+msgid "Categories"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:138
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:158
+msgid "Category Title"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:160
+msgid "Men Collections"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:168
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:188
+msgid "Category Sub Title"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:190
+msgid "GET 70% OFF"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:199
+msgid " HTML Tag"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:219
+msgid "Category Hover Text"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:221
+msgid "View Collections"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:259
+msgid "Categories Styles"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:276
+msgid "Image"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:356
+#: widgets/tab/class-ayyash-addons-style-tab.php:125
+#: widgets/tab/class-ayyash-addons-style-tab.php:127
+#: widgets/tab/class-ayyash-addons-style-tab.php:128
+#: widgets/tab/class-ayyash-addons-style-tab.php:225
+msgid "Sub Title"
+msgstr ""
+
+#: widgets/product-categories/class-ayyash-addons-style-product-categories.php:406
+msgid "Hover Title"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:118
+msgid "Show Category"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:149
+msgid "Placeholder"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:157
+msgid "Show Button?"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:199
+msgid "Search Field"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:223
+msgid "Placeholder Color"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:286
+msgid "Wrapper Padding"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:322
+msgid "Input Field Padding"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:346
+msgid "Search Category"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:403
+msgid "Show Separator"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:415
+msgid "Separator Color"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:451
+msgid "Search Label"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:509
+msgid "Search Button"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:549
+#: widgets/team/class-ayyash-addons-style-team.php:441
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:759
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:662
+msgid "Product Body"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:725
+msgid "Product Items"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:800
+msgid "Product Thumbnail"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:898
+msgid "Product Title"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:972
+msgid "Product Price"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:996
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1006
+msgid "Price Inline"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1008
+#: widgets/search/class-ayyash-addons-style-search.php:1042
+msgid "Inline"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1009
+#: widgets/search/class-ayyash-addons-style-search.php:1043
+msgid "block"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1023
+msgid "Product Rating"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1030
+msgid "Rating Color"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1040
+msgid "Rating Inline"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1114
+msgid "search"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1159
+msgid "Product category"
+msgstr ""
+
+#: widgets/search/class-ayyash-addons-style-search.php:1160
+msgid "All categories"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:139
+msgid "Use (text-column-1, text-column-2, text-column-3) class For Text Column"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:148
+msgid "Tab Items"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:153
+msgid "1. General"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:154
+msgid "Dolor in hendrerit in vulputate velit esse molestie consequat."
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:155
+#: widgets/tab/class-ayyash-addons-style-tab.php:160
+msgid "Lorem ipsum dolor sit amet, consectetuer adip iscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euis mod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo conse quat. Lorem ipsum dolor sit amet, consectetuer adip iscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:158
+msgid "2. Terms of service"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:159
+msgid "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,"
+msgstr ""
+
+#: widgets/tab/class-ayyash-addons-style-tab.php:205
+msgid "Active Color"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:108
+msgid "Team Member"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:115
+msgid "Team Member Image"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:128
+msgid "Linda Willis"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:129
+msgid "Type your Name"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:136
+#: widgets/team/class-ayyash-addons-style-team.php:371
+msgid "Designation"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:148
+msgid "Social Profile"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:157
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:166
+msgid "Type Url"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:168
+msgid "Type your social profile link"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:187
+msgid "Select Icon Color"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:209
+msgid "Icon Hover Color"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:225
+msgid "Social Media"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:293
+msgid "margin"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:432
+msgid "Social Icon"
+msgstr ""
+
+#: widgets/team/class-ayyash-addons-style-team.php:478
+#: widgets/team/class-ayyash-addons-style-team.php:511
+msgid "Social Area Background"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:127
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:261
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:287
+msgid "Menu"
+msgstr ""
+
+#. translators: %s Nav menu URL
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:138
+msgid "Some features may not work with current theme. For full compatibility please install <a href=\"%s\" target=\"_blank\">Ayyash</a> Theme."
+msgstr ""
+
+#. translators: %s Nav menu URL
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:150
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr ""
+
+#. translators: %s Nav menu URL
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:160
+msgid "<strong>There is no vertical menu.</strong><br>Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:168
+msgid "Menu Collapse On Load?"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:169
+msgid "Menu will be collapsed on initial page load"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:180
+msgid "Menu Collapse Page"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:184
+msgid "All Pages"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:185
+msgid "Without Front page"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:193
+msgid "Menu Indicator?"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:205
+msgid "Menu Items Align"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:221
+msgid "Justify"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:235
+msgid "Menu Icon"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:268
+msgid "Menu Dropdown Icon?"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:315
+msgid "Top Space"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:372
+msgid "Menu Item"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:464
+msgid "Divider"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:472
+msgid "Border Style"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:478
+msgid "Solid"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:479
+msgid "Double"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:480
+msgid "Dotted"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:481
+msgid "Dashed"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:509
+msgid "Border Width"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:542
+msgid "Mega Menu"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:648
+msgid "Mega Menu Items"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:734
+msgid "Menu Hamburger"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:780
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/vertical-menu/class-ayyash-addons-style-vertical-menu.php:863
+msgid "No Vertical Menu Assigned , Please Add"
+msgstr ""
+
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:43
+msgid "WishList"
+msgstr ""
+
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:118
+msgid "Wishlist Icon"
+msgstr ""
+
+#: widgets/wishlist/class-ayyash-addons-style-wishlist.php:249
+msgid "Count"
+msgstr ""

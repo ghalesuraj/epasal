@@ -1,0 +1,20 @@
+/* =============================================================================
+   Tag Cloud Classic Style
+   ========================================================================== */
+.widget_tag_cloud{
+    .tagcloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--springoo-10);
+    }
+
+	// classic tag cloud list
+	a{
+		color: var(--springoo-color-global);
+		border: 1px solid var(--springoo-color-border);
+		padding: 0.375rem var(--springoo-10);
+		&:hover{
+			color: var(--springoo-color-secondary);
+		}
+	}
+}

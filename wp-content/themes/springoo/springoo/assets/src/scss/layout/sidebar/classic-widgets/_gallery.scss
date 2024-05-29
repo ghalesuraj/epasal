@@ -1,0 +1,73 @@
+/* =============================================================================
+   Gallery Classic Widget
+   ========================================================================== */
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+
+	&.gallery-columns-1{
+		width: 100%;
+	}
+
+	&.gallery-columns-2 .gallery-item {
+		width: calc(50% - 0.25rem);
+	}
+
+	&.gallery-columns-3 .gallery-item {
+		width: calc(33.33% - 0.34rem);
+	}
+
+	&.gallery-columns-4 .gallery-item {
+		width: calc(25% - 0.5rem);
+	}
+
+	&.gallery-columns-5 .gallery-item {
+		width: calc(20% - 0.4rem);
+	}
+
+	&.gallery-columns-6 .gallery-item {
+		width: calc(16.66% - 0.416rem);
+	}
+
+	&.gallery-columns-7 .gallery-item {
+		width: calc(14.28% - 0.428rem);
+	}
+
+	&.gallery-columns-8 .gallery-item {
+		width: calc(12.5% - 0.437rem);
+	}
+
+	&.gallery-columns-9 .gallery-item {
+		width: calc(11.11% - 0.44rem);
+	}
+
+	//Single Gallery Item
+	.gallery-item{
+		flex-grow: 1;
+		margin: 0;
+		position: relative;
+
+		.gallery-icon{
+			height: 100%;
+		}
+
+		figcaption{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			text-align: center;
+			color: #fff;
+			font-size: var(--springoo-x-small-font-size);
+			padding: 0 0.5rem 0.5rem;
+			width: 100%;
+		}
+
+		img{
+			width: 100%;
+			flex: 1 0 0%;
+			object-fit: cover;
+			height: 100%;
+		}
+	}
+}

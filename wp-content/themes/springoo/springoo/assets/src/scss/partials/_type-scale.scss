@@ -1,0 +1,53 @@
+/**
+ * Type Scale Typography.
+ */
+
+@import "variables";
+
+html {
+	font-size: #{$baseFS}px;
+}
+
+body {
+	font-family: var(--springoo-global-font-family);
+	font-weight: var(--springoo-global-font-weight);
+	font-style: var(--springoo-global-font-style);
+	font-size: var(--springoo-global-font-size);
+	line-height: var(--springoo-global-line-height);
+	text-transform: var(--springoo-global-text-transform);
+	letter-spacing: var(--springoo-global-letter-spacing);
+	word-spacing: var(--springoo-global-word-spacing);
+	background-color: var(--springoo-color-site-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+	color: var(--springoo-color-global);
+
+	#page {
+		position: relative;
+	}
+	&.mobile-nav-active,
+	&.filter-nav-active{
+		overflow: hidden;
+	}
+}
+
+
+// Header tags
+
+$sizes: 1, 2, 3, 4, 5, 6;
+@each $size in $sizes {
+	h#{$size}, .h#{$size}, .heading-size-#{$size} {
+		font-family: var(--springoo-h#{$size}-font-family, var(--springoo-heading-font-family));
+		font-weight: var(--springoo-h#{$size}-font-weight, var(--springoo-heading-font-weight));
+		font-style: var(--springoo-h#{$size}-font-style, var(--springoo-heading-font-style));
+		font-size: var(--springoo-h#{$size}-font-size);
+		line-height: var(--springoo-h#{$size}-line-height, var(--springoo-heading-line-height));
+		text-transform: var(--springoo-h#{$size}-text-decoration, var(--springoo-global-text-transform));
+		letter-spacing: var(--springoo-h#{$size}-letter-spacing, var(--springoo-global-letter-spacing));
+		word-spacing: var(--springoo-h#{$size}-word-spacing, var(--springoo-global-word-spacing));
+	}
+}
+
+// End of file _type-scale.scss

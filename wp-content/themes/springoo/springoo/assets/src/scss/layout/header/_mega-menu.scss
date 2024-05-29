@@ -1,0 +1,120 @@
+@import 'assets/src/scss/partials/variables';
+/* -------------------------------------------------------
+					SPRINGOO MEGA MENU
+-------------------------------------------------------- */
+.header-bottom #site-nav {
+	.springoo-mega-menu {
+		position: inherit;
+
+		//full width no class added
+		>ul.sub-menu{
+			width: 100%; //full width mega menu
+			left: 0;
+			display: flex;
+			opacity: 0 !important;
+			visibilitY: hidden;
+			z-index: -1;
+			flex-wrap: wrap;
+			box-shadow: 0 0 0.8125rem rgba(8, 28, 78, 0.25);
+			border-radius: 5px;
+			padding: var(--springoo-30);
+			background: var(--springoo-color-mega-menu-bg);
+			transition: 0.05ms;
+
+			>li{
+				flex: auto;
+			}
+			ul.sub-menu{
+				display: block !important; //overwrite superfish display none;
+				opacity: 1 !important;
+				position: initial;
+				left: 0;
+				box-shadow: none;
+				width: 100%;
+				ul.sub-menu{
+					padding-left: 1em;
+				}
+			}
+			.menu-link {
+				color: var(--springoo-color-mega-menu-item);
+				font-family: var(--springoo-mega-menu-font-family);
+				font-size: var(--springoo-mega-menu-font-size);
+				font-weight: var(--springoo-mega-menu-font-weight);
+				font-style: var( --springoo-mega-menu-font-style );
+				line-height: var(--springoo-mega-menu-line-height);
+				text-transform: var(--springoo-mega-menu-text-transform);
+				letter-spacing: var(--springoo-mega-menu-letter-spacing);
+				word-spacing: var(--springoo-mega-menu-word-spacing);
+				margin-bottom: 8px;
+				&:after{
+					display: none;
+				}
+				&:hover{
+					color: var(--springoo-color-mega-menu-item-hover);
+				}
+			}
+
+			//if selected disable title it will be removed parent anchor tag
+			//if selected disable title link it will remove anchor tag link and add a class(springoo-column-title)
+			.springoo-title.menu-link{
+				font-size: var(--springoo-mega-menu-column-title-font-size);
+				font-weight: var(--springoo-mega-menu-column--title-font-weight);
+				color: var(--springoo-color-mega-menu-column-title);
+				margin-bottom: 12px;
+				&.springoo-column-title {
+					cursor: inherit;
+				}
+				&:hover{
+					color: var(--springoo-color-mega-menu-column-title-hover);
+				}
+			}
+		}
+		&.sfHover >ul.sub-menu{
+			opacity: 1 !important;
+			visibilitY: visible !important;
+			z-index: 99;
+		}
+
+		&.width {
+			&-custom {
+				position: relative;
+			}
+
+			&-natural {
+				position: relative;
+				>ul.sub-menu{
+					width: max-content;
+				}
+			}
+		}
+
+		//Mega Right position ( class added for springoo-custom and springoo-natural)
+		&.menu-align-right {
+			> ul.sub-menu {
+				left: auto;
+				right: 0;
+			}
+		}
+
+		//=== Column ===
+		//bootstrap column class added on sub parent li(if custom column width selected no class will be added)
+
+
+		//following class are not mega menu parts(but need to handle)
+		// Description ( and can be used any shortcode )
+		// it's use every menu sub items,
+		.springoo-content,
+		.springoo-full-content{
+			display: block;
+			color: var(--springoo-color-mega-menu);
+			font-family: var(--springoo-mega-menu-font-family);
+			font-size: var(--springoo-mega-menu-font-size);
+			font-weight: var(--springoo-mega-menu-font-weight);
+			font-style: var( --springoo-mega-menu-font-style );
+			line-height: var(--springoo-mega-menu-line-height);
+			text-transform: var(--springoo-mega-menu-text-transform);
+			letter-spacing: var(--springoo-mega-menu-letter-spacing);
+			word-spacing: var(--springoo-mega-menu-word-spacing);
+		}
+	}
+}

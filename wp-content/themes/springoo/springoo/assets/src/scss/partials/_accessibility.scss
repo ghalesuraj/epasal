@@ -1,0 +1,172 @@
+// keyboard navigation.
+.theme-springoo a:focus {
+	outline: dotted thin;
+	text-decoration: none;
+	outline-color: #0021DB;
+}
+.wc-block-product-categories li a:focus,
+.theme-springoo a:focus,
+.theme-springoo button:focus,
+.theme-springoo input[type="submit"]:focus {
+	outline: none;
+	text-shadow: none;
+}
+//.theme-springoo {
+//	#content {
+//		.post-body-wrap,
+//		.main-sidebar,
+//		#comments {
+//			a {
+//				position: relative;
+//				&:after {
+//					content: "";
+//					height: 2px;
+//					position: absolute;
+//					top: unset;
+//					bottom: 0;
+//					left: 0;
+//					z-index: -1;
+//					width: 0;
+//					background: linear-gradient(90.07deg, rgba( #83B735, .5 ) 0%, rgba( #83B735, 0.1 ) 99.95%);
+//					transition: background-color .3s linear, width .1s linear;
+//				}
+//
+//				&:focus-visible {
+//					text-shadow: none;
+//					&:after {
+//						width: 100%;
+//						background: linear-gradient(90.07deg, rgba( #83B735, .5 ) 0%, rgba( #83B735, 0.1 ) 99.95%);
+//						transition: all .1s linear;
+//					}
+//				}
+//			}
+//		}
+//	}
+//}
+
+.header-top {
+
+	/* woocommerce-currency-switcher-form */
+	.woocommerce-currency-switcher-form:focus-visible,
+	.woocommerce-currency-switcher-form .dd-options .dd-option-text:focus-visible {
+		outline: none;
+	}
+
+	.woocommerce-currency-switcher-form:focus-visible {
+		.dd-select .dd-selected {
+			text-shadow: 1px 0 2px #ffffff, 0 2px var( --springoo-10 ) rgba( #0021DB, .5 ), 0 2px var( --springoo-5 ) rgba( #0021DB, .8 );
+		}
+	}
+	.woocommerce-currency-switcher-form  .dd-option-text{
+		&:focus{
+			text-shadow: 1px 0 2px #ffffff, 0 2px var( --springoo-10 ) rgba( #0021DB, .5 ), 0 2px var( --springoo-5 ) rgba( #0021DB, .8 );
+		}
+	}
+}
+
+// Bottom Menu focus style
+#header-bottom #site-nav ul {
+	.menu-item .springoo-link-depth-0 {
+		position: relative;
+		&:before {
+			content: "";
+			display: block;
+			width: 100%;
+			height: 0;
+			background: var(--springoo-color-primary);
+			position: absolute;
+			bottom: 0;
+			opacity: 0;
+			transition: all .3s linear, height .1s linear;
+		}
+
+		&:hover,
+		&:focus-within {
+			&:before {
+				height: 3px;
+				opacity: 1;
+				transition: all .1s linear;
+			}
+		}
+
+		a {
+			&:focus-visible {
+				text-shadow: none;
+			}
+		}
+	}
+	ul {
+		.menu-item {
+			a:focus-visible{
+				text-shadow: 1px 0 2px #ffffff, 0 2px var( --springoo-10 ) rgba( #0021DB, .5 ), 0 2px var( --springoo-5 ) rgba( #0021DB, .8 );
+			}
+			a[role="button"]:focus-visible,
+			button:focus-visible {
+				box-shadow: inset 2px 2px rgba( #333333, .2 );
+				text-shadow: none;
+			}
+		}
+	}
+}
+
+.theme-springoo a:focus-visible,  ,
+.wc-block-product-categories li:focus-within,
+.wc-block-product-categories li a:focus-visible,
+#header-bottom #site-nav ul ul li a:focus-visible,
+#menu-header-bottom ul li a:focus-visible,
+.variations label:focus-visible,
+.variations .quantity input[type="number"]:focus-visible,
+.variations label:focus-visible,
+.theme-springoo button.slick-arrow.slick-prev:focus-visible,
+.theme-springoo button.slick-arrow.slick-next:focus-visible {
+	text-shadow: 1px 0 2px #ffffff, 0 2px var( --springoo-10 ) rgba( #0021DB, .5 ), 0 2px var( --springoo-5 ) rgba( #0021DB, .8 );
+}
+
+.post .read-more a:focus-visible,
+.theme-springoo button:focus-visible,
+.theme-springoo input[type="submit"]:focus-visible{
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px var( --springoo-color-primary );
+}
+.springoo-product-thumbnail a:focus-visible {
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px rgba( #0021DB, .2);
+}
+
+footer#colophon {
+	a:focus-visible {
+		border-bottom: 1px solid #ffffff;
+		text-shadow: none;
+	}
+	.springoo-info-phone {
+		&:focus-visible {
+			text-shadow: 1px 0 2px #ffffff, 0 2px var( --springoo-10 ) rgba( #0021DB, .5 ), 0 2px var( --springoo-5 ) rgba( #0021DB, .8 );
+			border: none;
+		}
+	}
+	.springoo-app-wrap,
+	.springoo-info-social-icon {
+		a:focus-visible {
+			box-shadow: 0 0 0 1px var( --springoo-color-heading ), 0 0 0 2px #ffffff;
+			border-bottom: none;
+		}
+	}
+}
+
+/*
+.theme-springoo a:focus-visible,
+.theme-springoo button:focus-visible {
+	outline: var( --springoo-color-primary ) dotted 1px;
+}
+*/
+
+/*#header-bottom #site-nav ul li a:focus,
+#menu-header-bottom li a:focus,
+footer#colophon a:focus {
+	outline: #ffffff dotted thin;
+}*/
+
+/*#header-bottom #site-nav ul li a:focus,
+#menu-header-bottom li a:focus {
+	outline-offset: -2px;
+}
+
+*/

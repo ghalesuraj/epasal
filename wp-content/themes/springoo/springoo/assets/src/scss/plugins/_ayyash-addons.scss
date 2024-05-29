@@ -1,0 +1,90 @@
+//
+// Add varaiable support to ayyash-addons
+//
+
+:root {
+	/* Global Colors */
+	--ayyash-color-primary: var(--springoo-color-primary);
+	--ayyash-color-secondary: var(--springoo-color-secondary);
+	--ayyash-color-heading: var(--springoo-color-heading);
+	--ayyash-color-global: var(--springoo-color-global);
+	--ayyash-color-content-bg: var(--springoo-color-content-bg);
+	--ayyash-color-site-bg: var(--springoo-color-site-bg);
+	--ayyash-color-border: var(--springoo-color-border);
+	--ayyash-color-credit: var(--springoo-color-credit);
+	--ayyash-color-credit-bg: var(--springoo-color-credit-bg);
+	--ayyash-color-gradient: var(--springoo-color-secondary);
+}
+
+// addons wocommerce actions
+.ayyash-addons-woocommerce-product {
+	.product-actions {
+		.compare-button,
+		.yith-wcqv-button,
+		.yith-wcwl-add-to-wishlist {
+			height: 35px !important;
+			width: 35px !important;
+		}
+	}
+}
+
+.ayyash-addons-woocommerce-product-slider-v2 .product-actions .ayyash-cart-btn,
+.ayyash-addons-woocommerce-product-slider-v2 .product-actions .compare-button,
+.ayyash-addons-woocommerce-product-slider-v2 .product-actions .yith-wcqv-button,
+.ayyash-addons-woocommerce-product-slider-v2 .product-actions .yith-wcwl-add-to-wishlist{
+	height: 30px !important;
+	width: 30px !important;
+}
+
+@media (max-width: 576px) {
+	.ayyash-addons-woocommerce-product {
+		.ayyash-addons-products {
+			.product-header {
+				overflow: visible !important;
+			}
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.ayyash-addons-woocommerce-product {
+		.ayyash-addons-product-item {
+			.ayyash-tooltip {
+				display: none !important;
+			}
+			.product-actions {
+				.yith-wcwl-add-to-wishlist {
+					a {
+						span {
+							display: none !important;
+						}
+					}
+				}
+			}
+			.themeoo-tooltip {
+				display: none !important;
+			}
+		}
+	}
+}
+
+
+//Woocommerce Product.
+.theme-springoo {
+  .ayyash-addons-product-item {
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+      .ayyash-addons-product-item-inner {
+        border:1px solid var(--springoo-color-primary);
+        .product-actions {
+          opacity: 1;
+        }
+        .ayyash-cart-btn {
+          opacity: 1;
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{var t;(t=jQuery)(document).ready((function(){t(document).on("click",".product a.compare:not(.added)",(function(e){e.preventDefault();var o=t(this);if(void 0!==t.fn.block)var n=setInterval((function(){o.data("blockUI.isBlocked")||setTimeout((function(){clearInterval(n),o.text(""),o.html(yith_woocompare.button_text)}),500)}),100)}))}))})();

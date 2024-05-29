@@ -1,0 +1,133 @@
+/*Contact From 7 Style*/
+.wpcf7 {
+
+	.springoo-single-column {
+		.wpcf7-form-control-wrap {
+			grid-column: 1 /-1;
+		}
+	}
+
+	br {
+		display: none;
+	}
+
+    p{
+        display: grid;
+		gap: var(--springoo-wpcf7-gap);
+		align-items: center;
+    }
+
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="number"],
+	input[type="date"],
+	input[type="tel"],
+	input[type="file"],
+	select,
+	textarea{
+		border-radius: var(--springoo-wpcf7-border-radius);
+		padding: var(--springoo-wpcf7-padding-top) var(--springoo-wpcf7-padding-right) var(--springoo-wpcf7-padding-bottom) var(--springoo-wpcf7-padding-left);
+	}
+
+	[data-name*="message"],
+	[data-name*="select"],
+	[data-name*="acceptance"],
+	.wpcf7-submit-wrap{
+		grid-column: 1 /-1;
+	}
+
+	.springoo-inline-acceptance-btn {
+		[data-name*="acceptance"],
+		.wpcf7-submit-wrap{
+			grid-column: initial;
+		}
+	}
+
+	&-form{
+		label{
+			display: block;
+		}
+
+		textarea{
+			height: var(--springoo-wpcf7-textarea-height);
+		}
+	}
+
+	&-acceptance{
+		.wpcf7-list-item{
+			margin: 0;
+		}
+	}
+
+	&-submit-wrap{
+		position: relative;
+		text-align: right;
+
+		input[type="submit"]{
+			margin-top: 0;
+		}
+
+		.wpcf7-spinner {
+			position: absolute;
+			left: 180px;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+}
+
+// wpcf7 resposive
+@media (min-width: 992px) {
+	.wpcf7 {
+		p{
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+}
+
+
+/* contact form */
+.springoo-contact {
+	.wpcf7 {
+		.wpcf7-submit-wrap button {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 26px;
+			padding: 14px 30px 14px 30px;
+			border: 0;
+		}
+		label {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 26px;
+		}
+		input[type=text] {
+			height: 54px;
+			border-radius: 5px;
+			position: relative;
+		}
+		input,
+		textarea {
+			border-radius: 5px;
+		}
+		form .wpcf7-response-output {
+			margin: 10px 0 0 0;
+			padding: 0;
+			border: none;
+			color: #3b633b;
+		}
+		form.invalid .wpcf7-response-output {
+			color: #b68a15;
+		}
+	}
+
+	.wpcf7-not-valid-tip {
+		position: absolute;
+		top: -28px;
+		right: 0;
+		font-size: 14px;
+	}
+}
+

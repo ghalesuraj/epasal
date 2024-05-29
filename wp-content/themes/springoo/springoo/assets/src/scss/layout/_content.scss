@@ -1,0 +1,401 @@
+/*---------------------------------------------------------
+5. Content
+-------------------------------------------------------- */
+.entry-content {
+	margin: 0;
+
+	&:before,
+	&:after{
+		content: ' ';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+
+
+	> .wp-block-cover.alignwide:first-child,
+	> .wp-block-cover.alignfull:first-child {
+		margin-top: 0;
+	}
+
+	.page-links {
+		font-weight: bold;
+	}
+
+	blockquote {
+		background-color: #fff;
+		padding: 2em;
+		box-shadow: 0 8px 6px -7px rgba(0, 0, 0, 0.3);
+		margin: 2em 0;
+		border-left: 2px solid var( --springoo-color-primary );
+
+		p {
+			font-size: 1em;
+			margin: 0;
+
+			cite {
+				display: block;
+				font-style: italic;
+			}
+
+			&::before {
+				content: '\201C';
+				font-size: 25px;
+			}
+
+			&::after {
+				content: '\201D';
+				font-size: 25px;
+			}
+
+		}
+	}
+
+	table {
+		display: table;
+		border-collapse: separate;
+		border-color: #ededed;
+	}
+
+	tbody {
+		display: table-row-group;
+		vertical-align: middle;
+		border-color: inherit;
+	}
+
+	tr {
+		display: table-row;
+		vertical-align: inherit;
+		border-color: inherit;
+	}
+
+	td {
+		display: table-cell;
+		vertical-align: inherit;
+		border-color: inherit;
+	}
+
+	th {
+		display: table-cell;
+		vertical-align: inherit;
+		font-weight: bold;
+		border-color: #ededed;
+	}
+
+	ul ul,
+	ol ul {
+		list-style-type: circle;
+		list-style-position: inside;
+		margin-left: 1.5em;
+	}
+
+	ul ol,
+	ol ol {
+		list-style-type: lower-latin;
+		list-style-position: inside;
+		margin-left: 1.5em;
+	}
+
+	ul {
+		li {
+			list-style-type: disc;
+			margin-bottom: 5px;
+		}
+
+		ul {
+
+			li {
+				list-style-type: circle;
+			}
+
+			ul {
+				li {
+					list-style-type: square;
+				}
+			}
+		}
+
+		ol {
+			li {
+				list-style-type: decimal;
+			}
+
+			ul {
+				li {
+					list-style-type: square;
+				}
+			}
+		}
+	}
+
+	ol {
+		list-style-position: inside;
+		margin-bottom: 0;
+
+		li {
+			list-style-type: decimal;
+		}
+
+		ul {
+			li {
+				list-style-type: circle;
+			}
+
+			ul {
+				li {
+					list-style-type: square;
+				}
+			}
+
+			ol {
+				li {
+					list-style-type: decimal;
+				}
+			}
+		}
+
+		ol {
+			ul {
+				li {
+					list-style-type: square;
+				}
+			}
+		}
+	}
+
+	.alert {
+		margin-bottom: 20px;
+		padding-bottom: 14px;
+		padding-top: 14px;
+		padding-right: 25px;
+
+		strong {
+			color: #c09853;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.close {
+			padding-right: 5px;
+		}
+	}
+
+	.springoo-row:last-child {
+		padding-bottom: 0;
+	}
+}
+
+//
+//style for springoo box layout
+.boxed {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	//background: var(--springoo-sbc);
+	width: 100%;
+	margin: 0 auto;
+
+	#page {
+		-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+		margin: 0 auto;
+		position: relative;
+		width: inherit;
+
+		&.fixed-header .main-header.scrolled {
+			width: auto;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		width: 768px;
+	}
+	@media (min-width: 992px) and (max-width: 1199px) {
+		width: 992px;
+	}
+	@media (min-width: 1200px) {
+		width: 1200px;
+	}
+}
+
+// springoo-row settings
+.springoo-row {
+	padding: 60px 0;	//@Todo Change Value 30px to 60px
+
+	&.pt-0 {
+		padding-top: 0;
+
+		&.pb-0 {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	&.slider-row {
+		padding: 0;
+	}
+
+	&#content {
+		padding-bottom: 30px;
+	}
+}
+
+/*********************
+    Image Effects
+*********************/
+.effect {
+	position: relative;
+	text-align: center;
+
+	img {
+		display: block;
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		height: auto;
+	}
+	.caption {
+		padding: 2em;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 1.25em;
+		backface-visibility: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: transparent;
+
+		&:before,
+		&:after {
+			pointer-events: none;
+		}
+
+		a {
+			z-index: 1000;
+			text-indent: 200%;
+			white-space: nowrap;
+			font-size: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		h2 {
+			word-spacing: -0.15em;
+			font-weight: 300;
+			font-size: 1.2em;
+		}
+
+		p {
+			letter-spacing: 1px;
+			font-size: 68.5%;
+			margin: 0;
+		}
+	}
+}
+
+.overlay {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+a.close-overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	width: 45px;
+	height: 45px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	background-color: #000;
+	cursor: pointer;
+}
+
+a.close-overlay.hidden {
+	display: none;
+}
+
+a.expand {
+	display: block;
+	position: absolute;
+	z-index: 100;
+	width: 30px;
+	height: 30px;
+	border: solid 1px #fff;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+	font-weight: 300;
+	font-size: 20px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.slide-top {
+	.overlay {
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+
+		a.expand {
+			left: 0;
+			right: 0;
+			top: 0;
+			margin: 0 auto;
+			opacity: 0;
+			-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+
+			&:hover,
+			&:focus {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&.hover {
+		.overlay {
+			opacity: 1;
+
+			a.expand {
+				top: 50%;
+				margin-top: -20px;
+				opacity: 1;
+			}
+		}
+
+	}
+}
+
+.format-chat{
+	.entry-content{
+		p{
+			background-color: #f5f5f5;
+			padding: 15px;
+		}
+	}
+}
+
+
+

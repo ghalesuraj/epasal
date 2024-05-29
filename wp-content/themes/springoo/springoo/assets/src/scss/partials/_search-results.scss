@@ -1,0 +1,34 @@
+/* Blog Search and Product Search CSS */
+
+/* search not found CSS */
+.no-results.not-found {
+	margin-bottom: var(--springoo-40);
+
+	.page-header,
+	.page-content {
+		text-align: center;
+	}
+
+	p {
+		font-size: var(--springoo-small-font-size);
+	}
+
+	form {
+		input[type=text] {
+			font-size: var(--springoo-small-font-size);
+			padding: var(--springoo-20);
+			background: rgba(16, 20, 62, 0.01);
+			color: var(--springoo-color-heading);
+			border-radius: 100px;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		button {
+			width: auto;
+			padding: 0 var(--springoo-20);
+		}
+	}
+}

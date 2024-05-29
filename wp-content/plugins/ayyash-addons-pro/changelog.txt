@@ -1,0 +1,16 @@
+== Changelog ==
+
+= 1.0.1 – 2023-05-18 =
+* **Added:** Gap Controller For Stock
+* **Added:** Color Control System
+* **Added:** Woocommerce Product Slider V2
+* **Added:** Woocommerce Product label suffix and prefix
+* **Added:** Woocommerce Product & Product Slider V2 compare icon
+* **Added:** Woocommerce Product & Product Slider V2 Action Feature
+* **Updated:** POT File
+* **Fixed:** Product Categories pagination issue
+* **Fixed:** Product Categories pagination issue
+* **Fixed:** Elementor Button Focus issue
+
+= 1.0.0 – 2023-03-23 =
+* Initial Release.

@@ -1,0 +1,75 @@
+
+---Downloaded files---
+The import files for: Springoo V1 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/epasal
+Data file = C:\xampp\htdocs\epasal/wp-content/uploads/2024/04/demo-content-import-file_2024-04-01__18-35-29.xml
+Widget file = C:\xampp\htdocs\epasal/wp-content/uploads/2024/04/demo-widgets-import-file_2024-04-01__18-35-29.json
+Customizer file = C:\xampp\htdocs\epasal/wp-content/uploads/2024/04/demo-customizer-import-file_2024-04-01__18-35-29.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Shop Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+404 Page Widget : 
+
+Block - No Title - Imported
+
+Footer Widget : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer Bottom Widget : 
+
+Navigation Menu - No Title - Imported
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---ocdi/after_import---
+Slider processed

@@ -1,0 +1,268 @@
+/*----------------------------------------------------------------------
+ * Admin Mega Menu Icon and Others Support
+ *----------------------------------------------------------------------*/
+
+.springoo-label {
+	padding: 4px 10px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-size: 10px;
+
+	&-primary {
+		background: #14ba00;
+		color: #fff;
+	}
+
+	&-success {
+		background: rgb(50, 0, 171);
+		color: #fff;
+	}
+}
+
+#menu-to-edit {
+	.springoo-last {
+		margin-right: 0;
+	}
+
+	.description-thin {
+		height: auto;
+	}
+
+	.menu-item-depth-0 .field-content {
+		display: none;
+	}
+
+	.springoo-mega-column,
+	.springoo-mega-menu {
+		float: left;
+		width: 361px;
+		margin: 15px 0;
+		padding: 15px;
+		border: 1px solid #e6e6e6;
+		background: #f9f9f9;
+	}
+
+	.springoo-mega-column select,
+	.springoo-mega-menu select {
+		width: 100%;
+	}
+
+	.field-highlight-type select {
+		width: 100%;
+		margin: 0;
+	}
+
+	.mega-depend-position,
+	.mega-depend-width,
+	.field-mega-width,
+	.field-mega {
+		width: 100%;
+		float: left;
+		margin: 5px 0;
+	}
+
+	.springoo-mega-menu,
+	.springoo-mega-column,
+	.field-mega-width,
+	.item-mega,
+	.item-mega-column {
+		display: none;
+	}
+
+	.item-mega,
+	.item-mega-column {
+		font-size: 12px;
+		padding: 12px 10px;
+		line-height: 18px;
+	}
+
+	.menu-item-transport .item-mega,
+	.menu-item-depth-0.active-mega-menu .item-type,
+	.menu-item-depth-1.active-mega-column .item-type {
+		display: none;
+	}
+
+	.menu-item-depth-0 .springoo-mega-menu,
+	.menu-item-depth-0.active-mega-menu .field-mega-width,
+	.menu-item-depth-0.active-mega-menu .item-mega,
+	.menu-item-depth-1.active-mega-column .springoo-mega-column,
+	.menu-item-depth-1.active-mega-column .item-mega-column {
+		display: block;
+	}
+
+	.menu-item-depth-1 .menu-item-transport .item-mega-column { //@Todo need to check where use it (also html part )
+		display: none;
+	}
+
+	/*icon*/
+	.icon-preview {
+		display: inline-block;
+		text-decoration: none;
+		font-size: 13px;
+		line-height: 2.15384615;
+		min-height: 30px;
+		width: 36px;
+		margin: 0;
+		padding: 0 10px;
+		border-width: 1px;
+		border-style: solid;
+		-webkit-appearance: none;
+		border-radius: 3px;
+		white-space: nowrap;
+		box-sizing: border-box;
+	}
+
+	.springoo-button-remove {
+		margin-left: 3px;
+		background: #e14d43;
+		border-color: #d02a21;
+		color: #fff;
+		box-shadow: inset 0 1px 0 #ec8a85, 0 1px 0 rgba(0, 0, 0, 0.15);
+	}
+
+}
+
+//MegaMenu icon dialog box
+#icon-dialog {
+	display: none;
+	background: #fff;
+}
+
+.springoo-icon-dialog {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100102;
+	background-color: #fff;
+	box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+	overflow: hidden;
+
+	#dialog-header-wrap {
+		width: 100%;
+		padding-bottom: 16px;
+		text-align: center;
+
+		input {
+			width: 50%;
+			line-height: 30px;
+		}
+	}
+
+	#icon-load {
+		overflow-x: hidden;
+		overflow-y: auto;
+		margin: -20px 20px;
+		padding: 10px;
+
+		h4 {
+			margin: 15px 0 5px 5px;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	a.pick-icon {
+		transition: border 0.2s ease, box-shadow 0.2s ease;
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px;
+		margin: 5px;
+		border: 1px solid #e1e1e1;
+		color: #555;
+		outline: none;
+		text-align: center;
+		font-size: 14px;
+		width: 21px;
+		height: 21px;
+		line-height: 23px;
+
+		&.active-icon,
+		&:focus,
+		&:active,
+		&:hover {
+			box-shadow: 0 0 20px rgba(77, 191, 217, 0.4);
+			border: 1px solid #4dbfd9;
+		}
+	}
+
+	#dialog-shadow-down,
+	#dialog-shadow-up {
+		width: 100%;
+		height: 20px;
+		overflow: hidden;
+		position: relative;
+
+		&:after {
+			width: 100%;
+			height: 8px;
+			content: "";
+			position: absolute;
+			left: 0;
+			border-radius: 520px / 8px;
+			box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+		}
+	}
+
+	#dialog-shadow-up {
+		box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+
+		&:after {
+			top: -10px;
+		}
+	}
+
+	#dialog-shadow-down {
+		box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.03) inset;
+
+		&:after {
+			top: 22px;
+		}
+	}
+
+	#dialog-insert-button {
+		text-align: center;
+
+		.button-large {
+			margin-top: 15px;
+		}
+	}
+
+	.icon-set-title {
+		font-weight: bold;
+		font-size: 14px;
+		padding-bottom: 7px;
+		margin: 0 5px 7px 5px;
+		border-bottom: 1px solid transparent;
+	}
+
+	.icon-set-im {
+		margin-top: 15px;
+		color: #5cb85c;
+		border-color: #d8eed8;
+	}
+
+	.icon-set-fa {
+		margin-top: 15px;
+		color: #428bca;
+		border-color: #cde1f1;
+	}
+}
+
+#icon-overlay,
+#shortcode-overlay {
+	position: fixed;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: 0.7;
+	display: none;
+}
+
+//

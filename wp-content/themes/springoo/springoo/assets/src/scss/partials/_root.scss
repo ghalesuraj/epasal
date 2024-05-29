@@ -1,0 +1,345 @@
+@use "sass:math";
+
+@import "variables";
+@import "functions";
+
+:root {
+	/* Global Colors */
+	--springoo-color-primary: #0021DB;
+	--springoo-color-secondary: #007AE4;
+	--springoo-color-heading: #222222;
+	--springoo-color-global: #5F5F5F;
+	--springoo-color-content-bg: #EEF0F3;
+
+	//extra
+	--springoo-color-site-bg: #FFFFFF;
+	--springoo-color-border: #E9E9E9;
+	--springoo-color-gradient: var(--springoo-color-secondary);
+
+	/* Global Elementor Colors*/
+	--e-global-color-springoo_ac: var(--springoo-color-primary);
+	--e-global-color-springoo_ahc: var(--springoo-color-secondary);
+	--e-global-color-springoo_hc: var(--springoo-color-heading);
+	--e-global-color-springoo_tc: var(--springoo-color-global);
+	--e-global-color-springoo_cbc: var(--springoo-color-content-bg);
+	--e-global-color-springoo_sbc: var(--springoo-color-site-bg);
+	--e-global-color-springoo_boc: var(--springoo-color-border);
+	--e-global-color-springoo_credit: var(--springoo-color-credit);
+	--e-global-color-springoo_credit_bg: var(--springoo-color-credit-bg);
+	--e-global-color-springoo_gradient: var(--springoo-color-gradient);
+
+	/** Springoo Main Header Colors **/
+	--springoo-color-header-bg: #ffffff;
+
+	/** Springoo Header Top Colors **/
+	--springoo-color-header-top-bg: var(--springoo-color-primary);
+
+	/** Springoo Header Top Colors **/
+	--springoo-color-header-bottom-bg: #ffffff;
+
+	/** Springoo Main Menu Colors **/
+	--springoo-color-main-menu: var(--springoo-color-heading);
+	--springoo-color-main-menu-hover: var(--springoo-color-primary);
+
+	/** Springoo Sub Menu Colors **/
+	--springoo-color-sub-menu: var(--springoo-color-global);
+	--springoo-color-sub-menu-bg: #ffffff;
+	--springoo-color-sub-menu-border: var(--springoo-color-border);
+	--springoo-color-sub-menu-hover: var(--springoo-color-primary);
+	--springoo-color-sub-menu-bg-hover: var(--springoo-color-content-bg);
+
+	/** Springoo Mega Menu Colors **/
+	--springoo-color-mega-menu-column-title: var(--springoo-color-heading);
+	--springoo-color-mega-menu-column-title-hover: var(--springoo-color-primary);
+	--springoo-color-mega-menu-item: var(--springoo-color-global);
+	--springoo-color-mega-menu-item-hover: var(--springoo-color-primary);
+	--springoo-color-mega-menu-bg: #ffffff;
+
+	/** Springoo Mobile Menu Colors **/
+	--springoo-color-mobile-menu: var(--springoo-color-heading);
+	--springoo-color-mobile-menu-hover: var(--springoo-color-heading);
+	--springoo-color-mobile-menu-border: var(--springoo-color-border);
+	--springoo-color-mobile-menu-bg: #ffffff;
+	--springoo-color-mobile-menu-bg-hover: var(--springoo-color-content-bg);
+
+	/** Springoo Breadcrumb Area Colors **/
+	--springoo-color-breadcrumb: var(--springoo-color-heading);
+	--springoo-color-breadcrumb-bg1: #ECF7FF;
+	--springoo-color-breadcrumb-bg2: #F5F7FF;
+
+	/** Springoo Sidebar Colors**/
+	--springoo-color-sidebar: var(--springoo-color-global);
+	--springoo-color-sidebar-heading: var(--springoo-color-heading);
+
+	/** Springoo Footer Colors **/
+	--springoo-color-footer: #fff;
+	--springoo-color-footer-heading: #fff;
+	--springoo-color-footer-link: #fff;
+	--springoo-color-footer-link-hover: #fff;
+	--springoo-color-footer-bg: var(--springoo-color-heading);
+
+	/** Springoo Secondary Footer **/
+	--springoo-color-secondary-footer-link: #fff;
+	--springoo-color-secondary-footer-link-hover: #fff;
+	--springoo-color-secondary-footer-bg: var(--springoo-color-heading);
+	--springoo-color-secondary-footer-border-color: rgba(255, 255, 255, 0.1);
+
+	/** Springoo Footer Copyright **/
+	--springoo-color-copyright: #fff;
+	--springoo-color-copyright-bg: var(--springoo-color-heading);
+	--springoo-color-footer-copyright-link: #fff;
+	--springoo-color-footer-copyright-link-hover: #fff;
+	--springoo-color-footer-copyright-border-color: rgba(255, 255, 255, 0.1);
+
+
+	/** Springoo Footer Social Icon **/
+	--springoo-color-footer-social-icon: #ffffff;
+	--springoo-color-footer-social-icon-hover: #ffffff;
+	--springoo-color-footer-social-icon-bg: var(--springoo-color-primary);
+	--springoo-color-footer-social-icon-bg-hover: var(--springoo-color-secondary);
+
+	/* Global typography */
+	--springoo-global-font-family: #{$ff-base};
+	--springoo-global-font-size: #{$baseFS}px;
+	--springoo-global-font-weight: 400;
+	--springoo-global-font-style: normal;
+	--springoo-global-line-height: #{$baseLH};
+	--springoo-global-text-transform: none;
+	--springoo-global-letter-spacing: 0;
+	--springoo-global-word-spacing: 0;
+
+	/** Heading Typography **/
+	--springoo-heading-font-family: #{$ff-heading};
+	--springoo-heading-font-weight: 600;
+	--springoo-heading-font-style: normal;
+	--springoo-heading-line-height: #{$headerLH};
+	--springoo-heading-text-transform: none;
+	--springoo-heading-letter-spacing: 0;
+	--springoo-heading-word-spacing: 0;
+
+	/* Base size */
+	--springoo-font-size-scale: #{$scale};
+	--springoo-font-size-base: #{remify($base)};
+	--springoo-line-height-base: #{$baseLH};
+	--springoo-line-height-header: #{$headerLH};
+
+	/* Large sizes */
+	--springoo-h6-font-size: #{$base+rem};
+	$sizes: 'h5', 'h4', 'h3', 'h2', 'h1';
+	$size: $base;
+	@each $name in $sizes {
+		$size: $size*$scale;
+		--springoo-#{$name}-font-size: #{round3D( $size )+rem};
+	}
+
+	/*extra font size */
+	--springoo-x-large-font-size: 1.5rem;
+	--springoo-large-font-size: 1.125rem;
+	--springoo-medium-font-size: 1rem;
+	--springoo-small-font-size: 0.813rem;
+	--springoo-x-small-font-size: 0.625rem;
+	--springoo-xx-small-font-size: 0.563rem;
+
+	/* Font Weights */
+	$weights: (
+		'lighter': 'lighter',
+		'100': 100,
+		'200': 200,
+		'light': 300,
+		'300': 300,
+		'normal': 400,
+		'regular': 400,
+		'400': 400,
+		'500': 500,
+		'600': 600,
+		'bold': 700,
+		'700': 700,
+		'800': 800,
+		'900': 900,
+		'bolder': 'bolder'
+	);
+	@each $name, $weight in $weights {
+		--springoo-#{$name}-font-weight: #{$weight};
+	}
+
+	/* Status Colors */
+	$colors: (
+		'success' : #087E8C,
+		'info': #064AF3, //Don't !!! use primary color value here. if primary value changed it will be issue ( i.e. if primary value changed to red ... we can't use it as info color )
+		'warning': #F29438,
+		'danger': #FB5A46
+	);
+	@each $name, $color in $colors {
+		--springoo-color-#{$name} : #{$color};
+		--springoo-color-#{$name}-bg : #{rgba( $color, 0.1 )};
+	}
+
+	/* Global Elementor typography */
+	--e-global-typography-springoo_global-font-family: var(--springoo-global-font-family);
+	--e-global-typography-springoo_global-font-weight: var(--springoo-global-font-weight);
+	$sizes: 1, 2, 3, 4, 5, 6;
+	@each $size in $sizes {
+		--e-global-typography-springoo_h#{$size}-font-family: var(--springoo-h#{$size}-font-family, var(--springoo-heading-font-family));
+		--e-global-typography-springoo_h#{$size}-font-weight: var(--springoo-h#{$size}-font-weight, var(--springoo-heading-font-weight));
+	}
+
+	/** Springoo Menu Typography **/
+	--springoo-menu-font-family: var(--springoo-global-font-family);
+	--springoo-menu-font-size: var(--springoo-global-font-size);
+	--springoo-menu-font-weight: var(--springoo-global-font-weight);
+	//--springoo-menu-line-height: var(–springoo-global-line-height);
+	--springoo-menu-font-style: var(--springoo-global-font-style);
+	--springoo-menu-text-transform: var(--springoo-global-text-transform);
+	--springoo-menu-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-menu-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Submenu Menu Typography **/
+	--springoo-sub-menu-font-family: var(--springoo-global-font-family);
+	--springoo-sub-menu-font-size: var(--springoo-global-font-size);
+	--springoo-sub-menu-font-weight: var(--springoo-global-font-weight);
+	--springoo-sub-menu-font-style: var(--springoo-global-font-style);
+	--springoo-sub-menu-line-height: var(--springoo-global-line-height);
+	--springoo-sub-menu-text-transform: var(--springoo-global-text-transform);
+	--springoo-sub-menu-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-sub-menu-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Mega Menu Typography **/
+	--springoo-mega-menu-column-title-font-size: var(--springoo-global-font-size);
+	--springoo-mega-menu-column--title-font-weight: var(--springoo-500-font-weight);
+	//menu items
+	--springoo-mega-menu-font-family: var(--springoo-global-font-family);
+	--springoo-mega-menu-font-size: var(--springoo-small-font-size);
+	--springoo-mega-menu-font-weight: var(--springoo-global-font-weight);
+	--springoo-mega-menu-font-style: var(--springoo-global-font-style);
+	--springoo-mega-menu-line-height: var(--springoo-global-line-height);
+	--springoo-mega-menu-text-transform: var(--springoo-global-text-transform);
+	--springoo-mega-menu-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-mega-menu-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Mobile Menu Typography **/
+	--springoo-mobile-menu-font-family: var(--springoo-global-font-family);
+	--springoo-mobile-menu-font-size: var(--springoo-global-font-size);
+	--springoo-mobile-menu-font-weight: var(--springoo-global-font-weight);
+	--springoo-mobile-menu-font-style: var(--springoo-global-font-style);
+	--springoo-mobile-menu-line-height: var(--springoo-global-line-height);
+	--springoo-mobile-menu-text-transform: var(--springoo-global-text-transform);
+	--springoo-mobile-menu-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-mobile-menu-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Site Title Typography **/
+	--springoo-site-title-font-family: var(--springoo-heading-font-family);
+	--springoo-site-title-font-size: var(--springoo-h2-font-size);
+	--springoo-site-title-font-weight: var(--springoo-global-font-weight);
+	--springoo-site-title-font-style: var(--springoo-global-font-style);
+	--springoo-site-title-line-height: 1;
+	--springoo-site-title-text-transform: var(--springoo-global-text-transform);
+	--springoo-site-title-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-site-title-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Site Tag typography **/
+	--springoo-site-tag-font-family: var(--springoo-global-font-family);
+	--springoo-site-tag-font-size: 0.875rem;
+	--springoo-site-tag-font-weight: var(--springoo-global-font-weight);
+	--springoo-site-tag-font-style: var(--springoo-global-font-style);
+	--springoo-site-tag-line-height: var(--springoo-global-line-height);
+	--springoo-site-tag-text-transform: var(--springoo-global-text-transform);
+	--springoo-site-tag-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-site-tag-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Sidebar widget title typography **/
+	--springoo-sidebar-widget-title-font-family: var(--springoo-heading-font-family);
+	--springoo-sidebar-widget-title-font-size: var(--springoo-h5-font-size);
+	--springoo-sidebar-widget-title-font-weight: var(--springoo-600-font-weight);
+	--springoo-sidebar-widget-title-font-style: var(--springoo-global-font-style);
+	--springoo-sidebar-widget-title-line-height: 1;
+	--springoo-sidebar-widget-title-text-transform: var(--springoo-global-text-transform);
+	--springoo-sidebar-widget-title-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-sidebar-widget-title-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Sidebar widget body typography **/
+	--springoo-sidebar-widget-body-font-family: var(--springoo-global-font-family);
+	--springoo-sidebar-widget-body-font-size: var(--springoo-global-font-size);
+	--springoo-sidebar-widget-body-font-weight: var(--springoo-global-font-weight);
+	--springoo-sidebar-widget-body-font-style: var(--springoo-global-font-style);
+	--springoo-sidebar-widget-body-line-height: var(--springoo-global-line-height);
+	--springoo-sidebar-widget-body-text-transform: var(--springoo-global-text-transform);
+	--springoo-sidebar-widget-body-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-sidebar-widget-body-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Footer widget title typography **/
+	--springoo-footer-widget-title-font-family: var(--springoo-heading-font-family);
+	--springoo-footer-widget-title-font-size: var(--springoo-h5-font-size);
+	--springoo-footer-widget-title-font-weight: var(--springoo-600-font-weight);
+	--springoo-footer-widget-title-font-style: var(--springoo-global-font-style);
+	--springoo-footer-widget-title-line-height: 1;
+	--springoo-footer-widget-title-text-transform: var(--springoo-global-text-transform);
+	--springoo-footer-widget-title-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-footer-widget-title-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Footer widget body typography **/
+	--springoo-footer-widget-body-font-family: var(--springoo-global-font-family);
+	--springoo-footer-widget-body-font-size: var(--springoo-global-font-size);
+	--springoo-footer-widget-body-font-weight: var(--springoo-global-font-weight);
+	--springoo-footer-widget-body-font-style: var(--springoo-global-font-style);
+	--springoo-footer-widget-body-line-height: var(--springoo-global-line-height);
+	--springoo-footer-widget-body-text-transform: var(--springoo-global-text-transform);
+	--springoo-footer-widget-body-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-footer-widget-body-word-spacing: var(--springoo-global-word-spacing);
+
+	/** Springoo Credits typography **/
+	--springoo-secondary-footer-font-family: var(--springoo-global-font-family);
+	--springoo-secondary-footer-font-size: var(--springoo-global-font-size);
+	--springoo-secondary-footer-font-weight: var(--springoo-global-font-weight);
+	--springoo-secondary-footer-font-style: var(--springoo-global-font-style);
+	--springoo-secondary-footer-line-height: var(--springoo-global-line-height);
+	--springoo-secondary-footer-text-transform: var(--springoo-global-text-transform);
+	--springoo-secondary-footer-letter-spacing: var(--springoo-global-letter-spacing);
+	--springoo-secondary-footer-word-spacing: var(--springoo-global-word-spacing);
+
+	/* Contact form 7 */
+	--springoo-wpcf7-padding-top: var(--springoo-15);
+	--springoo-wpcf7-padding-bottom: var(--springoo-15);
+	--springoo-wpcf7-padding-left: var(--springoo-20);
+	--springoo-wpcf7-padding-right: var(--springoo-15);
+	--springoo-wpcf7-border-radius: 0;
+	--springoo-wpcf7-textarea-height: 12.5rem;
+
+	/*gap for margin and padding */
+	--springoo-4: 0.25rem;
+	--springoo-5: 0.3125rem;
+	--springoo-8: 0.5rem;
+	--springoo-10: 0.625rem;
+	--springoo-16: 1rem;
+	--springoo-15: 0.938rem;
+	--springoo-20: 1.25rem;
+	--springoo-24: 1.5rem;
+	--springoo-25: 1.563rem;
+	--springoo-30: 1.875rem;
+	--springoo-32: 2rem;
+	--springoo-35: 2.188rem;
+	--springoo-40: 2.5rem;
+	--springoo-45: 2.813rem;
+	--springoo-48: 3rem;
+	--springoo-50: 3.125rem;
+	--springoo-55: 3.438rem;
+	--springoo-60: 3.75rem;
+	--springoo-65: 4.063rem;
+	--springoo-70: 4.375rem;
+	--springoo-75: 4.688rem;
+	--springoo-80: 5rem;
+	--springoo-85: 5.313rem;
+	--springoo-90: 5.625rem;
+	--springoo-95: 5.938rem;
+	--springoo-100: 6.25rem;
+
+	/* Sticky post */
+	--springoo-color-sticky-bg: #edf2ef; // Sticky post background color
+
+	/* Blog & pages */
+	//@todo need to fix
+	--springoo-post-content-alignment: left; // single post content alignment
+	--springoo-page-content-alignment: left; // single page content alignment
+
+}
+
+// End of file _root.scss

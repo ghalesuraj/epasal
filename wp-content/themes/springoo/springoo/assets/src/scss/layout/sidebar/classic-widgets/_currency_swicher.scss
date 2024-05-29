@@ -1,0 +1,43 @@
+// polylang widget design
+.woocommerce-currency-switcher-form {
+	.dd-select {
+		border: none;
+		background: transparent !important;
+	}
+	.dd-selected {
+		padding: 0 !important;
+		color: var(--springoo-color-heading) !important;
+		font-size: var(--springoo-small-font-size) !important;
+		font-weight: var(--springoo-global-font-weight) !important;
+	}
+	.dd-desc {
+		display: none;
+	}
+	.dd-pointer {
+		margin-top: 0;
+	}
+	.dd-pointer-down {
+		background: url("data:image/svg+xml,%3Csvg width='8' height='5' viewBox='0 0 8 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.22298 1.29805L4.12667 4.39436C4.00824 4.51278 3.85404 4.57076 3.69985 4.57076C3.54565 4.57076 3.39021 4.51155 3.27302 4.39436L0.176712 1.29805C-0.0589039 1.06243 -0.0589039 0.680017 0.176712 0.443167L0.443167 0.176712C0.678783 -0.0589039 1.0612 -0.0589039 1.29805 0.176712L3.27426 2.15292C3.39268 2.27135 3.54688 2.32933 3.70108 2.32933C3.85528 2.32933 4.01071 2.27011 4.1279 2.15292L6.10411 0.176712C6.33973 -0.0589039 6.72214 -0.0589039 6.95899 0.176712L7.22545 0.443167C7.45859 0.680017 7.45859 1.06243 7.22298 1.29805Z' fill='%233C3F5F'/%3E%3C/svg%3E%0A") no-repeat 50% 0%;
+		border-top: none;
+	}
+	.dd-pointer-up {
+		background: url("data:image/svg+xml,%3Csvg width='7' height='4' viewBox='0 0 7 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.8'%3E%3Cpath d='M0.153124 2.83049L2.83101 0.1526C2.93344 0.0501787 3.0668 3.51035e-05 3.20016 3.51035e-05C3.33352 3.51035e-05 3.46795 0.0512456 3.5693 0.1526L6.24719 2.83049C6.45097 3.03427 6.45097 3.365 6.24719 3.56985L6.01674 3.80029C5.81297 4.00407 5.48223 4.00407 5.27739 3.80029L3.56823 2.09114C3.46581 1.98872 3.33245 1.93857 3.19909 1.93857C3.06573 1.93857 2.9313 1.98978 2.82995 2.09114L1.12079 3.80029C0.917016 4.00407 0.586281 4.00407 0.381438 3.80029L0.15099 3.56985C-0.0506522 3.365 -0.0506521 3.03427 0.153124 2.83049Z' fill='%2310143E'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat 50% 100%;
+		border-bottom: none !important;
+	}
+	.dd-image-right {
+		margin-right: 35px;
+		margin-top: 5px;
+	}
+	.dd-options {
+		border: solid 1px var(--springoo-color-border);
+		border-radius: 5px;
+	}
+	.dd-option-text {
+		color: var(--springoo-color-heading);
+		font-size: var(--springoo-small-font-size);
+		font-weight: var(--springoo-global-font-weight);
+	}
+	a.dd-option {
+		padding: 5px;
+	}
+}

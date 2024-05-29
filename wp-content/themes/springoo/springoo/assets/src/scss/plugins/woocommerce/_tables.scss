@@ -1,0 +1,258 @@
+/**
+ * Tables
+ */
+.woocommerce {
+	table.shop_table {
+		border: 1px solid var(--springoo-color-border);
+		th {
+			color: var(--springoo-color-heading);
+			margin-bottom: 0;
+			border: none;
+			padding: 10px 20px;
+			font-weight: 500;
+		}
+	}
+	th.product-quantity {
+		width: 56px;
+	}
+	td.product-quantity {
+		min-width: 120px;
+		.quantity {
+			display: inline-block;
+			padding-right: 21px;
+		}
+
+		input[type="number"] {
+			padding: 0 10px;
+			width: 60px;
+			height: 40px;
+			color: var(--springoo-color-heading);
+		}
+
+		.springoo-label {
+			display: none;
+		}
+	}
+}
+
+.woocommerce div.product form.cart .variations .pa_color select {
+    margin-bottom: 1em;
+}
+
+.woocommerce {
+	table.shop_table.cart {
+		text-align: center;
+
+		thead {
+			tr {
+				.product-name {
+					text-align: left;
+				}
+
+				th {
+					font-size: 16px;
+					text-transform: capitalize;
+					font-weight: 400;
+				}
+			}
+		}
+
+		tbody {
+			tr {
+
+				.product-remove {
+					a {
+						font-size: 20px;
+					}
+				}
+
+				.product-name {
+					text-align: left;
+				}
+
+				td {
+					* {
+						font-size: 16px;
+						text-decoration: none;
+						text-align: center;
+					}
+
+					.woocommerce-Price-currencySymbol {
+						margin-left: 4px;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+
+	.cart-collaterals {
+		.cart_totals {
+
+			/*
+			**	Shipping calculator
+			*/
+			.woocommerce-shipping-calculator{
+				.shipping-calculator-button{
+					font-size: 14px;
+				}
+
+				.shipping-calculator-form{
+					span,
+					input,
+					button.button{
+						font-size: 14px;
+					}
+
+					span{
+						margin-left: 0;
+						border-radius: 0;
+					}
+
+					.select2-selection--single{
+						height: 50px;
+						padding: 0 12px;
+						.select2-selection__rendered{
+							line-height: 50px;
+						}
+
+						.select2-selection__arrow{
+							height: 50px;
+						}
+					}
+
+					input{
+						text-align: right;
+					}
+
+					button.button{
+						width: 100%;
+					}
+				}
+			}
+
+			.wc-proceed-to-checkout{
+				padding-top: 3px;
+			}
+
+			table {
+				tr.shipping{
+					td ,
+					strong {
+						font-size: 14px;
+					}
+				}
+				tr {
+					th {
+						font-size: 14px;
+						padding: 13px 0;
+						border-top: 1px solid var(--springoo-color-border);
+						color: var(--springoo-color-global);
+						font-weight: 500;
+					}
+
+					td {
+						text-align: right;
+						padding: 13px 0;
+
+						* {
+							font-size: 16px;
+						}
+
+						span {
+							margin-left: 5px;
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.woocommerce table.shop_table {
+	border-collapse: collapse;
+	border-radius: 0;
+}
+
+.woocommerce table.shop_table td {
+	border-top: 1px solid var(--springoo-color-border);
+	padding: 20px 20px;
+}
+
+.woocommerce table.shop_table tfoot td {
+	border-top: 1px solid var(--springoo-color-border);
+}
+
+.woocommerce table.shop_table td.product-name a {
+	font-weight: 500;
+	color: var(--springoo-color-heading);
+}
+
+.woocommerce table.shop_attributes {
+	th,
+	td{
+		border: 1px solid var(--springoo-color-border);
+	}
+
+	th{
+		border-right: none;
+	}
+
+	td {
+		padding-left: 8px;
+
+		p {
+			font-weight: 300;
+		}
+	}
+}
+
+.woocommerce table.specification{
+	border-collapse: separate;
+	border-spacing: 0;
+	margin-bottom: 0;
+	tr{
+		border:1px solid var(--springoo-color-border);
+		th,
+		td{
+			border:1px solid var(--springoo-color-border);
+			padding: 10px 20px;
+		}
+		td{
+			font-family: var(--springoo-global-font-family);
+			font-size: var(--springoo-small-font-size);
+			color: var(--springoo-color-heading);
+			line-height: 22px;
+		}
+		td:not(:first-child){
+			border-left:none;
+		}
+	}
+	tr:not(:first-child){
+		td,th{
+			border-top:none;
+		}
+
+	}
+
+	tr:first-child th:first-child{
+		border-top-left-radius: 12px;
+	}
+
+	tr:last-child th:first-child{
+		border-bottom-left-radius: 12px;
+	}
+
+	tr:first-child td:last-child{
+		border-top-right-radius: 12px;
+	}
+
+	tr:last-child td:last-child{
+		border-bottom-right-radius: 12px;
+	}
+}
+
+
+
+

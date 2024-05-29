@@ -1,0 +1,123 @@
+.springoo-footer-widget, .widget-area {
+	//Calender Widget
+	.widget_calendar, .wp-block-calendar {
+		position: relative;
+
+		&.alignright {
+			width: 100%;
+			text-align: right;
+		}
+
+		&.alignleft {
+			width: 100%;
+			text-align: left;
+		}
+
+		&.aligncenter {
+			width: 100%;
+			text-align: center;
+		}
+
+		&.alignfull {
+			margin: 0;
+		}
+
+		table, th {
+			border: none;
+			text-align: center;
+		}
+
+		table {
+			caption-side: top;
+			position: relative;
+
+			a {
+				text-decoration: none;
+			}
+
+			tbody {
+				border: 1px solid #DEE1E7;
+			}
+
+			td {
+				text-align: center;
+				padding: 8px;
+				@include sm {
+					padding: var(--springoo-15);
+				}
+				font-size: var(--springoo-font-size-base);
+				font-weight: var(--springoo-400-font-weight);
+			}
+		}
+
+		thead > tr th {
+			font-weight: var(--springoo-500-font-weight);
+			color: var(--springoo-color-heading);
+			background: 0;
+		}
+
+		caption {
+			margin: 0 0 var(--springoo-30) 0;
+			font-size: var(--springoo-h4-font-size);
+			color: var(--springoo-color-heading);
+			font-weight: var(--springoo-600-font-weight);
+		}
+
+		.calendar_wrap {
+			position: relative;
+		}
+
+		.wp-calendar-nav {
+			position: absolute;
+			top: var(--springoo-10);
+			right: 0;
+
+			.wp-calendar-nav-prev {
+				a {
+					font-size: 0;
+					font-family: "Font Awesome 5 Free";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					font-weight: 900;
+					text-decoration: none;
+
+					&:after {
+						content: "\f104";
+						font-size: var(--springoo-h4-font-size);
+						color: var(--springoo-color-heading);
+					}
+				}
+
+			}
+
+			.wp-calendar-nav-next {
+				a {
+					font-size: 0;
+					font-family: "Font Awesome 5 Free";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					font-weight: 900;
+					text-decoration: none;
+
+					&:after {
+						content: "\f105";
+						font-size: var(--springoo-h4-font-size);
+						color: var(--springoo-color-heading);
+					}
+				}
+
+			}
+		}
+
+	}
+}

@@ -1,0 +1,6 @@
+"use strict";
+/**!
+ * Attribute Filter
+ * @author Ayyash Addons
+ *
+ */!function(t,e,n){t(e).on("elementor/frontend/init",(function(){elementorFrontend.hooks.addAction("frontend/element_ready/ayyash-woocommerce-attribute-filter.default",(function(e){t(".ayyash-addons-wc-attr-filter-wrap form",e).find("select,input").on("change",(function(){var e=t(this),n=e.prev(),a=e.next();if("INPUT"!==a.get(0).tagName||"text"!==a.get(0).type){var o={value:e.val(),attr:e.data("attr-name"),next:a.data("attr-name")};n.get(0)&&"INPUT"===n.get(0).tagName&&"text"===n.get(0).type?o[n.attr("name")]=n.val():o[n.attr("name")]=e.val(),wp.ajax.post("get_wc_attr_filter_dependency",o).then((function(e){var n=JSON.parse(e);console.log(o.next);var a="<option>Select a "+o.next+"</option>";n.forEach((function(t){a+='<option value="'+t.value+'">'+t.text+"</option>"})),t(".filter-"+o.next).html(a),t(".filter-"+o.next).prop("disabled",!1)})).fail(console.log)}})),t("select:first").on("change",(function(){t(this).nextAll("select").find("option").prop("selected",!1)}))}))}))}(jQuery,window,window.elementorFrontend);

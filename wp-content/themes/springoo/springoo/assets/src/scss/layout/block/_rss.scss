@@ -1,0 +1,51 @@
+/* =============================================================================
+   RSS Feed Block Styles
+   ========================================================================== */
+.wp-block-rss {
+	padding-left: 0;
+
+	> li {
+		list-style: none;
+	}
+	//margins logic
+	&:not(.is-grid){
+		>li:not(:last-child) {
+			padding-bottom: 5px;
+		}
+	}
+
+	// Post title
+	 a {
+		display: inline-block;
+		color: var(--springoo-color-primary);
+		font-size: var(--springoo-h6-font-size);
+		margin-bottom: 5px;
+		text-decoration: none;
+		&:hover{
+			color: var(--springoo-color-secondary);
+		}
+	}
+
+	// Post author
+	.wp-block-rss__item-author {
+		font-size: var(--springoo-small-font-size);
+		font-weight: var(--springoo-500-font-weight);
+		color: var(--springoo-color-heading);
+		margin-bottom: 5px;
+	}
+
+	// Post date
+	.wp-block-rss__item-publish-date {
+		font-size: var(--springoo-small-font-size);
+		color: var(--springoo-color-global);
+		margin-bottom: 5px;
+	}
+
+	// Post content
+	.wp-block-rss__item-excerpt,
+	.wp-block-rss__item-full-content {
+		font-size: var(--springoo-global-font-size);
+		color: var(--springoo-color-heading);
+		margin-bottom: var(--springoo-15);
+	}
+}

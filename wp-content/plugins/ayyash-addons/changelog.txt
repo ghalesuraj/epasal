@@ -1,0 +1,23 @@
+== Changelog ==
+
+= 1.0.4 – 2023-08-06 =
+* **Added:** FAQ Widget
+* **Added:** Blog-Slider
+* **Added:** Portfolio-Grid
+* **Added:** Portfolio-Carousel
+* **Added:** Tab Widget
+* **Added:** Team Widget
+
+= 1.0.3 – 2023-07-06 =
+* **Added:** Dual Button
+* **Added:** Logo Carousel
+
+= 1.0.2 – 2023-05-18 =
+* **Fixed:** Product Category Widget
+* **Fixed:** Product Brand Widget
+
+= 1.0.1 – 2023-05-18 =
+* **Fixed:** Blog Image Size
+
+= 1.0.0 – 2023-03-23 =
+* Initial Release.

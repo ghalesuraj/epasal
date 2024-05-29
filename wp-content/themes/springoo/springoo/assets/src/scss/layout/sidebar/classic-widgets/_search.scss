@@ -1,0 +1,40 @@
+/* =============================================================================
+   Search Classic Style
+   ========================================================================== */
+
+.widget_search{
+    .text{
+        // classic search input
+        input{
+            background-color: rgba(16, 20, 62, 0.01);
+			font-size: var(--springoo-small-font-size);
+			border-radius: 100px;
+        }
+		input[type=text]:focus,
+		input[type=text]:focus-visible {
+			outline: none;
+		}
+        // classic search button
+        button{
+            display: block;
+			width: 85px;
+			height: 40px;
+			margin: 5px;
+			padding: var(--springoo-10) var(--springoo-20);
+			border-radius: 100px;
+			background: var(--springoo-color-primary);
+			color: #fff;
+
+			&:hover {
+				background: var(--springoo-color-secondary);
+				color: #fff;
+			}
+        }
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+/* =============================================================================
+   calendar Block Styles
+   ========================================================================== */
+.wp-block-calendar{
+	//calender table
+	.wp-calendar-table{
+		caption-side: top;
+		caption{
+			font-size: var(--springoo-global-font-size);
+			font-weight: var(--springoo-h3-font-weight, var(--springoo-heading-font-weight));
+			line-height: var(--springoo-h3-line-height, var(--springoo-heading-line-height));
+			text-align: left;
+			color: var(--springoo-color-global);
+			padding: 0;
+			margin-bottom: var(--springoo-20);
+		}
+		#today{
+			background-color: var(--springoo-color-primary);
+			color: #fff;
+		}
+	}
+	tbody td{
+		border: 1px solid var(--springoo-color-border);
+	}
+
+	//calender Nav
+	.wp-calendar-nav{
+		text-align: left;
+		margin-top: var(--springoo-10);
+	}
+	a{
+		font-weight: var(--springoo-500-font-weight);
+		text-decoration: none;
+		color: var(--springoo-color-global);
+		&:hover{
+			color: var(--springoo-color-secondary);
+		}
+	}
+}

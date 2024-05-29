@@ -1,0 +1,40 @@
+/*---------------------------------------------------------
+no product found Page CSS
+-------------------------------------------------------- */
+
+.no-products-found-body {
+	.no-products-found-img {
+		margin-bottom: var(--springoo-20);
+		text-align: center;
+
+		svg {
+			width: 304px;
+			height: 298px;
+		}
+	}
+
+	.no-products-found {
+		text-align: center;
+	}
+
+	.entry-header {
+		p {
+			margin-bottom: 8px;
+		}
+	}
+
+	.entry-content {
+		h6 {
+			font-size: var(--springoo-global-font-size);
+			font-weight: var(--springoo-500-font-weight);
+			margin-bottom: 0;
+		}
+	}
+
+	.widget-area {
+		margin-top: var(--springoo-40);
+		padding-top: var(--springoo-30);
+		border-top: 1px solid var(--springoo-color-border);
+	}
+}
+

@@ -1,0 +1,1499 @@
+// dokan store details
+.dokan-store {
+	#nav-below {
+		.dokan-pagination {
+			margin: var(--springoo-30) 0 0 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: var(--springoo-10);
+
+			li {
+				background: transparent;
+				width: 36px;
+				height: 36px;
+				border-radius: 100px;
+
+				&.active,
+				&:hover {
+					background: var(--springoo-color-heading);
+					color: #fff;
+
+					a {
+						background-color: transparent;
+						color: #fff;
+					}
+				}
+
+				a {
+					width: 36px;
+					height: 36px;
+					border: none;
+					font-size: 15px;
+					font-weight: 400;
+					line-height: 24px;
+					color: var(--springoo-color-heading);
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				&.next,
+				&.prev {
+					background: #F1F1F1;
+
+					&:hover {
+						background: var(--springoo-color-heading);
+					}
+				}
+			}
+		}
+	}
+
+	.dokan-store-wrap {
+		margin: 0;
+
+		// store details sidebar
+		.dokan-store-sidebar {
+			.dokan-store-widget:not(:last-child) {
+				margin-bottom: var(--springoo-30);
+				padding-bottom: var(--springoo-30);
+				border-bottom: 1px solid var(--springoo-color-border);
+			}
+
+			.widget-title {
+				font-size: var(--springoo-large-font-size);
+				font-weight: var(--springoo-500-font-weight);
+				line-height: 1.75em;
+				color: var(--springoo-color-heading);
+				margin-bottom: var(--springoo-20);
+			}
+
+			ul {
+				padding: 0;
+				margin: 0;
+
+				ul {
+					padding-left: var(--springoo-30);
+					list-style: none;
+
+					li {
+						margin-top: var(--springoo-10);
+						list-style: disc;
+					}
+				}
+			}
+
+			.parent-cat-wrap {
+				list-style: none;
+
+				&:not(:last-child) {
+					margin-bottom: var(--springoo-10);
+				}
+
+				&.has-children {
+					.caret-icon {
+						display: none;
+					}
+				}
+
+				a {
+					font-size: 15px;
+					font-weight: var(--springoo-global-font-weight);
+					line-height: 1.5em;
+					color: var(--springoo-color-heading);
+
+					&:hover {
+						color: var(--springoo-color-secondary);
+					}
+				}
+			}
+
+			.dokan-form-group {
+				margin-bottom: var(--springoo-10);
+
+				.dokan-form-control {
+					background: var(--springoo-color-content-bg);
+					padding: 14px var(--springoo-20);
+					border-radius: 5px;
+					border: none;
+					font-size: var(--springoo-small-font-size);
+					font-weight: var(--springoo-global-font-weight);
+					line-height: 1.375em;
+					color: var(--springoo-color-global);
+
+					&::placeholder {
+						color: var(--springoo-color-global);
+					}
+				}
+			}
+
+			.dokan-btn-theme {
+				color: #fff;
+				background-color: var(--springoo-color-primary) !important;
+				padding: 13px var(--springoo-20);
+				border-radius: 100px;
+				border: none;
+				font-size: 15px;
+				font-weight: var(--springoo-500-font-weight);
+				line-height: 1.5em;
+				width: 100%;
+
+				&:hover {
+					background-color: var(--springoo-color-secondary) !important;
+				}
+			}
+
+			.dokan-best-selling {
+				.product_list_widget {
+					li {
+						padding: 0;
+
+						&:not(:last-child) {
+							margin-bottom: var(--springoo-20);
+						}
+
+						img {
+							width: 75px;
+							height: 95px;
+							object-fit: cover;
+							border-radius: 5px;
+							margin-right: var(--springoo-10);
+						}
+
+						.product-title {
+							font-size: 15px;
+							font-weight: var(--springoo-400-font-weight);
+							line-height: 1.5em;
+							color: var(--springoo-color-heading);
+							margin-top: 15px;
+							display: inline-block;
+
+							&:hover {
+								color: var(--springoo-color-secondary);
+							}
+						}
+
+						.woocs_price_code {
+							font-size: 15px;
+							font-weight: var(--springoo-600-font-weight);
+							line-height: 1.5em;
+							color: var(--springoo-color-heading);
+							margin-top: 5px;
+							display: inline-block;
+						}
+
+						.star-rating {
+							font-size: 11px;
+							margin-top: 5px;
+						}
+					}
+				}
+			}
+		}
+
+		// store details single content
+		.dokan-single-store {
+			.profile-frame {
+				background-color: #fff;
+
+				.profile-info-box {
+					&:hover {
+						color: var(--springoo-color-heading);
+					}
+
+					.store-social-wrapper {
+						position: absolute;
+						z-index: 1;
+						left: 50%;
+						transform: translate(-50%);
+						bottom: -50px;
+						height: 32px;
+						line-height: 32px;
+
+						.store-social {
+							display: flex;
+							gap: var(--springoo-5);
+							padding: 0;
+							margin: 0;
+							list-style: none;
+
+							li {
+								width: 32px;
+								height: 32px;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								background: #fff;
+								border-radius: 100px;
+
+								&:hover {
+									color: #fff;
+									background-color: var(--springoo-color-secondary);
+								}
+							}
+						}
+					}
+
+					.profile-info-img {
+						border-radius: 5px;
+					}
+				}
+
+				.profile-info-box.profile-layout-default {
+					.profile-info-summery-wrapper {
+						margin-bottom: var(--springoo-70);
+						border: none;
+
+						.profile-info-head {
+							position: absolute;
+							top: 0;
+							left: 50%;
+							transform: translate(-50%, -50%);
+						}
+
+						.profile-info {
+							margin-top: var(--springoo-50);
+
+							li {
+								padding-bottom: 0;
+							}
+						}
+
+						.profile-img.profile-img-circle {
+							img {
+								width: 76px;
+								height: 76px;
+								border: 5px solid #fff;
+								box-shadow: 0px 4px 11px rgba(16, 20, 62, 8%);
+							}
+						}
+
+						.store-name {
+							font-size: 19px;
+							color: var(--springoo-color-heading);
+							font-weight: var(--springoo-600-font-weight);
+							line-height: 1.5em;
+							cursor: pointer;
+							margin-bottom: var(--springoo-10);
+							text-align: center;
+							display: block;
+
+							&:hover {
+								color: var(--springoo-color-secondary);
+							}
+						}
+
+						.dokan-store-rating {
+							display: flex;
+							justify-content: center;
+							margin-bottom: var(--springoo-15);
+							padding: 0;
+							font-size: 15px;
+							font-weight: 300;
+
+							.seller-rating {
+								display: block;
+							}
+
+							.text {
+								display: none;
+							}
+
+							.star-rating {
+								float: none;
+								font-size: 11px;
+							}
+						}
+
+						.dokan-store-address,
+						.dokan-company-name,
+						.dokan-company-id-number,
+						.dokan-bank-name {
+							font-size: 15px;
+							color: var(--springoo-color-heading);
+							font-weight: var(--springoo-300-font-weight);
+							line-height: 1.5em;
+							cursor: auto;
+						}
+
+						.dokan-store-email,
+						.dokan-store-phone {
+							font-size: 15px;
+							color: var(--springoo-color-heading);
+							font-weight: var(--springoo-500-font-weight);
+							line-height: 1.5em;
+
+							&:hover {
+								color: var(--springoo-color-secondary);
+							}
+						}
+
+						.dokan-store-info {
+							padding: 0;
+							margin: 0;
+							top: 0;
+							display: flex;
+							flex-direction: column;
+							gap: var(--springoo-10);
+
+							li {
+								i {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+
+				.profile-info-box.profile-layout-layout1 {
+					.profile-info-summery-wrapper {
+						position: relative;
+						border: none;
+						height: auto;
+						margin: var(--springoo-10) 0 var(--springoo-70) 0;
+						padding: 0 var(--springoo-20);
+
+						.profile-info-summery {
+							width: 100%;
+							padding-top: 0;
+							background-color: transparent;
+							position: unset;
+
+							.profile-info-head {
+								top: 0;
+								margin-right: var(--springoo-20);
+							}
+
+							.profile-info {
+								top: 0;
+								margin: var(--springoo-20) 0 0 0;
+
+								.dokan-store-info,
+								.store-name {
+									top: 0;
+								}
+
+								.seller-rating {
+									display: block;
+								}
+							}
+
+							.dokan-store-info {
+								display: flex;
+								gap: var(--springoo-10);
+								flex-direction: column;
+								margin: 0;
+								padding: 0;
+
+								li {
+									padding-bottom: 0;
+
+									&:after {
+										content: '';
+									}
+
+									i {
+										display: none;
+									}
+								}
+
+								.dokan-store-address {
+									display: flex;
+									flex-wrap: wrap;
+									gap: 3px;
+									margin-bottom: 5px;
+								}
+							}
+
+							.profile-img.profile-img-square {
+								img {
+									width: 76px;
+									height: 76px;
+									border: 5px solid #fff;
+									box-shadow: 0px 4px 11px rgba(16, 20, 62, 8%);
+								}
+							}
+
+							.store-name {
+								font-weight: var(--springoo-600-font-weight);
+								line-height: 1.5em;
+								cursor: pointer;
+								margin: 0 0 var(--springoo-10) 0;
+								text-shadow: none;
+							}
+
+							.dokan-store-rating {
+								display: flex;
+								margin-bottom: var(--springoo-15);
+								padding: 0;
+								color: var(--springoo-color-global);
+								font-size: 15px;
+								font-weight: 300;
+
+								.text {
+									display: none;
+								}
+
+								.star-rating {
+									float: none;
+									font-size: 11px;
+								}
+							}
+
+							.dokan-store-address,
+							.dokan-company-name,
+							.dokan-company-id-number,
+							.dokan-bank-name {
+								font-size: 15px;
+								color: var(--springoo-color-global);
+								font-weight: var(--springoo-300-font-weight);
+								line-height: 1.5em;
+								cursor: auto;
+							}
+
+							.dokan-store-address {
+								margin-bottom: 0 !important;
+							}
+
+							.dokan-store-email,
+							.dokan-store-phone {
+								font-size: 15px;
+								color: var(--springoo-color-heading);
+								font-weight: var(--springoo-500-font-weight);
+								line-height: 1.5em;
+
+								&:hover {
+									color: var(--springoo-color-secondary);
+								}
+							}
+						}
+					}
+				}
+
+				.profile-info-box.profile-layout-layout2 {
+					.profile-info-summery-wrapper {
+						position: relative;
+						border: none;
+						height: auto;
+						margin-bottom: var(--springoo-70);
+
+						.profile-info-summery {
+							width: 100%;
+							padding-top: 0;
+							margin-top: 0;
+							background-color: transparent;
+
+							.profile-info-head {
+								top: 0;
+							}
+
+							.profile-info {
+								top: 0;
+
+								.dokan-store-info,
+								.store-name {
+									top: 0;
+								}
+
+								.seller-rating {
+									display: block;
+								}
+							}
+
+							.dokan-store-info {
+								display: flex;
+								gap: var(--springoo-10);
+								align-items: center;
+								flex-direction: column;
+								margin: 0;
+								padding: 0;
+
+								li {
+									padding-bottom: 0;
+
+									&:after {
+										content: '';
+									}
+								}
+
+								.dokan-store-address {
+									display: flex;
+									flex-wrap: wrap;
+									gap: 3px;
+									margin-bottom: 5px;
+									justify-content: center;
+								}
+							}
+
+							.profile-img.profile-img-circle {
+								margin-top: -38px;
+
+								img {
+									width: 76px;
+									height: 76px;
+									border: 5px solid #fff;
+									box-shadow: 0px 4px 11px rgba(16, 20, 62, 8%);
+								}
+							}
+
+							.store-name {
+								font-size: 19px;
+								color: var(--springoo-color-heading);
+								font-weight: var(--springoo-600-font-weight);
+								line-height: 1.5em;
+								cursor: pointer;
+								margin-bottom: var(--springoo-10);
+
+								&:hover {
+									color: var(--springoo-color-secondary);
+								}
+							}
+
+							.dokan-store-rating {
+								display: flex;
+								justify-content: center;
+								margin-bottom: var(--springoo-15);
+								padding: 0;
+								color: var(--springoo-color-global);
+								font-size: 15px;
+								font-weight: 300;
+
+								.text {
+									display: none;
+								}
+
+								.star-rating {
+									float: none;
+									font-size: 11px;
+								}
+							}
+
+							.dokan-store-address,
+							.dokan-company-name,
+							.dokan-company-id-number,
+							.dokan-bank-name {
+								font-size: 15px;
+								color: var(--springoo-color-global);
+								font-weight: var(--springoo-300-font-weight);
+								line-height: 1.5em;
+								cursor: auto;
+							}
+
+							.dokan-store-email,
+							.dokan-store-phone {
+								font-size: 15px;
+								color: var(--springoo-color-heading);
+								font-weight: var(--springoo-500-font-weight);
+								line-height: 1.5em;
+
+								&:hover {
+									color: var(--springoo-color-secondary);
+								}
+							}
+						}
+					}
+				}
+
+				.profile-info-box.profile-layout-layout3 {
+					.profile-info-summery-wrapper {
+						padding: var(--springoo-20);
+						border-radius: 5px;
+						margin-bottom: var(--springoo-70);
+						border: 1px solid var(--springoo-color-border);
+
+						.profile-info-summery {
+							padding: 0;
+
+							.profile-info-head {
+								margin-right: var(--springoo-20);
+							}
+
+							.profile-info {
+								padding: 0;
+
+								.seller-rating {
+									display: block;
+								}
+							}
+
+							.dokan-store-info {
+								display: flex;
+								gap: var(--springoo-10);
+								flex-direction: column;
+								margin: 0;
+								padding: 0;
+
+								li {
+									padding-bottom: 0;
+
+									&:after {
+										content: '';
+									}
+
+									&:before {
+										content: '';
+									}
+
+									i {
+										display: none;
+									}
+								}
+
+								.dokan-store-address {
+									display: flex;
+									flex-wrap: wrap;
+									gap: 3px;
+									margin-bottom: 5px;
+								}
+							}
+
+							.profile-img.profile-img-square {
+								text-align: left;
+
+								img {
+									width: 76px;
+									height: 76px;
+									border: 5px solid #fff;
+									box-shadow: 0px 4px 11px rgba(16, 20, 62, 8%);
+								}
+							}
+
+							.store-name {
+								font-weight: var(--springoo-600-font-weight);
+								line-height: 1.5em;
+								cursor: pointer;
+								margin: 0 0 var(--springoo-10) 0;
+							}
+
+							.dokan-store-rating {
+								display: flex;
+								margin-bottom: var(--springoo-15);
+								padding: 0;
+								color: var(--springoo-color-global);
+								font-size: 15px;
+								font-weight: 300;
+
+								.text {
+									display: none;
+								}
+
+								.star-rating {
+									float: none;
+									font-size: 11px;
+								}
+							}
+
+							.dokan-store-address,
+							.dokan-company-name,
+							.dokan-company-id-number,
+							.dokan-bank-name {
+								font-size: 15px;
+								color: var(--springoo-color-global);
+								font-weight: var(--springoo-300-font-weight);
+								line-height: 1.5em;
+								cursor: auto;
+							}
+
+							.dokan-store-address {
+								margin-bottom: 0 !important;
+							}
+
+							.dokan-store-email,
+							.dokan-store-phone {
+								font-size: 15px;
+								color: var(--springoo-color-heading);
+								font-weight: var(--springoo-500-font-weight);
+								line-height: 1.5em;
+
+								&:hover {
+									color: var(--springoo-color-secondary);
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.dokan-store-tabs {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+				margin: var(--springoo-20) 0 var(--springoo-30) 0;
+				border-width: 1px 0 1px 0;
+				border-style: solid;
+				border-color: var(--springoo-color-border);
+				padding: var(--springoo-20) 0;
+				gap: var(--springoo-20);
+
+				.dokan-modules-button {
+					border: none;
+					padding: 0;
+					gap: var(--springoo-10);
+					flex-direction: column;
+					width: 100%;
+
+					li,
+					button {
+						margin-top: 0;
+						width: 100%;
+						height: 46px;
+					}
+
+					.dokan-btn {
+						margin-right: 0;
+						background-color: var(--springoo-color-heading) !important;
+						border: none;
+						border-radius: 100px;
+						font-size: 13px;
+						font-weight: var(--springoo-600-font-weight);
+						line-height: 16px;
+						padding: 9px var(--springoo-20);
+
+						&:hover {
+							background-color: var(--springoo-color-secondary) !important;
+						}
+					}
+				}
+
+				.dokan-list-inline {
+					border: none;
+					margin-bottom: 0;
+					gap: var(--springoo-30);
+
+					li {
+						border-right: none;
+
+						a {
+							padding: 0;
+							font-size: 15px;
+							font-weight: var(--springoo-300-font-weight);
+							line-height: 1.5em;
+							color: var(--springoo-color-heading);
+
+							&:hover {
+								background: transparent;
+								color: var(--springoo-color-secondary);
+							}
+						}
+					}
+				}
+			}
+
+			.store-review-wrap {
+				.headline {
+					font-size: 20px;
+					font-weight: var(--springoo-600-font-weight);
+					color: var(--springoo-color-heading);
+				}
+
+				.store-toc {
+					p {
+						font-size: 15px;
+						line-height: 24px;
+						color: var(--springoo-color-global);
+					}
+				}
+			}
+
+			.products-heading {
+				margin-bottom: var(--springoo-10);
+			}
+
+			.dokan-store-products-ordeby {
+				gap: var(--springoo-10);
+			}
+
+			.product-name-search {
+				height: 46px;
+				border: none;
+				background-color: var(--ayyash-color-content-bg);
+				width: 100%;
+				border-radius: 100px;
+				padding: 12px var(--springoo-20);
+				font-size: var(--springoo-small-font-size);
+				line-height: 1.375em;
+				font-weight: var(--springoo-400-font-weight);
+
+				@media (min-width: 768px){
+					width: 300px;
+					margin-right: 5px;
+				}
+			}
+
+			#dokan-store-products-search-result {
+				top: 55px;
+				border-radius: 5px;
+
+				li {
+					font-size: 15px;
+					color: var(--ayyash-color-heading);
+					font-weight: var(--springoo-400-font-weight);
+				}
+
+				a {
+					display: flex;
+					align-items: center;
+
+					.dokan-ls-product-image {
+						width: 70px;
+						max-width: 70px;
+
+						img {
+							border-radius: 5px;
+						}
+					}
+				}
+			}
+
+			.search-store-products {
+				width: 100%;
+				height: 46px;
+				border: none;
+				background-color: var(--ayyash-color-primary) !important;
+				padding: 11px var(--springoo-30);
+				font-size: 15px;
+				line-height: 1.5em;
+				font-weight: var(--springoo-500-font-weight);
+				margin-left: 0;
+
+				@media (min-width: 768px){
+					margin-left: 10px;
+				}
+
+				&:hover {
+					background-color: var(--ayyash-color-secondary) !important;
+				}
+			}
+
+			.orderby-search {
+				width: 115px;
+				border: none;
+				padding: 0;
+				height: 46px;
+				font-size: var(--springoo-small-font-size);
+				font-weight: var(--springoo-300-font-weight);
+				line-height: 1.375em;
+				background-image: url("data:image/svg+xml,%3Csvg width='6' height='4' viewBox='0 0 6 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.71056 0H0.289413C0.0328762 0 -0.0978122 0.30978 0.0861196 0.493712L2.79669 3.20429C2.90802 3.31561 3.09195 3.31561 3.20333 3.20429L5.9139 0.493712C6.09778 0.30978 5.9671 0 5.71056 0Z' fill='%2310143E'/%3E%3C/svg%3E%0A");
+				position: relative;
+				margin-top: 0;
+
+				&:focus {
+					outline: none;
+				}
+			}
+
+			// store details review
+			#reviews {
+				h3 {
+					font-size: 20px;
+					line-height: 1;
+					font-weight: var(--springoo-600-font-weight);
+					color: var(--springoo-color-heading);
+					margin-bottom: var(--springoo-40);
+				}
+
+				#comments {
+					ol.commentlist {
+						margin-bottom: var(--springoo-30);
+
+						li {
+							&:not(:last-child) {
+								border-bottom: none;
+								padding-bottom: 0;
+								margin-bottom: var(--springoo-40);
+							}
+
+							img.avatar {
+								width: 55px;
+								height: 55px;
+								float: left;
+								margin-right: var(--springoo-15);
+							}
+
+							.dokan-rating {
+								margin-bottom: 5px;
+
+								.star-rating {
+									font-size: 11px;
+								}
+							}
+
+							p {
+								margin: 0 0 5px;
+
+								strong {
+									font-size: 16px;
+									font-weight: var(--springoo-700-font-weight);
+									line-height: 20px;
+									color: var(--springoo-color-heading);
+								}
+
+								a {
+									position: relative;
+									font-size: var(--springoo-small-font-size);
+									font-weight: var(--springoo-400-font-weight);
+									line-height: 22px;
+									color: var(--springoo-color-global);
+
+									&:hover {
+										color: var(--springoo-color-secondary);
+									}
+								}
+							}
+						}
+
+						.description {
+							h4,
+							p {
+								font-size: 16px;
+								font-weight: var(--springoo-300-font-weight);
+								line-height: 26px;
+								color: var(--springoo-color-global);
+							}
+
+							h4 {
+								font-weight: var(--springoo-600-font-weight);
+							}
+						}
+
+						.dokan-review-wrapper {
+							margin-bottom: 0 !important;
+
+							.edit-review-btn {
+								color: var(--springoo-color-heading) !important;
+								background-color: transparent !important;
+								font-weight: var(--springoo-600-font-weight);
+								margin-top: var(--springoo-10);
+								border: none;
+								padding: 0;
+
+								&:hover {
+									color: var(--springoo-color-secondary) !important;
+								}
+
+								&:active {
+									box-shadow: none;
+								}
+							}
+						}
+					}
+				}
+
+				.add-review-btn {
+					color: #fff !important;
+					background-color: var(--springoo-color-primary) !important;
+					border-radius: 100px;
+					border: none;
+					font-size: 13px;
+					font-weight: var(--springoo-600-font-weight);
+					line-height: 16px;
+					padding: var(--springoo-15) var(--springoo-20);
+
+					&:hover {
+						background-color: var(--springoo-color-secondary) !important;
+					}
+				}
+
+				.headline {
+					font-size: 20px;
+					font-weight: var(--springoo-600-font-weight);
+					color: var(--springoo-color-heading);
+				}
+
+				.commentlist {
+					font-size: var(--springoo-small-font-size);
+					color: var(--springoo-color-global);
+				}
+			}
+		}
+	}
+}
+
+// store details review form
+.dokan-izimodal-wraper {
+	border-radius: 3px;
+	padding: 30px !important;
+
+	.dokan-izimodal-close-btn {
+		button {
+			width: 32px;
+			height: 32px;
+			padding: 0 !important;
+			border-radius: 100px;
+			margin: 10px;
+			border: 1px solid #E2E7EF;
+			box-shadow: 0px 1px 1px rgba(0, 0, 0, 6%);
+			color: var(--springoo-color-heading);
+
+			i.fa.fa-times{
+				font-family: springoo !important;
+				font-style: normal;
+				font-weight: normal !important;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1.8;
+
+				&::before{
+					content: "\f14d";
+				}
+			}
+
+			&:hover {
+				background-color: var(--springoo-color-primary) !important;
+
+				i {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 32px;
+		font-weight: 600;
+	}
+
+	.dokan-add-review-wrapper {
+		strong {
+			font-size: 24px;
+			font-weight: var(--springoo-600-font-weight);
+			line-height: 32px;
+			color: var(--springoo-color-heading);
+		}
+
+		.dokan-seller-rating-intro-text {
+			margin-top: var(--springoo-20);
+			font-style: normal;
+		}
+
+		.dokan-form-container {
+			#dokan-seller-rating {
+				padding: var(--springoo-20) 0;
+			}
+
+			.dokan-form-group {
+				margin-bottom: var(--springoo-20);
+
+				label {
+					font-size: 13px;
+					line-height: 20px;
+					font-weight: var(--springoo-500-font-weight);
+					color: var(--springoo-color-heading);
+					margin-bottom: var(--springoo-10);
+				}
+
+				input[type=text],
+				textarea {
+					border-radius: 5px;
+					background-color: #F5F5F5;
+					border: none;
+				}
+
+				#support-submit-btn {
+					color: #fff !important;
+					background-color: var(--springoo-color-primary) !important;
+					border-radius: 100px;
+					border: none;
+					font-size: 13px;
+					font-weight: var(--springoo-600-font-weight);
+					line-height: 16px;
+					padding: var(--springoo-15) var(--springoo-20);
+
+					&:hover {
+						background-color: var(--springoo-color-secondary) !important;
+					}
+				}
+			}
+		}
+	}
+
+	.dokan-support-intro-text {
+		font-size: 24px;
+		font-weight: var(--springoo-600-font-weight);
+		line-height: 32px;
+		padding: 0 0 var(--springoo-10) 0;
+		margin-bottom: var(--springoo-30);
+		margin-top: var(--springoo-30);
+	}
+
+	.dokan-form-container {
+		.dokan-form-group {
+			margin-bottom: var(--springoo-20);
+		}
+
+		label {
+			margin-bottom: var(--springoo-10);
+			font-size: 13px;
+			font-weight: 500;
+			line-height: 20px;
+		}
+
+		input,
+		textarea {
+			background-color: var(--springoo-color-content-bg);
+			border-radius: 5px;
+			border: none;
+		}
+
+		input[type="submit"],
+		.dokan-popup-create-an-account a {
+			font-size: 15px;
+			font-weight: var(--springoo-500-font-weight);
+			line-height: 24px;
+			background-color: var(--springoo-color-primary) !important;
+			padding: 13px var(--springoo-30);
+			border: none;
+			border-radius: 100px;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: var(--springoo-color-secondary) !important;
+			}
+		}
+
+		.dokan-popup-create-an-account {
+			a {
+				padding: 13px var(--springoo-20);
+			}
+		}
+	}
+}
+
+#dokan-modal-login-form-popup {
+	border-bottom: none !important;
+	border-radius: 5px !important;
+
+	.iziModal-header {
+		background: #fff !important;
+		box-shadow: none;
+		border-bottom: 1px solid var(--springoo-color-border);
+
+		.iziModal-header-title {
+			color: var(--springoo-color-heading);
+		}
+
+		.iziModal-button {
+			background-color: var(--springoo-color-heading);
+			opacity: 1;
+		}
+
+		.iziModal-header-buttons {
+			border-radius: 100px;
+			border: 1px solid #E2E7EF;
+			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+
+			a {
+				width: 32px;
+				height: 32px;
+				background: none;
+				font-family: springoo !important;
+				font-style: normal;
+				font-weight: normal !important;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1.8;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				transition: none;
+
+				&:hover {
+					transform: none;
+					background-color: var(--springoo-color-primary);
+
+					&::before {
+						color: #fff;
+					}
+				}
+
+				&::before {
+					content: "\f14d";
+					color: var(--springoo-color-heading);
+				}
+			}
+		}
+	}
+
+	.iziModal-wrap {
+		.dokan-form-group {
+			input,
+			textarea {
+				background-color: var(--springoo-color-content-bg);
+				border-radius: 5px;
+				border: none;
+			}
+
+			.dokan-btn-theme {
+				background-color: var(--springoo-color-primary) !important;
+				border: none !important;
+				padding: 13px var(--springoo-20);
+				border-radius: 100px;
+
+				&:hover {
+					background-color: var(--springoo-color-secondary) !important;
+				}
+			}
+		}
+	}
+
+	.dokan-popup-create-an-account {
+		.dokan-btn-theme {
+			background-color: var(--springoo-color-primary) !important;
+			border: none !important;
+			padding: 13px var(--springoo-20);
+			border-radius: 100px;
+			height: 50px;
+
+			&:hover {
+				background-color: var(--springoo-color-secondary) !important;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 430px){
+	.dokan-support-login-wrapper,
+	.dokan-login-form-popup-wrapper {
+		width: auto !important;
+		max-width: 100%;
+		padding: 16px !important;
+
+		h2{
+			font-size: 15px;
+		}
+
+		.dokan-popup-create-an-account{
+			text-align: center;
+
+			.dokan-btn.dokan-btn-theme{
+				display: block;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.dokan-store {
+		.dokan-store-wrap {
+			.dokan-single-store {
+				.profile-frame {
+					.profile-info-box.profile-layout-layout1 {
+						.store-social-wrapper {
+							left: 110px;
+							transform: none;
+						}
+
+						.profile-info-summery-wrapper {
+							.profile-info-summery {
+								.profile-info {
+									margin: 0;
+								}
+							}
+						}
+					}
+
+					.profile-info-box.profile-layout-layout3 {
+						.profile-info-summery-wrapper {
+							.profile-info-summery {
+								.profile-img.profile-img-square {
+									img {
+										width: 150px;
+										height: 150px;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				.search-store-products {
+					width: 106px;
+				}
+
+				.dokan-store-tabs {
+					flex-direction: row-reverse;
+					padding: var(--springoo-10) 0;
+					gap: 0;
+
+					.dokan-modules-button {
+						flex-direction: row-reverse;
+						width: auto;
+						gap: 0;
+
+						li {
+							width: auto;
+							height: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.dokan-store {
+		.dokan-store-wrap {
+			.dokan-single-store {
+				.profile-frame {
+					.profile-info-box.profile-layout-default {
+						.store-social-wrapper {
+							bottom: 20px;
+							right: 20px;
+							transform: none;
+							left: auto;
+						}
+
+						.profile-info-summery-wrapper {
+							.dokan-store-rating {
+								justify-content: flex-start;
+							}
+
+							.profile-info-summery {
+								border-top-left-radius: 5px;
+								border-bottom-left-radius: 5px;
+							}
+
+							.profile-info-head {
+								position: relative;
+								left: auto;
+								transform: none;
+							}
+
+							.profile-info {
+								margin-top: 0;
+							}
+
+							.dokan-store-address,
+							.dokan-company-name,
+							.dokan-company-id-number,
+							.dokan-bank-name,
+							.dokan-store-email,
+							.dokan-store-phone,
+							.store-name {
+								color: #fff;
+							}
+						}
+					}
+
+					.profile-info-box.profile-layout-layout1 {
+						.profile-info-summery-wrapper {
+							.profile-info-summery {
+								margin-top: -55px;
+
+								.store-name {
+									margin: 0 0 var(--springoo-20) 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.dokan-store {
+		.dokan-store-wrap {
+			.dokan-single-store {
+				.profile-frame {
+					.profile-info-box {
+						.info-box-banner-wrap {
+							position: relative;
+						}
+
+						.store-social-wrapper {
+							top: 61%;
+							right: 20px;
+							transform: none;
+							left: auto;
+						}
+					}
+
+					.profile-info-box.profile-layout-default {
+						.store-social-wrapper {
+							top: auto;
+						}
+					}
+
+					.profile-info-box.profile-layout-layout1 {
+						.store-social-wrapper {
+							top: auto;
+							bottom: 20px;
+
+							.store-social {
+								justify-content: flex-end;
+							}
+						}
+
+						.profile-info-summery-wrapper {
+							margin-bottom: 0;
+						}
+					}
+
+					.profile-info-box.profile-layout-layout2 {
+						.store-social-wrapper {
+							top: auto;
+							bottom: 20px;
+						}
+
+						.profile-info-summery-wrapper {
+							margin-bottom: 0;
+						}
+					}
+
+					.profile-info-box.profile-layout-layout3 {
+						.info-box-banner-wrap {
+							position: unset;
+						}
+
+						.profile-info-summery-wrapper {
+							margin-bottom: 0;
+						}
+
+						.store-social-wrapper {
+							top: auto;
+							bottom: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.dokan-store {
+	.woocommerce-products-header-wrapper{
+		display: none;
+	}
+
+	.woocommerce ul.products li.springoo-product-item .springoo-product-item-inner .cart-btn,
+	.woocommerce ul.products li.springoo-product-item .springoo-product-item-inner .cart-btn.button {
+		font-size: 12px;
+		padding: 11px 16px;
+		line-height: 20px !important;
+	}
+
+	.widget-area{
+		display: none;
+	}
+}
+
+.woocommerce div.product form.cart {
+	.dokan-store-support-btn.button {
+		white-space: nowrap;
+		border-radius: 100px;
+	}
+}
+
+#dokan-product-enquiry {
+	.form-group {
+		margin-bottom: 30px;
+	}
+}

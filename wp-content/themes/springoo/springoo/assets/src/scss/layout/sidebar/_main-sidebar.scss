@@ -1,0 +1,85 @@
+/* =============================================================================
+   Springoo main sidebar
+   ========================================================================== */
+.main-sidebar{
+   // sidebar widget bottom gap
+   .widget:not(:last-child) {
+	   margin-bottom: var(--springoo-30);
+	   padding-bottom: var(--springoo-30);
+	   border-bottom: 1px solid var(--springoo-color-border);
+   }
+   // sidebar ul,ol margin
+   ul,
+   ol{
+      margin-bottom: 0;
+   }
+   // sidebar widget customizer typo support
+   .sidebar-widget {
+		font-family: var(--springoo-sidebar-widget-body-font-family);
+		font-weight: var(--springoo-sidebar-widget-body-font-weight);
+		font-style: var(--springoo-sidebar-widget-body-font-style);
+		font-size: var(--springoo-sidebar-widget-body-font-size);
+		line-height: var(--springoo-sidebar-widget-body-line-height);
+		text-transform: var(--springoo-sidebar-widget-body-text-transform);
+		letter-spacing: var(--springoo-sidebar-widget-body-letter-spacing);
+		word-spacing: var(--springoo-sidebar-widget-body-word-spacing);
+
+      // sidebar block latest comments customizer typo support
+      .wp-block-latest-comments{
+         // comments meta
+         .wp-block-latest-comments__comment-meta a,
+		 .wp-block-latest-comments__comment-meta span {
+			 font-size: var(--springoo-medium-font-size);
+             line-height: var(--springoo-sidebar-widget-body-line-height);
+			 color: var(--springoo-color-heading);
+         }
+		  .wp-block-latest-comments__comment-meta a:hover {
+			  color: var(--springoo-color-secondary);
+		  }
+
+         // comments excerpt
+         &.has-excerpts{
+             .wp-block-latest-comments__comment-excerpt p {
+                 font-size: var(--springoo-sidebar-widget-body-font-size);
+                 line-height: var(--springoo-sidebar-widget-body-line-height);
+             }
+         }
+     }
+   }
+
+}
+
+@media screen and (max-width: 576px) {
+	.archive {
+		.main-sidebar {
+			margin-bottom: var(--springoo-40);
+		}
+	}
+}
+
+// sidebar border only archive page
+@media screen and (min-width: 768px) {
+	.archive {
+		.main-sidebar {
+			&.sidebar-left {
+				border-right: 1px solid var(--springoo-color-border);
+				padding-right: calc(40px*.5);
+			}
+			&.sidebar-right {
+				border-left: 1px solid var(--springoo-color-border);
+				padding-left: calc(40px*.5);
+			}
+		}
+		.springoo-row{
+			&.site-content{
+				.row{
+					> *{ padding-left: 1.25rem; padding-right: 1.25rem; }
+					> div:first-child{ padding-left: .75rem; }
+					> div:last-child{ padding-right: .75rem; }
+				}
+			}
+		}
+	}
+}
+
+

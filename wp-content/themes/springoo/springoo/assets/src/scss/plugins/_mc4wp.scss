@@ -1,0 +1,16 @@
+/*MailChimp Style*/
+
+.mc4wp-form-fields {
+    // if has label input spacing
+    &:has(label){
+        input[type="email"]{
+            margin-top: var(--springoo-10);
+        }
+    }
+    label{
+        display: block;
+        input {
+			height: 3.125rem;
+        }
+    }
+}

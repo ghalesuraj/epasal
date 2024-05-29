@@ -1,0 +1,29 @@
+/**
+ * Main woocommerce files
+ */
+@import "woocommerce/common";
+@import "woocommerce/buttons";
+@import "woocommerce/tables";
+@import "woocommerce/star-rating";
+@import "woocommerce/products";
+@import "woocommerce/product";
+@import "woocommerce/reviews";
+@import "woocommerce/cart-checkout";
+@import "woocommerce/forms";
+@import "woocommerce/my-account";
+@import "woocommerce/dashboard";
+@import "woocommerce/myaccount-sidebar";
+@import "woocommerce/mini-cart";
+@import "woocommerce/filter";
+@import "woocommerce/thank-you";
+@import "woocommerce/yith";
+@import "woocommerce/orders";
+@import "woocommerce/my-address";
+@import "woocommerce/account-details";
+@import "woocommerce/order-download";
+@import "woocommerce/orders-details";
+@import "woocommerce/filepond";
+@import "woocommerce/filepond-plugin-image-preview";
+
+@import "woocommerce/archive-product";
+@import "woocommerce/no-products-found";

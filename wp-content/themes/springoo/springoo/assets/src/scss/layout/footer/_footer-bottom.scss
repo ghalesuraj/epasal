@@ -1,0 +1,104 @@
+.springoo-secondary-footer {
+  background-color: var(--springoo-color-secondary-footer-bg);
+
+  .springoo-secondary-footer-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--springoo-20);
+    // For Customizer Change
+    padding-top: var(--springoo-footer-bottom-padding-top);
+    padding-bottom: var(--springoo-footer-bottom-padding-bottom);
+    border-top: 1px solid var(--springoo-color-secondary-footer-border-color);
+  }
+
+  .footer-menu {
+    display: flex;
+    gap: var(--springoo-8);
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 0;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      position: relative;
+      flex: 48%;
+      flex-grow: 0;
+      text-align: left;
+      flex-shrink: 1;
+    }
+
+    a {
+      color: var(--springoo-color-secondary-footer-link);
+      &:hover{
+        color: var(--springoo-color-secondary-footer-link-hover);
+      }
+    }
+  }
+}
+
+//download app
+.springoo-footer-download-app {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: var(--springoo-5);
+    align-items: center;
+  }
+  .light{
+    display:none;
+  }
+}
+
+//support for light color scheme
+.footer_light{
+  .springoo-secondary-footer {
+    background-color: #fff;
+
+    .springoo-secondary-footer-wrap{
+      border-top: 1px solid #E2E7EF;
+    }
+
+    .footer-menu {
+      a {
+        color: var(--springoo-color-heading);
+        &:hover{
+          color: var(--springoo-color-secondary);
+        }
+      }
+    }
+  }
+
+  .springoo-footer-download-app{
+    .light{
+      display:block;
+    }
+    .dark{
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .springoo-secondary-footer {
+    .footer-menu {
+      gap: var(--springoo-30);
+      margin: 0;
+      li {
+        position: relative;
+        width: inherit;
+        flex: inherit;
+      }
+    }
+  }
+}

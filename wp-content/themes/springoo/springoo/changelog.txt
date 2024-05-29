@@ -1,0 +1,27 @@
+== Changelog ==
+
+= 1.0.4 =
+* Fixed: Breadcrumb icon orientation issue for RTL
+* Fixed: Sale badge not working for variation products
+* Updated: Slider Revolution (6.6.20)
+* Fixed: Outdated template for WooCommerce (8.5.1)
+
+= 1.0.3 =
+* Fixed: Favicon is not showing (Frontend)
+* Fixed: Revolution Slider responsive issue
+* Updated: Ayyash Addons & Ayyash Addons Pro Plugin
+* Updated: Slider Revolution (6.6.16)
+* Improvement: WooCommerce shop page filter for smaller devices
+
+= 1.0.2 =
+* Fixed: Mobile Menu off canvas
+* Fixed: Outdated template for WooCommerce 8.1.1
+* Updated: google fonts Support
+* Improvement: WooCommerce shop page filter for smaller devices
+
+= 1.0.1 =
+* Added: Support for latest WordPress 6.3 and WooCommerce 8.0.1
+* Improvement: Redesigned Dokan Multi-vendor pages.
+
+= 1.0.0 =
+* New: Initial Release.

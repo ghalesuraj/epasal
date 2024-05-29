@@ -1,0 +1,149 @@
+/**
+ * Variables.
+ */
+
+@use "sass:math";
+
+// Colors
+$white: #fff;
+$grey_1: #FAFAFA;
+$grey_2: #F5F5F5;
+$grey_3: #EEEEEE;
+$grey_4: #E0E0E0;
+$grey_5: #BDBDBD;
+$grey_6: #9E9E9E;
+$grey_7: #757575;
+$grey_8: #616161;
+$grey_9: #424242;
+$grey_10: #212121;
+$black: #000;
+
+// Brand Colors
+// -- normal / darker / lighter
+$blue_1: #59BACC;
+$blue_2: #39A5B9;
+$blue_3: #80CAD8;
+$green_1: #58AD69;
+$green_2: #458D53;
+$green_3: #7ABE88;
+$orange_1: #FFBC49;
+$orange_2: #FFA916;
+$orange_3: #FFCF7C;
+$red_1: #E2574C;
+$red_2: #D83023;
+$red_3: #E98078;
+
+// Gutenberg color options
+// -- see editor-color-palette in functions.php
+$colors:
+	( blue, $blue_1 ),
+	( green, $green_1 ),
+	( orange, $orange_1 ),
+	( red, $red_1 );
+
+$base-color: $black;
+$highlight: $blue_1;
+$border-color: $grey_4;
+
+// Sidr
+$sidr_width: 345px;
+$sidr_close: 44px;
+$sidr_total: $sidr_width + $sidr_close;
+
+// Content
+$content-width: 920px;
+$block-margin: 20px;
+
+// Grid
+$grid-width: 1200px;
+$grid-gap: 32px;
+$base-margin: 16px;
+$wrap_edge: $base-margin;
+$margin_2x: $base-margin * 2;
+$margin_4x: $base-margin * 4;
+
+// Include Media
+$breakpoints: (
+	'phone'  : 360px,
+	'small'  : 768px,
+	'tablet' : 768px, // required for include-media
+	'medium' : 992px,
+	'large'  : 1200px,
+	'desktop': $grid-width + $grid-gap, // required for include-media
+);
+
+// Mega Menu CSS
+$color_1: #333;
+$color_2: #428bca;
+$color_3: #555;
+$color_4: inherit;
+$color_5: #fff;
+$color_6: #3c763d;
+$color_7: #2b542c;
+$color_8: #31708f;
+$color_9: #245269;
+$color_10: #8a6d3b;
+$color_11: #66512c;
+$color_12: #a94442;
+$color_13: #843534;
+$color_14: #aaa;
+$color_15: #999;
+$font-family_1: themify;
+$background-color_1: rgba(255, 255, 255, .95);
+$background-color_2: #f8f8f8;
+$background-color_3: #428bca;
+$background-color_4: transparent;
+$background-color_5: rgba(255, 255, 255, .05);
+$background-color_6: #fff;
+$background-color_7: rgba(255, 255, 255, .9);
+$background-color_8: #ccc;
+$background-color_9: #dff0d8;
+$background-color_10: #d9edf7;
+$background-color_11: #fcf8e3;
+$background-color_12: #f2dede;
+$background-color_13: #999;
+$background-color_14: #5cb85c;
+$background-color_15: #5bc0de;
+$background-color_16: #f0ad4e;
+$background-color_17: #d9534f;
+$background-color_18: #1bab41;
+$background-color_19: #222;
+$border-color_1: #fff;
+$border-color_2: rgba(255, 255, 255, .1);
+$border-color_3: #d6e9c6;
+$border-color_4: #bce8f1;
+$border-color_5: #faebcc;
+$border-color_6: #ebccd1;
+$border-top-color_1: #c9e2b3;
+$border-top-color_2: #a6e1ec;
+$border-top-color_3: #f7e1b5;
+$border-top-color_4: #e4b9c0;
+$border-top-color_5: #333;
+
+// Social icon
+$color_1: #9e8f8f;
+//$color_2: #fff; // variable is duplicated
+
+$scale-MinorSecond : 1.067;
+$scale-MajorSecond : 1.125;
+$scale-MinorThird : 1.2;
+$scale-MajorThird : 1.25;
+$scale-PerfectFourth : 1.333;
+$scale-AugmentedFourth : 1.414;
+$scale-PerfectFifth : 1.5;
+$scale-GoldenRatio : 1.618;
+
+//$scale: $scale-MajorThird;
+$scale: $scale-MajorSecond;
+$baseFS: 16;
+$base: math.div( $baseFS, 16 );
+// Line Height
+$baseLH: 1.6; // Header Line height
+$headerLH: 1.2; // Header Line height
+
+// Font Family
+$ff-base: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$ff-heading: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+// End of file _variables.scss

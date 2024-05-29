@@ -1,0 +1,103 @@
+.woocommerce-EditAccountForm {
+	background: transparent !important;
+
+	.springoo-account-details, .springoo-account-password {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--springoo-30);
+		margin-bottom: var(--springoo-30);
+
+		p {
+			margin-bottom: 0;
+		}
+
+		input {
+			padding: var(--springoo-15);
+			font-size: var(--springoo-small-font-size);
+			color: var(--springoo-color-heading);
+			background: #fff;
+			border: 1px solid var(--springoo-color-border);
+
+			+ span {
+				font-size: var(--springoo-small-font-size);
+				margin-top: var(--springoo-10);
+				margin-bottom: var(--springoo-30);
+			}
+
+		}
+
+		.show-password-input {
+			&::after {
+				font-family: "Font Awesome 5 Free";
+				content: "\f070";
+			}
+
+			&.display-password {
+				&::after {
+					font-family: "Font Awesome 5 Free";
+					content: "\f06e";
+				}
+			}
+		}
+
+		label {
+			margin-bottom: 5px;
+			font-family: var(--springoo-global-font-family);
+			font-weight: var(--springoo-400-font-weight);
+			font-size: var(--springoo-global-font-size);
+			color: var(--springoo-color-heading);
+
+			.required {
+				color: #F02F2F;
+			}
+		}
+
+		.col-6 {
+			flex: 0 0 auto;
+			width: calc(50% - var(--springoo-15));
+		}
+
+		.col-12 {
+			flex: 0 0 auto;
+			width: 100%;
+		}
+	}
+
+	.separator {
+		height: 1px;
+		background: var(--springoo-color-border);
+		width: 100%;
+		margin-bottom: var(--springoo-30);
+	}
+
+	#springoo-account-details-submit {
+		padding: var(--springoo-15) var(--springoo-20);
+		height: auto;
+		font-size: var(--springoo-global-font-size);
+		line-height: inherit;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.woocommerce-EditAccountForm {
+		.springoo-account-details, .springoo-account-password {
+			gap: var(--springoo-15);
+			margin-bottom: var(--springoo-15) ;
+
+			.col-6 {
+				flex: 0 0 auto;
+				width: 100% ;
+			}
+
+			.col-12 {
+				flex: 0 0 auto;
+				width: 100%;
+			}
+		}
+		.separator {
+			margin-bottom: var(--springoo-15) ;
+		}
+	}
+
+}

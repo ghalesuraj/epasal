@@ -1,0 +1,75 @@
+// form fields
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+    color: var(--springoo-color-global);
+    border: 1px solid var(--springoo-color-border);
+    padding: var(--springoo-10) var(--springoo-15);
+    width: 100%;
+	border-radius: 0.3125rem;
+    &:focus,
+    &:focus-visible{
+        outline: 1px solid var(--springoo-color-secondary);
+    }
+}
+
+input[type="checkbox"]:focus-visible{
+  outline: 1px solid var(--springoo-color-secondary);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+select{
+	height: 3.125rem;
+}
+textarea{
+    height: 12.5rem;
+}
+
+form{
+    p{
+        margin-bottom: 0;
+    }
+}
+
+// form buttons
+input[type="submit"],
+button[type="submit"]{
+	height: 3.125rem;
+    background-color: var(--springoo-color-primary);
+    padding: var(--springoo-10) var(--springoo-15);
+    color: #ffffff;
+    border: none;
+    &:hover{
+        background-color: var(--springoo-color-secondary);
+    }
+}
+
+input[type="submit"]{
+	border-radius: 6.25rem;
+	padding: 0.4375rem var(--springoo-20);
+}
+
+select{
+	background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==) no-repeat 95% 50%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.required{
+	color: #ff0000;
+}

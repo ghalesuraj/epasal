@@ -1,0 +1,47 @@
+/* =============================================================================
+   Tag Cloud Block Styles
+========================================================================== */
+.wp-block-tag-cloud{
+    margin: 0;
+    // tag cloud link
+    a{
+        color: var(--springoo-color-global);
+        text-decoration: none;
+        &:hover{
+            color: var(--springoo-color-secondary);
+            span{
+                color: var(--springoo-color-secondary);
+            }
+        }
+        span{
+            color: var(--springoo-color-global);
+        }
+    }
+    // default tag cloud
+    &:not(.is-style-outline){
+        a{
+			display: inline-block;
+			margin: 0 var(--springoo-10) var(--springoo-10) 0;
+			padding: 0;
+			border: none;
+			border-bottom: 1px solid var(--springoo-color-heading);
+            &:hover{
+                border-color: var(--springoo-color-secondary);
+            }
+        }
+    }
+    // outline tag cloud
+    &.is-style-outline{
+        gap: var(--springoo-10);
+
+        a{
+            border-color: var(--springoo-color-border);
+            padding: 0.375rem var(--springoo-10);
+        }
+    }
+}
+
+
+
+
+

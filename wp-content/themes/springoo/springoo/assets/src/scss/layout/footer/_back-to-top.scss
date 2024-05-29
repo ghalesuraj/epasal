@@ -1,0 +1,65 @@
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	background-color: var(--springoo-color-primary);
+	/* image replacement properties */
+	overflow: hidden;
+	white-space: nowrap;
+	visibility: hidden;
+	opacity: 0.8;
+	transition: opacity .3s 0s, visibility 0s .3s;
+	z-index: 100;
+
+	&:hover {
+		transition: opacity .3s 0s, visibility 0s 0s;
+		opacity: 1;
+	}
+
+	.ti-angle-up {
+		font-size: 14px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -8px;
+		margin-left: -7.5px;
+		color: #fff;
+	}
+
+	&.cd-is-visible {
+		/* the button becomes visible */
+		visibility: visible;
+		opacity: 1;
+		border-radius: 2px;
+		transition: opacity .3s 0s, visibility 0s 0s;
+	}
+
+	&.cd-fade-out {
+		/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+		opacity: .5;
+		transition: opacity .3s 0s, visibility 0s 0s;
+	}
+
+	&.cd-fade-out:hover,
+	&.cd-fade-out:focus,
+	&.cd-fade-out:active {
+		opacity: 1;
+	}
+
+	@media only screen and (min-width: 768px) {
+		right: 20px;
+		bottom: 20px;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		height: 40px;
+		width: 40px;
+		right: 30px;
+		bottom: 30px;
+	}
+}
+

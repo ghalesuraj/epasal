@@ -1,0 +1,22 @@
+/**
+ * Gutenberg Styles
+ */
+
+// Colors
+$colors: ('primary' : 'ac', 'secondary' : 'ahc', 'heading' : 'hc', 'global' : 'tc', 'light-bg': 'cbc');
+@each $color, $theme_color in $colors {
+	.has-springoo-#{$color}-color {
+		color: var(--springoo-#{$theme_color}, var(--wp--preset--color--springoo-#{$color}));
+	}
+	.has-springoo-#{$color}-background-color {
+		background-color: var(--wp--preset--color--springoo-#{$color});
+	}
+}
+
+// Typography
+$sizes: 1,2,3,4,5,6;
+@each $size in $sizes {
+	.has-springoo-heading-#{$size}-font-size {
+		font-size: var(--wp--preset--font-size--springoo-heading-#{$size});
+	}
+}

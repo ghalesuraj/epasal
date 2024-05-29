@@ -1,0 +1,17 @@
+{
+  "clear_on_reselect": "yes",
+  "hide_out_of_stock_variation": "yes",
+  "clickable_out_of_stock_variation": "no",
+  "attribute_behavior": "blur",
+  "attribute_image_size": "variation_swatches_image_size",
+  "enable_stylesheet": "yes",
+  "enable_tooltip": "yes",
+  "shape_style": "rounded",
+  "default_to_button": "yes",
+  "default_to_image": "yes",
+  "tick_color": "#ffffff",
+  "cross_color": "#ff0000",
+  "width": "45",
+  "height": "45",
+  "single_font_size": "16"
+}

@@ -1,0 +1,218 @@
+/**
+ * YITH Compare
+ */
+#yith-quick-view-modal {
+	#yith-quick-view-close {
+		top: 1.25rem;
+		right: 1.25rem;
+		width: 1.375rem;
+		height: 1.375rem;
+		line-height: 1.3125rem;
+		opacity: 1;
+		font-size: 0;
+		border: none;
+
+		&:hover {
+			color: #3a3a3a;
+		}
+
+		&:before {
+			content: url("data:image/svg+xml,%3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.2063 13.7945C15.5969 14.1852 15.5969 14.818 15.2063 15.2086C15.0125 15.4039 14.7563 15.5008 14.5 15.5008C14.2437 15.5008 13.9881 15.4031 13.7931 15.2078L10.5 11.9164L7.20719 15.207C7.01188 15.4039 6.75594 15.5008 6.5 15.5008C6.24406 15.5008 5.98844 15.4039 5.79297 15.207C5.40234 14.8164 5.40234 14.1836 5.79297 13.793L9.08672 10.4992L5.79297 7.20703C5.40234 6.81641 5.40234 6.18359 5.79297 5.79297C6.18359 5.40234 6.81641 5.40234 7.20703 5.79297L10.5 9.08828L13.7937 5.79453C14.1844 5.40391 14.8172 5.40391 15.2078 5.79453C15.5984 6.18516 15.5984 6.81797 15.2078 7.20859L11.9141 10.5023L15.2063 13.7945Z' fill='black'/%3E%3C/svg%3E%0A");
+		}
+	}
+
+	#yith-quick-view-content {
+		padding: 1.25rem;
+
+		div.images {
+			width: 100%;
+		}
+
+		div.summary {
+			width: 100%;
+			padding: 0;
+		}
+
+		.product{
+			padding-bottom: 50px;
+		}
+	}
+
+	.yith-wcqv-main {
+		box-shadow: none;
+	}
+
+	.countdown-timer {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#yith-quick-view-modal {
+		#yith-quick-view-close {
+			top: 30px;
+			right: 28px;
+		}
+	}
+  #yith-quick-view-content{
+	.product .product_meta{
+	  margin-bottom: 30px;
+	}
+  }
+}
+
+@media screen and (max-width: 576px) {
+	a.woocommerce-product-gallery__trigger {
+		display: none;
+	}
+}
+
+.yith-wcqv-wrapper .quantity input[type=number].qty {
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+/**
+ * YITH Wishlist
+ */
+.single-product .summary {
+	.yith-wcwl-wishlistaddedbrowse,
+	.yith-wcwl-wishlistexistsbrowse {
+		span.feedback {
+			display: none !important;
+		}
+	}
+}
+
+.yith-wcwl-add-button a i {
+	margin-right: 0;
+}
+
+.woocommerce table.shop_table.cart .wishlist-items-wrapper {
+	tr td .woocommerce-Price-currencySymbol {
+		font-weight: 400;
+	}
+}
+
+.wcwl-view-btn-wrap {
+	display: flex;
+	gap: 5px;
+}
+
+.wishlist_table .dateadded {
+	margin-bottom: 10px;
+}
+
+.wishlist_table .product-add-to-cart a.button, .wishlist_table .product-add-to-cart a {
+	background: var(--springoo-color-primary);
+	padding: 9px 25px !important;
+	display: flex !important;
+	line-height: 1 !important;
+	margin: 0 !important;
+	align-items: center;
+	height: unset;
+	color: #fff;
+}
+
+.wishlist_table .product-add-to-cart a.button.yith-wcqv-button i {
+	font-size: 22px;
+}
+
+.wishlist_table .product-add-to-cart a.button.yith-wcqv-button, .wishlist_table .product-add-to-cart a.yith-wcqv-button {
+	line-height: var(--springoo-global-line-height);
+	height: auto;
+	position: relative;
+	background: transparent;
+	border: 1px solid var(--springoo-color-border);
+	color: var(--springoo-color-global);
+	i{
+		color: var(--springoo-color-global);
+	}
+}
+
+.wishlist-title-container {
+	.fa {
+		font-family: 'fontAwesome';
+	}
+}
+
+/**
+ * YITH Quickview
+ */
+.woocommerce-MyAccount-content {
+	.woocommerce table.shop_table {
+		margin-bottom: 0;
+
+		td {
+			padding: 0.5625rem 0.75rem;
+		}
+	}
+}
+
+.wishlist_table.mobile {
+	margin: 0;
+	padding: 0;
+
+	li {
+		width: 100%;
+		max-width: 300px;
+		margin: auto;
+		position: relative;
+		padding-bottom: var(--springoo-25);
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+
+		.item-wrapper {
+			width: 100%;
+
+			.item-details {
+				width: 100%;
+			}
+
+			.product-thumbnail {
+				display: block;
+				max-width: 100%;
+				margin-right: 0;
+				margin-bottom: var(--springoo-20);
+			}
+		}
+
+		.product-remove {
+			i {
+				position: absolute;
+				top: 0.5rem;
+				right: 0.5rem;
+				height: var(--springoo-30);
+				width: var(--springoo-30);
+				border: 1px solid #f02f2f;
+				border-radius: 100%;
+				color: #f02f2f;
+				line-height: 1.75rem;
+			}
+		}
+	}
+}
+
+.wishlist_table.mobile {
+	li {
+		.additional-info-wrapper {
+			.product-remove {
+				text-align: center;
+			}
+		}
+	}
+}
+
+.wishlist_table.mobile .product-add-to-cart a {
+	display: block !important;
+}
+
+.wishlist_table.mobile .product-add-to-cart a.button.yith-wcqv-button {
+	margin-bottom: var(--springoo-10) !important;
+	.springoo-tooltip{
+		display:none;
+	}
+}
+

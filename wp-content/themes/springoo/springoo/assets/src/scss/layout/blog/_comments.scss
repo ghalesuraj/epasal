@@ -1,0 +1,219 @@
+/*------ Comments Css -----*/
+// comments list
+.comments-container{
+    margin-top: var(--springoo-10);
+}
+
+.comment-list{
+    padding-left: 0;
+    li{
+        list-style: none;
+    }
+    >li:first-child >.comment {
+        border-top: none;
+		padding-top: 0;
+    }
+
+    .children{
+        padding-left: var(--springoo-20);
+    }
+}
+
+.comment {
+    border-top: 1px solid var(--springoo-color-border);
+    padding-top: var(--springoo-30);
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+
+    .avatar {
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 100%;
+        margin-right: var(--springoo-10);
+        display: inline-block;
+		vertical-align: top;
+        object-fit: cover;
+    }
+
+	.comment-author{
+		margin-bottom: var(--springoo-10);
+	}
+
+    .comment-meta{
+		position: relative;
+        flex: 1;
+    }
+
+    .comment-date {
+        font-size: var(--springoo-small-font-size);
+    }
+
+    .comment-reply {
+        font-size: var(--springoo-small-font-size);
+        font-weight: var(--springoo-600-font-weight);
+		display: block;
+		margin-top: var(--springoo-10);
+        i{
+            margin-right: 0.1875rem;
+			font-size: 1.14em;
+			vertical-align: middle;
+        }
+    }
+
+    .comment-content {
+        margin: var(--springoo-10) 0 var(--springoo-30) 0;
+		width: 100%;
+        p{
+            margin: 0;
+        }
+    }
+}
+
+// comments response form
+.comment-respond{
+    margin-bottom: var(--springoo-40);
+	.comment-form{
+        margin-top: var(--springoo-40);
+        .logged-in-as,
+        .comment-notes{
+            margin-bottom: var(--springoo-20);
+        }
+		input[type=text],
+		input[type=email],
+		input[type=url]{
+			margin-bottom: var(--springoo-20);
+		}
+        textarea#comment {
+            margin-bottom: var(--springoo-15);
+        }
+        .comment-form-cookies-consent {
+            margin-bottom: var(--springoo-20);
+            display: flex;
+            align-items: start;
+            gap: var(--springoo-10);
+            input#wp-comment-cookies-consent {
+                width: 1.125em;
+                height: 1.125em;
+            }
+            label {
+                margin-top: -0.3125em;
+                margin-bottom: 0;
+            }
+        }
+        .form-submit {
+            text-align: left;
+			margin-top: 0;
+            input#submit {
+                width: 100%;
+	            color: #ffffff;
+	            background-color: var( --springoo-color-primary );
+            }
+        }
+	}
+	.cancel-reply{
+		a{
+			i{
+				font-size: 1rem;
+				margin-left: var(--springoo-20);
+			}
+		}
+	}
+}
+
+
+/*------ Comments Responsive -----*/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.comment {
+		.comment-reply {
+			margin-top: 0;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    // comments list responsive
+    .comments-container{
+        margin-top: var(--springoo-30);
+    }
+
+    .comment-list{
+        .children{
+            padding-left: var(--springoo-85);
+        }
+    }
+
+    .comment {
+        .avatar {
+            width: 4.063rem;
+            height: 4.063rem;
+            margin-right: var(--springoo-15);
+        }
+    }
+
+    // comment respond form responsive
+    .comment-respond{
+        margin-bottom: 0;
+        .comment-form {
+            input[type=text],
+            input[type=email],
+            input[type=url]{
+                margin-bottom: var(--springoo-30);
+            }
+            textarea#comment {
+                margin-bottom: var(--springoo-25);
+            }
+            .form-submit {
+                input#submit {
+                    width: auto;
+
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    // comments list responsive
+    .comment {
+        .comment-content {
+            margin-left: var(--springoo-85);
+        }
+    }
+    // comment respond form responsive
+    .comment-respond {
+        .comment-form{
+            .comment-form-cookies-consent {
+                margin-bottom: var(--springoo-25);
+            }
+        }
+    }
+
+}
+
+// Extra Large devices (desktops, 1200px and up)
+@media (min-width: 1200px) {
+    // comment respond form responsive
+    .comment-respond {
+        .comment-form{
+			.comment-form-cookies-consent {
+                align-items: center;
+                margin-bottom: -55px;
+                label {
+                    margin-top: 0;
+                }
+            }
+			.form-submit {
+				text-align: right;
+				margin-top: 0;
+			}
+        }
+    }
+}

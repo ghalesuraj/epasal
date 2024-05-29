@@ -1,0 +1,13 @@
+/**
+ * Star ratings
+ */
+.woocommerce {
+	.star-rating {
+		span {
+			color: #EBA000;
+		}
+		&:before {
+			color: #EBA000;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+form.search{
+	.text {
+		position: relative;
+	}
+
+	button {
+		position: absolute;
+		width: 40px;
+		height: 100%;
+		background: none;
+		color: var(--springoo-color-heading);
+		border: none;
+		overflow: hidden;
+		padding: 0;
+		top: 0;
+		right: 0;
+		line-height: 1;
+		cursor: pointer;
+
+		&:hover {
+			color: #504e4e;
+		}
+
+		&:before {
+			display: inline-block;
+			height: 100%;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+//
+// Springoo Widgets
+//
+@import "widgets/archives";
+@import "widgets/calendar";
+@import "widgets/categories";
+@import "widgets/latest_comments";
+@import "widgets/latest_posts";
+@import "widgets/meta";
+@import "widgets/page_list";
+@import "widgets/rss";
+@import "widgets/search";
+@import "widgets/tag_cloud";
+@import "widgets/newsletter";
+@import "widgets/nav_menu";
+@import "widgets/gallery";
+@import "widgets/recent_post";
+
+
+.widget-title, .wp-block-group__inner-container h2 {
+	font-family: var(--springoo-footer-widget-title-font-family);
+	font-weight: var(--springoo-footer-widget-title-font-weight);
+	font-style: var(--springoo-footer-widget-title-font-style);
+	font-size: var(--springoo-footer-widget-title-font-size);
+	line-height: var(--springoo-footer-widget-title-line-height);
+	text-transform: var(--springoo-footer-widget-title-text-transform);
+	letter-spacing: var(--springoo-footer-widget-title-letter-spacing);
+	word-spacing: var(--springoo-footer-widget-title-word-spacing);
+	border-color: var(--springoo-color-border);
+	color: var(--springoo-color-footer-heading);
+	text-align: left;
+	margin-top: 0;
+	padding-bottom: var(--springoo-15);
+	margin-bottom: var(--springoo-30);
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	position: relative;
+
+	&:after {
+		content: " ";
+		position: absolute;
+		height: 3px;
+		width: 33%;
+		background: var(--springoo-color-primary);
+		left: 0;
+		bottom: -2px;
+		border-radius: 100px;
+
+	}
+
+}
+
+
+

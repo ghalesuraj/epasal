@@ -1,0 +1,1785 @@
+$springoo-font: "springoo";
+
+@font-face {
+    font-family: $springoo-font;
+    src: url("../fonts/springoo.eot?98c3920ead27caabfde339a418a53da9#iefix") format("embedded-opentype"),
+url("../fonts/springoo.ttf?98c3920ead27caabfde339a418a53da9") format("truetype"),
+url("../fonts/springoo.svg?98c3920ead27caabfde339a418a53da9#springoo") format("svg"),
+url("../fonts/springoo.woff?98c3920ead27caabfde339a418a53da9") format("woff"),
+url("../fonts/springoo.woff2?98c3920ead27caabfde339a418a53da9") format("woff2");
+}
+
+[class^="si-"], [class*=" si-"], [class^="si-"]:before, [class*=" si-"]:before {
+    font-family: springoo !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$springoo-map: (
+    "bold-dislike": "\f101",
+    "bold-facebook": "\f102",
+    "bold-heart": "\f103",
+    "bold-like": "\f104",
+    "bold-play-circle": "\f105",
+    "bold-quick-view": "\f106",
+    "bold-springoo-logo": "\f107",
+    "bold-tick-circle": "\f108",
+    "bold-tick-square": "\f109",
+    "bold-twitter": "\f10a",
+    "bold-youtube": "\f10b",
+    "thin-2-column": "\f10c",
+    "thin-3-column": "\f10d",
+    "thin-4-column": "\f10e",
+    "thin-activewear": "\f10f",
+    "thin-add": "\f110",
+    "thin-anti-age": "\f111",
+    "thin-arrow-down-2": "\f112",
+    "thin-arrow-down": "\f113",
+    "thin-arrow-left": "\f114",
+    "thin-arrow-long-left": "\f115",
+    "thin-arrow-long-right-2": "\f116",
+    "thin-arrow-long-right": "\f117",
+    "thin-arrow-right": "\f118",
+    "thin-arrow-up": "\f119",
+    "thin-award": "\f11a",
+    "thin-backpack-2": "\f11b",
+    "thin-backpack": "\f11c",
+    "thin-bag-2": "\f11d",
+    "thin-bag-3": "\f11e",
+    "thin-bag-4": "\f11f",
+    "thin-bag-5": "\f120",
+    "thin-bag": "\f121",
+    "thin-bathrobe": "\f122",
+    "thin-beanie": "\f123",
+    "thin-beauty": "\f124",
+    "thin-belt-10": "\f125",
+    "thin-belt-2": "\f126",
+    "thin-belt-3": "\f127",
+    "thin-belt-9": "\f128",
+    "thin-belt": "\f129",
+    "thin-bikini-2": "\f12a",
+    "thin-bikini-3": "\f12b",
+    "thin-bikini": "\f12c",
+    "thin-body": "\f12d",
+    "thin-boot-2": "\f12e",
+    "thin-boot": "\f12f",
+    "thin-bow-tie": "\f130",
+    "thin-bowler-hat": "\f131",
+    "thin-box": "\f132",
+    "thin-boxers": "\f133",
+    "thin-bra-2": "\f134",
+    "thin-bra": "\f135",
+    "thin-bracelet": "\f136",
+    "thin-budget": "\f137",
+    "thin-bum-bag": "\f138",
+    "thin-button-2": "\f139",
+    "thin-button": "\f13a",
+    "thin-buttons": "\f13b",
+    "thin-calendar": "\f13c",
+    "thin-caliper": "\f13d",
+    "thin-call": "\f13e",
+    "thin-cap-2": "\f13f",
+    "thin-cap-3": "\f140",
+    "thin-cap-4": "\f141",
+    "thin-cap-5": "\f142",
+    "thin-cap": "\f143",
+    "thin-card-tick": "\f144",
+    "thin-cardigan-2": "\f145",
+    "thin-cardigan": "\f146",
+    "thin-category": "\f147",
+    "thin-chalk-2": "\f148",
+    "thin-chalk": "\f149",
+    "thin-chevron-left": "\f14a",
+    "thin-chevron-right": "\f14b",
+    "thin-clippers": "\f14c",
+    "thin-close": "\f14d",
+    "thin-clothes-pin": "\f14e",
+    "thin-color-swatch": "\f14f",
+    "thin-comb-2": "\f150",
+    "thin-comb": "\f151",
+    "thin-compare-2": "\f152",
+    "thin-compare": "\f153",
+    "thin-contact-lens-2": "\f154",
+    "thin-contact-lens": "\f155",
+    "thin-cosmetics": "\f156",
+    "thin-cotton": "\f157",
+    "thin-crayons": "\f158",
+    "thin-cream-2": "\f159",
+    "thin-cream-3": "\f15a",
+    "thin-cream": "\f15b",
+    "thin-creativity": "\f15c",
+    "thin-cutting-mat": "\f15d",
+    "thin-details": "\f15e",
+    "thin-diamond-2": "\f15f",
+    "thin-diamond-3": "\f160",
+    "thin-diamond-4": "\f161",
+    "thin-diamond-5": "\f162",
+    "thin-diamond-6": "\f163",
+    "thin-diamond-7": "\f164",
+    "thin-diamond-ring-2": "\f165",
+    "thin-diamond-ring-3": "\f166",
+    "thin-diamond-ring-4": "\f167",
+    "thin-diamond-ring": "\f168",
+    "thin-diamond": "\f169",
+    "thin-dislike": "\f16a",
+    "thin-dollar-circle-2": "\f16b",
+    "thin-dollar-circle": "\f16c",
+    "thin-dress-10": "\f16d",
+    "thin-dress-11": "\f16e",
+    "thin-dress-2": "\f16f",
+    "thin-dress-3": "\f170",
+    "thin-dress-4": "\f171",
+    "thin-dress-5": "\f172",
+    "thin-dress-6": "\f173",
+    "thin-dress-7": "\f174",
+    "thin-dress-8": "\f175",
+    "thin-dress-9": "\f176",
+    "thin-dress": "\f177",
+    "thin-dressing-table": "\f178",
+    "thin-dribbble": "\f179",
+    "thin-earrings-2": "\f17a",
+    "thin-earrings-3": "\f17b",
+    "thin-earrings-4": "\f17c",
+    "thin-earrings-5": "\f17d",
+    "thin-earrings-6": "\f17e",
+    "thin-earrings": "\f17f",
+    "thin-element": "\f180",
+    "thin-envelope": "\f181",
+    "thin-eye-shadow-2": "\f182",
+    "thin-eye-shadow-3": "\f183",
+    "thin-eye-shadow": "\f184",
+    "thin-eye": "\f185",
+    "thin-eyebrow-pencil": "\f186",
+    "thin-eyeglasses": "\f187",
+    "thin-eyelash": "\f188",
+    "thin-eyelashes-curler": "\f189",
+    "thin-eyeliner": "\f18a",
+    "thin-fabric-2": "\f18b",
+    "thin-fabric-3": "\f18c",
+    "thin-fabric": "\f18d",
+    "thin-face-mask": "\f18e",
+    "thin-facebook": "\f18f",
+    "thin-fashion-designer": "\f190",
+    "thin-fashion": "\f191",
+    "thin-fire": "\f192",
+    "thin-fitting": "\f193",
+    "thin-foundation-2": "\f194",
+    "thin-foundation": "\f195",
+    "thin-frame": "\f196",
+    "thin-gems-2": "\f197",
+    "thin-gems": "\f198",
+    "thin-gift-box": "\f199",
+    "thin-glamour": "\f19a",
+    "thin-glasses-2": "\f19b",
+    "thin-glasses": "\f19c",
+    "thin-global": "\f19d",
+    "thin-hamburger": "\f19e",
+    "thin-hand-bag-2": "\f19f",
+    "thin-hand-bag-3": "\f1a0",
+    "thin-hand-bag": "\f1a1",
+    "thin-hand-mirror": "\f1a2",
+    "thin-handbag-2": "\f1a3",
+    "thin-handbag": "\f1a4",
+    "thin-hanger-2": "\f1a5",
+    "thin-hanger": "\f1a6",
+    "thin-hat-2": "\f1a7",
+    "thin-hat-3": "\f1a8",
+    "thin-hat-4": "\f1a9",
+    "thin-hat-5": "\f1aa",
+    "thin-hat-6": "\f1ab",
+    "thin-hat": "\f1ac",
+    "thin-heart": "\f1ad",
+    "thin-help": "\f1ae",
+    "thin-high-heels-2": "\f1af",
+    "thin-high-heels-3": "\f1b0",
+    "thin-high-heels-4": "\f1b1",
+    "thin-high-heels-5": "\f1b2",
+    "thin-high-heels-6": "\f1b3",
+    "thin-high-heels-7": "\f1b4",
+    "thin-high-heels-8": "\f1b5",
+    "thin-high-heels": "\f1b6",
+    "thin-huobi-token": "\f1b7",
+    "thin-influencer": "\f1b8",
+    "thin-instagram": "\f1b9",
+    "thin-iron": "\f1ba",
+    "thin-jacket-2": "\f1bb",
+    "thin-jacket-3": "\f1bc",
+    "thin-jacket-4": "\f1bd",
+    "thin-jacket-5": "\f1be",
+    "thin-jacket": "\f1bf",
+    "thin-jeans-2": "\f1c0",
+    "thin-jeans-3": "\f1c1",
+    "thin-jeans-4": "\f1c2",
+    "thin-jeans": "\f1c3",
+    "thin-jumpsuit": "\f1c4",
+    "thin-knitting-2": "\f1c5",
+    "thin-knitting": "\f1c6",
+    "thin-layer": "\f1c7",
+    "thin-leather-2": "\f1c8",
+    "thin-leather": "\f1c9",
+    "thin-lens": "\f1ca",
+    "thin-like": "\f1cb",
+    "thin-lingerie": "\f1cc",
+    "thin-linkedin": "\f1cd",
+    "thin-lip-balm": "\f1ce",
+    "thin-lip-gloss": "\f1cf",
+    "thin-lips": "\f1d0",
+    "thin-lipstick": "\f1d1",
+    "thin-location": "\f1d2",
+    "thin-lotion": "\f1d3",
+    "thin-magazine": "\f1d4",
+    "thin-makeup-2": "\f1d5",
+    "thin-makeup-3": "\f1d6",
+    "thin-makeup-4": "\f1d7",
+    "thin-makeup-5": "\f1d8",
+    "thin-makeup-6": "\f1d9",
+    "thin-makeup-7": "\f1da",
+    "thin-makeup-8": "\f1db",
+    "thin-makeup-remover": "\f1dc",
+    "thin-makeup": "\f1dd",
+    "thin-mannequin-2": "\f1de",
+    "thin-mannequin": "\f1df",
+    "thin-mascara-2": "\f1e0",
+    "thin-mascara": "\f1e1",
+    "thin-measuring-tape-2": "\f1e2",
+    "thin-measuring-tape": "\f1e3",
+    "thin-menu": "\f1e4",
+    "thin-minus": "\f1e5",
+    "thin-mirror-2": "\f1e6",
+    "thin-mirror": "\f1e7",
+    "thin-model": "\f1e8",
+    "thin-more": "\f1e9",
+    "thin-nail-file": "\f1ea",
+    "thin-nail-polish": "\f1eb",
+    "thin-nails": "\f1ec",
+    "thin-necklace-10": "\f1ed",
+    "thin-necklace-11": "\f1ee",
+    "thin-necklace-2": "\f1ef",
+    "thin-necklace-3": "\f1f0",
+    "thin-necklace-4": "\f1f1",
+    "thin-necklace-5": "\f1f2",
+    "thin-necklace-6": "\f1f3",
+    "thin-necklace-7": "\f1f4",
+    "thin-necklace-8": "\f1f5",
+    "thin-necklace-9": "\f1f6",
+    "thin-necklace": "\f1f7",
+    "thin-needle-thread": "\f1f8",
+    "thin-needle": "\f1f9",
+    "thin-oil": "\f1fa",
+    "thin-online-shop-2": "\f1fb",
+    "thin-online-shop": "\f1fc",
+    "thin-overall-2": "\f1fd",
+    "thin-overall": "\f1fe",
+    "thin-pad": "\f1ff",
+    "thin-pamela-hat-2": "\f200",
+    "thin-pamela-hat": "\f201",
+    "thin-pamela": "\f202",
+    "thin-panties": "\f203",
+    "thin-pants": "\f204",
+    "thin-pattern-2": "\f205",
+    "thin-pattern-3": "\f206",
+    "thin-pattern-4": "\f207",
+    "thin-pattern-5": "\f208",
+    "thin-pattern-6": "\f209",
+    "thin-pattern": "\f20a",
+    "thin-pearl-necklace": "\f20b",
+    "thin-pearl": "\f20c",
+    "thin-pendant-2": "\f20d",
+    "thin-pendant-3": "\f20e",
+    "thin-pendant-4": "\f20f",
+    "thin-pendant-5": "\f210",
+    "thin-pendant": "\f211",
+    "thin-perfume-2": "\f212",
+    "thin-perfume": "\f213",
+    "thin-photo-camera": "\f214",
+    "thin-pin-cushion": "\f215",
+    "thin-pincushion": "\f216",
+    "thin-pinterest": "\f217",
+    "thin-placeholder": "\f218",
+    "thin-plus": "\f219",
+    "thin-pocket": "\f21a",
+    "thin-polo": "\f21b",
+    "thin-poncho": "\f21c",
+    "thin-pullover": "\f21d",
+    "thin-purse-2": "\f21e",
+    "thin-purse-3": "\f21f",
+    "thin-purse-4": "\f220",
+    "thin-purse": "\f221",
+    "thin-razor": "\f222",
+    "thin-repeat": "\f223",
+    "thin-reply": "\f224",
+    "thin-rotary-cutter": "\f225",
+    "thin-ruler": "\f226",
+    "thin-safety-pin": "\f227",
+    "thin-salon-chair": "\f228",
+    "thin-sandal": "\f229",
+    "thin-scarf-2": "\f22a",
+    "thin-scarf-3": "\f22b",
+    "thin-scarf": "\f22c",
+    "thin-scissors-2": "\f22d",
+    "thin-scissors": "\f22e",
+    "thin-seam-ripper": "\f22f",
+    "thin-search-2": "\f230",
+    "thin-search-3": "\f231",
+    "thin-search-normal": "\f232",
+    "thin-search": "\f233",
+    "thin-sewing-machine-2": "\f234",
+    "thin-sewing-machine": "\f235",
+    "thin-sewing": "\f236",
+    "thin-share": "\f237",
+    "thin-shirt-10": "\f238",
+    "thin-shirt-11": "\f239",
+    "thin-shirt-12": "\f23a",
+    "thin-shirt-13": "\f23b",
+    "thin-shirt-14": "\f23c",
+    "thin-shirt-15": "\f23d",
+    "thin-shirt-16": "\f23e",
+    "thin-shirt-17": "\f23f",
+    "thin-shirt-2": "\f240",
+    "thin-shirt-3": "\f241",
+    "thin-shirt-4": "\f242",
+    "thin-shirt-5": "\f243",
+    "thin-shirt-6": "\f244",
+    "thin-shirt-7": "\f245",
+    "thin-shirt-8": "\f246",
+    "thin-shirt-9": "\f247",
+    "thin-shirt": "\f248",
+    "thin-shoe-2": "\f249",
+    "thin-shoe-3": "\f24a",
+    "thin-shoe-4": "\f24b",
+    "thin-shoe-5": "\f24c",
+    "thin-shoe-6": "\f24d",
+    "thin-shoe-7": "\f24e",
+    "thin-shoe-8": "\f24f",
+    "thin-shoe-9": "\f250",
+    "thin-shoe": "\f251",
+    "thin-shop": "\f252",
+    "thin-shopping-bag-2": "\f253",
+    "thin-shopping-bag": "\f254",
+    "thin-shopping-cart": "\f255",
+    "thin-shopping": "\f256",
+    "thin-shorts-2": "\f257",
+    "thin-shorts-3": "\f258",
+    "thin-shorts-4": "\f259",
+    "thin-shorts-5": "\f25a",
+    "thin-shorts": "\f25b",
+    "thin-singlet": "\f25c",
+    "thin-sketch-2": "\f25d",
+    "thin-sketch": "\f25e",
+    "thin-skirt-10": "\f25f",
+    "thin-skirt-11": "\f260",
+    "thin-skirt-2": "\f261",
+    "thin-skirt-3": "\f262",
+    "thin-skirt-4": "\f263",
+    "thin-skirt-5": "\f264",
+    "thin-skirt-6": "\f265",
+    "thin-skirt-7": "\f266",
+    "thin-skirt-8": "\f267",
+    "thin-skirt-9": "\f268",
+    "thin-skirt": "\f269",
+    "thin-sleeveless": "\f26a",
+    "thin-slippers-2": "\f26b",
+    "thin-slippers": "\f26c",
+    "thin-sms": "\f26d",
+    "thin-sneakers-2": "\f26e",
+    "thin-sneakers-3": "\f26f",
+    "thin-sneakers-4": "\f270",
+    "thin-sneakers-5": "\f271",
+    "thin-sneakers-6": "\f272",
+    "thin-sneakers": "\f273",
+    "thin-socks-2": "\f274",
+    "thin-socks": "\f275",
+    "thin-sponge": "\f276",
+    "thin-suit-2": "\f277",
+    "thin-suit": "\f278",
+    "thin-suitcase": "\f279",
+    "thin-sweater-2": "\f27a",
+    "thin-sweater": "\f27b",
+    "thin-sweatshirt": "\f27c",
+    "thin-swimsuit-2": "\f27d",
+    "thin-swimsuit-3": "\f27e",
+    "thin-swimsuit-4": "\f27f",
+    "thin-swimsuit-5": "\f280",
+    "thin-swimsuit": "\f281",
+    "thin-tackle-box": "\f282",
+    "thin-tag": "\f283",
+    "thin-tags": "\f284",
+    "thin-tank-top": "\f285",
+    "thin-thimble": "\f286",
+    "thin-thread-2": "\f287",
+    "thin-thread-cut": "\f288",
+    "thin-thread": "\f289",
+    "thin-threader-2": "\f28a",
+    "thin-threader": "\f28b",
+    "thin-tick-circle": "\f28c",
+    "thin-ticket-discount": "\f28d",
+    "thin-tie-2": "\f28e",
+    "thin-tie": "\f28f",
+    "thin-top-2": "\f290",
+    "thin-top": "\f291",
+    "thin-treasure-chest": "\f292",
+    "thin-trench-coat": "\f293",
+    "thin-trousers-2": "\f294",
+    "thin-trousers-3": "\f295",
+    "thin-trousers": "\f296",
+    "thin-truck": "\f297",
+    "thin-tshirt": "\f298",
+    "thin-tweezers": "\f299",
+    "thin-twitter": "\f29a",
+    "thin-underpants": "\f29b",
+    "thin-user": "\f29c",
+    "thin-vest-2": "\f29d",
+    "thin-vest-3": "\f29e",
+    "thin-vest": "\f29f",
+    "thin-vip-room": "\f2a0",
+    "thin-vision-2": "\f2a1",
+    "thin-vision-3": "\f2a2",
+    "thin-vision-4": "\f2a3",
+    "thin-vision-5": "\f2a4",
+    "thin-vision": "\f2a5",
+    "thin-wallet": "\f2a6",
+    "thin-wash": "\f2a7",
+    "thin-watch-2": "\f2a8",
+    "thin-watch-3": "\f2a9",
+    "thin-watch-4": "\f2aa",
+    "thin-watch-5": "\f2ab",
+    "thin-watch-6": "\f2ac",
+    "thin-watch-7": "\f2ad",
+    "thin-watch": "\f2ae",
+    "thin-wedding-dress": "\f2af",
+    "thin-wig": "\f2b0",
+    "thin-winter-hat": "\f2b1",
+    "thin-wool": "\f2b2",
+    "thin-wristwatch-2": "\f2b3",
+    "thin-wristwatch-3": "\f2b4",
+    "thin-wristwatch-4": "\f2b5",
+    "thin-wristwatch": "\f2b6",
+    "thin-zip": "\f2b7",
+    "thin-zipper": "\f2b8",
+);
+
+.si-bold-dislike:before {
+    content: map-get($springoo-map, "bold-dislike");
+}
+.si-bold-facebook:before {
+    content: map-get($springoo-map, "bold-facebook");
+}
+.si-bold-heart:before {
+    content: map-get($springoo-map, "bold-heart");
+}
+.si-bold-like:before {
+    content: map-get($springoo-map, "bold-like");
+}
+.si-bold-play-circle:before {
+    content: map-get($springoo-map, "bold-play-circle");
+}
+.si-bold-quick-view:before {
+    content: map-get($springoo-map, "bold-quick-view");
+}
+.si-bold-springoo-logo:before {
+    content: map-get($springoo-map, "bold-springoo-logo");
+}
+.si-bold-tick-circle:before {
+    content: map-get($springoo-map, "bold-tick-circle");
+}
+.si-bold-tick-square:before {
+    content: map-get($springoo-map, "bold-tick-square");
+}
+.si-bold-twitter:before {
+    content: map-get($springoo-map, "bold-twitter");
+}
+.si-bold-youtube:before {
+    content: map-get($springoo-map, "bold-youtube");
+}
+.si-thin-2-column:before {
+    content: map-get($springoo-map, "thin-2-column");
+}
+.si-thin-3-column:before {
+    content: map-get($springoo-map, "thin-3-column");
+}
+.si-thin-4-column:before {
+    content: map-get($springoo-map, "thin-4-column");
+}
+.si-thin-activewear:before {
+    content: map-get($springoo-map, "thin-activewear");
+}
+.si-thin-add:before {
+    content: map-get($springoo-map, "thin-add");
+}
+.si-thin-anti-age:before {
+    content: map-get($springoo-map, "thin-anti-age");
+}
+.si-thin-arrow-down-2:before {
+    content: map-get($springoo-map, "thin-arrow-down-2");
+}
+.si-thin-arrow-down:before {
+    content: map-get($springoo-map, "thin-arrow-down");
+}
+.si-thin-arrow-left:before {
+    content: map-get($springoo-map, "thin-arrow-left");
+}
+.si-thin-arrow-long-left:before {
+    content: map-get($springoo-map, "thin-arrow-long-left");
+}
+.si-thin-arrow-long-right-2:before {
+    content: map-get($springoo-map, "thin-arrow-long-right-2");
+}
+.si-thin-arrow-long-right:before {
+    content: map-get($springoo-map, "thin-arrow-long-right");
+}
+.si-thin-arrow-right:before {
+    content: map-get($springoo-map, "thin-arrow-right");
+}
+.si-thin-arrow-up:before {
+    content: map-get($springoo-map, "thin-arrow-up");
+}
+.si-thin-award:before {
+    content: map-get($springoo-map, "thin-award");
+}
+.si-thin-backpack-2:before {
+    content: map-get($springoo-map, "thin-backpack-2");
+}
+.si-thin-backpack:before {
+    content: map-get($springoo-map, "thin-backpack");
+}
+.si-thin-bag-2:before {
+    content: map-get($springoo-map, "thin-bag-2");
+}
+.si-thin-bag-3:before {
+    content: map-get($springoo-map, "thin-bag-3");
+}
+.si-thin-bag-4:before {
+    content: map-get($springoo-map, "thin-bag-4");
+}
+.si-thin-bag-5:before {
+    content: map-get($springoo-map, "thin-bag-5");
+}
+.si-thin-bag:before {
+    content: map-get($springoo-map, "thin-bag");
+}
+.si-thin-bathrobe:before {
+    content: map-get($springoo-map, "thin-bathrobe");
+}
+.si-thin-beanie:before {
+    content: map-get($springoo-map, "thin-beanie");
+}
+.si-thin-beauty:before {
+    content: map-get($springoo-map, "thin-beauty");
+}
+.si-thin-belt-10:before {
+    content: map-get($springoo-map, "thin-belt-10");
+}
+.si-thin-belt-2:before {
+    content: map-get($springoo-map, "thin-belt-2");
+}
+.si-thin-belt-3:before {
+    content: map-get($springoo-map, "thin-belt-3");
+}
+.si-thin-belt-9:before {
+    content: map-get($springoo-map, "thin-belt-9");
+}
+.si-thin-belt:before {
+    content: map-get($springoo-map, "thin-belt");
+}
+.si-thin-bikini-2:before {
+    content: map-get($springoo-map, "thin-bikini-2");
+}
+.si-thin-bikini-3:before {
+    content: map-get($springoo-map, "thin-bikini-3");
+}
+.si-thin-bikini:before {
+    content: map-get($springoo-map, "thin-bikini");
+}
+.si-thin-body:before {
+    content: map-get($springoo-map, "thin-body");
+}
+.si-thin-boot-2:before {
+    content: map-get($springoo-map, "thin-boot-2");
+}
+.si-thin-boot:before {
+    content: map-get($springoo-map, "thin-boot");
+}
+.si-thin-bow-tie:before {
+    content: map-get($springoo-map, "thin-bow-tie");
+}
+.si-thin-bowler-hat:before {
+    content: map-get($springoo-map, "thin-bowler-hat");
+}
+.si-thin-box:before {
+    content: map-get($springoo-map, "thin-box");
+}
+.si-thin-boxers:before {
+    content: map-get($springoo-map, "thin-boxers");
+}
+.si-thin-bra-2:before {
+    content: map-get($springoo-map, "thin-bra-2");
+}
+.si-thin-bra:before {
+    content: map-get($springoo-map, "thin-bra");
+}
+.si-thin-bracelet:before {
+    content: map-get($springoo-map, "thin-bracelet");
+}
+.si-thin-budget:before {
+    content: map-get($springoo-map, "thin-budget");
+}
+.si-thin-bum-bag:before {
+    content: map-get($springoo-map, "thin-bum-bag");
+}
+.si-thin-button-2:before {
+    content: map-get($springoo-map, "thin-button-2");
+}
+.si-thin-button:before {
+    content: map-get($springoo-map, "thin-button");
+}
+.si-thin-buttons:before {
+    content: map-get($springoo-map, "thin-buttons");
+}
+.si-thin-calendar:before {
+    content: map-get($springoo-map, "thin-calendar");
+}
+.si-thin-caliper:before {
+    content: map-get($springoo-map, "thin-caliper");
+}
+.si-thin-call:before {
+    content: map-get($springoo-map, "thin-call");
+}
+.si-thin-cap-2:before {
+    content: map-get($springoo-map, "thin-cap-2");
+}
+.si-thin-cap-3:before {
+    content: map-get($springoo-map, "thin-cap-3");
+}
+.si-thin-cap-4:before {
+    content: map-get($springoo-map, "thin-cap-4");
+}
+.si-thin-cap-5:before {
+    content: map-get($springoo-map, "thin-cap-5");
+}
+.si-thin-cap:before {
+    content: map-get($springoo-map, "thin-cap");
+}
+.si-thin-card-tick:before {
+    content: map-get($springoo-map, "thin-card-tick");
+}
+.si-thin-cardigan-2:before {
+    content: map-get($springoo-map, "thin-cardigan-2");
+}
+.si-thin-cardigan:before {
+    content: map-get($springoo-map, "thin-cardigan");
+}
+.si-thin-category:before {
+    content: map-get($springoo-map, "thin-category");
+}
+.si-thin-chalk-2:before {
+    content: map-get($springoo-map, "thin-chalk-2");
+}
+.si-thin-chalk:before {
+    content: map-get($springoo-map, "thin-chalk");
+}
+.si-thin-chevron-left:before {
+    content: map-get($springoo-map, "thin-chevron-left");
+}
+.si-thin-chevron-right:before {
+    content: map-get($springoo-map, "thin-chevron-right");
+}
+.si-thin-clippers:before {
+    content: map-get($springoo-map, "thin-clippers");
+}
+.si-thin-close:before {
+    content: map-get($springoo-map, "thin-close");
+}
+.si-thin-clothes-pin:before {
+    content: map-get($springoo-map, "thin-clothes-pin");
+}
+.si-thin-color-swatch:before {
+    content: map-get($springoo-map, "thin-color-swatch");
+}
+.si-thin-comb-2:before {
+    content: map-get($springoo-map, "thin-comb-2");
+}
+.si-thin-comb:before {
+    content: map-get($springoo-map, "thin-comb");
+}
+.si-thin-compare-2:before {
+    content: map-get($springoo-map, "thin-compare-2");
+}
+.si-thin-compare:before {
+    content: map-get($springoo-map, "thin-compare");
+}
+.si-thin-contact-lens-2:before {
+    content: map-get($springoo-map, "thin-contact-lens-2");
+}
+.si-thin-contact-lens:before {
+    content: map-get($springoo-map, "thin-contact-lens");
+}
+.si-thin-cosmetics:before {
+    content: map-get($springoo-map, "thin-cosmetics");
+}
+.si-thin-cotton:before {
+    content: map-get($springoo-map, "thin-cotton");
+}
+.si-thin-crayons:before {
+    content: map-get($springoo-map, "thin-crayons");
+}
+.si-thin-cream-2:before {
+    content: map-get($springoo-map, "thin-cream-2");
+}
+.si-thin-cream-3:before {
+    content: map-get($springoo-map, "thin-cream-3");
+}
+.si-thin-cream:before {
+    content: map-get($springoo-map, "thin-cream");
+}
+.si-thin-creativity:before {
+    content: map-get($springoo-map, "thin-creativity");
+}
+.si-thin-cutting-mat:before {
+    content: map-get($springoo-map, "thin-cutting-mat");
+}
+.si-thin-details:before {
+    content: map-get($springoo-map, "thin-details");
+}
+.si-thin-diamond-2:before {
+    content: map-get($springoo-map, "thin-diamond-2");
+}
+.si-thin-diamond-3:before {
+    content: map-get($springoo-map, "thin-diamond-3");
+}
+.si-thin-diamond-4:before {
+    content: map-get($springoo-map, "thin-diamond-4");
+}
+.si-thin-diamond-5:before {
+    content: map-get($springoo-map, "thin-diamond-5");
+}
+.si-thin-diamond-6:before {
+    content: map-get($springoo-map, "thin-diamond-6");
+}
+.si-thin-diamond-7:before {
+    content: map-get($springoo-map, "thin-diamond-7");
+}
+.si-thin-diamond-ring-2:before {
+    content: map-get($springoo-map, "thin-diamond-ring-2");
+}
+.si-thin-diamond-ring-3:before {
+    content: map-get($springoo-map, "thin-diamond-ring-3");
+}
+.si-thin-diamond-ring-4:before {
+    content: map-get($springoo-map, "thin-diamond-ring-4");
+}
+.si-thin-diamond-ring:before {
+    content: map-get($springoo-map, "thin-diamond-ring");
+}
+.si-thin-diamond:before {
+    content: map-get($springoo-map, "thin-diamond");
+}
+.si-thin-dislike:before {
+    content: map-get($springoo-map, "thin-dislike");
+}
+.si-thin-dollar-circle-2:before {
+    content: map-get($springoo-map, "thin-dollar-circle-2");
+}
+.si-thin-dollar-circle:before {
+    content: map-get($springoo-map, "thin-dollar-circle");
+}
+.si-thin-dress-10:before {
+    content: map-get($springoo-map, "thin-dress-10");
+}
+.si-thin-dress-11:before {
+    content: map-get($springoo-map, "thin-dress-11");
+}
+.si-thin-dress-2:before {
+    content: map-get($springoo-map, "thin-dress-2");
+}
+.si-thin-dress-3:before {
+    content: map-get($springoo-map, "thin-dress-3");
+}
+.si-thin-dress-4:before {
+    content: map-get($springoo-map, "thin-dress-4");
+}
+.si-thin-dress-5:before {
+    content: map-get($springoo-map, "thin-dress-5");
+}
+.si-thin-dress-6:before {
+    content: map-get($springoo-map, "thin-dress-6");
+}
+.si-thin-dress-7:before {
+    content: map-get($springoo-map, "thin-dress-7");
+}
+.si-thin-dress-8:before {
+    content: map-get($springoo-map, "thin-dress-8");
+}
+.si-thin-dress-9:before {
+    content: map-get($springoo-map, "thin-dress-9");
+}
+.si-thin-dress:before {
+    content: map-get($springoo-map, "thin-dress");
+}
+.si-thin-dressing-table:before {
+    content: map-get($springoo-map, "thin-dressing-table");
+}
+.si-thin-dribbble:before {
+    content: map-get($springoo-map, "thin-dribbble");
+}
+.si-thin-earrings-2:before {
+    content: map-get($springoo-map, "thin-earrings-2");
+}
+.si-thin-earrings-3:before {
+    content: map-get($springoo-map, "thin-earrings-3");
+}
+.si-thin-earrings-4:before {
+    content: map-get($springoo-map, "thin-earrings-4");
+}
+.si-thin-earrings-5:before {
+    content: map-get($springoo-map, "thin-earrings-5");
+}
+.si-thin-earrings-6:before {
+    content: map-get($springoo-map, "thin-earrings-6");
+}
+.si-thin-earrings:before {
+    content: map-get($springoo-map, "thin-earrings");
+}
+.si-thin-element:before {
+    content: map-get($springoo-map, "thin-element");
+}
+.si-thin-envelope:before {
+    content: map-get($springoo-map, "thin-envelope");
+}
+.si-thin-eye-shadow-2:before {
+    content: map-get($springoo-map, "thin-eye-shadow-2");
+}
+.si-thin-eye-shadow-3:before {
+    content: map-get($springoo-map, "thin-eye-shadow-3");
+}
+.si-thin-eye-shadow:before {
+    content: map-get($springoo-map, "thin-eye-shadow");
+}
+.si-thin-eye:before {
+    content: map-get($springoo-map, "thin-eye");
+}
+.si-thin-eyebrow-pencil:before {
+    content: map-get($springoo-map, "thin-eyebrow-pencil");
+}
+.si-thin-eyeglasses:before {
+    content: map-get($springoo-map, "thin-eyeglasses");
+}
+.si-thin-eyelash:before {
+    content: map-get($springoo-map, "thin-eyelash");
+}
+.si-thin-eyelashes-curler:before {
+    content: map-get($springoo-map, "thin-eyelashes-curler");
+}
+.si-thin-eyeliner:before {
+    content: map-get($springoo-map, "thin-eyeliner");
+}
+.si-thin-fabric-2:before {
+    content: map-get($springoo-map, "thin-fabric-2");
+}
+.si-thin-fabric-3:before {
+    content: map-get($springoo-map, "thin-fabric-3");
+}
+.si-thin-fabric:before {
+    content: map-get($springoo-map, "thin-fabric");
+}
+.si-thin-face-mask:before {
+    content: map-get($springoo-map, "thin-face-mask");
+}
+.si-thin-facebook:before {
+    content: map-get($springoo-map, "thin-facebook");
+}
+.si-thin-fashion-designer:before {
+    content: map-get($springoo-map, "thin-fashion-designer");
+}
+.si-thin-fashion:before {
+    content: map-get($springoo-map, "thin-fashion");
+}
+.si-thin-fire:before {
+    content: map-get($springoo-map, "thin-fire");
+}
+.si-thin-fitting:before {
+    content: map-get($springoo-map, "thin-fitting");
+}
+.si-thin-foundation-2:before {
+    content: map-get($springoo-map, "thin-foundation-2");
+}
+.si-thin-foundation:before {
+    content: map-get($springoo-map, "thin-foundation");
+}
+.si-thin-frame:before {
+    content: map-get($springoo-map, "thin-frame");
+}
+.si-thin-gems-2:before {
+    content: map-get($springoo-map, "thin-gems-2");
+}
+.si-thin-gems:before {
+    content: map-get($springoo-map, "thin-gems");
+}
+.si-thin-gift-box:before {
+    content: map-get($springoo-map, "thin-gift-box");
+}
+.si-thin-glamour:before {
+    content: map-get($springoo-map, "thin-glamour");
+}
+.si-thin-glasses-2:before {
+    content: map-get($springoo-map, "thin-glasses-2");
+}
+.si-thin-glasses:before {
+    content: map-get($springoo-map, "thin-glasses");
+}
+.si-thin-global:before {
+    content: map-get($springoo-map, "thin-global");
+}
+.si-thin-hamburger:before {
+    content: map-get($springoo-map, "thin-hamburger");
+}
+.si-thin-hand-bag-2:before {
+    content: map-get($springoo-map, "thin-hand-bag-2");
+}
+.si-thin-hand-bag-3:before {
+    content: map-get($springoo-map, "thin-hand-bag-3");
+}
+.si-thin-hand-bag:before {
+    content: map-get($springoo-map, "thin-hand-bag");
+}
+.si-thin-hand-mirror:before {
+    content: map-get($springoo-map, "thin-hand-mirror");
+}
+.si-thin-handbag-2:before {
+    content: map-get($springoo-map, "thin-handbag-2");
+}
+.si-thin-handbag:before {
+    content: map-get($springoo-map, "thin-handbag");
+}
+.si-thin-hanger-2:before {
+    content: map-get($springoo-map, "thin-hanger-2");
+}
+.si-thin-hanger:before {
+    content: map-get($springoo-map, "thin-hanger");
+}
+.si-thin-hat-2:before {
+    content: map-get($springoo-map, "thin-hat-2");
+}
+.si-thin-hat-3:before {
+    content: map-get($springoo-map, "thin-hat-3");
+}
+.si-thin-hat-4:before {
+    content: map-get($springoo-map, "thin-hat-4");
+}
+.si-thin-hat-5:before {
+    content: map-get($springoo-map, "thin-hat-5");
+}
+.si-thin-hat-6:before {
+    content: map-get($springoo-map, "thin-hat-6");
+}
+.si-thin-hat:before {
+    content: map-get($springoo-map, "thin-hat");
+}
+.si-thin-heart:before {
+    content: map-get($springoo-map, "thin-heart");
+}
+.si-thin-help:before {
+    content: map-get($springoo-map, "thin-help");
+}
+.si-thin-high-heels-2:before {
+    content: map-get($springoo-map, "thin-high-heels-2");
+}
+.si-thin-high-heels-3:before {
+    content: map-get($springoo-map, "thin-high-heels-3");
+}
+.si-thin-high-heels-4:before {
+    content: map-get($springoo-map, "thin-high-heels-4");
+}
+.si-thin-high-heels-5:before {
+    content: map-get($springoo-map, "thin-high-heels-5");
+}
+.si-thin-high-heels-6:before {
+    content: map-get($springoo-map, "thin-high-heels-6");
+}
+.si-thin-high-heels-7:before {
+    content: map-get($springoo-map, "thin-high-heels-7");
+}
+.si-thin-high-heels-8:before {
+    content: map-get($springoo-map, "thin-high-heels-8");
+}
+.si-thin-high-heels:before {
+    content: map-get($springoo-map, "thin-high-heels");
+}
+.si-thin-huobi-token:before {
+    content: map-get($springoo-map, "thin-huobi-token");
+}
+.si-thin-influencer:before {
+    content: map-get($springoo-map, "thin-influencer");
+}
+.si-thin-instagram:before {
+    content: map-get($springoo-map, "thin-instagram");
+}
+.si-thin-iron:before {
+    content: map-get($springoo-map, "thin-iron");
+}
+.si-thin-jacket-2:before {
+    content: map-get($springoo-map, "thin-jacket-2");
+}
+.si-thin-jacket-3:before {
+    content: map-get($springoo-map, "thin-jacket-3");
+}
+.si-thin-jacket-4:before {
+    content: map-get($springoo-map, "thin-jacket-4");
+}
+.si-thin-jacket-5:before {
+    content: map-get($springoo-map, "thin-jacket-5");
+}
+.si-thin-jacket:before {
+    content: map-get($springoo-map, "thin-jacket");
+}
+.si-thin-jeans-2:before {
+    content: map-get($springoo-map, "thin-jeans-2");
+}
+.si-thin-jeans-3:before {
+    content: map-get($springoo-map, "thin-jeans-3");
+}
+.si-thin-jeans-4:before {
+    content: map-get($springoo-map, "thin-jeans-4");
+}
+.si-thin-jeans:before {
+    content: map-get($springoo-map, "thin-jeans");
+}
+.si-thin-jumpsuit:before {
+    content: map-get($springoo-map, "thin-jumpsuit");
+}
+.si-thin-knitting-2:before {
+    content: map-get($springoo-map, "thin-knitting-2");
+}
+.si-thin-knitting:before {
+    content: map-get($springoo-map, "thin-knitting");
+}
+.si-thin-layer:before {
+    content: map-get($springoo-map, "thin-layer");
+}
+.si-thin-leather-2:before {
+    content: map-get($springoo-map, "thin-leather-2");
+}
+.si-thin-leather:before {
+    content: map-get($springoo-map, "thin-leather");
+}
+.si-thin-lens:before {
+    content: map-get($springoo-map, "thin-lens");
+}
+.si-thin-like:before {
+    content: map-get($springoo-map, "thin-like");
+}
+.si-thin-lingerie:before {
+    content: map-get($springoo-map, "thin-lingerie");
+}
+.si-thin-linkedin:before {
+    content: map-get($springoo-map, "thin-linkedin");
+}
+.si-thin-lip-balm:before {
+    content: map-get($springoo-map, "thin-lip-balm");
+}
+.si-thin-lip-gloss:before {
+    content: map-get($springoo-map, "thin-lip-gloss");
+}
+.si-thin-lips:before {
+    content: map-get($springoo-map, "thin-lips");
+}
+.si-thin-lipstick:before {
+    content: map-get($springoo-map, "thin-lipstick");
+}
+.si-thin-location:before {
+    content: map-get($springoo-map, "thin-location");
+}
+.si-thin-lotion:before {
+    content: map-get($springoo-map, "thin-lotion");
+}
+.si-thin-magazine:before {
+    content: map-get($springoo-map, "thin-magazine");
+}
+.si-thin-makeup-2:before {
+    content: map-get($springoo-map, "thin-makeup-2");
+}
+.si-thin-makeup-3:before {
+    content: map-get($springoo-map, "thin-makeup-3");
+}
+.si-thin-makeup-4:before {
+    content: map-get($springoo-map, "thin-makeup-4");
+}
+.si-thin-makeup-5:before {
+    content: map-get($springoo-map, "thin-makeup-5");
+}
+.si-thin-makeup-6:before {
+    content: map-get($springoo-map, "thin-makeup-6");
+}
+.si-thin-makeup-7:before {
+    content: map-get($springoo-map, "thin-makeup-7");
+}
+.si-thin-makeup-8:before {
+    content: map-get($springoo-map, "thin-makeup-8");
+}
+.si-thin-makeup-remover:before {
+    content: map-get($springoo-map, "thin-makeup-remover");
+}
+.si-thin-makeup:before {
+    content: map-get($springoo-map, "thin-makeup");
+}
+.si-thin-mannequin-2:before {
+    content: map-get($springoo-map, "thin-mannequin-2");
+}
+.si-thin-mannequin:before {
+    content: map-get($springoo-map, "thin-mannequin");
+}
+.si-thin-mascara-2:before {
+    content: map-get($springoo-map, "thin-mascara-2");
+}
+.si-thin-mascara:before {
+    content: map-get($springoo-map, "thin-mascara");
+}
+.si-thin-measuring-tape-2:before {
+    content: map-get($springoo-map, "thin-measuring-tape-2");
+}
+.si-thin-measuring-tape:before {
+    content: map-get($springoo-map, "thin-measuring-tape");
+}
+.si-thin-menu:before {
+    content: map-get($springoo-map, "thin-menu");
+}
+.si-thin-minus:before {
+    content: map-get($springoo-map, "thin-minus");
+}
+.si-thin-mirror-2:before {
+    content: map-get($springoo-map, "thin-mirror-2");
+}
+.si-thin-mirror:before {
+    content: map-get($springoo-map, "thin-mirror");
+}
+.si-thin-model:before {
+    content: map-get($springoo-map, "thin-model");
+}
+.si-thin-more:before {
+    content: map-get($springoo-map, "thin-more");
+}
+.si-thin-nail-file:before {
+    content: map-get($springoo-map, "thin-nail-file");
+}
+.si-thin-nail-polish:before {
+    content: map-get($springoo-map, "thin-nail-polish");
+}
+.si-thin-nails:before {
+    content: map-get($springoo-map, "thin-nails");
+}
+.si-thin-necklace-10:before {
+    content: map-get($springoo-map, "thin-necklace-10");
+}
+.si-thin-necklace-11:before {
+    content: map-get($springoo-map, "thin-necklace-11");
+}
+.si-thin-necklace-2:before {
+    content: map-get($springoo-map, "thin-necklace-2");
+}
+.si-thin-necklace-3:before {
+    content: map-get($springoo-map, "thin-necklace-3");
+}
+.si-thin-necklace-4:before {
+    content: map-get($springoo-map, "thin-necklace-4");
+}
+.si-thin-necklace-5:before {
+    content: map-get($springoo-map, "thin-necklace-5");
+}
+.si-thin-necklace-6:before {
+    content: map-get($springoo-map, "thin-necklace-6");
+}
+.si-thin-necklace-7:before {
+    content: map-get($springoo-map, "thin-necklace-7");
+}
+.si-thin-necklace-8:before {
+    content: map-get($springoo-map, "thin-necklace-8");
+}
+.si-thin-necklace-9:before {
+    content: map-get($springoo-map, "thin-necklace-9");
+}
+.si-thin-necklace:before {
+    content: map-get($springoo-map, "thin-necklace");
+}
+.si-thin-needle-thread:before {
+    content: map-get($springoo-map, "thin-needle-thread");
+}
+.si-thin-needle:before {
+    content: map-get($springoo-map, "thin-needle");
+}
+.si-thin-oil:before {
+    content: map-get($springoo-map, "thin-oil");
+}
+.si-thin-online-shop-2:before {
+    content: map-get($springoo-map, "thin-online-shop-2");
+}
+.si-thin-online-shop:before {
+    content: map-get($springoo-map, "thin-online-shop");
+}
+.si-thin-overall-2:before {
+    content: map-get($springoo-map, "thin-overall-2");
+}
+.si-thin-overall:before {
+    content: map-get($springoo-map, "thin-overall");
+}
+.si-thin-pad:before {
+    content: map-get($springoo-map, "thin-pad");
+}
+.si-thin-pamela-hat-2:before {
+    content: map-get($springoo-map, "thin-pamela-hat-2");
+}
+.si-thin-pamela-hat:before {
+    content: map-get($springoo-map, "thin-pamela-hat");
+}
+.si-thin-pamela:before {
+    content: map-get($springoo-map, "thin-pamela");
+}
+.si-thin-panties:before {
+    content: map-get($springoo-map, "thin-panties");
+}
+.si-thin-pants:before {
+    content: map-get($springoo-map, "thin-pants");
+}
+.si-thin-pattern-2:before {
+    content: map-get($springoo-map, "thin-pattern-2");
+}
+.si-thin-pattern-3:before {
+    content: map-get($springoo-map, "thin-pattern-3");
+}
+.si-thin-pattern-4:before {
+    content: map-get($springoo-map, "thin-pattern-4");
+}
+.si-thin-pattern-5:before {
+    content: map-get($springoo-map, "thin-pattern-5");
+}
+.si-thin-pattern-6:before {
+    content: map-get($springoo-map, "thin-pattern-6");
+}
+.si-thin-pattern:before {
+    content: map-get($springoo-map, "thin-pattern");
+}
+.si-thin-pearl-necklace:before {
+    content: map-get($springoo-map, "thin-pearl-necklace");
+}
+.si-thin-pearl:before {
+    content: map-get($springoo-map, "thin-pearl");
+}
+.si-thin-pendant-2:before {
+    content: map-get($springoo-map, "thin-pendant-2");
+}
+.si-thin-pendant-3:before {
+    content: map-get($springoo-map, "thin-pendant-3");
+}
+.si-thin-pendant-4:before {
+    content: map-get($springoo-map, "thin-pendant-4");
+}
+.si-thin-pendant-5:before {
+    content: map-get($springoo-map, "thin-pendant-5");
+}
+.si-thin-pendant:before {
+    content: map-get($springoo-map, "thin-pendant");
+}
+.si-thin-perfume-2:before {
+    content: map-get($springoo-map, "thin-perfume-2");
+}
+.si-thin-perfume:before {
+    content: map-get($springoo-map, "thin-perfume");
+}
+.si-thin-photo-camera:before {
+    content: map-get($springoo-map, "thin-photo-camera");
+}
+.si-thin-pin-cushion:before {
+    content: map-get($springoo-map, "thin-pin-cushion");
+}
+.si-thin-pincushion:before {
+    content: map-get($springoo-map, "thin-pincushion");
+}
+.si-thin-pinterest:before {
+    content: map-get($springoo-map, "thin-pinterest");
+}
+.si-thin-placeholder:before {
+    content: map-get($springoo-map, "thin-placeholder");
+}
+.si-thin-plus:before {
+    content: map-get($springoo-map, "thin-plus");
+}
+.si-thin-pocket:before {
+    content: map-get($springoo-map, "thin-pocket");
+}
+.si-thin-polo:before {
+    content: map-get($springoo-map, "thin-polo");
+}
+.si-thin-poncho:before {
+    content: map-get($springoo-map, "thin-poncho");
+}
+.si-thin-pullover:before {
+    content: map-get($springoo-map, "thin-pullover");
+}
+.si-thin-purse-2:before {
+    content: map-get($springoo-map, "thin-purse-2");
+}
+.si-thin-purse-3:before {
+    content: map-get($springoo-map, "thin-purse-3");
+}
+.si-thin-purse-4:before {
+    content: map-get($springoo-map, "thin-purse-4");
+}
+.si-thin-purse:before {
+    content: map-get($springoo-map, "thin-purse");
+}
+.si-thin-razor:before {
+    content: map-get($springoo-map, "thin-razor");
+}
+.si-thin-repeat:before {
+    content: map-get($springoo-map, "thin-repeat");
+}
+.si-thin-reply:before {
+    content: map-get($springoo-map, "thin-reply");
+}
+.si-thin-rotary-cutter:before {
+    content: map-get($springoo-map, "thin-rotary-cutter");
+}
+.si-thin-ruler:before {
+    content: map-get($springoo-map, "thin-ruler");
+}
+.si-thin-safety-pin:before {
+    content: map-get($springoo-map, "thin-safety-pin");
+}
+.si-thin-salon-chair:before {
+    content: map-get($springoo-map, "thin-salon-chair");
+}
+.si-thin-sandal:before {
+    content: map-get($springoo-map, "thin-sandal");
+}
+.si-thin-scarf-2:before {
+    content: map-get($springoo-map, "thin-scarf-2");
+}
+.si-thin-scarf-3:before {
+    content: map-get($springoo-map, "thin-scarf-3");
+}
+.si-thin-scarf:before {
+    content: map-get($springoo-map, "thin-scarf");
+}
+.si-thin-scissors-2:before {
+    content: map-get($springoo-map, "thin-scissors-2");
+}
+.si-thin-scissors:before {
+    content: map-get($springoo-map, "thin-scissors");
+}
+.si-thin-seam-ripper:before {
+    content: map-get($springoo-map, "thin-seam-ripper");
+}
+.si-thin-search-2:before {
+    content: map-get($springoo-map, "thin-search-2");
+}
+.si-thin-search-3:before {
+    content: map-get($springoo-map, "thin-search-3");
+}
+.si-thin-search-normal:before {
+    content: map-get($springoo-map, "thin-search-normal");
+}
+.si-thin-search:before {
+    content: map-get($springoo-map, "thin-search");
+}
+.si-thin-sewing-machine-2:before {
+    content: map-get($springoo-map, "thin-sewing-machine-2");
+}
+.si-thin-sewing-machine:before {
+    content: map-get($springoo-map, "thin-sewing-machine");
+}
+.si-thin-sewing:before {
+    content: map-get($springoo-map, "thin-sewing");
+}
+.si-thin-share:before {
+    content: map-get($springoo-map, "thin-share");
+}
+.si-thin-shirt-10:before {
+    content: map-get($springoo-map, "thin-shirt-10");
+}
+.si-thin-shirt-11:before {
+    content: map-get($springoo-map, "thin-shirt-11");
+}
+.si-thin-shirt-12:before {
+    content: map-get($springoo-map, "thin-shirt-12");
+}
+.si-thin-shirt-13:before {
+    content: map-get($springoo-map, "thin-shirt-13");
+}
+.si-thin-shirt-14:before {
+    content: map-get($springoo-map, "thin-shirt-14");
+}
+.si-thin-shirt-15:before {
+    content: map-get($springoo-map, "thin-shirt-15");
+}
+.si-thin-shirt-16:before {
+    content: map-get($springoo-map, "thin-shirt-16");
+}
+.si-thin-shirt-17:before {
+    content: map-get($springoo-map, "thin-shirt-17");
+}
+.si-thin-shirt-2:before {
+    content: map-get($springoo-map, "thin-shirt-2");
+}
+.si-thin-shirt-3:before {
+    content: map-get($springoo-map, "thin-shirt-3");
+}
+.si-thin-shirt-4:before {
+    content: map-get($springoo-map, "thin-shirt-4");
+}
+.si-thin-shirt-5:before {
+    content: map-get($springoo-map, "thin-shirt-5");
+}
+.si-thin-shirt-6:before {
+    content: map-get($springoo-map, "thin-shirt-6");
+}
+.si-thin-shirt-7:before {
+    content: map-get($springoo-map, "thin-shirt-7");
+}
+.si-thin-shirt-8:before {
+    content: map-get($springoo-map, "thin-shirt-8");
+}
+.si-thin-shirt-9:before {
+    content: map-get($springoo-map, "thin-shirt-9");
+}
+.si-thin-shirt:before {
+    content: map-get($springoo-map, "thin-shirt");
+}
+.si-thin-shoe-2:before {
+    content: map-get($springoo-map, "thin-shoe-2");
+}
+.si-thin-shoe-3:before {
+    content: map-get($springoo-map, "thin-shoe-3");
+}
+.si-thin-shoe-4:before {
+    content: map-get($springoo-map, "thin-shoe-4");
+}
+.si-thin-shoe-5:before {
+    content: map-get($springoo-map, "thin-shoe-5");
+}
+.si-thin-shoe-6:before {
+    content: map-get($springoo-map, "thin-shoe-6");
+}
+.si-thin-shoe-7:before {
+    content: map-get($springoo-map, "thin-shoe-7");
+}
+.si-thin-shoe-8:before {
+    content: map-get($springoo-map, "thin-shoe-8");
+}
+.si-thin-shoe-9:before {
+    content: map-get($springoo-map, "thin-shoe-9");
+}
+.si-thin-shoe:before {
+    content: map-get($springoo-map, "thin-shoe");
+}
+.si-thin-shop:before {
+    content: map-get($springoo-map, "thin-shop");
+}
+.si-thin-shopping-bag-2:before {
+    content: map-get($springoo-map, "thin-shopping-bag-2");
+}
+.si-thin-shopping-bag:before {
+    content: map-get($springoo-map, "thin-shopping-bag");
+}
+.si-thin-shopping-cart:before {
+    content: map-get($springoo-map, "thin-shopping-cart");
+}
+.si-thin-shopping:before {
+    content: map-get($springoo-map, "thin-shopping");
+}
+.si-thin-shorts-2:before {
+    content: map-get($springoo-map, "thin-shorts-2");
+}
+.si-thin-shorts-3:before {
+    content: map-get($springoo-map, "thin-shorts-3");
+}
+.si-thin-shorts-4:before {
+    content: map-get($springoo-map, "thin-shorts-4");
+}
+.si-thin-shorts-5:before {
+    content: map-get($springoo-map, "thin-shorts-5");
+}
+.si-thin-shorts:before {
+    content: map-get($springoo-map, "thin-shorts");
+}
+.si-thin-singlet:before {
+    content: map-get($springoo-map, "thin-singlet");
+}
+.si-thin-sketch-2:before {
+    content: map-get($springoo-map, "thin-sketch-2");
+}
+.si-thin-sketch:before {
+    content: map-get($springoo-map, "thin-sketch");
+}
+.si-thin-skirt-10:before {
+    content: map-get($springoo-map, "thin-skirt-10");
+}
+.si-thin-skirt-11:before {
+    content: map-get($springoo-map, "thin-skirt-11");
+}
+.si-thin-skirt-2:before {
+    content: map-get($springoo-map, "thin-skirt-2");
+}
+.si-thin-skirt-3:before {
+    content: map-get($springoo-map, "thin-skirt-3");
+}
+.si-thin-skirt-4:before {
+    content: map-get($springoo-map, "thin-skirt-4");
+}
+.si-thin-skirt-5:before {
+    content: map-get($springoo-map, "thin-skirt-5");
+}
+.si-thin-skirt-6:before {
+    content: map-get($springoo-map, "thin-skirt-6");
+}
+.si-thin-skirt-7:before {
+    content: map-get($springoo-map, "thin-skirt-7");
+}
+.si-thin-skirt-8:before {
+    content: map-get($springoo-map, "thin-skirt-8");
+}
+.si-thin-skirt-9:before {
+    content: map-get($springoo-map, "thin-skirt-9");
+}
+.si-thin-skirt:before {
+    content: map-get($springoo-map, "thin-skirt");
+}
+.si-thin-sleeveless:before {
+    content: map-get($springoo-map, "thin-sleeveless");
+}
+.si-thin-slippers-2:before {
+    content: map-get($springoo-map, "thin-slippers-2");
+}
+.si-thin-slippers:before {
+    content: map-get($springoo-map, "thin-slippers");
+}
+.si-thin-sms:before {
+    content: map-get($springoo-map, "thin-sms");
+}
+.si-thin-sneakers-2:before {
+    content: map-get($springoo-map, "thin-sneakers-2");
+}
+.si-thin-sneakers-3:before {
+    content: map-get($springoo-map, "thin-sneakers-3");
+}
+.si-thin-sneakers-4:before {
+    content: map-get($springoo-map, "thin-sneakers-4");
+}
+.si-thin-sneakers-5:before {
+    content: map-get($springoo-map, "thin-sneakers-5");
+}
+.si-thin-sneakers-6:before {
+    content: map-get($springoo-map, "thin-sneakers-6");
+}
+.si-thin-sneakers:before {
+    content: map-get($springoo-map, "thin-sneakers");
+}
+.si-thin-socks-2:before {
+    content: map-get($springoo-map, "thin-socks-2");
+}
+.si-thin-socks:before {
+    content: map-get($springoo-map, "thin-socks");
+}
+.si-thin-sponge:before {
+    content: map-get($springoo-map, "thin-sponge");
+}
+.si-thin-suit-2:before {
+    content: map-get($springoo-map, "thin-suit-2");
+}
+.si-thin-suit:before {
+    content: map-get($springoo-map, "thin-suit");
+}
+.si-thin-suitcase:before {
+    content: map-get($springoo-map, "thin-suitcase");
+}
+.si-thin-sweater-2:before {
+    content: map-get($springoo-map, "thin-sweater-2");
+}
+.si-thin-sweater:before {
+    content: map-get($springoo-map, "thin-sweater");
+}
+.si-thin-sweatshirt:before {
+    content: map-get($springoo-map, "thin-sweatshirt");
+}
+.si-thin-swimsuit-2:before {
+    content: map-get($springoo-map, "thin-swimsuit-2");
+}
+.si-thin-swimsuit-3:before {
+    content: map-get($springoo-map, "thin-swimsuit-3");
+}
+.si-thin-swimsuit-4:before {
+    content: map-get($springoo-map, "thin-swimsuit-4");
+}
+.si-thin-swimsuit-5:before {
+    content: map-get($springoo-map, "thin-swimsuit-5");
+}
+.si-thin-swimsuit:before {
+    content: map-get($springoo-map, "thin-swimsuit");
+}
+.si-thin-tackle-box:before {
+    content: map-get($springoo-map, "thin-tackle-box");
+}
+.si-thin-tag:before {
+    content: map-get($springoo-map, "thin-tag");
+}
+.si-thin-tags:before {
+    content: map-get($springoo-map, "thin-tags");
+}
+.si-thin-tank-top:before {
+    content: map-get($springoo-map, "thin-tank-top");
+}
+.si-thin-thimble:before {
+    content: map-get($springoo-map, "thin-thimble");
+}
+.si-thin-thread-2:before {
+    content: map-get($springoo-map, "thin-thread-2");
+}
+.si-thin-thread-cut:before {
+    content: map-get($springoo-map, "thin-thread-cut");
+}
+.si-thin-thread:before {
+    content: map-get($springoo-map, "thin-thread");
+}
+.si-thin-threader-2:before {
+    content: map-get($springoo-map, "thin-threader-2");
+}
+.si-thin-threader:before {
+    content: map-get($springoo-map, "thin-threader");
+}
+.si-thin-tick-circle:before {
+    content: map-get($springoo-map, "thin-tick-circle");
+}
+.si-thin-ticket-discount:before {
+    content: map-get($springoo-map, "thin-ticket-discount");
+}
+.si-thin-tie-2:before {
+    content: map-get($springoo-map, "thin-tie-2");
+}
+.si-thin-tie:before {
+    content: map-get($springoo-map, "thin-tie");
+}
+.si-thin-top-2:before {
+    content: map-get($springoo-map, "thin-top-2");
+}
+.si-thin-top:before {
+    content: map-get($springoo-map, "thin-top");
+}
+.si-thin-treasure-chest:before {
+    content: map-get($springoo-map, "thin-treasure-chest");
+}
+.si-thin-trench-coat:before {
+    content: map-get($springoo-map, "thin-trench-coat");
+}
+.si-thin-trousers-2:before {
+    content: map-get($springoo-map, "thin-trousers-2");
+}
+.si-thin-trousers-3:before {
+    content: map-get($springoo-map, "thin-trousers-3");
+}
+.si-thin-trousers:before {
+    content: map-get($springoo-map, "thin-trousers");
+}
+.si-thin-truck:before {
+    content: map-get($springoo-map, "thin-truck");
+}
+.si-thin-tshirt:before {
+    content: map-get($springoo-map, "thin-tshirt");
+}
+.si-thin-tweezers:before {
+    content: map-get($springoo-map, "thin-tweezers");
+}
+.si-thin-twitter:before {
+    content: map-get($springoo-map, "thin-twitter");
+}
+.si-thin-underpants:before {
+    content: map-get($springoo-map, "thin-underpants");
+}
+.si-thin-user:before {
+    content: map-get($springoo-map, "thin-user");
+}
+.si-thin-vest-2:before {
+    content: map-get($springoo-map, "thin-vest-2");
+}
+.si-thin-vest-3:before {
+    content: map-get($springoo-map, "thin-vest-3");
+}
+.si-thin-vest:before {
+    content: map-get($springoo-map, "thin-vest");
+}
+.si-thin-vip-room:before {
+    content: map-get($springoo-map, "thin-vip-room");
+}
+.si-thin-vision-2:before {
+    content: map-get($springoo-map, "thin-vision-2");
+}
+.si-thin-vision-3:before {
+    content: map-get($springoo-map, "thin-vision-3");
+}
+.si-thin-vision-4:before {
+    content: map-get($springoo-map, "thin-vision-4");
+}
+.si-thin-vision-5:before {
+    content: map-get($springoo-map, "thin-vision-5");
+}
+.si-thin-vision:before {
+    content: map-get($springoo-map, "thin-vision");
+}
+.si-thin-wallet:before {
+    content: map-get($springoo-map, "thin-wallet");
+}
+.si-thin-wash:before {
+    content: map-get($springoo-map, "thin-wash");
+}
+.si-thin-watch-2:before {
+    content: map-get($springoo-map, "thin-watch-2");
+}
+.si-thin-watch-3:before {
+    content: map-get($springoo-map, "thin-watch-3");
+}
+.si-thin-watch-4:before {
+    content: map-get($springoo-map, "thin-watch-4");
+}
+.si-thin-watch-5:before {
+    content: map-get($springoo-map, "thin-watch-5");
+}
+.si-thin-watch-6:before {
+    content: map-get($springoo-map, "thin-watch-6");
+}
+.si-thin-watch-7:before {
+    content: map-get($springoo-map, "thin-watch-7");
+}
+.si-thin-watch:before {
+    content: map-get($springoo-map, "thin-watch");
+}
+.si-thin-wedding-dress:before {
+    content: map-get($springoo-map, "thin-wedding-dress");
+}
+.si-thin-wig:before {
+    content: map-get($springoo-map, "thin-wig");
+}
+.si-thin-winter-hat:before {
+    content: map-get($springoo-map, "thin-winter-hat");
+}
+.si-thin-wool:before {
+    content: map-get($springoo-map, "thin-wool");
+}
+.si-thin-wristwatch-2:before {
+    content: map-get($springoo-map, "thin-wristwatch-2");
+}
+.si-thin-wristwatch-3:before {
+    content: map-get($springoo-map, "thin-wristwatch-3");
+}
+.si-thin-wristwatch-4:before {
+    content: map-get($springoo-map, "thin-wristwatch-4");
+}
+.si-thin-wristwatch:before {
+    content: map-get($springoo-map, "thin-wristwatch");
+}
+.si-thin-zip:before {
+    content: map-get($springoo-map, "thin-zip");
+}
+.si-thin-zipper:before {
+    content: map-get($springoo-map, "thin-zipper");
+}

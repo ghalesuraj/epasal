@@ -1,0 +1,26 @@
+.springoo-footer-widget, .widget-area {
+	//Tag Cloud
+	.widget_tag_cloud, .wp-block-group {
+		nav, .wp-block-tag-cloud {
+			a {
+				padding: 8px 10px;
+				border: 1px solid var(--springoo-color-border);
+				margin-bottom: 5px;
+				display: inline-flex;
+				font-family: var(--springoo-global-font-family);
+				font-weight: var(--springoo-sidebar-widget-body-font-weight);
+				font-style: var(--springoo-sidebar-widget-body-font-style);
+				line-height: var(--springoo-sidebar-widget-body-line-height);
+				color: var(--springoo-color-heading);
+				font-size: var(--springoo-font-size-base);
+				gap: 5px;
+
+				&:hover {
+					text-decoration: none;
+					color: #fff;
+					background: var(--springoo-color-primary);
+				}
+			}
+		}
+	}
+}

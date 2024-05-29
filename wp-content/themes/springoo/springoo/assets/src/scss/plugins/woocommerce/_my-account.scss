@@ -1,0 +1,322 @@
+
+/*---------------------------------------------------------
+14. My Account Page
+-------------------------------------------------------- */
+.myaccount-login-signup-wrapper {
+	background: var(--springoo-color-content-bg);
+	border: 1px solid var(--springoo-color-border);
+	padding: var(--springoo-20);
+	border-radius: 0;
+
+	.woocommerce-login-signup-tabs {
+		margin-bottom: var(--springoo-30);
+
+		.nav-tabs .nav-link {
+			font-size: var(--springoo-h5-font-size);
+			font-weight: var(--springoo-600-font-weight);
+			color: var(--springoo-color-heading);
+			padding-bottom: var(--springoo-15);
+			border: none;
+			position: relative;
+			background-color: transparent;
+		}
+
+		.nav-tabs .nav-link.active {
+			color: var(--springoo-color-primary);
+			background: transparent;
+			border: none;
+			border-radius: 0;
+
+			&:after {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 3px;
+				background: var(--springoo-color-primary);
+				bottom: 0;
+				left: 0;
+			}
+
+		}
+	}
+
+	form.woocommerce-form.woocommerce-form-login.login,
+	.woocommerce-form.woocommerce-form-register.register {
+		border: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: var(--springoo-30);
+		margin: 0;
+		padding: 0;
+
+		h3 {
+			margin-bottom: var(--springoo-30);
+		}
+
+		.form-row label {
+			margin-bottom: 0.313rem;
+			line-height: var(--springoo-global-line-height);
+		}
+
+		.form-row {
+			margin-bottom: var(--springoo-30);
+			padding: 0;
+		}
+
+		.form-checkbox {
+			float: left;
+
+			label {
+				margin: 0;
+			}
+		}
+	}
+
+	.woocommerce-login-form-fields,
+	.woocommerce-signup-form-fields {
+		width: 100%;
+	}
+
+	.woocommerce-fullwidth {
+		width: 100%;
+	}
+
+	.woocommerce-myaccount-login-image img {
+		width: 100%;
+	}
+
+	.woocommerce form .form-row input.input-text,
+	.woocommerce form .form-row textarea {
+		padding: var(--springoo-15);
+	}
+
+	.woocommerce-tab-content .woocommerce-privacy-policy-text {
+		margin-bottom: var(--springoo-30);
+	}
+
+	form.woocommerce-form.woocommerce-form-login.login .form-checkbox label {
+		margin-right: var(--springoo-30);
+	}
+
+	// form button
+	button {
+		width: 100%;
+	}
+
+	// form checkbox
+	input#rememberme[type="checkbox"] {
+		position: relative;
+		opacity: 1;
+		margin: 0 var(--springoo-15) 0 0;
+
+		/* @TODO replace with themify icons */
+		&:before {
+			position: absolute;
+			border: 1px solid var(--springoo-color-global);
+			width: 1.25rem;
+			height: 1.25rem;
+			top: -2px;
+			display: inline-block;
+			line-height: 1.25rem;
+			text-align: center;
+			background: #fff;
+			color: transparent;
+			font-family: themify;
+			font-size: var(--springoo-small-font-size);
+			border-radius: 0;
+			content: "\e64c";
+		}
+
+		&:checked:before {
+			background: var(--springoo-color-primary);
+			color: #fff;
+		}
+	}
+
+	// form lost password
+	p.woocommerce-LostPassword.lost_password {
+		margin-bottom: var(--springoo-15);
+		float: left;
+	}
+
+	label.woocommerce-form__label.woocommerce-form__label-for-checkbox.woocommerce-form-login__rememberme span {
+		font-size: var(--springoo-small-font-size);
+	}
+
+	// signup with text css
+	.signup-with {
+		position: relative;
+		text-align: center;
+		margin: var(--springoo-15) 0;
+		clear: both;
+
+		&:after,
+		&:before {
+			position: absolute;
+			content: '';
+			width: 25%;
+			height: 1px;
+			background: var(--springoo-color-border);
+			top: 50%;
+			right: 0;
+		}
+
+		&:before {
+			left: 0;
+		}
+	}
+
+	// form social icons
+	.woocommerce-social-icons {
+		.the_champ_login_ul {
+			display: flex;
+			justify-content: center;
+			gap: var(--springoo-10);
+		}
+
+		.theChampLogin {
+			border-radius: 100%;
+		}
+	}
+
+	nav.woocommerce-MyAccount-navigation ul {
+		margin: 0;
+		background: #fff;
+		padding: var(--springoo-30);
+		box-shadow: 0 3px 9px rgba(0, 0, 0, 0.07);
+		border-radius: 0.313rem;
+
+		li {
+			list-style: none;
+			transition: .3s all linear;
+
+			&:hover {
+				margin-left: var(--springoo-10);
+			}
+		}
+	}
+
+	.woocommerce-MyAccount-content {
+		background: #fff;
+		padding: var(--springoo-30);
+		border-radius: 0.313rem;
+		box-shadow: 0 3px 9px rgba(0, 0, 0, 0.07);
+	}
+
+	nav.woocommerce-MyAccount-navigation {
+		margin-bottom: var(--springoo-20);
+
+		ul {
+			box-shadow: none;
+			border-radius: 0;
+			border-width: 1px;
+			border-style: solid;
+
+			li {
+				line-height: 1.875rem;
+
+				a {
+					text-decoration: none;
+					color: var(--springoo-color-global);
+				}
+
+				&.is-active {
+					a {
+						color: var(--springoo-color-primary);
+					}
+				}
+			}
+		}
+	}
+
+	.woocommerce-MyAccount-content {
+		border-radius: 0;
+		box-shadow: none;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	/*My Account*/
+	.woocommerce-account .single footer.entry-footer {
+		background: transparent;
+		box-shadow: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.woocommerce table.my_account_orders {
+		td, th {
+			padding: var(--springoo-10);
+		}
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.myaccount-login-signup-wrapper {
+		.woocommerce-account {
+			.addresses .title h3 {
+				font-size: var(--springoo-h4-font-size);
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.myaccount-login-signup-wrapper {
+		padding: var(--springoo-40) var(--springoo-20);
+
+		.woocommerce-login-signup-tabs {
+			margin-bottom: var(--springoo-40);
+		}
+
+		nav.woocommerce-MyAccount-navigation {
+			margin-bottom: 0;
+		}
+
+		form.woocommerce-form.woocommerce-form-login.login,
+		.woocommerce-form.woocommerce-form-register.register {
+			flex-direction: row;
+			gap: var(--springoo-20);
+
+			h3 {
+				margin-bottom: var(--springoo-40);
+			}
+		}
+
+		.woocommerce-login-form-fields,
+		.woocommerce-signup-form-fields {
+			width: 58%;
+		}
+
+		form.woocommerce-form.woocommerce-form-login.login .form-checkbox label {
+			margin-right: 0;
+		}
+
+		p.woocommerce-LostPassword.lost_password {
+			margin-bottom: 0;
+			float: right;
+		}
+
+		.signup-with {
+			&:after,
+			&:before {
+				width: 35%;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.myaccount-login-signup-wrapper {
+		.signup-with {
+			&:after,
+			&:before {
+				width: 40%;
+			}
+		}
+	}
+}
+
+
+

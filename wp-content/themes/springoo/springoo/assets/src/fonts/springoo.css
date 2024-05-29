@@ -1,0 +1,1340 @@
+@font-face {
+    font-family: "springoo";
+    src: url("../fonts/springoo.eot?98c3920ead27caabfde339a418a53da9#iefix") format("embedded-opentype"),
+url("../fonts/springoo.ttf?98c3920ead27caabfde339a418a53da9") format("truetype"),
+url("../fonts/springoo.svg?98c3920ead27caabfde339a418a53da9#springoo") format("svg"),
+url("../fonts/springoo.woff?98c3920ead27caabfde339a418a53da9") format("woff"),
+url("../fonts/springoo.woff2?98c3920ead27caabfde339a418a53da9") format("woff2");
+}
+
+i[class^="si-"]:before, i[class*=" si-"]:before {
+    font-family: springoo !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.si-bold-dislike:before {
+    content: "\f101";
+}
+.si-bold-facebook:before {
+    content: "\f102";
+}
+.si-bold-heart:before {
+    content: "\f103";
+}
+.si-bold-like:before {
+    content: "\f104";
+}
+.si-bold-play-circle:before {
+    content: "\f105";
+}
+.si-bold-quick-view:before {
+    content: "\f106";
+}
+.si-bold-springoo-logo:before {
+    content: "\f107";
+}
+.si-bold-tick-circle:before {
+    content: "\f108";
+}
+.si-bold-tick-square:before {
+    content: "\f109";
+}
+.si-bold-twitter:before {
+    content: "\f10a";
+}
+.si-bold-youtube:before {
+    content: "\f10b";
+}
+.si-thin-2-column:before {
+    content: "\f10c";
+}
+.si-thin-3-column:before {
+    content: "\f10d";
+}
+.si-thin-4-column:before {
+    content: "\f10e";
+}
+.si-thin-activewear:before {
+    content: "\f10f";
+}
+.si-thin-add:before {
+    content: "\f110";
+}
+.si-thin-anti-age:before {
+    content: "\f111";
+}
+.si-thin-arrow-down-2:before {
+    content: "\f112";
+}
+.si-thin-arrow-down:before {
+    content: "\f113";
+}
+.si-thin-arrow-left:before {
+    content: "\f114";
+}
+.si-thin-arrow-long-left:before {
+    content: "\f115";
+}
+.si-thin-arrow-long-right-2:before {
+    content: "\f116";
+}
+.si-thin-arrow-long-right:before {
+    content: "\f117";
+}
+.si-thin-arrow-right:before {
+    content: "\f118";
+}
+.si-thin-arrow-up:before {
+    content: "\f119";
+}
+.si-thin-award:before {
+    content: "\f11a";
+}
+.si-thin-backpack-2:before {
+    content: "\f11b";
+}
+.si-thin-backpack:before {
+    content: "\f11c";
+}
+.si-thin-bag-2:before {
+    content: "\f11d";
+}
+.si-thin-bag-3:before {
+    content: "\f11e";
+}
+.si-thin-bag-4:before {
+    content: "\f11f";
+}
+.si-thin-bag-5:before {
+    content: "\f120";
+}
+.si-thin-bag:before {
+    content: "\f121";
+}
+.si-thin-bathrobe:before {
+    content: "\f122";
+}
+.si-thin-beanie:before {
+    content: "\f123";
+}
+.si-thin-beauty:before {
+    content: "\f124";
+}
+.si-thin-belt-10:before {
+    content: "\f125";
+}
+.si-thin-belt-2:before {
+    content: "\f126";
+}
+.si-thin-belt-3:before {
+    content: "\f127";
+}
+.si-thin-belt-9:before {
+    content: "\f128";
+}
+.si-thin-belt:before {
+    content: "\f129";
+}
+.si-thin-bikini-2:before {
+    content: "\f12a";
+}
+.si-thin-bikini-3:before {
+    content: "\f12b";
+}
+.si-thin-bikini:before {
+    content: "\f12c";
+}
+.si-thin-body:before {
+    content: "\f12d";
+}
+.si-thin-boot-2:before {
+    content: "\f12e";
+}
+.si-thin-boot:before {
+    content: "\f12f";
+}
+.si-thin-bow-tie:before {
+    content: "\f130";
+}
+.si-thin-bowler-hat:before {
+    content: "\f131";
+}
+.si-thin-box:before {
+    content: "\f132";
+}
+.si-thin-boxers:before {
+    content: "\f133";
+}
+.si-thin-bra-2:before {
+    content: "\f134";
+}
+.si-thin-bra:before {
+    content: "\f135";
+}
+.si-thin-bracelet:before {
+    content: "\f136";
+}
+.si-thin-budget:before {
+    content: "\f137";
+}
+.si-thin-bum-bag:before {
+    content: "\f138";
+}
+.si-thin-button-2:before {
+    content: "\f139";
+}
+.si-thin-button:before {
+    content: "\f13a";
+}
+.si-thin-buttons:before {
+    content: "\f13b";
+}
+.si-thin-calendar:before {
+    content: "\f13c";
+}
+.si-thin-caliper:before {
+    content: "\f13d";
+}
+.si-thin-call:before {
+    content: "\f13e";
+}
+.si-thin-cap-2:before {
+    content: "\f13f";
+}
+.si-thin-cap-3:before {
+    content: "\f140";
+}
+.si-thin-cap-4:before {
+    content: "\f141";
+}
+.si-thin-cap-5:before {
+    content: "\f142";
+}
+.si-thin-cap:before {
+    content: "\f143";
+}
+.si-thin-card-tick:before {
+    content: "\f144";
+}
+.si-thin-cardigan-2:before {
+    content: "\f145";
+}
+.si-thin-cardigan:before {
+    content: "\f146";
+}
+.si-thin-category:before {
+    content: "\f147";
+}
+.si-thin-chalk-2:before {
+    content: "\f148";
+}
+.si-thin-chalk:before {
+    content: "\f149";
+}
+.si-thin-chevron-left:before {
+    content: "\f14a";
+}
+.si-thin-chevron-right:before {
+    content: "\f14b";
+}
+.si-thin-clippers:before {
+    content: "\f14c";
+}
+.si-thin-close:before {
+    content: "\f14d";
+}
+.si-thin-clothes-pin:before {
+    content: "\f14e";
+}
+.si-thin-color-swatch:before {
+    content: "\f14f";
+}
+.si-thin-comb-2:before {
+    content: "\f150";
+}
+.si-thin-comb:before {
+    content: "\f151";
+}
+.si-thin-compare-2:before {
+    content: "\f152";
+}
+.si-thin-compare:before {
+    content: "\f153";
+}
+.si-thin-contact-lens-2:before {
+    content: "\f154";
+}
+.si-thin-contact-lens:before {
+    content: "\f155";
+}
+.si-thin-cosmetics:before {
+    content: "\f156";
+}
+.si-thin-cotton:before {
+    content: "\f157";
+}
+.si-thin-crayons:before {
+    content: "\f158";
+}
+.si-thin-cream-2:before {
+    content: "\f159";
+}
+.si-thin-cream-3:before {
+    content: "\f15a";
+}
+.si-thin-cream:before {
+    content: "\f15b";
+}
+.si-thin-creativity:before {
+    content: "\f15c";
+}
+.si-thin-cutting-mat:before {
+    content: "\f15d";
+}
+.si-thin-details:before {
+    content: "\f15e";
+}
+.si-thin-diamond-2:before {
+    content: "\f15f";
+}
+.si-thin-diamond-3:before {
+    content: "\f160";
+}
+.si-thin-diamond-4:before {
+    content: "\f161";
+}
+.si-thin-diamond-5:before {
+    content: "\f162";
+}
+.si-thin-diamond-6:before {
+    content: "\f163";
+}
+.si-thin-diamond-7:before {
+    content: "\f164";
+}
+.si-thin-diamond-ring-2:before {
+    content: "\f165";
+}
+.si-thin-diamond-ring-3:before {
+    content: "\f166";
+}
+.si-thin-diamond-ring-4:before {
+    content: "\f167";
+}
+.si-thin-diamond-ring:before {
+    content: "\f168";
+}
+.si-thin-diamond:before {
+    content: "\f169";
+}
+.si-thin-dislike:before {
+    content: "\f16a";
+}
+.si-thin-dollar-circle-2:before {
+    content: "\f16b";
+}
+.si-thin-dollar-circle:before {
+    content: "\f16c";
+}
+.si-thin-dress-10:before {
+    content: "\f16d";
+}
+.si-thin-dress-11:before {
+    content: "\f16e";
+}
+.si-thin-dress-2:before {
+    content: "\f16f";
+}
+.si-thin-dress-3:before {
+    content: "\f170";
+}
+.si-thin-dress-4:before {
+    content: "\f171";
+}
+.si-thin-dress-5:before {
+    content: "\f172";
+}
+.si-thin-dress-6:before {
+    content: "\f173";
+}
+.si-thin-dress-7:before {
+    content: "\f174";
+}
+.si-thin-dress-8:before {
+    content: "\f175";
+}
+.si-thin-dress-9:before {
+    content: "\f176";
+}
+.si-thin-dress:before {
+    content: "\f177";
+}
+.si-thin-dressing-table:before {
+    content: "\f178";
+}
+.si-thin-dribbble:before {
+    content: "\f179";
+}
+.si-thin-earrings-2:before {
+    content: "\f17a";
+}
+.si-thin-earrings-3:before {
+    content: "\f17b";
+}
+.si-thin-earrings-4:before {
+    content: "\f17c";
+}
+.si-thin-earrings-5:before {
+    content: "\f17d";
+}
+.si-thin-earrings-6:before {
+    content: "\f17e";
+}
+.si-thin-earrings:before {
+    content: "\f17f";
+}
+.si-thin-element:before {
+    content: "\f180";
+}
+.si-thin-envelope:before {
+    content: "\f181";
+}
+.si-thin-eye-shadow-2:before {
+    content: "\f182";
+}
+.si-thin-eye-shadow-3:before {
+    content: "\f183";
+}
+.si-thin-eye-shadow:before {
+    content: "\f184";
+}
+.si-thin-eye:before {
+    content: "\f185";
+}
+.si-thin-eyebrow-pencil:before {
+    content: "\f186";
+}
+.si-thin-eyeglasses:before {
+    content: "\f187";
+}
+.si-thin-eyelash:before {
+    content: "\f188";
+}
+.si-thin-eyelashes-curler:before {
+    content: "\f189";
+}
+.si-thin-eyeliner:before {
+    content: "\f18a";
+}
+.si-thin-fabric-2:before {
+    content: "\f18b";
+}
+.si-thin-fabric-3:before {
+    content: "\f18c";
+}
+.si-thin-fabric:before {
+    content: "\f18d";
+}
+.si-thin-face-mask:before {
+    content: "\f18e";
+}
+.si-thin-facebook:before {
+    content: "\f18f";
+}
+.si-thin-fashion-designer:before {
+    content: "\f190";
+}
+.si-thin-fashion:before {
+    content: "\f191";
+}
+.si-thin-fire:before {
+    content: "\f192";
+}
+.si-thin-fitting:before {
+    content: "\f193";
+}
+.si-thin-foundation-2:before {
+    content: "\f194";
+}
+.si-thin-foundation:before {
+    content: "\f195";
+}
+.si-thin-frame:before {
+    content: "\f196";
+}
+.si-thin-gems-2:before {
+    content: "\f197";
+}
+.si-thin-gems:before {
+    content: "\f198";
+}
+.si-thin-gift-box:before {
+    content: "\f199";
+}
+.si-thin-glamour:before {
+    content: "\f19a";
+}
+.si-thin-glasses-2:before {
+    content: "\f19b";
+}
+.si-thin-glasses:before {
+    content: "\f19c";
+}
+.si-thin-global:before {
+    content: "\f19d";
+}
+.si-thin-hamburger:before {
+    content: "\f19e";
+}
+.si-thin-hand-bag-2:before {
+    content: "\f19f";
+}
+.si-thin-hand-bag-3:before {
+    content: "\f1a0";
+}
+.si-thin-hand-bag:before {
+    content: "\f1a1";
+}
+.si-thin-hand-mirror:before {
+    content: "\f1a2";
+}
+.si-thin-handbag-2:before {
+    content: "\f1a3";
+}
+.si-thin-handbag:before {
+    content: "\f1a4";
+}
+.si-thin-hanger-2:before {
+    content: "\f1a5";
+}
+.si-thin-hanger:before {
+    content: "\f1a6";
+}
+.si-thin-hat-2:before {
+    content: "\f1a7";
+}
+.si-thin-hat-3:before {
+    content: "\f1a8";
+}
+.si-thin-hat-4:before {
+    content: "\f1a9";
+}
+.si-thin-hat-5:before {
+    content: "\f1aa";
+}
+.si-thin-hat-6:before {
+    content: "\f1ab";
+}
+.si-thin-hat:before {
+    content: "\f1ac";
+}
+.si-thin-heart:before {
+    content: "\f1ad";
+}
+.si-thin-help:before {
+    content: "\f1ae";
+}
+.si-thin-high-heels-2:before {
+    content: "\f1af";
+}
+.si-thin-high-heels-3:before {
+    content: "\f1b0";
+}
+.si-thin-high-heels-4:before {
+    content: "\f1b1";
+}
+.si-thin-high-heels-5:before {
+    content: "\f1b2";
+}
+.si-thin-high-heels-6:before {
+    content: "\f1b3";
+}
+.si-thin-high-heels-7:before {
+    content: "\f1b4";
+}
+.si-thin-high-heels-8:before {
+    content: "\f1b5";
+}
+.si-thin-high-heels:before {
+    content: "\f1b6";
+}
+.si-thin-huobi-token:before {
+    content: "\f1b7";
+}
+.si-thin-influencer:before {
+    content: "\f1b8";
+}
+.si-thin-instagram:before {
+    content: "\f1b9";
+}
+.si-thin-iron:before {
+    content: "\f1ba";
+}
+.si-thin-jacket-2:before {
+    content: "\f1bb";
+}
+.si-thin-jacket-3:before {
+    content: "\f1bc";
+}
+.si-thin-jacket-4:before {
+    content: "\f1bd";
+}
+.si-thin-jacket-5:before {
+    content: "\f1be";
+}
+.si-thin-jacket:before {
+    content: "\f1bf";
+}
+.si-thin-jeans-2:before {
+    content: "\f1c0";
+}
+.si-thin-jeans-3:before {
+    content: "\f1c1";
+}
+.si-thin-jeans-4:before {
+    content: "\f1c2";
+}
+.si-thin-jeans:before {
+    content: "\f1c3";
+}
+.si-thin-jumpsuit:before {
+    content: "\f1c4";
+}
+.si-thin-knitting-2:before {
+    content: "\f1c5";
+}
+.si-thin-knitting:before {
+    content: "\f1c6";
+}
+.si-thin-layer:before {
+    content: "\f1c7";
+}
+.si-thin-leather-2:before {
+    content: "\f1c8";
+}
+.si-thin-leather:before {
+    content: "\f1c9";
+}
+.si-thin-lens:before {
+    content: "\f1ca";
+}
+.si-thin-like:before {
+    content: "\f1cb";
+}
+.si-thin-lingerie:before {
+    content: "\f1cc";
+}
+.si-thin-linkedin:before {
+    content: "\f1cd";
+}
+.si-thin-lip-balm:before {
+    content: "\f1ce";
+}
+.si-thin-lip-gloss:before {
+    content: "\f1cf";
+}
+.si-thin-lips:before {
+    content: "\f1d0";
+}
+.si-thin-lipstick:before {
+    content: "\f1d1";
+}
+.si-thin-location:before {
+    content: "\f1d2";
+}
+.si-thin-lotion:before {
+    content: "\f1d3";
+}
+.si-thin-magazine:before {
+    content: "\f1d4";
+}
+.si-thin-makeup-2:before {
+    content: "\f1d5";
+}
+.si-thin-makeup-3:before {
+    content: "\f1d6";
+}
+.si-thin-makeup-4:before {
+    content: "\f1d7";
+}
+.si-thin-makeup-5:before {
+    content: "\f1d8";
+}
+.si-thin-makeup-6:before {
+    content: "\f1d9";
+}
+.si-thin-makeup-7:before {
+    content: "\f1da";
+}
+.si-thin-makeup-8:before {
+    content: "\f1db";
+}
+.si-thin-makeup-remover:before {
+    content: "\f1dc";
+}
+.si-thin-makeup:before {
+    content: "\f1dd";
+}
+.si-thin-mannequin-2:before {
+    content: "\f1de";
+}
+.si-thin-mannequin:before {
+    content: "\f1df";
+}
+.si-thin-mascara-2:before {
+    content: "\f1e0";
+}
+.si-thin-mascara:before {
+    content: "\f1e1";
+}
+.si-thin-measuring-tape-2:before {
+    content: "\f1e2";
+}
+.si-thin-measuring-tape:before {
+    content: "\f1e3";
+}
+.si-thin-menu:before {
+    content: "\f1e4";
+}
+.si-thin-minus:before {
+    content: "\f1e5";
+}
+.si-thin-mirror-2:before {
+    content: "\f1e6";
+}
+.si-thin-mirror:before {
+    content: "\f1e7";
+}
+.si-thin-model:before {
+    content: "\f1e8";
+}
+.si-thin-more:before {
+    content: "\f1e9";
+}
+.si-thin-nail-file:before {
+    content: "\f1ea";
+}
+.si-thin-nail-polish:before {
+    content: "\f1eb";
+}
+.si-thin-nails:before {
+    content: "\f1ec";
+}
+.si-thin-necklace-10:before {
+    content: "\f1ed";
+}
+.si-thin-necklace-11:before {
+    content: "\f1ee";
+}
+.si-thin-necklace-2:before {
+    content: "\f1ef";
+}
+.si-thin-necklace-3:before {
+    content: "\f1f0";
+}
+.si-thin-necklace-4:before {
+    content: "\f1f1";
+}
+.si-thin-necklace-5:before {
+    content: "\f1f2";
+}
+.si-thin-necklace-6:before {
+    content: "\f1f3";
+}
+.si-thin-necklace-7:before {
+    content: "\f1f4";
+}
+.si-thin-necklace-8:before {
+    content: "\f1f5";
+}
+.si-thin-necklace-9:before {
+    content: "\f1f6";
+}
+.si-thin-necklace:before {
+    content: "\f1f7";
+}
+.si-thin-needle-thread:before {
+    content: "\f1f8";
+}
+.si-thin-needle:before {
+    content: "\f1f9";
+}
+.si-thin-oil:before {
+    content: "\f1fa";
+}
+.si-thin-online-shop-2:before {
+    content: "\f1fb";
+}
+.si-thin-online-shop:before {
+    content: "\f1fc";
+}
+.si-thin-overall-2:before {
+    content: "\f1fd";
+}
+.si-thin-overall:before {
+    content: "\f1fe";
+}
+.si-thin-pad:before {
+    content: "\f1ff";
+}
+.si-thin-pamela-hat-2:before {
+    content: "\f200";
+}
+.si-thin-pamela-hat:before {
+    content: "\f201";
+}
+.si-thin-pamela:before {
+    content: "\f202";
+}
+.si-thin-panties:before {
+    content: "\f203";
+}
+.si-thin-pants:before {
+    content: "\f204";
+}
+.si-thin-pattern-2:before {
+    content: "\f205";
+}
+.si-thin-pattern-3:before {
+    content: "\f206";
+}
+.si-thin-pattern-4:before {
+    content: "\f207";
+}
+.si-thin-pattern-5:before {
+    content: "\f208";
+}
+.si-thin-pattern-6:before {
+    content: "\f209";
+}
+.si-thin-pattern:before {
+    content: "\f20a";
+}
+.si-thin-pearl-necklace:before {
+    content: "\f20b";
+}
+.si-thin-pearl:before {
+    content: "\f20c";
+}
+.si-thin-pendant-2:before {
+    content: "\f20d";
+}
+.si-thin-pendant-3:before {
+    content: "\f20e";
+}
+.si-thin-pendant-4:before {
+    content: "\f20f";
+}
+.si-thin-pendant-5:before {
+    content: "\f210";
+}
+.si-thin-pendant:before {
+    content: "\f211";
+}
+.si-thin-perfume-2:before {
+    content: "\f212";
+}
+.si-thin-perfume:before {
+    content: "\f213";
+}
+.si-thin-photo-camera:before {
+    content: "\f214";
+}
+.si-thin-pin-cushion:before {
+    content: "\f215";
+}
+.si-thin-pincushion:before {
+    content: "\f216";
+}
+.si-thin-pinterest:before {
+    content: "\f217";
+}
+.si-thin-placeholder:before {
+    content: "\f218";
+}
+.si-thin-plus:before {
+    content: "\f219";
+}
+.si-thin-pocket:before {
+    content: "\f21a";
+}
+.si-thin-polo:before {
+    content: "\f21b";
+}
+.si-thin-poncho:before {
+    content: "\f21c";
+}
+.si-thin-pullover:before {
+    content: "\f21d";
+}
+.si-thin-purse-2:before {
+    content: "\f21e";
+}
+.si-thin-purse-3:before {
+    content: "\f21f";
+}
+.si-thin-purse-4:before {
+    content: "\f220";
+}
+.si-thin-purse:before {
+    content: "\f221";
+}
+.si-thin-razor:before {
+    content: "\f222";
+}
+.si-thin-repeat:before {
+    content: "\f223";
+}
+.si-thin-reply:before {
+    content: "\f224";
+}
+.si-thin-rotary-cutter:before {
+    content: "\f225";
+}
+.si-thin-ruler:before {
+    content: "\f226";
+}
+.si-thin-safety-pin:before {
+    content: "\f227";
+}
+.si-thin-salon-chair:before {
+    content: "\f228";
+}
+.si-thin-sandal:before {
+    content: "\f229";
+}
+.si-thin-scarf-2:before {
+    content: "\f22a";
+}
+.si-thin-scarf-3:before {
+    content: "\f22b";
+}
+.si-thin-scarf:before {
+    content: "\f22c";
+}
+.si-thin-scissors-2:before {
+    content: "\f22d";
+}
+.si-thin-scissors:before {
+    content: "\f22e";
+}
+.si-thin-seam-ripper:before {
+    content: "\f22f";
+}
+.si-thin-search-2:before {
+    content: "\f230";
+}
+.si-thin-search-3:before {
+    content: "\f231";
+}
+.si-thin-search-normal:before {
+    content: "\f232";
+}
+.si-thin-search:before {
+    content: "\f233";
+}
+.si-thin-sewing-machine-2:before {
+    content: "\f234";
+}
+.si-thin-sewing-machine:before {
+    content: "\f235";
+}
+.si-thin-sewing:before {
+    content: "\f236";
+}
+.si-thin-share:before {
+    content: "\f237";
+}
+.si-thin-shirt-10:before {
+    content: "\f238";
+}
+.si-thin-shirt-11:before {
+    content: "\f239";
+}
+.si-thin-shirt-12:before {
+    content: "\f23a";
+}
+.si-thin-shirt-13:before {
+    content: "\f23b";
+}
+.si-thin-shirt-14:before {
+    content: "\f23c";
+}
+.si-thin-shirt-15:before {
+    content: "\f23d";
+}
+.si-thin-shirt-16:before {
+    content: "\f23e";
+}
+.si-thin-shirt-17:before {
+    content: "\f23f";
+}
+.si-thin-shirt-2:before {
+    content: "\f240";
+}
+.si-thin-shirt-3:before {
+    content: "\f241";
+}
+.si-thin-shirt-4:before {
+    content: "\f242";
+}
+.si-thin-shirt-5:before {
+    content: "\f243";
+}
+.si-thin-shirt-6:before {
+    content: "\f244";
+}
+.si-thin-shirt-7:before {
+    content: "\f245";
+}
+.si-thin-shirt-8:before {
+    content: "\f246";
+}
+.si-thin-shirt-9:before {
+    content: "\f247";
+}
+.si-thin-shirt:before {
+    content: "\f248";
+}
+.si-thin-shoe-2:before {
+    content: "\f249";
+}
+.si-thin-shoe-3:before {
+    content: "\f24a";
+}
+.si-thin-shoe-4:before {
+    content: "\f24b";
+}
+.si-thin-shoe-5:before {
+    content: "\f24c";
+}
+.si-thin-shoe-6:before {
+    content: "\f24d";
+}
+.si-thin-shoe-7:before {
+    content: "\f24e";
+}
+.si-thin-shoe-8:before {
+    content: "\f24f";
+}
+.si-thin-shoe-9:before {
+    content: "\f250";
+}
+.si-thin-shoe:before {
+    content: "\f251";
+}
+.si-thin-shop:before {
+    content: "\f252";
+}
+.si-thin-shopping-bag-2:before {
+    content: "\f253";
+}
+.si-thin-shopping-bag:before {
+    content: "\f254";
+}
+.si-thin-shopping-cart:before {
+    content: "\f255";
+}
+.si-thin-shopping:before {
+    content: "\f256";
+}
+.si-thin-shorts-2:before {
+    content: "\f257";
+}
+.si-thin-shorts-3:before {
+    content: "\f258";
+}
+.si-thin-shorts-4:before {
+    content: "\f259";
+}
+.si-thin-shorts-5:before {
+    content: "\f25a";
+}
+.si-thin-shorts:before {
+    content: "\f25b";
+}
+.si-thin-singlet:before {
+    content: "\f25c";
+}
+.si-thin-sketch-2:before {
+    content: "\f25d";
+}
+.si-thin-sketch:before {
+    content: "\f25e";
+}
+.si-thin-skirt-10:before {
+    content: "\f25f";
+}
+.si-thin-skirt-11:before {
+    content: "\f260";
+}
+.si-thin-skirt-2:before {
+    content: "\f261";
+}
+.si-thin-skirt-3:before {
+    content: "\f262";
+}
+.si-thin-skirt-4:before {
+    content: "\f263";
+}
+.si-thin-skirt-5:before {
+    content: "\f264";
+}
+.si-thin-skirt-6:before {
+    content: "\f265";
+}
+.si-thin-skirt-7:before {
+    content: "\f266";
+}
+.si-thin-skirt-8:before {
+    content: "\f267";
+}
+.si-thin-skirt-9:before {
+    content: "\f268";
+}
+.si-thin-skirt:before {
+    content: "\f269";
+}
+.si-thin-sleeveless:before {
+    content: "\f26a";
+}
+.si-thin-slippers-2:before {
+    content: "\f26b";
+}
+.si-thin-slippers:before {
+    content: "\f26c";
+}
+.si-thin-sms:before {
+    content: "\f26d";
+}
+.si-thin-sneakers-2:before {
+    content: "\f26e";
+}
+.si-thin-sneakers-3:before {
+    content: "\f26f";
+}
+.si-thin-sneakers-4:before {
+    content: "\f270";
+}
+.si-thin-sneakers-5:before {
+    content: "\f271";
+}
+.si-thin-sneakers-6:before {
+    content: "\f272";
+}
+.si-thin-sneakers:before {
+    content: "\f273";
+}
+.si-thin-socks-2:before {
+    content: "\f274";
+}
+.si-thin-socks:before {
+    content: "\f275";
+}
+.si-thin-sponge:before {
+    content: "\f276";
+}
+.si-thin-suit-2:before {
+    content: "\f277";
+}
+.si-thin-suit:before {
+    content: "\f278";
+}
+.si-thin-suitcase:before {
+    content: "\f279";
+}
+.si-thin-sweater-2:before {
+    content: "\f27a";
+}
+.si-thin-sweater:before {
+    content: "\f27b";
+}
+.si-thin-sweatshirt:before {
+    content: "\f27c";
+}
+.si-thin-swimsuit-2:before {
+    content: "\f27d";
+}
+.si-thin-swimsuit-3:before {
+    content: "\f27e";
+}
+.si-thin-swimsuit-4:before {
+    content: "\f27f";
+}
+.si-thin-swimsuit-5:before {
+    content: "\f280";
+}
+.si-thin-swimsuit:before {
+    content: "\f281";
+}
+.si-thin-tackle-box:before {
+    content: "\f282";
+}
+.si-thin-tag:before {
+    content: "\f283";
+}
+.si-thin-tags:before {
+    content: "\f284";
+}
+.si-thin-tank-top:before {
+    content: "\f285";
+}
+.si-thin-thimble:before {
+    content: "\f286";
+}
+.si-thin-thread-2:before {
+    content: "\f287";
+}
+.si-thin-thread-cut:before {
+    content: "\f288";
+}
+.si-thin-thread:before {
+    content: "\f289";
+}
+.si-thin-threader-2:before {
+    content: "\f28a";
+}
+.si-thin-threader:before {
+    content: "\f28b";
+}
+.si-thin-tick-circle:before {
+    content: "\f28c";
+}
+.si-thin-ticket-discount:before {
+    content: "\f28d";
+}
+.si-thin-tie-2:before {
+    content: "\f28e";
+}
+.si-thin-tie:before {
+    content: "\f28f";
+}
+.si-thin-top-2:before {
+    content: "\f290";
+}
+.si-thin-top:before {
+    content: "\f291";
+}
+.si-thin-treasure-chest:before {
+    content: "\f292";
+}
+.si-thin-trench-coat:before {
+    content: "\f293";
+}
+.si-thin-trousers-2:before {
+    content: "\f294";
+}
+.si-thin-trousers-3:before {
+    content: "\f295";
+}
+.si-thin-trousers:before {
+    content: "\f296";
+}
+.si-thin-truck:before {
+    content: "\f297";
+}
+.si-thin-tshirt:before {
+    content: "\f298";
+}
+.si-thin-tweezers:before {
+    content: "\f299";
+}
+.si-thin-twitter:before {
+    content: "\f29a";
+}
+.si-thin-underpants:before {
+    content: "\f29b";
+}
+.si-thin-user:before {
+    content: "\f29c";
+}
+.si-thin-vest-2:before {
+    content: "\f29d";
+}
+.si-thin-vest-3:before {
+    content: "\f29e";
+}
+.si-thin-vest:before {
+    content: "\f29f";
+}
+.si-thin-vip-room:before {
+    content: "\f2a0";
+}
+.si-thin-vision-2:before {
+    content: "\f2a1";
+}
+.si-thin-vision-3:before {
+    content: "\f2a2";
+}
+.si-thin-vision-4:before {
+    content: "\f2a3";
+}
+.si-thin-vision-5:before {
+    content: "\f2a4";
+}
+.si-thin-vision:before {
+    content: "\f2a5";
+}
+.si-thin-wallet:before {
+    content: "\f2a6";
+}
+.si-thin-wash:before {
+    content: "\f2a7";
+}
+.si-thin-watch-2:before {
+    content: "\f2a8";
+}
+.si-thin-watch-3:before {
+    content: "\f2a9";
+}
+.si-thin-watch-4:before {
+    content: "\f2aa";
+}
+.si-thin-watch-5:before {
+    content: "\f2ab";
+}
+.si-thin-watch-6:before {
+    content: "\f2ac";
+}
+.si-thin-watch-7:before {
+    content: "\f2ad";
+}
+.si-thin-watch:before {
+    content: "\f2ae";
+}
+.si-thin-wedding-dress:before {
+    content: "\f2af";
+}
+.si-thin-wig:before {
+    content: "\f2b0";
+}
+.si-thin-winter-hat:before {
+    content: "\f2b1";
+}
+.si-thin-wool:before {
+    content: "\f2b2";
+}
+.si-thin-wristwatch-2:before {
+    content: "\f2b3";
+}
+.si-thin-wristwatch-3:before {
+    content: "\f2b4";
+}
+.si-thin-wristwatch-4:before {
+    content: "\f2b5";
+}
+.si-thin-wristwatch:before {
+    content: "\f2b6";
+}
+.si-thin-zip:before {
+    content: "\f2b7";
+}
+.si-thin-zipper:before {
+    content: "\f2b8";
+}

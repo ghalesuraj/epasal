@@ -1,0 +1,139 @@
+.dokan-theme-springoo {
+	.woocommerce-tabs {
+		.woocommerce-Tabs-panel--seller {
+			table {
+				width: 100%;
+
+				.store-author {
+					.details {
+						padding: var(--springoo-20);
+
+						.author-img {
+							width: 76px;
+							height: 76px;
+							border-radius: 5px;
+							border: 10px solid #fff;
+							box-shadow: 0px 0px 7px rgba(16, 20, 62, 0.1);
+							float: left;
+							margin-right: var(--springoo-20);
+
+							img {
+								border-radius: 5px;
+							}
+						}
+					}
+
+					.author-info {
+						span {
+							display: block;
+						}
+
+						.store-name {
+							font-size: 24px;
+							font-weight: var(--springoo-600-font-weight);
+							line-height: 32px;
+							color: var(--springoo-color-heading);
+							text-transform: capitalize;
+						}
+
+						.store-rating {
+							display: inline-flex;
+							flex-direction: column-reverse;
+							justify-content: flex-end;
+							align-items: self-start;
+							margin: var(--springoo-10) 0 0 0;
+							gap: var(--springoo-5);
+
+							.text {
+								font-size: var(--springoo-small-font-size);
+								font-weight: var(--springoo-300-font-weight);
+								line-height: 22px;
+								color: var(--springoo-color-heading);
+							}
+
+							.star-rating {
+								font-size: 11px;
+								height: 11px;
+							}
+						}
+					}
+				}
+
+				tr {
+					border: 1px solid var(--springoo-color-border);
+				}
+
+				td {
+					padding: var(--springoo-10) var(--springoo-20);
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 26px;
+					color: var(--springoo-color-heading);
+
+					a {
+						color: var(--springoo-color-heading);
+
+						&:hover {
+							color: var(--springoo-color-secondary);
+						}
+					}
+
+					&:not(:last-child) {
+						border-right: 1px solid var(--springoo-color-border);
+					}
+
+					&:nth-child(2) {
+						color: var(--springoo-color-global);
+					}
+				}
+
+				.seller-phone {
+					.details {
+						color: var(--springoo-color-heading);
+					}
+				}
+
+				.store-visit {
+					a {
+						display: flex;
+						align-items: center;
+						gap: 5px;
+						font-size: var(--springoo-small-font-size);
+						font-weight: var(--springoo-500-font-weight);
+						line-height: 24px;
+						color: var(--springoo-color-heading);
+
+						&:hover i {
+							transform: translate(9px, 0);
+						}
+
+						i {
+							transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+							transform: translate(0, 0);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.dokan-theme-springoo {
+		.woocommerce-tabs {
+			.woocommerce-Tabs-panel--seller {
+				table {
+					.store-author {
+						.author-info {
+							.store-rating {
+								flex-direction: row-reverse;
+								justify-content: flex-end;
+								align-items: center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

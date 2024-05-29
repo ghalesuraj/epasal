@@ -1,0 +1,35 @@
+/* =============================================================================
+  Categories Classic widget style
+   ========================================================================== */
+.widget_categories{
+	select {
+		option {
+			color: var(--springoo-color-global);
+		}
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		&:not(:last-child) {
+			margin-bottom: var(--springoo-10);
+		}
+
+		ul {
+			margin-top: var(--springoo-10);
+			padding-left: var(--springoo-15);
+		}
+	}
+
+	a {
+		color: var(--springoo-color-global);
+
+		&:hover {
+			color: var(--springoo-color-secondary);;
+		}
+	}
+
+}

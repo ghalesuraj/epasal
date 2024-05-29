@@ -1,0 +1,47 @@
+/* -----------------------------------------------------
+				AYYASH MEDIUM POSTS
+------------------------------------------------------ */
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.post {
+		&-medium {
+			.springoo-entry-content {
+				display: flex;
+				column-gap: var(--springoo-30);
+				align-items: center;
+			}
+			&:has(.post-video, .post-image, .post-gallery, .post-audio, .post-chat, .post-quote){
+				.post-video,
+				.post-image,
+				.post-gallery,
+				.post-audio,
+				.post-quote,
+				.post-chat{
+					width: 48%;
+					margin-bottom: 0;
+				}
+			}
+
+			.post-content-wrap{
+				flex: 1;
+			}
+			&.sticky{
+
+				&:has(.post-video, .post-image, .post-gallery){
+					.post-content-wrap{
+						padding: var( --springoo-20 ) var( --springoo-20 ) var( --springoo-20 ) 0;
+					}
+				}
+				&:has(.post-audio, .post-chat, .post-quote){
+					.post-content-wrap{
+						padding: var(--springoo-20) 0;
+					}
+					.springoo-entry-content{
+						padding-top: 0;
+					}
+				}
+			}
+		}
+	}
+}

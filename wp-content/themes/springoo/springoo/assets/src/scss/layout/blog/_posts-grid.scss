@@ -1,0 +1,30 @@
+/* -----------------------------------------------------
+				AYYASH GRID POSTS
+------------------------------------------------------ */
+.post-grid-wrap {
+	width: 100%;
+	margin-bottom: var(--springoo-60);
+}
+
+/*---------------------------------------------------------
+Grid Responsive
+-------------------------------------------------------- */
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.post-grid-wrap {
+		width: calc(50% - 15px);
+
+		&.grid-column-2 {
+			width: calc(50% - 15px);
+		}
+
+		&.grid-column-3 {
+			width: calc(calc(100% / 3) - calc(15px * 2));
+		}
+
+		&.grid-column-4 {
+			width: calc(calc(100% / 4) - calc(15px * 2	));
+		}
+	}
+}
+

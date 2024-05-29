@@ -1,0 +1,40 @@
+.springoo-footer-widget, .widget-area {
+	.widget_recent_entries {
+		nav {
+			ul {
+				padding: 0;
+
+				li {
+					&:has(.post-date) {
+						 a {
+							font-size: var(--springoo-h5-font-size);
+							 font-weight: var(--springoo-600-font-weight);
+						}
+					}
+					a {
+						color: var(--springoo-color-heading);
+						font-size: var( --springoo-font-size-base );
+						font-weight: var( --springoo-global-font-weight );
+						display: block;
+
+						&:hover {
+							color: var(--springoo-color-primary);
+						}
+					}
+
+					.post-date {
+						display: block;
+						margin-top: var(--springoo-10);
+						font-weight: var(--springoo-500-font-weight);
+						color: var(--springoo-color-global);
+						font-size: var(--springoo-small-font-size);
+					}
+
+					+ li {
+						margin-top: var(--springoo-15);
+					}
+				}
+			}
+		}
+	}
+}

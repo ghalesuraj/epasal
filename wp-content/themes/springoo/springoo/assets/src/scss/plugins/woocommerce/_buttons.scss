@@ -1,0 +1,61 @@
+/**
+ * Buttons
+ */
+.woocommerce {
+	a.button,
+	button.button,
+	input.button,
+	#respond input#submit {
+		height: 48px;
+		font-size: 16px;
+		padding: 15px 30px;
+		line-height: 1 !important; //@todo need to check hover color
+		color: #ffffff !important; //@todo need to check hover color
+		transition: all .3s linear;
+		font-weight: 400;
+		background-image: linear-gradient(90deg, var(--springoo-color-primary) 0%, var(--springoo-color-secondary) 100%);
+		border-radius: 12px;
+
+		&:hover {
+			background-image: linear-gradient(172deg, var(--springoo-color-secondary) 0%, var(--springoo-color-primary) 100%);
+		}
+
+		&:disabled,
+		&.disabled,
+		&:disabled[disabled] {
+			height: 48px;
+			font-size: 16px;
+			padding: 15px 30px;
+			line-height: 1;
+			color: #ffffff;
+		}
+
+		&.alt {
+			background: linear-gradient(90deg, var(--springoo-color-heading) 0%, #404769 100%);
+			&:hover {
+				background-image: linear-gradient(172deg, #404769 0%, var(--springoo-color-heading) 100%);
+			}
+
+			&.disabled,
+			&:disabled,
+			&:disabled[disabled],
+			&.disabled:hover,
+			&:disabled:hover,
+			&:disabled[disabled]:hover {
+				background-color: var(--springoo-color-primary);
+			}
+		}
+
+		&.btn-outlined{
+			background: transparent;
+			color: var(--springoo-color-primary );
+			border: 1px solid var(--springoo-color-primary );
+		}
+	}
+
+	.product form.cart .button {
+		&:focus {
+			outline: 5px auto -webkit-focus-ring-color;
+		}
+	}
+}

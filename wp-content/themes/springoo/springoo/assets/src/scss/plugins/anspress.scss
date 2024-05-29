@@ -1,0 +1,46 @@
+#anspress {
+	text-transform: capitalize;
+
+	.ap-list-head {
+		.ap-btn-ask {
+			background-color: var(--springoo-color-primary) ;
+		}
+	}
+	.ap-filter-toggle {
+		color: var(--springoo-color-primary);
+	}
+
+	.ap-btn {
+		&.ap-btn-subscribe {
+			background-color: var(--springoo-color-primary);
+			color: #ffffff;
+			padding: 0.25rem 0.5rem;
+			border-radius: 0.25rem;
+		}
+	}
+
+	.ap-field-type-checkbox {
+		.ap-field-group-w {
+			label {
+				display: flex;
+				align-items: center;
+
+				input[type="checkbox"] {
+					margin-right: 0.5rem;
+				}
+			}
+		}
+	}
+
+	.ap-cell apcomment {
+		padding: 1rem 0.75rem;
+	}
+
+	#ap-answers-c {
+		.ap-answers-tab {
+			li {
+				list-style: none;
+			}
+		}
+	}
+}

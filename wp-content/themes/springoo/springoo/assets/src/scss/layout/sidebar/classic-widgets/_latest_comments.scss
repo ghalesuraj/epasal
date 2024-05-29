@@ -1,0 +1,26 @@
+/* =============================================================================
+   Recent Comments Classic Style
+   ========================================================================== */
+
+.widget_recent_comments{
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    // classic comments meta
+    li:not(:last-child){
+        margin-bottom: var(--springoo-10);
+    }
+	li.recentcomments {
+		font-size: var(--springoo-h6-font-size);
+
+      a {
+        font-size: var(--springoo-medium-font-size);
+        color: var(--springoo-color-heading);
+
+        &:hover {
+          color: var(--springoo-color-secondary);
+        }
+      }
+	}
+}

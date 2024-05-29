@@ -1,0 +1,55 @@
+/* =============================================================================
+   Archives Block Styles
+   ========================================================================== */
+.wp-block-archives{
+
+	//dropdown archives
+	&.wp-block-archives-dropdown{
+		label{
+			font-size: var(--springoo-h3-font-size);
+			font-weight: var(--springoo-h3-font-weight, var(--springoo-heading-font-weight));
+			line-height: var(--springoo-h3-line-height, var(--springoo-heading-line-height));
+			color: var(--springoo-color-global);
+			margin-bottom: var(--springoo-30);
+		}
+		select{
+			font-size: var(--springoo-global-font-size);
+			line-height: 1;
+			font-weight: var(--springoo-global-font-weight);
+			color: var(--springoo-color-global);
+			border: 1px solid var(--springoo-color-border);
+			padding: var(--springoo-10);
+			width: 100%;
+			max-width: 100%;
+			height: 3.125rem;
+		}
+	}
+
+	//list archives
+	&.wp-block-archives-list{
+		padding-left: 0;
+
+		ul {
+			margin-top: var(--springoo-10);
+			padding-left: var(--springoo-15);
+		}
+
+		li {
+			list-style: none;
+
+			&:not(:last-child){
+				margin-bottom: var(--springoo-10);
+			}
+		}
+	}
+
+	a,li{
+		text-decoration: none;
+		color: var(--springoo-color-global);
+	}
+
+	a:hover{
+		color: var(--springoo-color-secondary);
+	}
+
+}

@@ -1,0 +1,63 @@
+/* =============================================================================
+   RSS Feed Clasic widgets style
+   ========================================================================== */
+.widget_rss{
+
+	.widget-title {
+		display: flex;
+		gap: 10px;
+
+		.rss-widget-title {
+			font-size: var(--springoo-h5-font-size);
+			color: var(--springoo-color-heading);
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		&:not(:last-child) {
+			margin-bottom: var(--springoo-15);
+		}
+	}
+
+
+	// RSS title
+	a {
+		display: block;
+		color: var(--springoo-color-primary);
+		font-size: var(--springoo-h6-font-size);
+		margin-bottom: 5px;
+
+		&:hover {
+			color: var(--springoo-color-secondary);
+		}
+	}
+
+	// RSS author
+	cite {
+		font-size: var(--springoo-small-font-size);
+		font-weight: var(--springoo-500-font-weight);
+		color: var(--springoo-color-heading);
+	}
+
+	//RSS post date
+	.rss-date {
+		font-size: var(--springoo-small-font-size);
+		color: var(--springoo-color-global);
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+
+	// RSS Content
+	.rssSummary {
+		font-size: var(--springoo-global-font-size);
+		color: var(--springoo-color-heading);
+		padding: 0 0 var(--springoo-10) 0;
+	}
+
+}

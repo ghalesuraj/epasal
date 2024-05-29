@@ -1,0 +1,84 @@
+/* =============================================================================
+   Search Block Style
+   ========================================================================== */
+// Block Category list
+.wp-block-categories__list,
+.wp-block-categories-list{
+	padding-left: 0;
+	list-style: none;
+
+	li{
+		&:not(:last-child){
+			margin-bottom: var(--springoo-10);
+		}
+
+		ul{
+			list-style: none;
+			margin-top: var(--springoo-15);
+			padding-left: var(--springoo-30);
+
+			ul {
+				padding-left: var(--springoo-15);
+			}
+		}
+	}
+
+	a{
+		color: var(--springoo-color-global);
+		text-decoration: none;
+
+		&:hover{
+			color: var(--springoo-color-secondary);
+		}
+	}
+}
+
+// Category Dropdown
+.wp-block-categories,
+.wp-block-categories-dropdown{
+	label{
+		font-size: var(--springoo-h3-font-size);
+		font-weight: var(--springoo-h3-font-weight, var(--springoo-heading-font-weight));
+		line-height: var(--springoo-h3-line-height, var(--springoo-heading-line-height));
+		color: var(--springoo-color-global);
+		margin-bottom: var(--springoo-30);
+	}
+	select{
+		font-size: var(--springoo-global-font-size);
+		line-height: 1;
+		font-weight: var(--springoo-global-font-weight);
+		color: var(--springoo-color-global);
+		border: 1px solid var(--springoo-color-border);
+		padding: var(--springoo-10);
+		width: 100%;
+		max-width: 100%;
+		height: var(--springoo-50);
+	}
+}
+
+// product categories
+.wc-block-product-categories {
+	margin-bottom: 0;
+
+	ul {
+		padding-left: 0;
+
+		ul {
+			padding-left: var(--springoo-15);
+		}
+	}
+
+	li {
+		list-style: none;
+		margin-top: var(--springoo-10);
+
+		a, span {
+			color: var(--springoo-color-global);
+		}
+
+		span:hover {
+			color: var(--springoo-color-secondary);
+		}
+	}
+
+}

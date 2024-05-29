@@ -1,0 +1,4574 @@
+# Copyright (C) 2024 ThemeRox
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Springoo 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/springoo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-16T09:45:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: springoo\n"
+
+#. Theme Name of the theme
+#: inc/springoo-widgets.php:9
+msgid "Springoo"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://themerox.com/springoo"
+msgstr ""
+
+#. Description of the theme
+msgid "Springoo, an extraordinary WordPress theme designed exclusively for fashion stores. Get ready to engage your users and immerse them in an unforgettable online experience. it's a gateway to showcase your trendiest collections and captivate your audience. With its stunning and modern design, Springoo becomes the perfect companion to bring your fashion store to life and enthrall your users."
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeRox"
+msgstr ""
+
+#. Author URI of the theme
+#: inc/springoo-hook-helper.php:406
+#: inc/springoo-hook-helper.php:799
+msgid "https://themerox.com/"
+msgstr ""
+
+#: 404.php:33
+msgid "404"
+msgstr ""
+
+#: comments.php:33
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:34
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:35
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:48
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:62
+#: woocommerce/single-product-reviews.php:131
+msgid "Name"
+msgstr ""
+
+#: comments.php:63
+#: woocommerce/single-product-reviews.php:137
+msgid "Email"
+msgstr ""
+
+#: comments.php:64
+msgid "Website"
+msgstr ""
+
+#: comments.php:65
+msgid "Subject"
+msgstr ""
+
+#: comments.php:69
+msgid "Enter your comments"
+msgstr ""
+
+#. translators: %s: Author of the comment being replied to.
+#: comments.php:72
+msgid "Reply to %s"
+msgstr ""
+
+#: comments.php:76
+#: inc/springoo-hook-helper.php:466
+msgid "Cancel reply"
+msgstr ""
+
+#: content-none.php:20
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:26
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: content-none.php:26
+msgid "Get started here"
+msgstr ""
+
+#: content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:25
+msgid "View more"
+msgstr ""
+
+#: dokan/global/product-tab.php:33
+msgid "Store Name:"
+msgstr ""
+
+#: dokan/global/product-tab.php:41
+msgid "Vendor:"
+msgstr ""
+
+#: dokan/global/product-tab.php:50
+msgid "Address:"
+msgstr ""
+
+#: dokan/global/product-tab.php:60
+#: woocommerce/checkout/thankyou.php:60
+msgid "Email:"
+msgstr ""
+
+#: dokan/global/product-tab.php:70
+msgid "Mobile:"
+msgstr ""
+
+#: dokan/global/product-tab.php:80
+#: dokan/store-template-1.php:154
+#: dokan/store-template-1.php:155
+msgid "Visit Store"
+msgstr ""
+
+#: dokan/store-header.php:17
+msgid "Store Open"
+msgstr ""
+
+#: dokan/store-header.php:18
+msgid "Store Closed"
+msgstr ""
+
+#: dokan/store-header.php:127
+msgid "Weekly Store Timing"
+msgstr ""
+
+#: dokan/store-header.php:128
+msgid "CLOSED"
+msgstr ""
+
+#: dokan/store-lists-filter.php:31
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1764
+msgid "Filter"
+msgstr ""
+
+#: dokan/store-lists-filter.php:41
+msgid "Showing the single result"
+msgstr ""
+
+#. translators: %d: total results
+#: dokan/store-lists-filter.php:44
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: dokan/store-lists-filter.php:49
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dokan/store-lists-filter.php:59
+#: dokan/store-lists-filter.php:61
+msgid "Sort by"
+msgstr ""
+
+#: dokan/store-lists-filter.php:108
+msgid "Search Vendors"
+msgstr ""
+
+#: dokan/store-template-1.php:83
+#: dokan/store-template-2.php:100
+#: dokan/store-template-3.php:95
+#: inc/customizer/defaults.php:90
+msgid "Featured"
+msgstr ""
+
+#: dokan/store-template-1.php:90
+#: dokan/store-template-2.php:107
+#: dokan/store-template-3.php:102
+msgid "Store is Open"
+msgstr ""
+
+#: dokan/store-template-1.php:90
+#: dokan/store-template-2.php:107
+#: dokan/store-template-3.php:102
+msgid "Open"
+msgstr ""
+
+#: dokan/store-template-1.php:92
+#: dokan/store-template-2.php:109
+#: dokan/store-template-3.php:104
+msgid "Store is Closed"
+msgstr ""
+
+#: dokan/store-template-1.php:92
+#: dokan/store-template-2.php:109
+#: dokan/store-template-3.php:104
+msgid "Closed"
+msgstr ""
+
+#. translators: 1) seller rating
+#: dokan/store-template-1.php:108
+#: dokan/store-template-2.php:130
+#: dokan/store-template-3.php:118
+msgid "Rated %s out of 5"
+msgstr ""
+
+#. translators: 1) seller rating
+#: dokan/store-template-1.php:115
+#: dokan/store-template-2.php:138
+#: dokan/store-template-3.php:126
+msgid "%s out of 5"
+msgstr ""
+
+#: dokan/store-template-1.php:179
+#: dokan/store-template-2.php:232
+#: dokan/store-template-3.php:184
+msgid "&larr;"
+msgstr ""
+
+#: dokan/store-template-1.php:180
+#: dokan/store-template-2.php:233
+#: dokan/store-template-3.php:185
+msgid "&rarr;"
+msgstr ""
+
+#: dokan/store-template-1.php:207
+#: dokan/store-template-2.php:259
+#: dokan/store-template-3.php:211
+msgid "No vendor found!"
+msgstr ""
+
+#: dokan/store-template-2.php:119
+msgid "Inquiry"
+msgstr ""
+
+#: dokan/store-template-2.php:179
+#: dokan/store-template-2.php:180
+msgid "View Store"
+msgstr ""
+
+#: dokan/store.php:53
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:18
+msgid "Your Name *"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:19
+#: dokan/widgets/store-contact-form.php:46
+msgid "Your Name"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:22
+msgid "Your Email *"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:23
+#: dokan/widgets/store-contact-form.php:49
+msgid "you@example.com"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:26
+msgid "Your Inquiry *"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:27
+#: dokan/widgets/store-contact-form.php:52
+msgid "Type your messsage..."
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:37
+msgid "Send Inquiry"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:62
+#: inc/compatibility/contact-form-7/springoo-cf7-hook-helper.php:27
+msgid "Send Message"
+msgstr ""
+
+#: functions.php:149
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:150
+msgid "Mobile Menu ( Select when mobile menu is different )(Mobile primary menu)"
+msgstr ""
+
+#: functions.php:151
+msgid "Header Top Left Menu"
+msgstr ""
+
+#: functions.php:152
+msgid "Header Top Right Menu"
+msgstr ""
+
+#: functions.php:153
+msgid "Footer Menu "
+msgstr ""
+
+#: functions.php:183
+msgid "Primary"
+msgstr ""
+
+#: functions.php:188
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:193
+msgid "Heading"
+msgstr ""
+
+#: functions.php:198
+#: inc/customizer/panels/class-springoo-customize-background-images.php:54
+#: inc/customizer/panels/class-springoo-customize-colors.php:69
+#: inc/customizer/panels/class-springoo-customize-layout.php:63
+#: inc/customizer/panels/class-springoo-customize-typography.php:62
+msgid "Global"
+msgstr ""
+
+#: functions.php:203
+msgid "Light Background"
+msgstr ""
+
+#: functions.php:212
+msgid "Heading One "
+msgstr ""
+
+#: functions.php:218
+msgid "Heading Two "
+msgstr ""
+
+#: functions.php:223
+msgid "Heading Three "
+msgstr ""
+
+#: functions.php:228
+msgid "Heading Four "
+msgstr ""
+
+#: functions.php:233
+msgid "Heading Five "
+msgstr ""
+
+#: functions.php:238
+msgid "Heading Six "
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:258
+msgid "Browse:"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:259
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:260
+#: inc/springoo-helper-functions.php:511
+msgid "Home"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:261
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:262
+#: inc/customizer/panels/class-springoo-customize-layout.php:1215
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query.
+#: inc/class-springoo-breadcrumb.php:264
+#: inc/springoo-tags.php:965
+msgid "Search results for: %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: inc/class-springoo-breadcrumb.php:266
+msgid "Page %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: inc/class-springoo-breadcrumb.php:268
+msgid "Comment Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/class-springoo-breadcrumb.php:270
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/class-springoo-breadcrumb.php:272
+msgid "Week %s"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:737
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:773
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:790
+#: inc/class-springoo-breadcrumb.php:819
+#: inc/class-springoo-breadcrumb.php:849
+#: inc/class-springoo-breadcrumb.php:876
+#: inc/class-springoo-breadcrumb.php:1230
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:791
+#: inc/class-springoo-breadcrumb.php:850
+#: inc/class-springoo-breadcrumb.php:1233
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:792
+#: inc/class-springoo-breadcrumb.php:1236
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/class-springoo-breadcrumb.php:820
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:343
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:345
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:400
+#: inc/class-tgm-plugin-activation.php:3308
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401
+#: inc/class-tgm-plugin-activation.php:3100
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:403
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:405
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:407
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:409
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1042
+#: inc/class-tgm-plugin-activation.php:1052
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1243
+#: inc/class-tgm-plugin-activation.php:3096
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2111
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2420
+#: woocommerce/single-product-reviews.php:166
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2439
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2442
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2445
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2462
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2466
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2468
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2474
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2476
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2478
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2487
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2533
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2537
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2541
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2545
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2627
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2635
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2643
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2655
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2678
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2692
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2693
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2694
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2698
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2699
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2748
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2753
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2831
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2864
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2870
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2873
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2904
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2906
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2947
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2949
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3056
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3082
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3307
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3618
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3621
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3623
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3627
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3629
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3630
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3632
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3635
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3637
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3638
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3640
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3645
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3645
+msgid "Hide Details"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:52
+msgid "Products"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:66
+#: inc/springoo-tags.php:587
+msgid "Facebook"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:70
+#: inc/springoo-tags.php:595
+msgid "Twitter"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:74
+#: inc/springoo-tags.php:599
+msgid "Pinterest"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:78
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:82
+msgid "Youtube"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:86
+#: inc/springoo-tags.php:591
+msgid "Instagram"
+msgstr ""
+
+#: inc/compatibility/dokan/springoo-dokan-hook-helper.php:90
+msgid "Flickr"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:50
+msgid "Springoo Accent"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:51
+msgid "Springoo Accent Hover"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:52
+msgid "Springoo Header"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:53
+#: inc/compatibility/elementor/class-springoo-global-typography.php:52
+msgid "Springoo Text"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:54
+msgid "Springoo Content"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:55
+msgid "Springoo Site Background"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:56
+msgid "Springoo Border"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:57
+msgid "Springoo Credit"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:58
+msgid "Springoo Credit Background"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-color.php:59
+msgid "Springoo Gradient"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-typography.php:46
+msgid "Springoo Heading 1"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-typography.php:47
+msgid "Springoo Heading 2"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-typography.php:48
+msgid "Springoo Heading 3"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-typography.php:49
+msgid "Springoo Heading 4"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-typography.php:50
+msgid "Springoo Heading 5"
+msgstr ""
+
+#: inc/compatibility/elementor/class-springoo-global-typography.php:51
+msgid "Springoo Heading 6"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:33
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:126
+msgid "Choose an option"
+msgstr ""
+
+#. translators: %s: Size Attribute Name for tooltip.
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:87
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:93
+msgid "Color: %s"
+msgstr ""
+
+#. translators: %s: Size Attribute Name for tooltip.
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:185
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:197
+msgid "Size: %s"
+msgstr ""
+
+#. translators: %s Review Count.
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:290
+msgid "Customer Review (%s)"
+msgid_plural "Customer Reviews (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:367
+msgid "Note: "
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:426
+msgid "Enable Review Gallery"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:427
+msgid "Allow customer to upload images with their review (comments)."
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:435
+msgid "Allow only verified customers to upload image."
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:444
+msgid "Allow only logged in customers to upload image."
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:452
+msgid "Maximum number of Images"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:453
+msgid "Number of images customer allowed to upload in each review."
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:462
+msgid "Maximum file size (MB)"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:463
+msgid "Maximum size allowed per image. File size in MB."
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:489
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:491
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:495
+#: product-searchform.php:27
+#: searchform.php:24
+#: searchform.php:26
+msgid "Search"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:491
+msgid "Search for products..."
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:538
+msgid "Product category"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:539
+msgid "All categories"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-helper.php:771
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1811
+msgid "Share"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:285
+msgid "sale"
+msgstr ""
+
+#. translators: %s: Review Count
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:612
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:2070
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:715
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1021
+msgid "Cart"
+msgstr ""
+
+#. translators: %s: Stock Quantity
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:805
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:808
+msgid "Stock: %s"
+msgstr ""
+
+#. translators: %s: Stock Quantity
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:805
+msgid "%s in stock"
+msgstr ""
+
+#. translators: %s: Stock Quantity
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:808
+msgid "out of stock"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:827
+msgid "New"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:876
+msgid "Out Of Stock"
+msgstr ""
+
+#. translators: Product Stock
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1151
+msgid "Only <span class=\"stock-number\">%s item</span> left in stock!"
+msgid_plural "Only <span class=\"stock-number\">%s items</span> left in stock!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1196
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1216
+msgid "Dashboard"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1200
+msgid "Orders"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1204
+msgid "Downloads"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1208
+msgid "Account Details"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1212
+msgid "Addresses"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1241
+msgid "Download"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1327
+msgid "Product review"
+msgid_plural "Product reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1334
+msgid "Sort:"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1336
+msgid "Relevance"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1337
+msgid "Recent"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1338
+msgid "High Rating"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1339
+msgid "Low Rating"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1344
+msgid "Filter:"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1347
+msgid "All Stars "
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1350
+msgid "5 Star "
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1353
+msgid "4 Star"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1356
+msgid "3 Star"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1359
+msgid "2 Star"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1362
+msgid "1 Star"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1366
+msgid "Write a Review"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1391
+msgid "Helpful?"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1394
+#: inc/customizer/defaults.php:41
+#: inc/customizer/defaults.php:828
+#: inc/customizer/defaults.php:839
+#: inc/customizer/defaults.php:883
+#: inc/customizer/defaults.php:887
+#: inc/customizer/defaults.php:903
+#: inc/customizer/defaults.php:907
+msgid "Yes"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1399
+#: inc/customizer/defaults.php:42
+#: inc/customizer/defaults.php:829
+#: inc/customizer/defaults.php:840
+#: inc/customizer/defaults.php:884
+#: inc/customizer/defaults.php:888
+#: inc/customizer/defaults.php:904
+#: inc/customizer/defaults.php:908
+msgid "No"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1426
+msgid "Review Options"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1440
+msgid "Short Description"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1445
+msgid "Gallery"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1446
+msgid "Add Images"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1447
+msgid "Edit Images"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1448
+msgid "Remove Images"
+msgstr ""
+
+#. translators:  %1$s review title, %2$d gallery image count
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1510
+msgid "%1$s Gallery (Item %2$d)"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1655
+msgid "Show:"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1674
+msgid "Specification"
+msgstr ""
+
+#. translators: %s Sales end date
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1847
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1896
+msgid "Limited time offer. The deal will expire on %s HURRY UP!"
+msgstr ""
+
+#. translators: %s Review Count
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1932
+msgid "Customer Reviews (%d)"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:1994
+msgid "Close Filter Toggle"
+msgstr ""
+
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:2038
+msgid "No Match Found."
+msgstr ""
+
+#. translators: Product search result title
+#: inc/compatibility/woocommerce/springoo-wc-hook-helper.php:2085
+msgid "Search results for: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:39
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:233
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:235
+msgid "Compare"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:136
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:207
+#: inc/customizer/defaults.php:38
+#: inc/customizer/defaults.php:507
+#: inc/customizer/defaults.php:834
+#: inc/customizer/defaults.php:846
+#: inc/customizer/defaults.php:852
+#: inc/customizer/defaults.php:858
+#: inc/customizer/defaults.php:863
+#: inc/customizer/defaults.php:894
+#: inc/customizer/defaults.php:900
+#: inc/customizer/defaults.php:913
+msgid "None"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:137
+msgid "Custom"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:164
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:181
+msgid "Springoo Settings"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:187
+msgid "Springoo single product position"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:188
+msgid "Choose if you want to change compare button location for Product summary area."
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:194
+msgid "After \"Add to cart\""
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:195
+msgid "After thumbnails"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:196
+msgid "After summary"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:201
+msgid "\"Compare\" icon"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-compare/springoo-yith-compare-hook-helper.php:202
+msgid "Select an icon for Compare button"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-wishlist/springoo-yith-wcwl-helper.php:22
+msgid "Wishlist"
+msgstr ""
+
+#: inc/compatibility/yith-woocommerce-wishlist/springoo-yith-wcwl-hook-helper.php:98
+msgid "Wishlists"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:122
+msgid "Font Variant"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:123
+msgid "Different variants of the font, provides control over font-weight and italics"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:152
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:177
+msgid "Line Height (em)"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:202
+msgid "Text Transform"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:208
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:209
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:210
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:234
+msgid "Letter Spacing (px)"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-google-fonts-custom-control.php:259
+msgid "Word Spacing (px)"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-social-profile-control.php:69
+msgid "Add Profile"
+msgstr ""
+
+#. translators: %s: Profile Numeric Index (order).
+#: inc/customizer/custom-controls/class-springoo-social-profile-control.php:90
+msgctxt "customizer repeated field title"
+msgid "#Profile %s"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-social-profile-control.php:95
+msgid "Remove Item"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-social-profile-control.php:98
+msgid "Profile Label"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-social-profile-control.php:99
+msgid "Profile URL"
+msgstr ""
+
+#: inc/customizer/custom-controls/class-springoo-social-profile-control.php:100
+msgid "Profile Icon"
+msgstr ""
+
+#: inc/customizer/defaults.php:18
+#: inc/customizer/defaults.php:866
+#: inc/customizer/google-fonts.php:60
+#: inc/customizer/panels/class-springoo-customize-general.php:92
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1358
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1394
+#: inc/menu/class-springoo-megamenu-api.php:105
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/defaults.php:22
+msgid "Grid Column 1"
+msgstr ""
+
+#: inc/customizer/defaults.php:23
+msgid "Grid Column 2"
+msgstr ""
+
+#: inc/customizer/defaults.php:24
+msgid "Grid Column 3"
+msgstr ""
+
+#: inc/customizer/defaults.php:25
+msgid "Grid Column 4"
+msgstr ""
+
+#: inc/customizer/defaults.php:26
+msgid "Grid Column 5"
+msgstr ""
+
+#: inc/customizer/defaults.php:27
+msgid "Grid Column 6"
+msgstr ""
+
+#: inc/customizer/defaults.php:28
+msgid "Grid Column 7"
+msgstr ""
+
+#: inc/customizer/defaults.php:29
+msgid "Grid Column 8"
+msgstr ""
+
+#: inc/customizer/defaults.php:30
+msgid "Grid Column 9"
+msgstr ""
+
+#: inc/customizer/defaults.php:31
+msgid "Grid Column 10"
+msgstr ""
+
+#: inc/customizer/defaults.php:32
+msgid "Grid Column 11"
+msgstr ""
+
+#: inc/customizer/defaults.php:33
+msgid "Grid Column 12"
+msgstr ""
+
+#: inc/customizer/defaults.php:36
+#: inc/customizer/defaults.php:55
+#: inc/customizer/defaults.php:708
+#: inc/customizer/defaults.php:832
+#: inc/customizer/defaults.php:844
+#: inc/customizer/defaults.php:850
+#: inc/customizer/defaults.php:856
+#: inc/customizer/defaults.php:861
+#: inc/customizer/defaults.php:892
+#: inc/customizer/defaults.php:898
+#: inc/customizer/defaults.php:911
+#: inc/customizer/defaults.php:977
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:37
+#: inc/customizer/defaults.php:57
+#: inc/customizer/defaults.php:706
+#: inc/customizer/defaults.php:833
+#: inc/customizer/defaults.php:845
+#: inc/customizer/defaults.php:851
+#: inc/customizer/defaults.php:857
+#: inc/customizer/defaults.php:862
+#: inc/customizer/defaults.php:893
+#: inc/customizer/defaults.php:899
+#: inc/customizer/defaults.php:912
+#: inc/customizer/defaults.php:978
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:45
+#: inc/customizer/defaults.php:50
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer/defaults.php:46
+#: inc/customizer/defaults.php:51
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/defaults.php:47
+#: inc/customizer/defaults.php:52
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/defaults.php:56
+#: inc/customizer/defaults.php:707
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/defaults.php:87
+msgid "Springoo Demo"
+msgstr ""
+
+#: inc/customizer/defaults.php:110
+msgid "Free shipping worldwide. Orders over $200"
+msgstr ""
+
+#: inc/customizer/defaults.php:111
+msgid "mail@test.com"
+msgstr ""
+
+#: inc/customizer/defaults.php:141
+#: inc/customizer/defaults.php:142
+#: inc/customizer/defaults.php:154
+msgid "#"
+msgstr ""
+
+#: inc/customizer/defaults.php:151
+msgid "Sorry! The page you requested was not found."
+msgstr ""
+
+#: inc/customizer/defaults.php:152
+msgid "The page you are trying to access doesn't exist or has been moved. Try going back to our homepage."
+msgstr ""
+
+#: inc/customizer/defaults.php:153
+msgid "Take me home"
+msgstr ""
+
+#: inc/customizer/defaults.php:163
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer/defaults.php:415
+msgid "Sale -"
+msgstr ""
+
+#: inc/customizer/defaults.php:416
+msgid "%"
+msgstr ""
+
+#: inc/customizer/defaults.php:442
+msgid "Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates."
+msgstr ""
+
+#: inc/customizer/defaults.php:443
+msgid "Simplicity and made from high quality materials, Its sleek geometry and material"
+msgstr ""
+
+#: inc/customizer/defaults.php:452
+msgid "This is a demo store for testing purposes &emdash; no orders shall be fulfilled."
+msgstr ""
+
+#: inc/customizer/defaults.php:467
+msgid "Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy]."
+msgstr ""
+
+#: inc/customizer/defaults.php:468
+msgid "I have read and agree to the website [terms]"
+msgstr ""
+
+#: inc/customizer/defaults.php:496
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer/defaults.php:497
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/defaults.php:500
+msgid "Container"
+msgstr ""
+
+#: inc/customizer/defaults.php:501
+msgid "Container Fluid"
+msgstr ""
+
+#: inc/customizer/defaults.php:508
+msgid "Bounce"
+msgstr ""
+
+#: inc/customizer/defaults.php:509
+msgid "Flash"
+msgstr ""
+
+#: inc/customizer/defaults.php:510
+msgid "Pulse"
+msgstr ""
+
+#: inc/customizer/defaults.php:511
+msgid "Rubber Band"
+msgstr ""
+
+#: inc/customizer/defaults.php:512
+msgid "Shake X"
+msgstr ""
+
+#: inc/customizer/defaults.php:513
+msgid "Shake Y"
+msgstr ""
+
+#: inc/customizer/defaults.php:514
+msgid "Head Shake"
+msgstr ""
+
+#: inc/customizer/defaults.php:515
+msgid "Swing"
+msgstr ""
+
+#: inc/customizer/defaults.php:516
+msgid "Ta Da"
+msgstr ""
+
+#: inc/customizer/defaults.php:517
+msgid "Wooble"
+msgstr ""
+
+#: inc/customizer/defaults.php:518
+msgid "Jello"
+msgstr ""
+
+#: inc/customizer/defaults.php:519
+msgid "Heart Beat"
+msgstr ""
+
+#: inc/customizer/defaults.php:520
+msgid "Back In Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:521
+msgid "Back In Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:522
+msgid "Back In Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:523
+msgid "Back In Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:524
+msgid "Back Out Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:525
+msgid "Back Out Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:526
+msgid "Back Out Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:527
+msgid "Back Out Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:528
+msgid "Bounce In"
+msgstr ""
+
+#: inc/customizer/defaults.php:529
+msgid "Bounce In Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:530
+msgid "Bounce In Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:531
+msgid "Bounce In Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:532
+msgid "Bounce In Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:533
+msgid "Bounce Out "
+msgstr ""
+
+#: inc/customizer/defaults.php:534
+msgid "Bounce Out Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:535
+msgid "Bounce Out Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:536
+msgid "Bounce Out Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:537
+msgid "Bounce Out Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:538
+msgid "Fade In"
+msgstr ""
+
+#: inc/customizer/defaults.php:539
+msgid "Fade In Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:540
+msgid "Fade In Down Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:541
+msgid "Fade In Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:542
+msgid "Fade In Left Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:543
+msgid "Fade In Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:544
+msgid "Fade In Right Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:545
+msgid "Fade In Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:546
+msgid "Fade In Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:547
+msgid "Fade In Top Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:548
+msgid "Fade In Top Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:549
+msgid "Fade In Bottom Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:550
+msgid "Fade In Bottom Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:551
+msgid "Fade Out"
+msgstr ""
+
+#: inc/customizer/defaults.php:552
+msgid "Fade Out Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:553
+msgid "Fade Out Down Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:554
+msgid "Fade Out Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:555
+msgid "Fade Out Left Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:556
+msgid "Fade Out Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:557
+msgid "Fade Out Right Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:558
+msgid "Fade Out Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:559
+msgid "Fade Out Big"
+msgstr ""
+
+#: inc/customizer/defaults.php:560
+msgid "Fade Out Top Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:561
+msgid "Fade Out Top Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:562
+msgid "Fade Out Bottom Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:563
+msgid "Fade Out Bottom Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:564
+msgid "Flippers"
+msgstr ""
+
+#: inc/customizer/defaults.php:565
+msgid "Flip"
+msgstr ""
+
+#: inc/customizer/defaults.php:566
+msgid "Flip In X"
+msgstr ""
+
+#: inc/customizer/defaults.php:567
+msgid "Flip In Y"
+msgstr ""
+
+#: inc/customizer/defaults.php:568
+msgid "Flip Out X"
+msgstr ""
+
+#: inc/customizer/defaults.php:569
+msgid "Flip Out Y"
+msgstr ""
+
+#: inc/customizer/defaults.php:570
+msgid "Light Speed"
+msgstr ""
+
+#: inc/customizer/defaults.php:571
+msgid "Light Speed In Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:572
+msgid "Light Speed In Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:573
+msgid "Light Speed Out Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:574
+msgid "Light Speed Out Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:575
+msgid "Rotate In"
+msgstr ""
+
+#: inc/customizer/defaults.php:576
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:577
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:578
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:579
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:580
+msgid "Rotating"
+msgstr ""
+
+#: inc/customizer/defaults.php:581
+msgid "Rotate Out"
+msgstr ""
+
+#: inc/customizer/defaults.php:582
+msgid "Rotate Out Down Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:583
+msgid "Rotate Out Down Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:584
+msgid "Rotate Out Up Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:585
+msgid "Rotate Out Up Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:586
+msgid "Specials"
+msgstr ""
+
+#: inc/customizer/defaults.php:587
+msgid "Hinge"
+msgstr ""
+
+#: inc/customizer/defaults.php:588
+msgid "Jack In The Box"
+msgstr ""
+
+#: inc/customizer/defaults.php:589
+msgid "Roll In"
+msgstr ""
+
+#: inc/customizer/defaults.php:590
+msgid "Roll Out"
+msgstr ""
+
+#: inc/customizer/defaults.php:591
+msgid "Zoom In"
+msgstr ""
+
+#: inc/customizer/defaults.php:592
+msgid "Zoom In Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:593
+msgid "Zoom In Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:594
+msgid "Zoom In Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:595
+msgid "Zoom In Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:596
+msgid "Zoom Out"
+msgstr ""
+
+#: inc/customizer/defaults.php:597
+msgid "Zoom Out Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:598
+msgid "Zoom Out left"
+msgstr ""
+
+#: inc/customizer/defaults.php:599
+msgid "Zoom Out Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:600
+msgid "Zoom Out Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:601
+msgid "Slide In Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:602
+msgid "Slide In Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:603
+msgid "Slide In Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:604
+msgid "Slide In Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:605
+msgid "Slide Out Down"
+msgstr ""
+
+#: inc/customizer/defaults.php:606
+msgid "Slide Out Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:607
+msgid "Slide Out Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:608
+msgid "Slide Out Up"
+msgstr ""
+
+#: inc/customizer/defaults.php:611
+msgid "Slower"
+msgstr ""
+
+#: inc/customizer/defaults.php:612
+msgid "Slow"
+msgstr ""
+
+#: inc/customizer/defaults.php:613
+msgid "Fast"
+msgstr ""
+
+#: inc/customizer/defaults.php:614
+msgid "Faster"
+msgstr ""
+
+#: inc/customizer/defaults.php:695
+msgid "Small Device"
+msgstr ""
+
+#: inc/customizer/defaults.php:696
+msgid "Medium Device"
+msgstr ""
+
+#: inc/customizer/defaults.php:697
+msgid "Large Device"
+msgstr ""
+
+#: inc/customizer/defaults.php:698
+msgid "Extra Large Device"
+msgstr ""
+
+#: inc/customizer/defaults.php:701
+msgid "Off-Canvas Full"
+msgstr ""
+
+#: inc/customizer/defaults.php:702
+msgid "Off-Canvas Left"
+msgstr ""
+
+#: inc/customizer/defaults.php:703
+msgid "Off-Canvas Right"
+msgstr ""
+
+#: inc/customizer/defaults.php:711
+msgid "Text Color "
+msgstr ""
+
+#: inc/customizer/defaults.php:712
+msgid "Heading Color "
+msgstr ""
+
+#: inc/customizer/defaults.php:713
+msgid "Primary Color "
+msgstr ""
+
+#: inc/customizer/defaults.php:714
+msgid "Secondary Color "
+msgstr ""
+
+#: inc/customizer/defaults.php:715
+#: inc/customizer/defaults.php:723
+msgid "White Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:716
+#: inc/customizer/defaults.php:724
+msgid "Custom Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:719
+#: inc/customizer/panels/class-springoo-customize-colors.php:236
+#: inc/customizer/panels/class-springoo-customize-colors.php:558
+#: inc/customizer/panels/class-springoo-customize-colors.php:664
+#: inc/customizer/panels/class-springoo-customize-colors.php:904
+#: inc/customizer/panels/class-springoo-customize-colors.php:964
+#: inc/customizer/panels/class-springoo-customize-colors.php:1078
+#: inc/customizer/panels/class-springoo-customize-colors.php:1176
+#: inc/customizer/panels/class-springoo-customize-colors.php:1393
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:720
+#: inc/customizer/panels/class-springoo-customize-colors.php:212
+#: inc/customizer/panels/class-springoo-customize-colors.php:1155
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:721
+#: inc/customizer/panels/class-springoo-customize-colors.php:92
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:722
+#: inc/customizer/panels/class-springoo-customize-colors.php:116
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:774
+msgid "1 Column"
+msgstr ""
+
+#: inc/customizer/defaults.php:775
+#: inc/customizer/defaults.php:936
+#: inc/customizer/panels/class-springoo-customize-layout.php:1052
+msgid "2 Column"
+msgstr ""
+
+#: inc/customizer/defaults.php:776
+#: inc/customizer/defaults.php:937
+#: inc/customizer/panels/class-springoo-customize-layout.php:1053
+msgid "3 Column"
+msgstr ""
+
+#: inc/customizer/defaults.php:777
+#: inc/customizer/defaults.php:938
+#: inc/customizer/panels/class-springoo-customize-layout.php:1054
+msgid "4 Column"
+msgstr ""
+
+#: inc/customizer/defaults.php:810
+msgid "Latin"
+msgstr ""
+
+#: inc/customizer/defaults.php:811
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/customizer/defaults.php:812
+msgid "Greek"
+msgstr ""
+
+#: inc/customizer/defaults.php:813
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/customizer/defaults.php:814
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/customizer/defaults.php:815
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/customizer/defaults.php:816
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/customizer/defaults.php:817
+msgid "Arabic"
+msgstr ""
+
+#: inc/customizer/defaults.php:818
+msgid "Khmer"
+msgstr ""
+
+#: inc/customizer/defaults.php:819
+msgid "Devanagari"
+msgstr ""
+
+#: inc/customizer/defaults.php:822
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/defaults.php:823
+msgid "Icon And Cart Total"
+msgstr ""
+
+#: inc/customizer/defaults.php:824
+msgid "Icon And Cart Count"
+msgstr ""
+
+#: inc/customizer/defaults.php:825
+#: inc/customizer/defaults.php:871
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/defaults.php:867
+msgid "Checkbox"
+msgstr ""
+
+#: inc/customizer/defaults.php:872
+msgid "Theme Lightbox"
+msgstr ""
+
+#: inc/customizer/defaults.php:873
+msgid "WooCommerce Lightbox"
+msgstr ""
+
+#: inc/customizer/defaults.php:878
+msgid "Layout One"
+msgstr ""
+
+#: inc/customizer/defaults.php:879
+msgid "Layout Two"
+msgstr ""
+
+#: inc/customizer/defaults.php:880
+msgid "Layout Three"
+msgstr ""
+
+#: inc/customizer/defaults.php:918
+msgid "Two Column"
+msgstr ""
+
+#: inc/customizer/defaults.php:919
+msgid "Single Column"
+msgstr ""
+
+#: inc/customizer/defaults.php:924
+msgid "Style One"
+msgstr ""
+
+#: inc/customizer/defaults.php:925
+msgid "Style Two"
+msgstr ""
+
+#: inc/customizer/defaults.php:926
+msgid "Style Three"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:39
+msgid "Components Test"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:80
+#: inc/customizer/extension/customizer.php:114
+#: inc/customizer/extension/customizer.php:147
+msgid "Alpha Color Picker Test"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:168
+msgid "Body Background"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:173
+msgid "Header Background"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:178
+msgid "Sidebar Background"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:183
+msgid "Article Background"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:188
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:200
+msgid "Background Colors"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:201
+msgid "This is the optional control description."
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:223
+msgid "Body Text"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:227
+#: inc/customizer/panels/class-springoo-customize-typography.php:124
+msgid "Headings"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:231
+#: inc/customizer/panels/class-springoo-customize-typography.php:457
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:235
+msgid "Paragraph Text"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:239
+msgid "Link Text"
+msgstr ""
+
+#: inc/customizer/extension/customizer.php:250
+msgid "Text Colors"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-background-images.php:40
+msgid "Background Images"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-background-images.php:70
+msgid "Site"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-background-images.php:91
+#: inc/customizer/panels/class-springoo-customize-layout.php:720
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-background-images.php:92
+msgid "This background image will be applied only if <code>Boxed</code> layout is selected."
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:39
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:93
+msgid "Used for Links & Buttons"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:117
+msgid "Used for Links & Buttons hover state"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:140
+msgid "Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:141
+#: inc/customizer/panels/class-springoo-customize-colors.php:165
+msgid "Used for Form Elements"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:164
+msgid "Form Elements Text Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:188
+#: inc/customizer/panels/class-springoo-customize-colors.php:641
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:189
+msgid "Used for Borders for all content elements"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:213
+msgid "Used for headings - h1 to h6"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:237
+msgid "Used for content text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:260
+msgid "Site Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:261
+msgid "Used for background color of the site, It will apply if site layout Boxed selected."
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:284
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:285
+msgid "Used for background color of the site content"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:308
+msgid "Sticky Post Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:309
+msgid "Used for background color of the sticky post archive layout"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:332
+msgid "Gradient Stop Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:333
+msgid "Used for gradient stop color that extends primary or secondary color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:356
+#: inc/customizer/panels/class-springoo-customize-layout.php:209
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:370
+msgid "Header Main"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:391
+#: inc/customizer/panels/class-springoo-customize-colors.php:444
+#: inc/customizer/panels/class-springoo-customize-colors.php:496
+#: inc/customizer/panels/class-springoo-customize-colors.php:618
+#: inc/customizer/panels/class-springoo-customize-colors.php:867
+#: inc/customizer/panels/class-springoo-customize-colors.php:1134
+#: inc/customizer/panels/class-springoo-customize-colors.php:1274
+#: inc/customizer/panels/class-springoo-customize-colors.php:1372
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:392
+msgid "Header background color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:423
+msgid "Header Top"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:475
+msgid "Header Bottom"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:521
+#: inc/customizer/panels/class-springoo-customize-typography.php:354
+msgid "Main Menu"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:537
+#: inc/customizer/panels/class-springoo-customize-typography.php:362
+msgid "Menu Items"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:581
+#: inc/customizer/panels/class-springoo-customize-colors.php:927
+msgid "Text Hover/Focus Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:597
+#: inc/customizer/panels/class-springoo-customize-typography.php:365
+msgid "Sub Menu Items"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:687
+#: inc/customizer/panels/class-springoo-customize-colors.php:797
+#: inc/customizer/panels/class-springoo-customize-colors.php:987
+msgid "Hover/Focus Text Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:710
+msgid "Hover/Focus Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:730
+#: inc/springoo-helper-functions.php:398
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:751
+msgid "Menu Background Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:774
+msgid "Menu Item Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:820
+msgid "Menu Item Border Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:844
+#: inc/customizer/panels/class-springoo-customize-typography.php:378
+#: inc/menu/class-springoo-megamenu-api.php:141
+#: inc/menu/class-springoo-megamenu-api.php:211
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:883
+msgid "Menu Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:943
+#: inc/customizer/panels/class-springoo-customize-typography.php:388
+msgid "Mega Menu Items"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1009
+#: inc/customizer/panels/class-springoo-customize-layout.php:699
+msgid "Breadcrumb Section"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1032
+msgid "Background Color1"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1055
+msgid "Background Color2"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1099
+#: inc/customizer/panels/class-springoo-customize-colors.php:1115
+msgid "Footer Main / Footer Widget Area"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1197
+#: inc/customizer/panels/class-springoo-customize-colors.php:1295
+#: inc/customizer/panels/class-springoo-customize-colors.php:1414
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1218
+#: inc/customizer/panels/class-springoo-customize-colors.php:1316
+#: inc/customizer/panels/class-springoo-customize-colors.php:1435
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1239
+#: inc/customizer/panels/class-springoo-customize-colors.php:1255
+msgid "Footer Secondary"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-colors.php:1338
+#: inc/customizer/panels/class-springoo-customize-colors.php:1353
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-dokan.php:40
+#: inc/customizer/panels/class-springoo-customize-general.php:37
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:47
+msgid "General"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-dokan.php:63
+msgid "Select Template"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-dokan.php:87
+msgid "Store Per Page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-dokan.php:110
+msgid "Store Column Per Row"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:79
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:80
+msgid "Will be visible only on devices with screen width more than 2500px"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:89
+#: inc/customizer/panels/class-springoo-customize-general.php:94
+msgid "Select logo"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:90
+msgid "Change logo"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:91
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1357
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1393
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:245
+#: woocommerce/wishlist-view.php:295
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:93
+msgid "No logo selected"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:95
+msgid "Choose logo"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:116
+msgid "Logo Width"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:152
+msgid "Hide Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:177
+msgid "Hide Tagline"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:203
+msgid "Sticky Posts"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:226
+msgid "Sticky Label"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:263
+msgid "Social Profiles"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:281
+msgid "Site Configuration"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:304
+msgid "Enable Lazy Loading"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:305
+msgid "It will increase your site performence"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:321
+msgid "Preloader Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:342
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:364
+msgid "Animation type"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:387
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:409
+msgid "Preloader Text Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:430
+msgid "Enable Preloader text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:452
+msgid "Preloader Text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:473
+msgid "Preloader text size"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:494
+msgid "Preloader Image Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:515
+msgid "Enable Preloader Image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:537
+msgid "Preloader Image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:558
+msgid "Preloader Image size"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-general.php:562
+msgid "Enter Image size in px for width. Height will be auto with width"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:87
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:113
+msgid "Container Layout"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:138
+msgid "Container Max Width"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:139
+msgid "Max width applicable only container-fluid case for Container Layout"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:163
+msgid "Content Width"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:189
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:236
+msgid "Header Top Bar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:239
+msgid "Change Header Top Bar Related Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:261
+msgid "Show Header Top"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:286
+msgid "Header Top Discount Text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:310
+msgid "Header Top Email Text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:341
+msgid "Header Main Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:344
+msgid "Change Header Main settings and related configuration"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:366
+msgid "Show Mobile Menu / Hide Main Menu"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:392
+msgid "Mobile Menu Style"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:418
+msgid "Show mobile backdrop background"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:446
+msgid "Header Bottom Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:449
+msgid "Change header bottom related settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:471
+msgid "Main Submenu Alignment"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:497
+msgid "Submenu Width"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:527
+msgid "Sticky Header Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:530
+msgid "Change sticky header related settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:553
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:578
+msgid "Enable Search"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:603
+msgid "Enable Wishlist Icon"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:628
+msgid "Enable Cart Icon"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:653
+msgid "Enable Login button"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:678
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:744
+msgid "Show title on breadcrumb"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:763
+msgid "Blog (Posts Page)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:786
+#: inc/customizer/panels/class-springoo-customize-layout.php:1238
+#: inc/customizer/panels/class-springoo-customize-layout.php:1369
+#: inc/customizer/panels/class-springoo-customize-layout.php:1524
+#: inc/customizer/panels/class-springoo-customize-layout.php:1938
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:390
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:574
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:638
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:914
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:982
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:811
+#: inc/customizer/panels/class-springoo-customize-layout.php:1263
+#: inc/customizer/panels/class-springoo-customize-layout.php:1394
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:836
+#: inc/customizer/panels/class-springoo-customize-layout.php:1288
+#: inc/customizer/panels/class-springoo-customize-layout.php:1419
+#: inc/customizer/panels/class-springoo-customize-layout.php:1549
+#: inc/customizer/panels/class-springoo-customize-layout.php:1963
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:315
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:549
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1044
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1184
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1272
+msgid "Show Breadcrumb ?"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:861
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:862
+msgid "Number or word you want to show on archive content"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:878
+#: inc/customizer/panels/class-springoo-customize-layout.php:1306
+#: inc/customizer/panels/class-springoo-customize-layout.php:1437
+#: inc/customizer/panels/class-springoo-customize-layout.php:1851
+msgid "Post Meta"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:899
+#: inc/customizer/panels/class-springoo-customize-layout.php:1327
+#: inc/customizer/panels/class-springoo-customize-layout.php:1482
+#: inc/customizer/panels/class-springoo-customize-layout.php:1896
+msgid "Show Tags"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:923
+#: inc/customizer/panels/class-springoo-customize-layout.php:1458
+#: inc/customizer/panels/class-springoo-customize-layout.php:1872
+msgid "Show Categories"
+msgstr ""
+
+#. translators: %s: Regenerate Thumbnail Plugin Page Link
+#: inc/customizer/panels/class-springoo-customize-layout.php:934
+msgid "After changing any of the post thumbnail sizes please use <a href=\"%s\" target=\"_blank\"><b>Regenerate Thumbnail</b></a> plugin to resize (regenerate) thumbnails."
+msgstr ""
+
+#. translators: %s: Regenerate Thumbnail Plugin Installation Link
+#: inc/customizer/panels/class-springoo-customize-layout.php:940
+msgid "After changing any of the post thumbnail sizes please install and use <a href=\"%s\" target=\"_blank\"><b>Regenerate Thumbnail</b></a> plugin to resize (regenerate) thumbnails."
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:952
+msgid "Post Thumbnail Sizes"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:974
+msgid "Blog Normal Image Size"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:975
+msgid "Single Blog / Blog Normal Layout Image Size ( width,height )"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:998
+msgid "Blog Medium Image Size"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:999
+msgid "Blog Medium Layout Image Size ( width,height )."
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1022
+msgid "Blog Grid Image Size"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1023
+msgid "Blog Grid layout Image Size ( width,height )"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1046
+msgid "Blog Grid Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1047
+msgid "Blog Grid layout Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1076
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1098
+msgid "404 Page Image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1099
+msgid "Upload 404 Page Image."
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1122
+#: woocommerce/single-product-reviews.php:198
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1123
+msgid "Example: This page is outside of the universe"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1146
+msgid "Description"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1147
+msgid "Example: The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1170
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1171
+msgid "Example: Go to Home"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1194
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1195
+#: inc/customizer/panels/class-springoo-customize-layout.php:2313
+#: inc/customizer/panels/class-springoo-customize-layout.php:2335
+msgid "Example: https://example.com"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1346
+msgid "Search Results"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1501
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1574
+#: inc/customizer/panels/class-springoo-customize-layout.php:1988
+msgid "Hide Featured Image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1598
+#: inc/customizer/panels/class-springoo-customize-layout.php:2012
+msgid "Enlarge Featured Image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1602
+#: inc/customizer/panels/class-springoo-customize-layout.php:2016
+msgid "Enalrge the featured image width to the 100% width of the view port/window"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1623
+#: inc/customizer/panels/class-springoo-customize-layout.php:2037
+msgid "Content Alignment"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1648
+msgid "Show Post Title ?"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1666
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1687
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1712
+msgid "Post Number"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1737
+msgid "Post Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1761
+msgid "Enable Slider"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1785
+msgid "Enable Slider Arrow"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1809
+msgid "Enable Slider Dots"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1833
+msgid "Enable Slider Autoplay"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:1915
+msgid "Single Page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2062
+msgid "Show Page Title ?"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2086
+#: inc/customizer/panels/class-springoo-customize-typography.php:443
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2101
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2115
+msgid "Newsletter"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2135
+msgid "Footer Newsletter Shortcode"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2151
+msgid "Services"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2171
+msgid "Footer Services Shortcode"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2187
+msgid "Main Footer / Footer Widget Area"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2207
+msgid "Main footer Top padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2230
+msgid "Main footer bottom padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2247
+msgid "Footer Bottom / Secondary footer"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2267
+msgid "Secondary footer top padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2290
+msgid "Secondary footer bottom padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2312
+msgid "Apple Store Link"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2334
+msgid "Google play Store Link"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2352
+msgid "Copyright and Credits"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2372
+msgid "Copyright top padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2395
+msgid "Copyright bottom padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2417
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-layout.php:2439
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:41
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:78
+msgid "Type Scale"
+msgstr ""
+
+#. translators: %1$s: Type-scale doc link tag open %2$s: link tag close
+#: inc/customizer/panels/class-springoo-customize-typography.php:102
+msgid "Typographic (or type) scale for balanced and friendly font sizing based on base (global text or body) font-size. %1$sRead more%2$s"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:108
+msgid "Minor Second"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:109
+msgid "Major Second"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:110
+msgid "Minor Third"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:111
+msgid "Major Third"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:112
+msgid "Perfect Fourth"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:113
+msgid "Augmented Fourth"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:114
+msgid "Perfect Fifth"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:115
+msgid "Golden Ratio"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:122
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:137
+msgid "Extra Font Size"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:168
+msgid "X-Large Font Size (px)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:192
+msgid "Large Font Size (px)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:216
+msgid "Medium Font Size (px)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:240
+msgid "Small Font Size (px)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:241
+msgid "Small and Smaller font sizes are the same"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:265
+msgid "X-Small Font Size (px)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:290
+msgid "XX-Small Font Size (px)"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:304
+#: inc/customizer/panels/class-springoo-customize-typography.php:312
+#: inc/customizer/panels/class-springoo-customize-typography.php:407
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:321
+msgid "Text Headings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:329
+msgid "H1"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:332
+msgid "H2"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:335
+msgid "H3"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:338
+msgid "H4"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:341
+msgid "H5"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:344
+msgid "H6"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:368
+msgid "Mobile Menu Items"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:385
+msgid "Mega Menu Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:399
+msgid "Site Title & Tagline"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:410
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:421
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:429
+#: inc/customizer/panels/class-springoo-customize-typography.php:451
+msgid "Widget Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-typography.php:432
+#: inc/customizer/panels/class-springoo-customize-typography.php:454
+msgid "Widget Body"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:70
+msgid "Enable Product Flying Cart"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:71
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:100
+msgid "Enable product zoom feature at single product page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:99
+msgid "Enable Product Zoom"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:128
+msgid "Enable Product Lightbox"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:129
+msgid "Enable product lightbox feature at single product page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:157
+msgid "Enable Product Gallery Slider"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:158
+msgid "Enable product gallery slider feature at single product page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:186
+msgid "Discount Label Text Prefix"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:211
+msgid "Discount Label Text Suffix"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:225
+msgid "Share Product"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:248
+msgid "Facebook App ID"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:249
+msgid "Enter your Facebook App ID to enable Facebook share button"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:273
+msgid "Twitter Username"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:274
+msgid "Enter your Twitter username to enable Twitter share button"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:291
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:341
+msgid "Shop Title"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:366
+msgid "Shop Posts Per Page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:416
+#: inc/springoo-register-widget.php:39
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:442
+msgid "Shop Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:468
+msgid "Shop Sort"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:493
+msgid "Shop Result Count"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:599
+msgid "Product Category Archive Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:614
+msgid "Single"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:662
+#: inc/springoo-register-widget.php:51
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:686
+msgid "Up-Sells Count"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:710
+msgid "Up-Sells Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:736
+msgid "Related Item Count"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:758
+msgid "Related Products Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:792
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:859
+msgid "Reviews Note"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:814
+msgid "Show Reviews Note"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:837
+msgid "Reviews Note Label "
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:862
+msgid "For multiple note use comma to separate "
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:872
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:892
+msgid "Category Archive settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:938
+msgid "Category Archive Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:960
+msgid "Tag Archive settings"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1006
+msgid "Tag Archive Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1070
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1209
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1297
+msgid "Cart Sidebar Position"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1096
+#: inc/springoo-register-widget.php:75
+msgid "Cart Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1122
+msgid "Cross Sell Count"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1146
+msgid "Cross Sell Column"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1161
+msgid "Checkout"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1234
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1322
+msgid "Checkout Sidebar"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1249
+#: inc/springoo-helper-functions.php:441
+#: inc/springoo-helper-functions.php:461
+#: inc/springoo-helper-functions.php:462
+#: inc/springoo-helper-functions.php:927
+#: woocommerce/myaccount/dashboard.php:44
+msgid "My Account"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1346
+msgid "Signin image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1347
+msgid "Will be display in WooCommerce Sign in form page"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1355
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1360
+msgid "Select Signin image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1356
+msgid "Change Signin image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1359
+msgid "No Signin image selected"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1361
+msgid "Choose Signin image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1382
+msgid "Signup image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1383
+msgid "Will be display in WooCommerce Sign in form page when user registration is enabled for myaccount page from <b>WooCommerce > Settings > Accounts & Privacy > account creation</b> section"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1391
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1396
+msgid "Select Signup image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1392
+msgid "Change Signup image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1395
+msgid "No Signup image selected"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-woocommerce.php:1397
+msgid "Choose Signup image"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:35
+msgid "Contact form 7"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:58
+msgid "Form Columns"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:84
+msgid "Form Top Padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:109
+msgid "Form Bottom Padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:134
+msgid "Form Left Padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:159
+msgid "Form Right Padding"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:184
+msgid "Form Border Radius"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:209
+msgid "Form gap"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:234
+msgid "Textarea Height"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:259
+msgid "Button Position"
+msgstr ""
+
+#: inc/customizer/panels/class-springoo-customize-wpcf7.php:285
+msgid "Inline Acceptance and Button"
+msgstr ""
+
+#. translators: 1. Icon Name
+#: inc/menu/class-springoo-icons-dialog.php:58
+msgid "Select “%s“ Icon"
+msgstr ""
+
+#: inc/menu/class-springoo-icons-dialog.php:78
+#: inc/menu/class-springoo-icons-dialog.php:79
+msgid "Search a icon..."
+msgstr ""
+
+#: inc/menu/class-springoo-icons-dialog.php:85
+msgid "Use this icon"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:50
+msgid "Info"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:51
+#: inc/springoo-include.php:228
+msgid "Success"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:52
+#: inc/springoo-include.php:229
+msgid "Warning"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:53
+msgid "Danger"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:56
+msgid "Natural Width"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:57
+msgid "Custom Width"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:60
+msgid "1 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:61
+msgid "2 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:62
+msgid "3 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:63
+msgid "4 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:64
+msgid "5 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:65
+msgid "6 Col (half)"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:66
+msgid "7 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:67
+msgid "8 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:68
+msgid "9 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:69
+msgid "10 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:70
+msgid "11 Col"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:71
+msgid "12 Col (full-width)"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:97
+msgid "Highlight"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:103
+msgid "Highlight Type"
+msgstr ""
+
+#. translators: 1. Icon Name
+#: inc/menu/class-springoo-megamenu-api.php:117
+#: inc/menu/class-springoo-megamenu-api.php:125
+msgid "Icon “%s“"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:131
+msgid "Add Icon"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:132
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:145
+msgid "Menu Item Width"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:147
+msgid "Full Width"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:156
+msgid "Custom Mega Menu Width (without px)"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:165
+msgid "Align menu to right side (optional)"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:175
+msgid "Disable Title"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:181
+msgid "Disable Title Link"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:185
+msgid "Menu Column Width"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:187
+msgid "Custom column width (optional)"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:197
+msgid "Description ( and can be used any shortcode )"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:212
+msgid "Column"
+msgstr ""
+
+#: inc/menu/class-springoo-megamenu-api.php:242
+msgid "Show Submenus"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:126
+msgid "Sub Item"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:135
+msgid "Move up"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:139
+msgid "Move down"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:142
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:143
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:152
+msgid "URL"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:159
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:165
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:172
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:177
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:183
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:204
+#: woocommerce/wishlist-view-mobile.php:233
+#: woocommerce/wishlist-view.php:264
+msgid "Move"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:205
+msgid "Up one"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:206
+msgid "Down one"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:209
+msgid "To the top"
+msgstr ""
+
+#. Translators: Link to original Item.
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:224
+msgid "Original: %s"
+msgstr ""
+
+#: inc/menu/class-springoo-walker-nav-menu-edit-custom.php:260
+#: inc/springoo-include.php:226
+msgid "Cancel"
+msgstr ""
+
+#: inc/menu/menu.php:40
+msgid "No Menu Assigned , Please Add"
+msgstr ""
+
+#. translators: %s: Option name.
+#: inc/springoo-helper-functions.php:155
+msgid "Option %s is not registered within current theme"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:444
+msgid "Sign Up"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:446
+msgid "Log In"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:461
+msgid "Sign Up / Log In"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:462
+#: woocommerce/myaccount/form-login.php:75
+msgid "Login"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:573
+msgid "If you are in shop page which is selected as WooCommerce archive page then page option will not work. You have to select settings from Customizer"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:932
+msgid "Sign In"
+msgstr ""
+
+#: inc/springoo-helper-functions.php:952
+msgid "Browse All Categories "
+msgstr ""
+
+#: inc/springoo-helper-functions.php:961
+msgid "No Vertical Menu Assigned , Please Add"
+msgstr ""
+
+#: inc/springoo-hook-helper.php:182
+msgid "Skip to main content"
+msgstr ""
+
+#: inc/springoo-hook-helper.php:183
+msgid "Skip to main menu"
+msgstr ""
+
+#: inc/springoo-hook-helper.php:385
+msgid "Close Mobile Menu"
+msgstr ""
+
+#. translators: %1$s: WordPress, %2$s: heart icon, %3$s: Springoo
+#: inc/springoo-hook-helper.php:404
+#: inc/springoo-hook-helper.php:797
+msgid "Proudly powered by %1$s. Made with ❤️ by %2$s"
+msgstr ""
+
+#: inc/springoo-hook-helper.php:405
+#: inc/springoo-hook-helper.php:798
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/springoo-hook-helper.php:786
+msgid "Payment gateway"
+msgstr ""
+
+#: inc/springoo-hook-helper.php:826
+msgid "Goto Top"
+msgstr ""
+
+#: inc/springoo-include.php:213
+msgid "Error!"
+msgstr ""
+
+#: inc/springoo-include.php:225
+msgid "Click here to upload"
+msgstr ""
+
+#: inc/springoo-include.php:227
+msgid "Submit"
+msgstr ""
+
+#: inc/springoo-include.php:230
+msgid "Error"
+msgstr ""
+
+#: inc/springoo-include.php:231
+msgid "Requested Resource Not Found!"
+msgstr ""
+
+#: inc/springoo-include.php:232
+msgid "Are You Sure?"
+msgstr ""
+
+#: inc/springoo-include.php:233
+msgid "Please type Minimum 3 character!"
+msgstr ""
+
+#: inc/springoo-include.php:234
+msgid "Please wait..."
+msgstr ""
+
+#: inc/springoo-include.php:235
+msgid "Something went wrong. Please try after sometime."
+msgstr ""
+
+#: inc/springoo-info.php:22
+msgid "Springoo Theme Info"
+msgstr ""
+
+#: inc/springoo-info.php:23
+msgid "Springoo Info"
+msgstr ""
+
+#: inc/springoo-info.php:40
+msgid "Springoo Theme Information"
+msgstr ""
+
+#: inc/springoo-info.php:44
+msgid "Theme Demo"
+msgstr ""
+
+#: inc/springoo-info.php:50
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/springoo-ocdi-settings.php:191
+msgid "Slider processed"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:25
+msgid "Elementor"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:31
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:37
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:43
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:49
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:55
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:61
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:67
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:73
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:79
+msgid "Popup Maker – Popup for opt-ins, lead gen, & more"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:85
+msgid "FOX – Currency Switcher Professional for WooCommerce"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:91
+msgid "Polylang"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:97
+msgid "Safe SVG"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:103
+msgid "Springoo Pro"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:109
+msgid "Ayyash Addons"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:115
+msgid "Ayyash Addons Pro"
+msgstr ""
+
+#: inc/springoo-recommend-plugins.php:121
+msgid "Slider Revolution"
+msgstr ""
+
+#: inc/springoo-register-widget.php:27
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/springoo-register-widget.php:63
+msgid "Product Archive Banner Widget"
+msgstr ""
+
+#: inc/springoo-register-widget.php:87
+msgid "Forum Sidebar"
+msgstr ""
+
+#: inc/springoo-register-widget.php:100
+msgid "404 Page Widget"
+msgstr ""
+
+#: inc/springoo-register-widget.php:112
+msgid "No Products Found Widget"
+msgstr ""
+
+#: inc/springoo-register-widget.php:125
+msgid "Footer Widget"
+msgstr ""
+
+#: inc/springoo-register-widget.php:137
+msgid "Footer Bottom Widget"
+msgstr ""
+
+#: inc/springoo-tags.php:65
+msgid "logo"
+msgstr ""
+
+#. translators: %s: Reading Duration in Minutes.
+#: inc/springoo-tags.php:312
+msgctxt "Post Reading Duration"
+msgid "%s Min Read"
+msgid_plural "%s Mins Read"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Post title.
+#: inc/springoo-tags.php:335
+msgid "No Comments<span class=\"sr-only\"> on “%s”</span>"
+msgstr ""
+
+#. translators: %s: Post title.
+#: inc/springoo-tags.php:337
+msgid "1 Comment<span class=\"sr-only\"> on “%s”</span>"
+msgstr ""
+
+#. translators: %s: Post title.
+#: inc/springoo-tags.php:339
+msgid "%% Comments<span class=\"screen-reader-text\"> on “%s”</span>"
+msgstr ""
+
+#. translators: %s: Post Created Time (with permalink to the post)
+#: inc/springoo-tags.php:366
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: Post Author Name (linked to author page).
+#: inc/springoo-tags.php:376
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/springoo-tags.php:400
+msgid "Read More"
+msgstr ""
+
+#: inc/springoo-tags.php:525
+msgid "Previous Post"
+msgstr ""
+
+#: inc/springoo-tags.php:526
+msgid "Next Post"
+msgstr ""
+
+#. translators: %s Author Name
+#: inc/springoo-tags.php:614
+msgid "%s's Latest posts"
+msgstr ""
+
+#: inc/springoo-tags.php:991
+msgid "Pingback:"
+msgstr ""
+
+#: inc/springoo-tags.php:992
+#: inc/springoo-tags.php:1237
+#: woocommerce/myaccount/my-address.php:78
+msgid "Edit"
+msgstr ""
+
+#: inc/springoo-tags.php:1006
+msgid "Reply"
+msgstr ""
+
+#: inc/springoo-tags.php:1007
+msgid "Log in to Reply"
+msgstr ""
+
+#: inc/springoo-tags.php:1024
+msgid "at"
+msgstr ""
+
+#: inc/springoo-tags.php:1029
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: inc/springoo-tags.php:1255
+msgid "Pages:"
+msgstr ""
+
+#: inc/springoo-tags.php:1365
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: inc/springoo-tags.php:1366
+msgid "No audio source detected."
+msgstr ""
+
+#: inc/springoo-tags.php:1411
+#: inc/springoo-tags.php:1452
+msgid "Previous Slide"
+msgstr ""
+
+#: inc/springoo-tags.php:1414
+#: inc/springoo-tags.php:1455
+msgid "Next Slide"
+msgstr ""
+
+#. translators: 1: Post title, 2. Image Number.
+#: inc/springoo-tags.php:1435
+msgid "%1$s Gallery Image %2$d"
+msgstr ""
+
+#: inc/springoo-tags.php:1773
+msgid "Oops! Video Source Not Found"
+msgstr ""
+
+#: inc/springoo-tags.php:1774
+msgid "Seems You did not selected any video or source type in your post area"
+msgstr ""
+
+#: inc/springoo-tags.php:1845
+msgid "You May Also Like "
+msgstr ""
+
+#: product-searchform.php:25
+msgid "Search for:"
+msgstr ""
+
+#: product-searchform.php:26
+msgid "Search for Products..."
+msgstr ""
+
+#: product-searchform.php:27
+#: searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:29
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:37
+#: woocommerce/cart/cart-totals.php:38
+#: woocommerce/cart/cart.php:37
+#: woocommerce/cart/cart.php:138
+#: woocommerce/cart/mini-cart.php:115
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:59
+#: woocommerce/cart/cart-totals.php:60
+msgid "Shipping"
+msgstr ""
+
+#. translators: %s location.
+#: woocommerce/cart/cart-totals.php:79
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:105
+#: woocommerce/cart/cart-totals.php:106
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+#: woocommerce/cart/cart.php:87
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:112
+msgid "Price"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:116
+#: woocommerce/global/quantity-input.php:40
+#: woocommerce/wishlist-view.php:97
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:107
+msgid "Available on backorder"
+msgstr ""
+
+#. translators: %s is the product name
+#: woocommerce/cart/cart.php:152
+#: woocommerce/cart/mini-cart.php:61
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:174
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:174
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:174
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:179
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:125
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:31
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:56
+msgid "Your Order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:66
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Payment method:"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:40
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:61
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:77
+msgid "Product quantity"
+msgstr ""
+
+#. translators: %s search keyword
+#: woocommerce/loop/no-products-found.php:27
+msgid "We are sorry, we could not find anything for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:32
+msgid "Check spelling or try something new"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:45
+msgid "Edit your name or change your password"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:46
+#: woocommerce/myaccount/dashboard.php:57
+#: woocommerce/myaccount/dashboard.php:68
+msgid "View Details"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:55
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:56
+msgid "Edit your shipping address anytime "
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:66
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:67
+msgid "Edit your billing address anytime "
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:27
+#: woocommerce/myaccount/form-edit-account.php:28
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:31
+#: woocommerce/myaccount/form-edit-account.php:32
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:35
+#: woocommerce/myaccount/form-edit-account.php:36
+msgid "Display name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:36
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:39
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:114
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "Current password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:52
+#: woocommerce/myaccount/form-edit-account.php:53
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:56
+#: woocommerce/myaccount/form-edit-account.php:57
+msgid "Confirm password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:66
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:29
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Sign up"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:50
+msgid "Login to your account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:59
+#: woocommerce/myaccount/form-login.php:119
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:109
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:126
+msgid "Signup"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/order/order-details-customer.php:55
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/order/order-details-customer.php:37
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:48
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:71
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:80
+msgid "Add"
+msgstr ""
+
+#: woocommerce/myaccount/navigation.php:32
+msgid "Welcome Back,"
+msgstr ""
+
+#: woocommerce/myaccount/navigation.php:34
+msgid "Logout"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:50
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:62
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:100
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:104
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:111
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:111
+msgid "Browse products"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:40
+#: woocommerce/order/order-details-customer.php:57
+msgid "N/A"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:36
+msgid "Rating & Review of %2$s"
+msgid_plural "Ratings & Reviews of %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: 1. sr-only span tag open, 2. span close, 3. Product title
+#: woocommerce/single-product-reviews.php:99
+msgid "%1$sWrite a review for:%2$s %3$s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:123
+msgid "Submit Review"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:162
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:166
+msgid "Overall Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:168
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:169
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:170
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:171
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:172
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:173
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:181
+msgid "Add Photo"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:198
+msgid "What's most important to know?"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:200
+msgid "Write your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:200
+msgid "What did you like or dislike? What did you use this product for?"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:206
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/grouped.php:67
+msgid "Buy one of this item"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:21
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %s is the review number.
+#: woocommerce/single-product/rating.php:41
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:50
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:26
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:35
+msgid "Verified Purchase"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:155
+msgid "Added on:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:166
+msgid "Price:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:193
+msgid "Quantity:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:208
+msgid "Stock:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:211
+#: woocommerce/wishlist-view.php:230
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:211
+#: woocommerce/wishlist-view.php:230
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:264
+#: woocommerce/wishlist-view.php:285
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:284
+#: woocommerce/wishlist-view.php:158
+#: woocommerce/wishlist-view.php:295
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:305
+#: woocommerce/wishlist-view.php:317
+msgid "No products added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:80
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:88
+msgid "Unit price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:106
+msgid "Stock status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:124
+msgid "Arrange"
+msgstr ""
+
+#. translators: date added label: 1 date added.
+#: woocommerce/wishlist-view.php:244
+msgid "Added on: %s"
+msgstr ""

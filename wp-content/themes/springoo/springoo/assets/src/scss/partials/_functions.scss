@@ -1,0 +1,16 @@
+@use "sass:math";
+
+@function to_rem($value, $base:16) {
+	$remValue: math.div($value,$base)+rem;
+	@return $remValue;
+}
+
+@function round3D($value) {
+	@return math.div(math.round($value*1000),1000);
+}
+
+@function remify($value) {
+	@return $value+rem;
+}
+
+// End of file functions.scss

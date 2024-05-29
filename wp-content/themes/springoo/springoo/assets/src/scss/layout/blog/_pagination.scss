@@ -1,0 +1,47 @@
+/* -----------------------------------------------------
+				AYYASH PAGINATION POSTS
+------------------------------------------------------ */
+.springoo-pagination {
+	margin-top: var(--springoo-60);
+	.pagination {
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+
+		li {
+			width: 42px;
+			height: 42px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.page-numbers {
+				width: 100%;
+				height: 100%;
+				border-radius: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+	}
+	.page-numbers {
+		font-size: 18px;
+		color: var(--springoo-color-heading);
+		font-weight: var(--springoo-500-font-weight);
+		line-height: 28px;
+
+		&.prev,
+		&.next {
+			border: 1px solid var(--springoo-color-border);
+		}
+
+		&.current,
+		a:hover,
+		a:focus {
+			background-color: var(--springoo-color-heading);
+			border: 1px solid var(--springoo-color-heading);
+			color: #fff;
+		}
+	}
+}

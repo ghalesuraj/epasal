@@ -1,0 +1,66 @@
+/* =============================================================================
+   WordPress WYSIWYG Editor Styles
+   ========================================================================== */
+.alignleft {
+	margin-right: 1rem;
+	display: inline;
+	float: left;
+}
+
+img.alignleft {
+	margin-right: 1rem;
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	margin-left: 1rem;
+	display: inline;
+	float: right;
+}
+
+img.alignright {
+	margin-left: 1rem;
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	text-align: center;
+}
+
+img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	text-align: center;
+}
+
+.wp-caption {
+	margin-bottom: 2.2rem;
+	text-align: center;
+	padding-top: 5px;
+
+	img {
+		border: 0 none;
+		padding: 0;
+		margin: 0;
+	}
+
+	p.wp-caption-text {
+		line-height: 1.5;
+		font-size: 10px;
+		margin: 0;
+	}
+}
+
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1rem;
+}
+

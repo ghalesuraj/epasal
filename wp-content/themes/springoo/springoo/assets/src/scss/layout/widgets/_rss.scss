@@ -1,0 +1,64 @@
+.widget_rss, .widget_block {
+	nav ul, .wp-block-rss {
+		.wp-block-rss {
+			&__item {
+				margin-bottom: var(--springoo-15);
+
+				&-title {
+					color: var(--springoo-color-primary);
+					font-size: var(--springoo-font-size-base);
+					font-weight: var(--springoo-400-font-weight);
+				}
+
+				&-publish-date {
+					color: var(--springoo-color-heading);
+					font-size: var(--springoo-small-font-size);
+					font-weight: var(--springoo-400-font-weight);
+					margin-top: var(--springoo-10);
+				}
+
+				&-author {
+					color: var(--springoo-color-heading);
+					font-size: var(--springoo-small-font-size);
+					font-weight: var(--springoo-400-font-weight);
+					margin-top: var(--springoo-10);
+				}
+
+				&-excerpt {
+					font-size: var(--springoo-font-size-base);
+					font-weight: var(--springoo-400-font-weight);
+					margin-top: var(--springoo-20);
+				}
+			}
+		}
+
+		&.alignright {
+			max-width: 100%;
+			text-align: right;
+		}
+
+		&.alignleft {
+			max-width: 100%;
+			text-align: left;
+		}
+
+		&.aligncenter {
+			max-width: 100%;
+			text-align: center;
+		}
+
+		li {
+			margin-bottom: var(--springoo-10);
+
+			a {
+				color: var(--springoo-color-primary);
+				font-size: var(--springoo-font-size-base);
+				font-weight: var(--springoo-400-font-weight);
+
+				&:hover {
+					color: var(--springoo-color-global);
+				}
+			}
+		}
+	}
+}

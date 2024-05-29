@@ -1,0 +1,54 @@
+/* =============================================================================
+   Calendar Classic  widget style
+   ========================================================================== */
+.widget_calendar{
+	.calendar_wrap {
+		caption {
+			caption-side: top;
+			font-size: var(--springoo-global-font-size);
+			font-weight: var(--springoo-500-font-weight);
+			color: var(--springoo-color-global);
+			padding-top: 0;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		th, td {
+			padding: 0.25rem;
+			color: var(--springoo-color-heading);
+			font-size: var(--springoo-global-font-size);
+		}
+
+		tr {
+			text-align: center;
+		}
+
+		tbody {
+			tr, td {
+				border: 1px solid var(--springoo-color-border);
+			}
+
+			#today {
+				background: var(--springoo-color-primary);
+				color: #fff;
+			}
+		}
+
+		 //Calendar Navigation
+		.wp-calendar-nav {
+			text-align: left;
+			margin-top: var(--springoo-10);
+			a{
+				font-size: var(--springoo-global-font-size);
+				font-weight: var(--springoo-500-font-weight);
+				color: var(--springoo-color-global);
+
+				&:hover {
+					color: var(--springoo-color-secondary);
+				}
+			}
+		}
+	}
+}

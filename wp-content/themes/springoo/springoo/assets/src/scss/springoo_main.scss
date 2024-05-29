@@ -1,0 +1,85 @@
+/*----------------------------------------------------------------------
+ * 							AYYASH MAIN STYLE
+ *----------------------------------------------------------------------*/
+//
+// Springoo Config Files
+//
+@import "partials/variables";
+@import "partials/root";
+@import "partials/accessibility";
+@import "plugins/ayyash-addons";
+@import "partials/common";
+@import "partials/type-scale";
+@import "partials/utilities";
+@import "partials/elementor";
+@import "partials/search-form";
+@import "partials/plyr";
+@import "partials/mediaelement";
+@import "partials/form";
+@import "partials/core";
+@import "partials/search-results";
+
+@import "partials/lightbox";
+
+//
+// Gutenberg
+//
+@import "layout/gutenberg";
+
+//
+// Springoo Header Files
+//
+@import "layout/header/header-top";
+@import "layout/header/header-main";
+@import "layout/header/header-bottom";
+
+@import "layout/header/main-menu";
+@import "layout/header/mobile-menu";
+@import "layout/header/mega-menu";
+@import "layout/header/breadcrumb";
+
+//
+// Springoo Sidebar
+//
+@import "layout/sidebar/sidebar";
+
+
+//
+// Springoo Posts Files
+//
+@import "layout/blog/posts";
+@import "layout/blog/posts-grid";
+@import "layout/blog/posts-medium";
+@import "layout/blog/post-single";
+@import "layout/blog/pagination";
+@import "layout/blog/comments";
+
+//
+// Springoo 404 File
+//
+@import "layout/404";
+
+//
+// Springoo Supported Plugins ( Partial )
+//
+@import "plugins/mc4wp";
+@import "plugins/slick";
+@import "plugins/gdpr";
+@import "plugins/ayyash-addons";
+
+//
+//Springoo Widget
+//
+//@import "layout/widgets"; sidebar and footer widgets
+
+//
+// Springoo Footer Files
+//
+@import "layout/footer/footer-main";
+@import "layout/footer/footer-bottom";
+@import "layout/footer/credits";
+@import "layout/footer/back-to-top";
+@import "layout/footer/footer-top-newsletter";
+
+//All Extra Css
+@import "misc";

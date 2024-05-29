@@ -1,0 +1,29 @@
+/* =============================================================================
+   Page List Block Styles
+========================================================================== */
+.wp-block-page-list{
+   padding-left: 0;
+
+	ul {
+		margin-top: var(--springoo-10);
+		padding-left: var(--springoo-15);
+	}
+
+   // page list items
+   li:not(:last-child){
+      margin-bottom: var(--springoo-10);
+   }
+
+   li{
+      list-style-type: none;
+   }
+
+   a{
+      color: var(--springoo-color-global);
+      text-decoration: none;
+      &:hover {
+         color: var(--springoo-color-secondary);
+      }
+   }
+}
+

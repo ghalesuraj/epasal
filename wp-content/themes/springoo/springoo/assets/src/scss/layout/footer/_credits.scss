@@ -1,0 +1,66 @@
+/* -------------------------------------------------------
+				AYYASH COPYRIGHT & CREDITS
+-------------------------------------------------------- */
+.springoo-footer-copyright {
+	text-align: center;
+	background: var(--springoo-color-copyright-bg);
+
+	.footer-copyright-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 12px;
+		color: var(--springoo-color-copyright);
+		// For Customizer Change
+		padding-top: var(--springoo-footer-credits-padding-top);
+		padding-bottom: var(--springoo-footer-credits-padding-bottom);
+		border-top: 1px solid var(--springoo-color-footer-copyright-border-color);
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			gap: var(--springoo-5);
+		}
+
+		a {
+			color: var(--springoo-color-footer-copyright-link);
+			&:hover {
+				color: var(--springoo-color-footer-copyright-link-hover);
+				text-decoration: underline;
+			}
+		}
+
+		.copyright,
+		.powered-by{
+			display: inline-block;
+		}
+
+		.made-with {
+			display: block;
+			a {
+				border-bottom: 1px solid;
+				padding-bottom: .25em;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+//support for light color scheme
+.footer_light {
+	.springoo-footer-copyright{
+		background: #ffffff;
+		.footer-copyright-wrap {
+			color: var(--springoo-color-global);
+			border-top: 1px solid #E2E7EF;
+
+			a {
+				color: var(--springoo-color-global);
+				&:hover {
+					color: var(--springoo-color-secondary);
+				}
+			}
+		}
+	}
+}
